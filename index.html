@@ -127,6 +127,62 @@
           </div>
         </div>
 
+        <div class="card" data-id="duck">
+          <div class="card-img-wrap">
+            <img src="beijing-duck.png" alt="Peking Duck" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Peking Duck at Da Dong</h2>
+            <p class="teaser">The dish Beijing invented, perfected over 600 years — crackling lacquered skin, tableside carving, gossamer pancakes. The only Peking Duck that matters.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="duck">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="duck">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="temple">
+          <div class="card-img-wrap">
+            <img src="beijing-temple-heaven.png" alt="Temple of Heaven" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Temple of Heaven</h2>
+            <p class="teaser">A geometric masterpiece of blue rooftiles where emperors prayed for harvests — and where thousands of locals do tai chi at dawn every single morning.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="temple">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="temple">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="summerpalace">
+          <div class="card-img-wrap">
+            <img src="beijing-summer-palace.png" alt="Summer Palace" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Summer Palace</h2>
+            <p class="teaser">290 hectares of imperial lakes, willow-lined corridors and marble bridges — Beijing's most romantic escape, missed by most tourists.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="summerpalace">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="summerpalace">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="hutong">
+          <div class="card-img-wrap">
+            <img src="beijing-hutong.png" alt="Hutong Tour" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Hutong Neighbourhood Tour</h2>
+            <p class="teaser">Wander Beijing's ancient alleyways before they disappear — rickshaws, jianbing street crepes, courtyard homes and rooftop views of the Drum Tower.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="hutong">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="hutong">More →</button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   </main>
@@ -138,6 +194,16 @@
       <div class="modal-content" id="modalContent"></div>
     </div>
   </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:2000;align-items:center;justify-content:center;cursor:zoom-out;">
+    <img id="lightboxImg" src="" alt="" style="max-width:95vw;max-height:92vh;object-fit:contain;border-radius:8px;box-shadow:0 8px 60px rgba(0,0,0,0.8);" />
+  </div>
+  <style>
+    #lightbox { display: none; }
+    #lightbox.open { display: flex; }
+    .modal-gallery img:hover { opacity: 1; filter: brightness(1); transform: scale(1.02); transition: all 0.2s; }
+  </style>
 
   <footer>
     <p>🌏 Rock Family China Adventure · 2026</p>
