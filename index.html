@@ -14,193 +14,427 @@
       <div class="logo">🇨🇳</div>
       <div>
         <h1>China Trip 2026</h1>
-        <p class="subtitle">Vote for your favourite activities</p>
+        <p class="subtitle">Oct 8–22 · Shanghai · Beijing · Chengdu · Rock Family + 2 Couples</p>
       </div>
     </div>
   </header>
 
-  <nav class="city-tabs">
-    <button class="tab active" data-city="shanghai">🏙️ Shanghai</button>
-    <button class="tab" data-city="chengdu">🐼 Chengdu</button>
-    <button class="tab" data-city="beijing">🏯 Beijing</button>
+  <!-- TOP NAV -->
+  <nav class="top-nav">
+    <button class="top-tab active" data-section="hotels">🏨 Hotels</button>
+    <button class="top-tab" data-section="activities">🎯 Activities</button>
   </nav>
 
-  <main>
-    <!-- SHANGHAI -->
-    <section class="city-section active" id="shanghai">
-      <div class="cards-grid">
+  <!-- ═══════════════════════════════════════════════════════ HOTELS SECTION -->
+  <div id="section-hotels" class="top-section active">
 
-        <div class="card" data-id="spa">
-          <div class="card-img-wrap">
-            <img src="shanghai-spa.png" alt="24-Hour Spa" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>24-Hour Spa Experience</h2>
-            <p class="teaser">Melt away in one of Shanghai's legendary luxury spas — thermal pools, herbal treatments, and city views that never sleep.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="spa">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="spa">More →</button>
-            </div>
-          </div>
+    <!-- ITINERARY TIMELINE -->
+    <div class="itinerary-wrap">
+      <div class="itinerary">
+        <div class="itin-step">
+          <div class="itin-dot"></div>
+          <div class="itin-label">Oct 8</div>
+          <div class="itin-city">🛬 Shanghai</div>
+          <div class="itin-nights">4 nts</div>
         </div>
-
-        <div class="card" data-id="bund">
-          <div class="card-img-wrap">
-            <img src="shanghai-bund.png" alt="The Bund" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>The Bund Waterfront</h2>
-            <p class="teaser">A mile-long promenade of colonial grandeur facing the futuristic Pudong skyline — Shanghai's most iconic panorama.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="bund">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="bund">More →</button>
-            </div>
-          </div>
+        <div class="itin-line"></div>
+        <div class="itin-step">
+          <div class="itin-dot"></div>
+          <div class="itin-label">Oct 12</div>
+          <div class="itin-city">✈️ Beijing</div>
+          <div class="itin-nights">5 nts</div>
         </div>
-
+        <div class="itin-line"></div>
+        <div class="itin-step">
+          <div class="itin-dot"></div>
+          <div class="itin-label">Oct 17</div>
+          <div class="itin-city">✈️ Chengdu</div>
+          <div class="itin-nights">4 nts</div>
+        </div>
+        <div class="itin-line"></div>
+        <div class="itin-step">
+          <div class="itin-dot"></div>
+          <div class="itin-label">Oct 21</div>
+          <div class="itin-city">✈️ Shanghai</div>
+          <div class="itin-nights">1 nt</div>
+        </div>
+        <div class="itin-line"></div>
+        <div class="itin-step">
+          <div class="itin-dot itin-dot--fly"></div>
+          <div class="itin-label">Oct 22</div>
+          <div class="itin-city">🛫 Fly out</div>
+          <div class="itin-nights">ex-SHG</div>
+        </div>
       </div>
-    </section>
+      <p class="itin-note">After Golden Week → no holiday price spike · 4 rooms (2 rm family + 2 couples)</p>
+    </div>
 
-    <!-- CHENGDU -->
-    <section class="city-section" id="chengdu">
-      <div class="cards-grid">
+    <!-- HOTEL CITY TABS -->
+    <nav class="city-tabs hotel-tabs">
+      <button class="tab active" data-hotel-city="h-shanghai">🏙️ Shanghai</button>
+      <button class="tab" data-hotel-city="h-beijing">🏯 Beijing</button>
+      <button class="tab" data-hotel-city="h-chengdu">🐼 Chengdu</button>
+    </nav>
 
-        <div class="card" data-id="pandas">
-          <div class="card-img-wrap">
-            <img src="chengdu-pandas.png" alt="Baby Pandas" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Giant Panda Baby Zone</h2>
-            <p class="teaser">Meet the world's most adorable cubs at the Chengdu Research Base — up close with baby pandas in their bamboo paradise.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="pandas">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="pandas">More →</button>
+    <div class="hotel-sections">
+
+      <!-- SHANGHAI HOTELS -->
+      <div class="hotel-city active" id="h-shanghai">
+        <p class="hotel-city-note">5 nights total (Oct 8–12 + Oct 21 final night) · After Golden Week — no spike</p>
+        <div class="hotel-grid">
+
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-pullman-jingan.png" alt="Pullman Jing An" />
+              <span class="hotel-badge badge-value">Best Value</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Pullman Jing An</h3>
+                <div class="hotel-stars">★★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~90 <span class="per-night">/night</span> <span class="total-price">~450 total/rm</span></div>
+              <ul class="pros">
+                <li>Central Jing'an district</li>
+                <li>Top metro connection</li>
+                <li>Best value in Shanghai</li>
+              </ul>
+              <ul class="cons">
+                <li>Business hotel feel</li>
+                <li>No Bund view</li>
+              </ul>
+              <div class="hotel-vs">↓ Half the cost of Hyatt on the Bund</div>
             </div>
           </div>
-        </div>
 
-        <div class="card" data-id="hotpot">
-          <div class="card-img-wrap">
-            <img src="chengdu-hotpot.png" alt="Sichuan Hotpot" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Authentic Sichuan Hotpot</h2>
-            <p class="teaser">Dive into Chengdu's soul food — a bubbling cauldron of numbing spices, fresh meats and vegetables, best shared with everyone.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="hotpot">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="hotpot">More →</button>
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-hyatt-bund.png" alt="Hyatt on the Bund" />
+              <span class="hotel-badge badge-luxury">Splurge Pick</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Hyatt on the Bund</h3>
+                <div class="hotel-stars">★★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~160–195 <span class="per-night">/night</span> <span class="total-price">~770–910 total/rm</span></div>
+              <ul class="pros">
+                <li>Iconic Bund river &amp; skyline view</li>
+                <li>Full luxury experience</li>
+                <li>Earn Hyatt points</li>
+              </ul>
+              <ul class="cons">
+                <li>~2× the price of Pullman</li>
+                <li>15–20 min walk to metro</li>
+              </ul>
+              <div class="hotel-vs">↑ Premium for the view — worth it for a splurge</div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
-    </section>
 
-    <!-- BEIJING -->
-    <section class="city-section" id="beijing">
-      <div class="cards-grid">
+      <!-- BEIJING HOTELS -->
+      <div class="hotel-city" id="h-beijing">
+        <p class="hotel-city-note">5 nights (Oct 12–17) · Both options ~same price — pure location call</p>
+        <div class="hotel-grid">
 
-        <div class="card" data-id="forbidden">
-          <div class="card-img-wrap">
-            <img src="beijing-forbidden-city.png" alt="Forbidden City" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>The Forbidden City</h2>
-            <p class="teaser">Walk through 600 years of imperial history across 180 acres of golden-roofed halls — the world's largest palace complex.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="forbidden">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="forbidden">More →</button>
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-sofitel-beijing.png" alt="Sofitel Beijing Central" />
+              <span class="hotel-badge badge-stayed">✅ Stayed &amp; Liked</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Sofitel Beijing Central</h3>
+                <div class="hotel-stars">★★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~114 <span class="per-night">/night</span> <span class="total-price">~570 total/rm</span></div>
+              <ul class="pros">
+                <li>CBD / Chaoyang location</li>
+                <li>Polished French luxury</li>
+                <li>Excellent club lounge</li>
+              </ul>
+              <ul class="cons">
+                <li>Farther from old city</li>
+                <li>More taxis needed</li>
+              </ul>
+              <div class="hotel-vs">Proven choice — you know what you're getting</div>
             </div>
           </div>
-        </div>
 
-        <div class="card" data-id="wall">
-          <div class="card-img-wrap">
-            <img src="beijing-great-wall.png" alt="Great Wall" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>The Great Wall</h2>
-            <p class="teaser">Stand atop one of humanity's greatest achievements — thousands of kilometres of ancient stone snaking over wild mountain ridges.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="wall">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="wall">More →</button>
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-grand-hyatt-beijing.png" alt="Grand Hyatt Beijing" />
+              <span class="hotel-badge badge-location">Best Location</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Grand Hyatt Beijing</h3>
+                <div class="hotel-stars">★★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~115–120 <span class="per-night">/night</span> <span class="total-price">~575–600 total/rm</span></div>
+              <ul class="pros">
+                <li>Wangfujing — walk to Forbidden City</li>
+                <li>Matches Grand Hyatt Chengdu (points)</li>
+                <li>Same price as Sofitel</li>
+              </ul>
+              <ul class="cons">
+                <li>Touristy neighbourhood</li>
+                <li>Building slightly older</li>
+              </ul>
+              <div class="hotel-vs">Same price → the location argument wins here</div>
             </div>
           </div>
-        </div>
 
-        <div class="card" data-id="duck">
-          <div class="card-img-wrap">
-            <img src="beijing-duck.png" alt="Peking Duck" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Peking Duck at Da Dong</h2>
-            <p class="teaser">The dish Beijing invented, perfected over 600 years — crackling lacquered skin, tableside carving, gossamer pancakes. The only Peking Duck that matters.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="duck">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="duck">More →</button>
-            </div>
-          </div>
         </div>
-
-        <div class="card" data-id="temple">
-          <div class="card-img-wrap">
-            <img src="beijing-temple-heaven.png" alt="Temple of Heaven" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Temple of Heaven</h2>
-            <p class="teaser">A geometric masterpiece of blue rooftiles where emperors prayed for harvests — and where thousands of locals do tai chi at dawn every single morning.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="temple">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="temple">More →</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card" data-id="summerpalace">
-          <div class="card-img-wrap">
-            <img src="beijing-summer-palace.png" alt="Summer Palace" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Summer Palace</h2>
-            <p class="teaser">290 hectares of imperial lakes, willow-lined corridors and marble bridges — Beijing's most romantic escape, missed by most tourists.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="summerpalace">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="summerpalace">More →</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card" data-id="sijimingfu">
-          <div class="card-img-wrap">
-            <img src="beijing-sijimingfu.png" alt="Sijimingfu Restaurant" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Sijimingfu — Imperial Duck</h2>
-            <p class="teaser">A Qing dynasty courtyard steps from the Forbidden City, four generations of family recipe — Beijing's most iconic Peking Duck with hickory smoke and 108-slice tableside carving.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="sijimingfu">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="sijimingfu">More →</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card" data-id="hutong">
-          <div class="card-img-wrap">
-            <img src="beijing-hutong.png" alt="Hutong Tour" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Hutong Neighbourhood Tour</h2>
-            <p class="teaser">Wander Beijing's ancient alleyways before they disappear — rickshaws, jianbing street crepes, courtyard homes and rooftop views of the Drum Tower.</p>
-            <div class="card-footer">
-              <button class="upvote-btn" data-id="hutong">❤️ <span class="count">0</span></button>
-              <button class="details-btn" data-id="hutong">More →</button>
-            </div>
-          </div>
-        </div>
-
       </div>
-    </section>
-  </main>
+
+      <!-- CHENGDU HOTELS -->
+      <div class="hotel-city" id="h-chengdu">
+        <p class="hotel-city-note">4 nights (Oct 17–21) · Mercure saves CHF 320–380 per room over the stay</p>
+        <div class="hotel-grid">
+
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-grand-hyatt-chengdu.png" alt="Grand Hyatt Chengdu" />
+              <span class="hotel-badge badge-luxury">Luxury Pick</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Grand Hyatt Chengdu</h3>
+                <div class="hotel-stars">★★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~110–145 <span class="per-night">/night</span> <span class="total-price">~520–580 total/rm</span></div>
+              <ul class="pros">
+                <li>Chunxi / Taikoo Li — prime central</li>
+                <li>Full 5-star luxury</li>
+                <li>Earn Hyatt points</li>
+              </ul>
+              <ul class="cons">
+                <li>Priciest option by far</li>
+              </ul>
+              <div class="hotel-vs">3× the cost — luxury for luxury's sake</div>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-mercure-chengdu.png" alt="Mercure Chengdu Huaxi" />
+              <span class="hotel-badge badge-stayed">✅ Stayed &amp; Liked</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header">
+                <h3>Mercure Chengdu Huaxi</h3>
+                <div class="hotel-stars">★★★★</div>
+              </div>
+              <div class="hotel-price">CHF ~50 <span class="per-night">/night</span> <span class="total-price">~200 total/rm</span></div>
+              <ul class="pros">
+                <li>Brand-new (opened Aug 2025)</li>
+                <li>Walk to Jinli Street &amp; Wuhou Temple</li>
+                <li>Clean, modern, Japanese toilets</li>
+                <li>Saves ~CHF 320–380/room</li>
+              </ul>
+              <ul class="cons">
+                <li>4-star, no Hyatt points</li>
+              </ul>
+              <div class="hotel-vs">↓ Best value — proven pick, right location</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div><!-- /hotel-sections -->
+  </div><!-- /section-hotels -->
+
+  <!-- ═══════════════════════════════════════════════════ ACTIVITIES SECTION -->
+  <div id="section-activities" class="top-section">
+
+    <nav class="city-tabs">
+      <button class="tab active" data-city="shanghai">🏙️ Shanghai</button>
+      <button class="tab" data-city="chengdu">🐼 Chengdu</button>
+      <button class="tab" data-city="beijing">🏯 Beijing</button>
+    </nav>
+
+    <main>
+      <!-- SHANGHAI -->
+      <section class="city-section active" id="shanghai">
+        <div class="cards-grid">
+
+          <div class="card" data-id="spa">
+            <div class="card-img-wrap">
+              <img src="shanghai-spa.png" alt="24-Hour Spa" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>24-Hour Spa Experience</h2>
+              <p class="teaser">Melt away in one of Shanghai's legendary luxury spas — thermal pools, herbal treatments, and city views that never sleep.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="spa">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="spa">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="bund">
+            <div class="card-img-wrap">
+              <img src="shanghai-bund.png" alt="The Bund" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>The Bund Waterfront</h2>
+              <p class="teaser">A mile-long promenade of colonial grandeur facing the futuristic Pudong skyline — Shanghai's most iconic panorama.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="bund">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="bund">More →</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CHENGDU -->
+      <section class="city-section" id="chengdu">
+        <div class="cards-grid">
+
+          <div class="card" data-id="pandas">
+            <div class="card-img-wrap">
+              <img src="chengdu-pandas.png" alt="Baby Pandas" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Giant Panda Baby Zone</h2>
+              <p class="teaser">Meet the world's most adorable cubs at the Chengdu Research Base — up close with baby pandas in their bamboo paradise.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="pandas">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="pandas">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="hotpot">
+            <div class="card-img-wrap">
+              <img src="chengdu-hotpot.png" alt="Sichuan Hotpot" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Authentic Sichuan Hotpot</h2>
+              <p class="teaser">Dive into Chengdu's soul food — a bubbling cauldron of numbing spices, fresh meats and vegetables, best shared with everyone.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="hotpot">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="hotpot">More →</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- BEIJING -->
+      <section class="city-section" id="beijing">
+        <div class="cards-grid">
+
+          <div class="card" data-id="forbidden">
+            <div class="card-img-wrap">
+              <img src="beijing-forbidden-city.png" alt="Forbidden City" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>The Forbidden City</h2>
+              <p class="teaser">Walk through 600 years of imperial history across 180 acres of golden-roofed halls — the world's largest palace complex.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="forbidden">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="forbidden">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="wall">
+            <div class="card-img-wrap">
+              <img src="beijing-great-wall.png" alt="Great Wall" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>The Great Wall</h2>
+              <p class="teaser">Stand atop one of humanity's greatest achievements — thousands of kilometres of ancient stone snaking over wild mountain ridges.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="wall">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="wall">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="duck">
+            <div class="card-img-wrap">
+              <img src="beijing-duck.png" alt="Peking Duck" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Peking Duck at Da Dong</h2>
+              <p class="teaser">The dish Beijing invented, perfected over 600 years — crackling lacquered skin, tableside carving, gossamer pancakes. The only Peking Duck that matters.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="duck">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="duck">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="temple">
+            <div class="card-img-wrap">
+              <img src="beijing-temple-heaven.png" alt="Temple of Heaven" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Temple of Heaven</h2>
+              <p class="teaser">A geometric masterpiece of blue rooftiles where emperors prayed for harvests — and where thousands of locals do tai chi at dawn every single morning.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="temple">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="temple">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="summerpalace">
+            <div class="card-img-wrap">
+              <img src="beijing-summer-palace.png" alt="Summer Palace" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Summer Palace</h2>
+              <p class="teaser">290 hectares of imperial lakes, willow-lined corridors and marble bridges — Beijing's most romantic escape, missed by most tourists.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="summerpalace">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="summerpalace">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="sijimingfu">
+            <div class="card-img-wrap">
+              <img src="beijing-sijimingfu.png" alt="Sijimingfu Restaurant" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Sijimingfu — Imperial Duck</h2>
+              <p class="teaser">A Qing dynasty courtyard steps from the Forbidden City, four generations of family recipe — Beijing's most iconic Peking Duck with hickory smoke and 108-slice tableside carving.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="sijimingfu">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="sijimingfu">More →</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-id="hutong">
+            <div class="card-img-wrap">
+              <img src="beijing-hutong.png" alt="Hutong Tour" loading="lazy" />
+            </div>
+            <div class="card-body">
+              <h2>Hutong Neighbourhood Tour</h2>
+              <p class="teaser">Wander Beijing's ancient alleyways before they disappear — rickshaws, jianbing street crepes, courtyard homes and rooftop views of the Drum Tower.</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="hutong">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="hutong">More →</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+  </div><!-- /section-activities -->
 
   <!-- MODAL -->
   <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-hidden="true">

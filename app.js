@@ -142,8 +142,28 @@ function handleUpvote(id, btn) {
   renderCount(id);
 }
 
+// Top nav (Hotels / Activities)
+document.querySelectorAll('.top-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.top-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.top-section').forEach(s => s.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('section-' + tab.dataset.section).classList.add('active');
+  });
+});
+
+// Hotel city tabs
+document.querySelectorAll('[data-hotel-city]').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('[data-hotel-city]').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.hotel-city').forEach(s => s.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.hotelCity).classList.add('active');
+  });
+});
+
 // City tabs
-document.querySelectorAll('.tab').forEach(tab => {
+document.querySelectorAll('.tab:not([data-hotel-city])').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.city-section').forEach(s => s.classList.remove('active'));
