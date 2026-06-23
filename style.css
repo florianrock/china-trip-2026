@@ -84,10 +84,17 @@ h1 {
 }
 
 /* ── Sections ── */
-main { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+.act-sections, .food-sections { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem 3rem; }
 
 .city-section { display: none; }
 .city-section.active { display: block; }
+
+.modal-addr {
+  font-size: 0.85rem;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+  opacity: 0.85;
+}
 
 /* ── Cards Grid ── */
 .cards-grid {

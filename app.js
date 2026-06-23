@@ -2,6 +2,7 @@ const ACTIVITIES = {
   // ── SHANGHAI ACTIVITIES ──────────────────────────────────────────────────
   train: {
     title: 'Bullet Train Business Class',
+    addr: 'Departs: Shanghai Hongqiao Railway Station, Minhang District, Shanghai',
     img: 'train-business.png',
     city: 'Shanghai',
     gallery: ['train-business-2.png', 'train-business-3.png', 'train-business-4.png'],
@@ -13,17 +14,19 @@ const ACTIVITIES = {
   },
   spa: {
     title: 'Qushui Langting — 24h Luxury Spa',
+    addr: 'Multiple locations: e.g. 2090 Shennan Rd, Changning District, Shanghai',
     img: 'shanghai-spa.png',
     city: 'Shanghai',
     gallery: ['shanghai-spa-2.png', 'shanghai-spa-3.png', 'shanghai-spa-4.png', 'shanghai-spa-5.png', 'shanghai-spa-6.png', 'shanghai-spa-7.png'],
     desc: [
-      `Qushui Langting (曲水朗庭) is Shanghai's most celebrated 24-hour spa resort — a sprawling, lantern-lit sanctuary where you check in, change into robes and simply don't leave for as long as you want. Operating around the clock across multiple floors, it combines a thermal hot spring park, professional treatment rooms, a full-service restaurant, a cinema, a gym, sleeping pods and more under one roof. The concept is simple: arrive with nothing to do, and stay until you've done everything.`,
-      `The thermal pools are the centrepiece. Outdoor rooftop mineral baths steam against the Shanghai night sky while the city glitters below. Indoor pools range from near-scalding to cold plunge, with dedicated herb-infusion pools, a salt cave, and a series of interconnected Jacuzzi grottos. Between soaks, wander to the full-service massage wing — professional therapists offer everything from 90-minute Thai deep tissue to hot stone treatments and traditional gua sha. Book a treatment slot on arrival as prime times fill up.`,
-      `After midnight is when Qushui Langting reveals its best side. The rooftop empties out, the food hall switches to late-night congee and dim sum, the cinema screens films in private recliner pods and the overall vibe shifts from buzzy to deeply, gloriously quiet. You can spend 12 hours here for around CHF 40–60 per person including entry, towels and robes. Budget 3–4 hours minimum, but most people stay all night.`
+      `Qushui Langting (曲水朗庭) is Shanghai's most celebrated 24-hour spa resort — a sprawling, lantern-lit sanctuary where you check in, change into robes and simply don't leave for as long as you want. Operating around the clock across multiple floors, it combines a thermal hot spring park, professional treatment rooms, a full-service restaurant, a cinema, a gym, sleeping pods and more under one roof.`,
+      `The thermal pools are the centrepiece. Outdoor rooftop mineral baths steam against the Shanghai night sky while the city glitters below. Indoor pools range from near-scalding to cold plunge, with dedicated herb-infusion pools, a salt cave, and a series of interconnected Jacuzzi grottos. Between soaks, wander to the full-service massage wing — book a treatment slot on arrival as prime times fill up.`,
+      `After midnight is when Qushui Langting reveals its best side. The rooftop empties out, the food hall switches to late-night congee and dim sum, the cinema screens films in private recliner pods and the vibe shifts from buzzy to deeply, gloriously quiet. Around CHF 40–60 per person for the full night including towels and robes.`
     ]
   },
   bund: {
     title: 'The Bund Waterfront',
+    addr: 'The Bund (Zhongshan East 1st Road), Huangpu District, Shanghai',
     img: 'shanghai-bund.png',
     city: 'Shanghai',
     gallery: ['shanghai-bund-2.png', 'shanghai-bund-3.png', 'shanghai-bund-4.png'],
@@ -35,6 +38,7 @@ const ACTIVITIES = {
   },
   yugarden: {
     title: 'Yu Garden & Old City',
+    addr: 'No. 218 Anren Street, Huangpu District, Shanghai (metro: Yuyuan Garden, Line 10)',
     img: 'shanghai-yugarden.png',
     city: 'Shanghai',
     gallery: ['shanghai-yugarden-2.png', 'shanghai-yugarden-3.png', 'shanghai-yugarden-4.png'],
@@ -46,6 +50,7 @@ const ACTIVITIES = {
   },
   tower: {
     title: 'Shanghai Tower — Floor 118',
+    addr: '501 Yincheng Middle Road, Pudong New Area, Shanghai (metro: Lujiazui, Line 2)',
     img: 'shanghai-tower.png',
     city: 'Shanghai',
     gallery: ['shanghai-tower-2.png', 'shanghai-tower-3.png', 'shanghai-tower-4.png'],
@@ -57,52 +62,57 @@ const ACTIVITIES = {
   },
   frenchconcession: {
     title: 'The French Concession',
+    addr: 'Anfu Road / Wulumuqi Road / Xintiandi, Xuhui & Luwan Districts, Shanghai',
     img: 'shanghai-frenchconcession.png',
     city: 'Shanghai',
     gallery: ['shanghai-frenchconcession-2.png', 'shanghai-frenchconcession-3.png', 'shanghai-frenchconcession-4.png'],
     desc: [
-      `The Former French Concession is Shanghai's most liveable, most beautiful neighbourhood — and the one most visitors fall hardest for. Wulumuqi Road, Anfu Road and Fuxing Road are lined with towering plane trees that create a canopy of dappled light over Art Deco villas, independent bookshops, specialist coffee roasters and boutiques run by local designers. It looks like a dream version of Paris crossed with 1930s Shanghai.`,
-      `Xintiandi — a cluster of restored Shikumen stone lane houses — is the neighbourhood's most famous set piece: narrow alleys now lined with restaurants, wine bars and concept stores, the stone facades perfectly preserved. Just south, Tianzifang is the more bohemian counterpart: tighter alleyways, art studios, handmade jewellery, vintage finds and excellent coffee at tiny hidden cafes.`,
+      `The Former French Concession is Shanghai's most liveable, most beautiful neighbourhood — and the one most visitors fall hardest for. Wulumuqi Road, Anfu Road and Fuxing Road are lined with towering plane trees that create a canopy of dappled light over Art Deco villas, independent bookshops, specialist coffee roasters and boutiques run by local designers.`,
+      `Xintiandi — a cluster of restored Shikumen stone lane houses — is the neighbourhood's most famous set piece: narrow alleys now lined with restaurants, wine bars and concept stores, the stone facades perfectly preserved. Just south, Tianzifang is the more bohemian counterpart: tighter alleyways, art studios, handmade jewellery and excellent coffee at tiny hidden cafes.`,
       `The French Concession rewards slow walking. No itinerary — just turn down whichever lane looks interesting. You'll find a perfect croissant next to a dumpling shop next to a gallery showing contemporary Chinese photography. Block out a full afternoon and just wander.`
     ]
   },
   zhujiajiao: {
     title: 'Zhujiajiao Water Town',
+    addr: 'Zhujiajiao Ancient Town, Qingpu District, Shanghai (~30km from city centre, Metro Line 17)',
     img: 'shanghai-zhujiajiao.png',
     city: 'Shanghai',
     gallery: ['shanghai-zhujiajiao-2.png', 'shanghai-zhujiajiao-3.png', 'shanghai-zhujiajiao-4.png'],
     desc: [
-      `Just 30 km from central Shanghai, Zhujiajiao is a perfectly preserved Ming and Qing dynasty water town — 1,700 years old, threaded by canals, connected by 36 ancient stone bridges. Gondolas glide past whitewashed walls and terracotta rooftops, willows trail in the green water, and the pace of life drops to something closer to a Sunday afternoon than a city trip. It is exactly the China you imagined before you arrived.`,
-      `The five-arch Fangsheng Bridge — 72 metres long, built in 1571 — is the town's centrepiece and the most beautiful bridge in the Shanghai region. Walk it at dawn before the tour groups arrive and you'll have it almost to yourself, the mist still sitting low on the canal and the sound of the water the only noise.`,
-      `The side streets reward exploration: tofu sellers, hand-pressed rice cakes, a maker of traditional oil-paper umbrellas whose family has been doing the same thing for six generations, a small temple that smells of sandalwood. Allow a full day. Take the bus or metro (Line 17 to Zhujiajiao) rather than a tour group — arriving independently means you can stay until the crowds leave and the town feels like itself again.`
+      `Just 30 km from central Shanghai, Zhujiajiao is a perfectly preserved Ming and Qing dynasty water town — 1,700 years old, threaded by canals, connected by 36 ancient stone bridges. Gondolas glide past whitewashed walls and terracotta rooftops, willows trail in the green water, and the pace of life drops to something closer to a Sunday afternoon.`,
+      `The five-arch Fangsheng Bridge — 72 metres long, built in 1571 — is the town's centrepiece and the most beautiful bridge in the Shanghai region. Walk it at dawn before the tour groups arrive and you'll have it almost to yourself, the mist still sitting low on the canal.`,
+      `The side streets reward exploration: tofu sellers, hand-pressed rice cakes, a maker of traditional oil-paper umbrellas whose family has been doing the same thing for six generations, a small temple that smells of sandalwood. Take Metro Line 17 to Zhujiajiao station — 50 minutes from People's Square. Allow a full day.`
     ]
   },
   rivercruise: {
     title: 'Huangpu River Night Cruise',
+    addr: 'Shiliupu Wharf, 479 Zhongshan East 2nd Road, Huangpu District, Shanghai',
     img: 'shanghai-rivercruise.png',
     city: 'Shanghai',
     gallery: ['shanghai-rivercruise-2.png', 'shanghai-rivercruise-3.png', 'shanghai-rivercruise-4.png'],
     desc: [
-      `The Bund looks spectacular from the promenade — but from the water, on a slow boat drifting down the Huangpu at night, it is something else entirely. The colonial facades glow warm gold on your left; on your right, the Pudong skyline — Pearl Tower, Jin Mao, the Shanghai Tower, the SWFC — pulses with coloured light shows that reflect in the black water below. This is the best single view in Shanghai and possibly in all of China.`,
-      `One-hour cruises depart from the Bund ferry terminal every 30 minutes from dusk. Get a spot on the open top deck and bring a jacket — it's colder on the water than it looks. The boat makes a slow sweep past the full length of the Bund, out past the shipyards where the river widens, and back again. Every angle produces a different photograph.`,
+      `The Bund looks spectacular from the promenade — but from the water, on a slow boat drifting down the Huangpu at night, it is something else entirely. The colonial facades glow warm gold on your left; on your right, the Pudong skyline pulses with coloured light shows reflecting in the black water below. The best single view in Shanghai.`,
+      `One-hour cruises depart from Shiliupu Wharf every 30 minutes from dusk. Get a spot on the open top deck and bring a jacket — it's colder on the water than it looks. The boat makes a slow sweep past the full length of the Bund, out past the shipyards where the river widens, and back again.`,
       `For something more memorable, book a private dinner cruise: a two-hour round trip with a Shanghainese meal served on the water. The combination of excellent food, uninterrupted skyline views and the gentle rock of the boat makes for one of the great evenings of the trip.`
     ]
   },
   disneyland: {
     title: 'Shanghai Disneyland',
+    addr: '310 Shendi West Road, Pudong New Area, Shanghai (Metro Line 11, Disney Resort station)',
     img: 'shanghai-disneyland.png',
     city: 'Shanghai',
     gallery: ['shanghai-disneyland-2.png', 'shanghai-disneyland-3.png', 'shanghai-disneyland-4.png'],
     desc: [
-      `Shanghai Disneyland is not just another Disney park — it is the newest, the most technologically advanced, and in many ways the most spectacular Disney park on earth. Opened in 2016 and already expanded twice, it features rides and lands that exist nowhere else in the world. The TRON Lightcycle Power Run is the fastest coaster in any Disney park. The Enchanted Storybook Castle is the tallest and largest Disney castle ever built.`,
-      `What makes Shanghai Disneyland special beyond the rides is the sheer ambition of the theming. Treasure Cove is an entire Pirate-themed land built around a genuine full-size galleon floating in a lagoon — the detail is extraordinary. Zootopia Land, opened in 2023, is the world's only Zootopia-themed area and uses projection mapping and animatronics at a level that has to be seen to be believed.`,
-      `October is perfect timing: post-Golden Week means the crowds have thinned significantly but the park is still running full autumn programming with special night shows and Halloween theming. Book FastPass for TRON and Pirates before you arrive. The fireworks spectacular over the castle at 9 PM is the best in any Disney park — save your spot on the castle steps 20 minutes early.`
+      `Shanghai Disneyland is not just another Disney park — it is the newest, the most technologically advanced, and in many ways the most spectacular Disney park on earth. The TRON Lightcycle Power Run is the fastest coaster in any Disney park. The Enchanted Storybook Castle is the tallest and largest Disney castle ever built.`,
+      `What makes Shanghai Disneyland special beyond the rides is the sheer ambition of the theming. Treasure Cove is an entire Pirate-themed land built around a genuine full-size galleon floating in a lagoon. Zootopia Land, opened in 2023, uses projection mapping and animatronics at a level that has to be seen to be believed.`,
+      `October is perfect timing: post-Golden Week means the crowds have thinned significantly but the park is still running full autumn programming. Book FastPass for TRON and Pirates before you arrive. The fireworks spectacular over the castle at 9 PM is the best in any Disney park — save your spot 20 minutes early.`
     ]
   },
 
   // ── BEIJING ACTIVITIES ───────────────────────────────────────────────────
   forbidden: {
     title: 'The Forbidden City',
+    addr: '4 Jingshan Front Street, Dongcheng District, Beijing (metro: Tiananmen East/West, Line 1)',
     img: 'beijing-forbidden-city.png',
     city: 'Beijing',
     gallery: ['beijing-forbidden-city-2.png', 'beijing-forbidden-city-3.png', 'beijing-forbidden-city-4.png'],
@@ -113,53 +123,58 @@ const ACTIVITIES = {
     ]
   },
   wall: {
-    title: 'The Great Wall',
+    title: 'The Great Wall — Mutianyu',
+    addr: 'Mutianyu Village, Huairou District, Beijing (~70km from city centre, ~1.5h by car)',
     img: 'beijing-great-wall.png',
     city: 'Beijing',
     gallery: ['beijing-great-wall-2.png', 'beijing-great-wall-3.png', 'beijing-great-wall-4.png'],
     desc: [
       `Over 21,000 km of ancient stone snaking across mountains, deserts and plateaus — the Great Wall of China is one of humanity's most audacious achievements. The Mutianyu section near Beijing offers the best combination of dramatic scenery and manageable crowds: steep forested ridges, a watchtower every 300 metres, and in autumn, a blaze of orange and red that makes the landscape look on fire.`,
       `Start at sunrise. The early light turns the stone gold, mist fills the valleys below, and for the first hour you may have entire sections to yourself. The silence up there — just wind, birdsong and the ancient stonework — is something you carry with you long after you leave.`,
-      `For the adventurous, the unrestored Jiankou section is wild and vertiginous — crumbling parapets, near-vertical climbs, and views that stretch to the horizon in both directions. Not for small children or anyone who hasn't packed proper shoes. For everyone else, Mutianyu's cable car takes the hard work out of it.`
+      `For the adventurous, the unrestored Jiankou section is wild and vertiginous — crumbling parapets, near-vertical climbs, and views that stretch to the horizon in both directions. For everyone else, Mutianyu's cable car takes the hard work out of it.`
     ]
   },
   temple: {
     title: 'Temple of Heaven',
+    addr: '1 Tiantan East Road, Dongcheng District, Beijing (metro: Tiantan Dongmen, Line 5)',
     img: 'beijing-temple-heaven.png',
     city: 'Beijing',
     gallery: ['beijing-temple-heaven-2.png', 'beijing-temple-heaven-3.png', 'beijing-temple-heaven-4.png'],
     desc: [
-      `Built in 1420 and more architecturally perfect than anything else in Beijing, the Temple of Heaven complex was where the Emperor came each winter solstice to pray for a good harvest. The Hall of Prayer for Good Harvests — a triple-roofed circular masterpiece in deep blue tile — is considered the finest example of Chinese religious architecture in existence. Standing beneath it, you understand why.`,
-      `The surrounding park is as much of a draw as the temple itself. Every morning from 6 AM, thousands of Beijing locals gather here to practise tai chi, play traditional instruments, fly kites, sing opera, play cards and walk backwards (an old health practice). It's a living window into daily Beijing life that no amount of tourist attractions can replicate.`,
+      `Built in 1420, the Temple of Heaven complex was where the Emperor came each winter solstice to pray for a good harvest. The Hall of Prayer for Good Harvests — a triple-roofed circular masterpiece in deep blue tile — is considered the finest example of Chinese religious architecture in existence. Standing beneath it, you understand why.`,
+      `The surrounding park is as much of a draw as the temple itself. Every morning from 6 AM, thousands of Beijing locals gather here to practise tai chi, play traditional instruments, fly kites, sing opera, play cards and walk backwards (an old health practice). It's a living window into daily Beijing life.`,
       `Don't miss the Echo Wall — a circular wall around the Imperial Vault of Heaven where whispers travel all the way around the circumference. The ancient acoustics still work perfectly after 600 years. Arrive early, walk slowly, and budget half a day minimum.`
     ]
   },
   summerpalace: {
     title: 'Summer Palace',
+    addr: '19 Xingjian Road, Haidian District, Beijing (metro: Beigongmen, Line 4)',
     img: 'beijing-summer-palace.png',
     city: 'Beijing',
     gallery: ['beijing-summer-palace-2.png', 'beijing-summer-palace-3.png', 'beijing-summer-palace-4.png'],
     desc: [
-      `The Summer Palace is Beijing's most beautiful imperial retreat — 290 hectares of lakes, gardens, palaces and pavilions built as an escape from the summer heat. At its heart, Kunming Lake was hand-dug by 100,000 workers on the orders of Empress Cixi, who also used navy funds to build a marble boat that never sailed. The audacity is imperial.`,
+      `The Summer Palace is Beijing's most beautiful imperial retreat — 290 hectares of lakes, gardens, palaces and pavilions built as an escape from the summer heat. At its heart, Kunming Lake was hand-dug by 100,000 workers on the orders of Empress Cixi, who also used navy funds to build a marble boat that never sailed.`,
       `The Long Corridor stretches 728 metres along the northern shore of the lake, its painted beams covered in over 14,000 individual scenes from Chinese history, mythology and literature. Walking it slowly takes 30 minutes. Every panel tells a story. It's one of the most extraordinary painted spaces on earth.`,
-      `Hire a rowing boat on Kunming Lake and drift past willow trees and lotus flowers toward the Seventeen Arch Bridge — 150 metres long, 544 stone lions, perfectly reflected in still water at dusk. This is the side of Beijing that most visitors miss entirely. Come late afternoon and stay for the sunset.`
+      `Hire a rowing boat on Kunming Lake and drift past willow trees and lotus flowers toward the Seventeen Arch Bridge — 150 metres long, 544 stone lions, perfectly reflected in still water at dusk. Come late afternoon and stay for the sunset.`
     ]
   },
   hutong: {
     title: 'Hutong Neighbourhood Tour',
+    addr: 'Start at Nanluoguxiang, Dongcheng District, Beijing (metro: Nanluoguxiang, Line 6/8)',
     img: 'beijing-hutong.png',
     city: 'Beijing',
     gallery: ['beijing-hutong-2.png', 'beijing-hutong-3.png', 'beijing-hutong-4.png'],
     desc: [
       `Beijing's hutongs are the ancient grey-walled alleyways that formed the city's residential fabric for 700 years. Narrow, interconnected, often smelling of coal smoke and street food, they are the opposite of everything modern Beijing projects — and they are completely unmissable. The areas around Nanluoguxiang, Gulou and Shichahai are the most atmospheric.`,
       `Explore by rickshaw or on foot. Peer through open courtyard gates into siheyuan — traditional family compounds where three or four generations may still live together around a shared stone courtyard. Buy a jianbing (egg crepe) from a street cart. Follow the smell of grilled lamb skewers into a lantern-lit alley at night.`,
-      `The hutongs are disappearing fast — Beijing has lost over 90% of them to modernisation. The ones that remain are living history, and experiencing them now, while they still exist, feels urgent. End the evening at one of the rooftop bars overlooking the Drum Tower: cold beer, ancient skyline, the sound of Beijing at night.`
+      `The hutongs are disappearing fast — Beijing has lost over 90% of them to modernisation. The ones that remain are living history, and experiencing them now, while they still exist, feels urgent. End the evening at one of the rooftop bars overlooking the Drum Tower.`
     ]
   },
 
   // ── CHENGDU ACTIVITIES ───────────────────────────────────────────────────
   pandas: {
     title: 'Giant Panda Baby Zone',
+    addr: '1375 Panda Avenue, Chenghua District, Chengdu (taxi/bus from city centre, ~30 min)',
     img: 'chengdu-pandas.png',
     city: 'Chengdu',
     gallery: ['chengdu-pandas-2.png', 'chengdu-pandas-3.png', 'chengdu-pandas-4.png'],
@@ -173,94 +188,102 @@ const ACTIVITIES = {
   // ── FOOD: SHANGHAI ───────────────────────────────────────────────────────
   dimsum: {
     title: 'Nanxiang Xiaolongbao',
+    addr: '85 Yuyuan Road (within Yu Garden Bazaar), Huangpu District, Shanghai',
     img: 'food-dimsum.png',
     city: 'Shanghai',
     gallery: ['food-dimsum-2.png', 'food-dimsum-3.png', 'food-dimsum-4.png'],
     desc: [
-      `Nanxiang Xiaolongbao has been making soup dumplings in the same spot inside Yu Garden since 1900. These are the original — the benchmark against which every other xiaolongbao on earth is judged. Each dumpling is hand-pleated with exactly 18 folds, filled with a nugget of minced pork and a spoonful of rich, gelatinised pork stock that melts into scalding soup as it steams. One bite, properly executed, is one of the great food experiences of the trip.`,
+      `Nanxiang Xiaolongbao has been making soup dumplings in the same spot inside Yu Garden since 1900. These are the original — the benchmark against which every other xiaolongbao on earth is judged. Each dumpling is hand-pleated with exactly 18 folds, filled with a nugget of minced pork and a spoonful of rich, gelatinised pork stock that melts into scalding soup as it steams.`,
       `The technique matters. Place the dumpling on a soup spoon, bite a tiny hole in the side, let the soup cool for five seconds, drink the broth first, then eat the rest with a dab of aged Zhenjiang vinegar and a sliver of fresh ginger. Do not attempt to eat it whole — the soup is boiling and you will regret it immediately.`,
-      `The restaurant has three floors; the ground floor counter does takeaway baskets to eat standing by the canal — the most atmospheric and cheapest way to eat them. The upper floors have table service and a broader menu of Shanghainese dim sum: steamed pork buns, turnip pastries, glutinous rice dumplings. Queue early or wait — it is always worth it.`
+      `The restaurant has three floors; the ground floor counter does takeaway baskets to eat standing by the canal — the most atmospheric and cheapest way to eat them. The upper floors have table service and a broader menu of Shanghainese dim sum. Queue early or wait — it is always worth it.`
     ]
   },
   shanghainese: {
     title: 'Shanghainese Classics',
+    addr: 'Jesse Restaurant (吉士酒家): 41 Tianping Road, Xuhui District, Shanghai',
     img: 'food-shanghainese.png',
     city: 'Shanghai',
     gallery: ['food-shanghainese-2.png', 'food-shanghainese-3.png', 'food-shanghainese-4.png'],
     desc: [
-      `Shanghainese cuisine is the sweetest, richest and most wine-forward of all Chinese regional traditions — a direct result of the city's history of trade, excess and cosmopolitan influence. The signature dish is hong shao rou: pork belly braised for hours in Shaoxing rice wine, dark soy, sugar and star anise until the fat turns to yielding silk and the sauce coats a spoon. It is extraordinary.`,
-      `October is hairy crab season — possibly the single best reason to visit Shanghai in autumn. These small, intensely flavoured freshwater crabs from Yangcheng Lake are eaten steamed, tied with reeds, accompanied by small cups of warm Shaoxing wine and thin ginger dipping sauce. Eating them is slow, messy and completely absorbing. The roe in the females and the creamy fat in the males are unlike anything else in Chinese food.`,
-      `For the full experience, head to Jesse Restaurant (吉士酒家) in the French Concession — a no-frills Shanghainese home-cooking institution that has been feeding the city's food obsessives for decades. Order the hong shao rou, the drunken chicken, the stir-fried water spinach and whatever the crab preparation of the day is. No English menu, but the staff are patient and the food makes up for everything.`
+      `Shanghainese cuisine is the sweetest, richest and most wine-forward of all Chinese regional traditions. The signature dish is hong shao rou: pork belly braised for hours in Shaoxing rice wine, dark soy, sugar and star anise until the fat turns to yielding silk. It is extraordinary.`,
+      `October is hairy crab season — possibly the single best reason to visit Shanghai in autumn. These small, intensely flavoured freshwater crabs from Yangcheng Lake are eaten steamed, tied with reeds, accompanied by small cups of warm Shaoxing wine and thin ginger dipping sauce. Eating them is slow, messy and completely absorbing.`,
+      `For the full experience, head to Jesse Restaurant (吉士酒家) in the French Concession — a no-frills Shanghainese home-cooking institution that has been feeding the city's food obsessives for decades. Order the hong shao rou, the drunken chicken, the stir-fried water spinach and whatever the crab preparation of the day is.`
     ]
   },
   noodles: {
     title: 'Shanghai Noodles & Street Food',
+    addr: 'Yang\'s Fry Dumplings: 269 Wujiang Road, Jing\'an District · Da Hu Chun: 6 Sichuan Middle Rd, Shanghai',
     img: 'food-noodles.png',
     city: 'Shanghai',
     gallery: ['food-noodles-2.png', 'food-noodles-3.png', 'food-noodles-4.png'],
     desc: [
-      `Shanghai's street food and noodle culture is one of the city's great pleasures, and the most accessible way into it is yangchun mian — scallion oil noodles. Thin wheat noodles tossed in darkly caramelised scallion oil with soy sauce and sugar: four ingredients, decades of technique, total perfection. Da Hu Chun on Sichuan Road has been making them since 1932 and the recipe has not changed.`,
-      `Shengjian bao — pan-fried pork buns — are Shanghai's other signature street food. The bottoms are fried until golden and crackling in a giant iron skillet; the tops are soft and pillowy, sprinkled with sesame seeds and chopped spring onion. Inside: soup and pork, like a xiaolongbao but bigger and more sizzling. Yang's Fry Dumplings on Wujiang Road is the definitive spot — always a queue, always worth it.`,
-      `For a full street-food crawl, start on Wujiang Road (scallion oil noodles, shengjian bao, egg tarts), then move to the Old City Bazaar for sesame pastries and red bean soup, then finish at any 7-Eleven for a scallion pork floss rice ball — not glamorous, genuinely delicious, eaten by every Shanghai local for breakfast. Total cost for all three stops: under CHF 5.`
+      `Shanghai's street food and noodle culture is one of the city's great pleasures, and the most accessible way into it is yangchun mian — scallion oil noodles. Thin wheat noodles tossed in darkly caramelised scallion oil with soy sauce and sugar: four ingredients, decades of technique, total perfection. Da Hu Chun on Sichuan Road has been making them since 1932.`,
+      `Shengjian bao — pan-fried pork buns — are Shanghai's other signature street food. The bottoms are fried until golden and crackling in a giant iron skillet; the tops are soft and pillowy, sprinkled with sesame seeds and chopped spring onion. Inside: soup and pork. Yang's Fry Dumplings on Wujiang Road is the definitive spot — always a queue, always worth it.`,
+      `For a full street-food crawl: start on Wujiang Road (shengjian bao, egg tarts), then move to the Old City Bazaar for sesame pastries and red bean soup. Total cost for all three stops: under CHF 5.`
     ]
   },
 
-  // ── FOOD: BEIJING ───────────────────────────────────────────────────────
+  // ── FOOD: BEIJING ────────────────────────────────────────────────────────
   duck: {
     title: 'Peking Duck at Da Dong',
+    addr: 'Da Dong (大董): 22 Dongsishitiao, Dongcheng District, Beijing (multiple branches)',
     img: 'beijing-duck.png',
     city: 'Beijing',
     gallery: ['beijing-duck-2.png', 'beijing-duck-3.png', 'beijing-duck-4.png'],
     desc: [
       `Peking Duck is Beijing's greatest culinary gift to the world, and eating it in the city where it was perfected is a completely different experience. Da Dong — Beijing's most celebrated duck restaurant — has elevated the dish to high art. Their ducks are roasted in fruit-wood ovens until the skin is impossibly thin and crackling, the fat rendered clean beneath, the meat succulent throughout.`,
       `The tableside carving ceremony is a performance in itself. A white-gloved chef slices the duck into exactly 108 pieces — skin and meat in perfect ratio — while explaining the technique. Each piece is wrapped in a gossamer-thin pancake with spring onion, cucumber and a brush of hoisin. One bite and you understand why this dish has lasted 600 years.`,
-      `Book well in advance — Da Dong fills up weeks ahead, and for good reason. Go hungry. Order the signature crispy skin served first with sugar (yes, really), then the wrapped duck, then the rich bone broth at the end. It's a full two-hour meal and one of the great eating experiences in China.`
+      `Book well in advance — Da Dong fills up weeks ahead, and for good reason. Order the signature crispy skin served first with sugar, then the wrapped duck, then the rich bone broth at the end. It's a full two-hour meal.`
     ]
   },
   sijimingfu: {
     title: 'Sijimingfu — Imperial Duck',
+    addr: 'Sijimingfu (四季民福): Near Wangfujing / Forbidden City, Dongcheng District, Beijing',
     img: 'beijing-sijimingfu.png',
     city: 'Beijing',
     gallery: ['beijing-sijimingfu-2.png', 'beijing-sijimingfu-3.png', 'beijing-sijimingfu-4.png'],
     desc: [
-      `Sijimingfu is Beijing's most storied Peking Duck restaurant — a converted Qing dynasty courtyard house steps from the Forbidden City, where the recipe has been passed down through the same family for four generations. The setting alone justifies the visit: red lanterns in a carved wooden courtyard, the smell of hickory smoke drifting from century-old ovens, waitstaff in traditional dress gliding between tables.`,
+      `Sijimingfu is Beijing's most storied Peking Duck restaurant — a converted Qing dynasty courtyard house steps from the Forbidden City, where the recipe has been passed down through the same family for four generations. The setting alone justifies the visit: red lanterns in a carved wooden courtyard, the smell of hickory smoke drifting from century-old ovens.`,
       `The ducks here are raised on a specific grain diet for 65 days, then air-dried for 24 hours before roasting in a closed oven over jujube and pear wood — a technique that produces skin so thin and crackling it shatters at a touch. The chef carves it at the table in under two minutes: 108 slices, every one skin-on, presented on antique blue-and-white porcelain.`,
-      `Order the full duck set: start with the crispy skin dipped in fine sugar, move through the wrapped pancakes, then finish with a bowl of silky duck bone congee that has been simmering since morning. Book the courtyard room if you can — eating under paper lanterns with the roofline of the Forbidden City visible beyond the walls is the kind of moment you don't forget.`
+      `Order the full duck set: crispy skin dipped in fine sugar, wrapped pancakes, then a bowl of silky duck bone congee that has been simmering since morning. Book the courtyard room if you can — eating under paper lanterns with the roofline of the Forbidden City visible beyond the walls is the kind of moment you don't forget.`
     ]
   },
   manhengji: {
     title: '满恒记 — Instant Boiled Mutton',
+    addr: '满恒记 (Mǎn Héng Jì): Xicheng District, Beijing — search on Dianping/Google Maps for nearest branch',
     img: 'food-manhengji.png',
     city: 'Beijing',
     gallery: ['food-manhengji-2.png', 'food-manhengji-3.png', 'food-manhengji-4.png'],
     desc: [
-      `满恒记 (Mǎn Héng Jì) is one of Beijing's most beloved old-school restaurants, famous for shuanyangrou — instant boiled mutton, Beijing's winter hot pot tradition. A polished copper chafing dish arrives at the table glowing with charcoal, filled with clear broth. Paper-thin slices of Inner Mongolian lamb — almost translucent — are swirled through the broth for precisely ten seconds, then dipped in a thick sesame paste sauce with fermented tofu, chive flower paste and a drop of soy.`,
-      `The sesame dipping sauce is the secret weapon. 满恒记's version is legendary in Beijing: intensely nutty, slightly sweet, perfectly balanced against the clean mineral flavour of the lamb. The restaurant makes it fresh every morning and it bears no resemblance to anything from a jar. You will want to eat it with a spoon.`,
-      `The restaurant has been operating in the same neighbourhood for decades and the crowd tells the story: local Beijing families, groups of friends who have been coming here since university, older couples who know exactly what they want. Order the lamb first, then add tofu, cabbage and glass noodles as the broth enriches. Finish with a bowl of the now deeply flavoured broth as soup. This is Beijing eating at its most honest.`
+      `满恒记 (Mǎn Héng Jì) is one of Beijing's most beloved old-school restaurants, famous for shuanyangrou — instant boiled mutton, Beijing's winter hot pot tradition. A polished copper chafing dish arrives at the table glowing with charcoal, filled with clear broth. Paper-thin slices of Inner Mongolian lamb are swirled through the broth for precisely ten seconds, then dipped in a thick sesame paste sauce.`,
+      `The sesame dipping sauce is the secret weapon. 满恒记's version is legendary in Beijing: intensely nutty, slightly sweet, perfectly balanced against the clean mineral flavour of the lamb. The restaurant makes it fresh every morning and it bears no resemblance to anything from a jar.`,
+      `The restaurant has been operating in the same neighbourhood for decades and the crowd tells the story: local Beijing families, groups of friends who have been coming here since university. Order the lamb first, then add tofu, cabbage and glass noodles as the broth enriches. Finish with a bowl of the deeply flavoured broth as soup.`
     ]
   },
 
-  // ── FOOD: CHENGDU ───────────────────────────────────────────────────────
+  // ── FOOD: CHENGDU ────────────────────────────────────────────────────────
   hotpot: {
     title: 'Authentic Sichuan Hotpot',
+    addr: 'Best area: Yulin neighbourhood, Wuhou District, Chengdu (try Dezhuang or local spots on Yulin East Rd)',
     img: 'chengdu-hotpot.png',
     city: 'Chengdu',
     gallery: ['chengdu-hotpot-2.png', 'chengdu-hotpot-3.png', 'chengdu-hotpot-4.png'],
     desc: [
       `Sichuan hotpot is one of the great eating experiences of the world. A dark, fragrant cauldron of dried chillies, Sichuan peppercorns, fermented black beans and beef tallow arrives at your table still bubbling furiously. The signature sensation is mala — mouth-numbing heat that builds slowly and lingers beautifully for hours after.`,
       `The ritual is communal and deeply unhurried. Order wave after wave of raw ingredients — paper-thin wagyu beef, silky lamb, lotus root, tofu skin, leafy greens, mushrooms — and cook them directly in the broth. Everything gets dipped in a cooling sesame and garlic sauce that tempers the fire just enough to keep you going.`,
-      `For the real experience, head to a local spot in the Yulin neighbourhood rather than a tourist-facing restaurant. Zero English menu, laminated picture cards, waitstaff who will cheerfully judge your technique. Block out the whole evening. Come hungry, come ready to sweat, and come with people you like — hotpot is not a solo sport.`
+      `For the real experience, head to a local spot in the Yulin neighbourhood rather than a tourist-facing restaurant. Zero English menu, laminated picture cards, waitstaff who will cheerfully judge your technique. Block out the whole evening. Come hungry, come ready to sweat.`
     ]
   },
   mapotofu: {
-    title: 'Mapo Tofu at Chen\'s',
+    title: "Mapo Tofu at Chen's",
+    addr: "Chen Mapo Dofu (陈麻婆豆腐): 197 Yulin West Road, Jinjiang District, Chengdu",
     img: 'food-mapotofu.png',
     city: 'Chengdu',
     gallery: ['food-mapotofu-2.png', 'food-mapotofu-3.png', 'food-mapotofu-4.png'],
     desc: [
-      `Chen Mapo Dofu (陈麻婆豆腐) has been making mapo tofu on the same street in Chengdu since 1862. The dish was invented here — by the pockmarked-faced (mapo) wife of a tofu seller named Chen — and 160 years later her descendants are still running the restaurant. Eating it here, in the city of its birth, at the place that invented it, is one of those rare food experiences where the history and the flavour arrive simultaneously.`,
-      `The dish itself is a study in extremes: silken white tofu, barely holding together, swimming in a sauce of scorching chili oil, fermented black beans, Sichuan peppercorns, minced beef and a glossy layer of bright red oil. The mala sensation — simultaneously numbing and burning — builds slowly over the meal and peaks about ten minutes after you stop eating. It is deeply addictive.`,
-      `Order the original recipe (传统麻婆豆腐) rather than any modified version. Add a bowl of plain steamed rice — essential for tempering the heat — and a cold Tsingtao. The restaurant is always busy at lunch; arrive at 11:30 AM or be prepared to queue. The mapo tofu you've had anywhere else, however good, will never be quite the same after this.`
+      `Chen Mapo Dofu (陈麻婆豆腐) has been making mapo tofu on the same street in Chengdu since 1862. The dish was invented here — by the pockmarked-faced (mapo) wife of a tofu seller named Chen — and 160 years later her descendants are still running the restaurant. Eating it here, in the city of its birth, is one of those rare food experiences where history and flavour arrive simultaneously.`,
+      `The dish itself is a study in extremes: silken white tofu, barely holding together, swimming in a sauce of scorching chili oil, fermented black beans, Sichuan peppercorns, minced beef and a glossy layer of bright red oil. The mala sensation — simultaneously numbing and burning — builds slowly and peaks about ten minutes after you stop eating. Deeply addictive.`,
+      `Order the original recipe (传统麻婆豆腐) rather than any modified version. Add a bowl of plain steamed rice — essential for tempering the heat — and a cold Tsingtao. The restaurant is always busy at lunch; arrive at 11:30 AM or be prepared to queue.`
     ]
   }
 };
@@ -285,64 +308,39 @@ function handleUpvote(id, btn) {
   renderCount(id);
 }
 
-// Top nav (Hotels / Activities / Food)
+// ── Tab switching (generic) ──────────────────────────────────────────────────
+// Each nav with data-tabs-group selects panels with matching data-tab-group
+function initTabs(tabAttr, panelClass) {
+  document.querySelectorAll(`[${tabAttr}]`).forEach(tab => {
+    tab.addEventListener('click', () => {
+      // deactivate siblings (same parent nav)
+      tab.closest('nav').querySelectorAll(`[${tabAttr}]`).forEach(t => t.classList.remove('active'));
+      // deactivate all panels of this type
+      document.querySelectorAll('.' + panelClass).forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      const target = tab.getAttribute(tabAttr);
+      const el = document.getElementById(target);
+      if (el) el.classList.add('active');
+    });
+  });
+}
+
+// Top nav
 document.querySelectorAll('.top-tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.top-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.top-section').forEach(s => s.classList.remove('active'));
     tab.classList.add('active');
-    document.getElementById('section-' + tab.dataset.section).classList.add('active');
+    const el = document.getElementById('section-' + tab.dataset.section);
+    if (el) el.classList.add('active');
   });
 });
 
-// Hotel city tabs
-document.querySelectorAll('[data-hotel-city]').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('[data-hotel-city]').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.hotel-city').forEach(s => s.classList.remove('active'));
-    tab.classList.add('active');
-    document.getElementById(tab.dataset.hotelCity).classList.add('active');
-  });
-});
+initTabs('data-hotel-city', 'hotel-city');
+initTabs('data-city',       'city-section');
+initTabs('data-food-city',  'food-city');
 
-// Activity city tabs
-document.querySelectorAll('[data-city]').forEach(tab => {
-  tab.addEventListener('click', () => {
-    const parent = tab.closest('.top-section');
-    parent.querySelectorAll('[data-city]').forEach(t => t.classList.remove('active'));
-    parent.querySelectorAll('.city-section').forEach(s => s.classList.remove('active'));
-    tab.classList.add('active');
-    parent.querySelector('#' + tab.dataset.city).classList.add('active');
-  });
-});
-
-// Food city tabs
-document.querySelectorAll('[data-food-city]').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('[data-food-city]').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.food-city').forEach(s => s.classList.remove('active'));
-    tab.classList.add('active');
-    document.getElementById(tab.dataset.foodCity).classList.add('active');
-  });
-});
-
-// Upvote buttons (cards)
-document.querySelectorAll('.upvote-btn').forEach(btn => {
-  btn.addEventListener('click', e => {
-    e.stopPropagation();
-    handleUpvote(btn.dataset.id, btn);
-  });
-});
-
-// Open modal via details btn or card click
-document.querySelectorAll('.details-btn').forEach(btn => {
-  btn.addEventListener('click', e => { e.stopPropagation(); openModal(btn.dataset.id); });
-});
-document.querySelectorAll('.card').forEach(card => {
-  card.addEventListener('click', () => openModal(card.dataset.id));
-});
-
-// Modal
+// ── Modal ────────────────────────────────────────────────────────────────────
 const modal = document.getElementById('modal');
 const modalContent = document.getElementById('modalContent');
 
@@ -357,14 +355,15 @@ function openModal(id) {
   modalContent.innerHTML = `
     <img class="modal-hero" src="${a.img}" alt="${a.title}" />
     <h2>${a.title}</h2>
+    ${a.addr ? `<p class="modal-addr">📍 ${a.addr}</p>` : ''}
     <div class="modal-gallery">${galleryHtml}</div>
     ${a.desc.map(p => `<p>${p}</p>`).join('')}
     <div class="modal-upvote">
-      <button class="upvote-btn" data-id="${id}">❤️ <span class="count">${getVotes(id)}</span> I want to go!</button>
+      <button class="upvote-btn modal-upvote-btn" data-id="${id}">❤️ <span class="count">${getVotes(id)}</span> I want to go!</button>
     </div>
   `;
 
-  modalContent.querySelector('.upvote-btn').addEventListener('click', e => {
+  modalContent.querySelector('.modal-upvote-btn').addEventListener('click', e => {
     handleUpvote(id, e.currentTarget);
   });
 
@@ -388,15 +387,30 @@ document.getElementById('modalClose').addEventListener('click', closeModal);
 modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeLightbox(); closeModal(); } });
 
-// Lightbox
+// ── Delegated card/button clicks ─────────────────────────────────────────────
+document.addEventListener('click', e => {
+  // Modal upvote (has its own listener added in openModal) — skip
+  if (e.target.closest('.modal-upvote-btn')) return;
+
+  // Details button
+  const details = e.target.closest('.details-btn');
+  if (details) { openModal(details.dataset.id); return; }
+
+  // Card upvote
+  const upvote = e.target.closest('.upvote-btn');
+  if (upvote && upvote.dataset.id) { handleUpvote(upvote.dataset.id, upvote); return; }
+
+  // Card click (not on a button)
+  if (!e.target.closest('button')) {
+    const card = e.target.closest('.card[data-id]');
+    if (card) openModal(card.dataset.id);
+  }
+});
+
+// ── Lightbox ─────────────────────────────────────────────────────────────────
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 
-function openLightbox(src) {
-  lightboxImg.src = src;
-  lightbox.classList.add('open');
-}
-function closeLightbox() {
-  lightbox.classList.remove('open');
-}
+function openLightbox(src) { lightboxImg.src = src; lightbox.classList.add('open'); }
+function closeLightbox() { lightbox.classList.remove('open'); }
 lightbox.addEventListener('click', closeLightbox);
