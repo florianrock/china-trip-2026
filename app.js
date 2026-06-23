@@ -12,14 +12,14 @@ const ACTIVITIES = {
     ]
   },
   spa: {
-    title: '24-Hour Spa Experience',
+    title: 'Qushui Langting — 24h Luxury Spa',
     img: 'shanghai-spa.png',
     city: 'Shanghai',
-    gallery: ['shanghai-spa-2.png', 'shanghai-spa-3.png', 'shanghai-spa-4.png'],
+    gallery: ['shanghai-spa-2.png', 'shanghai-spa-3.png', 'shanghai-spa-4.png', 'shanghai-spa-5.png', 'shanghai-spa-6.png', 'shanghai-spa-7.png'],
     desc: [
-      `Shanghai's luxury spa scene is unlike anything in the world. Operating around the clock, these temple-like sanctuaries offer everything from volcanic stone massages to herbal steam baths infused with traditional Chinese medicine. You walk in stressed and leave a different person.`,
-      `Many top spas feature rooftop thermal pools with panoramic views of the glittering Pudong skyline. After midnight, the crowds thin and the city lights reflect off steaming water in an almost otherworldly calm — one of Shanghai's best-kept secrets. The contrast of warm water against cold night air while skyscrapers glitter around you is unforgettable.`,
-      `Treatments blend ancient TCM rituals with modern luxury: jade rollers, gua sha facials, fire cupping and bamboo massages performed by practitioners trained for decades. Budget 3–4 hours minimum. This is not a quick pamper — it's a full reset.`
+      `Qushui Langting (曲水朗庭) is Shanghai's most celebrated 24-hour spa resort — a sprawling, lantern-lit sanctuary where you check in, change into robes and simply don't leave for as long as you want. Operating around the clock across multiple floors, it combines a thermal hot spring park, professional treatment rooms, a full-service restaurant, a cinema, a gym, sleeping pods and more under one roof. The concept is simple: arrive with nothing to do, and stay until you've done everything.`,
+      `The thermal pools are the centrepiece. Outdoor rooftop mineral baths steam against the Shanghai night sky while the city glitters below. Indoor pools range from near-scalding to cold plunge, with dedicated herb-infusion pools, a salt cave, and a series of interconnected Jacuzzi grottos. Between soaks, wander to the full-service massage wing — professional therapists offer everything from 90-minute Thai deep tissue to hot stone treatments and traditional gua sha. Book a treatment slot on arrival as prime times fill up.`,
+      `After midnight is when Qushui Langting reveals its best side. The rooftop empties out, the food hall switches to late-night congee and dim sum, the cinema screens films in private recliner pods and the overall vibe shifts from buzzy to deeply, gloriously quiet. You can spend 12 hours here for around CHF 40–60 per person including entry, towels and robes. Budget 3–4 hours minimum, but most people stay all night.`
     ]
   },
   bund: {
