@@ -10,6 +10,17 @@ const ACTIVITIES = {
       `Treatments blend ancient TCM rituals with modern luxury: jade rollers, gua sha facials, fire cupping and bamboo massages performed by practitioners trained for decades. Budget 3–4 hours minimum. This is not a quick pamper — it's a full reset.`
     ]
   },
+  train: {
+    title: 'Bullet Train Business Class',
+    img: 'train-business.png',
+    city: 'Shanghai',
+    gallery: ['train-business-2.png', 'train-business-3.png', 'train-business-4.png'],
+    desc: [
+      `The Shanghai–Beijing high-speed train is one of the great travel experiences in the world — and business class on the Fuxing G-series makes it genuinely extraordinary. The seats recline fully flat into a lie-flat bed, each in its own private pod with a wide personal screen, noise-cancelling headrests and a full-length footrest. At 350 km/h, you barely feel the speed. The 1,318 km journey takes just 4.5 hours.`,
+      `Meals are served at your seat on white linen with real cutlery — hot dim sum, noodle dishes, Chinese desserts and a proper tea service. The carriage is quiet, the staff attentive without being intrusive, and the panoramic window beside each seat frames a constantly shifting canvas of Chinese countryside: rice paddies, river valleys, ancient hill towns and slowly emerging urban skylines.`,
+      `Compare this to flying: no airport security theatre, no baggage carousel, city centre to city centre — Beijing Hongqiao station to Beijing South station, both fully metro-connected. Business class tickets run around CHF 90–120 per person. It is, without question, the right way to make this journey. Book weeks ahead — business class sells out fast on this route.`
+    ]
+  },
   bund: {
     title: 'The Bund Waterfront',
     img: 'shanghai-bund.png',
