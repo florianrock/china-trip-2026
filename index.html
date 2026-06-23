@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>China Trip 2026 🇨🇳</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">🇨🇳</div>
+      <div>
+        <h1>China Trip 2026</h1>
+        <p class="subtitle">Vote for your favourite activities</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="city-tabs">
+    <button class="tab active" data-city="shanghai">🏙️ Shanghai</button>
+    <button class="tab" data-city="chengdu">🐼 Chengdu</button>
+    <button class="tab" data-city="beijing">🏯 Beijing</button>
+  </nav>
+
+  <main>
+    <!-- SHANGHAI -->
+    <section class="city-section active" id="shanghai">
+      <div class="cards-grid">
+
+        <div class="card" data-id="spa">
+          <div class="card-img-wrap">
+            <img src="shanghai-spa.png" alt="24-Hour Spa" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>24-Hour Spa Experience</h2>
+            <p class="teaser">Melt away in one of Shanghai's legendary luxury spas — thermal pools, herbal treatments, and city views that never sleep.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="spa">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="spa">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="bund">
+          <div class="card-img-wrap">
+            <img src="shanghai-bund.png" alt="The Bund" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>The Bund Waterfront</h2>
+            <p class="teaser">A mile-long promenade of colonial grandeur facing the futuristic Pudong skyline — Shanghai's most iconic panorama.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="bund">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="bund">More →</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CHENGDU -->
+    <section class="city-section" id="chengdu">
+      <div class="cards-grid">
+
+        <div class="card" data-id="pandas">
+          <div class="card-img-wrap">
+            <img src="chengdu-pandas.png" alt="Baby Pandas" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Giant Panda Baby Zone</h2>
+            <p class="teaser">Meet the world's most adorable cubs at the Chengdu Research Base — up close with baby pandas in their bamboo paradise.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="pandas">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="pandas">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="hotpot">
+          <div class="card-img-wrap">
+            <img src="chengdu-hotpot.png" alt="Sichuan Hotpot" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Authentic Sichuan Hotpot</h2>
+            <p class="teaser">Dive into Chengdu's soul food — a bubbling cauldron of numbing spices, fresh meats and vegetables, best shared with everyone.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="hotpot">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="hotpot">More →</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BEIJING -->
+    <section class="city-section" id="beijing">
+      <div class="cards-grid">
+
+        <div class="card" data-id="forbidden">
+          <div class="card-img-wrap">
+            <img src="beijing-forbidden-city.png" alt="Forbidden City" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>The Forbidden City</h2>
+            <p class="teaser">Walk through 600 years of imperial history across 180 acres of golden-roofed halls — the world's largest palace complex.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="forbidden">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="forbidden">More →</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-id="wall">
+          <div class="card-img-wrap">
+            <img src="beijing-great-wall.png" alt="Great Wall" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>The Great Wall</h2>
+            <p class="teaser">Stand atop one of humanity's greatest achievements — thousands of kilometres of ancient stone snaking over wild mountain ridges.</p>
+            <div class="card-footer">
+              <button class="upvote-btn" data-id="wall">❤️ <span class="count">0</span></button>
+              <button class="details-btn" data-id="wall">More →</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>🌏 Rock Family China Adventure · 2026</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
