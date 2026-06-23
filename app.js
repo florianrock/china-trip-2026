@@ -98,6 +98,17 @@ const ACTIVITIES = {
       `Hire a rowing boat on Kunming Lake and drift past willow trees and lotus flowers toward the Seventeen Arch Bridge — 150 metres long, 544 stone lions, perfectly reflected in still water at dusk. This is the side of Beijing that most visitors miss entirely. Come late afternoon and stay for the sunset.`
     ]
   },
+  sijimingfu: {
+    title: 'Sijimingfu — Imperial Duck',
+    img: 'beijing-sijimingfu.png',
+    city: 'Beijing',
+    gallery: ['beijing-sijimingfu-2.png', 'beijing-sijimingfu-3.png', 'beijing-sijimingfu-4.png'],
+    desc: [
+      `Sijimingfu is Beijing's most storied Peking Duck restaurant — a converted Qing dynasty courtyard house steps from the Forbidden City, where the recipe has been passed down through the same family for four generations. The setting alone justifies the visit: red lanterns in a carved wooden courtyard, the smell of hickory smoke drifting from century-old ovens, waitstaff in traditional dress gliding between tables.`,
+      `The ducks here are raised on a specific grain diet for 65 days, then air-dried for 24 hours before roasting in a closed oven over jujube and pear wood — a technique that produces skin so thin and crackling it shatters at a touch. The chef carves it at the table in under two minutes: 108 slices, every one skin-on, presented on antique blue-and-white porcelain.`,
+      `Order the full duck set: start with the crispy skin dipped in fine sugar, move through the wrapped pancakes, then finish with a bowl of silky duck bone congee that has been simmering since morning. Book the courtyard room if you can — eating under paper lanterns with the roofline of the Forbidden City visible beyond the walls is the kind of moment you don't forget.`
+    ]
+  },
   hutong: {
     title: 'Hutong Neighbourhood Tour',
     img: 'beijing-hutong.png',
