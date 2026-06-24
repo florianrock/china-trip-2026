@@ -19,54 +19,56 @@
     </div>
   </header>
 
+  <!-- ITINERARY TIMELINE — always visible -->
+  <div class="itinerary-wrap">
+    <div class="itinerary">
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">Oct 8</div>
+        <div class="itin-city">🛬 Shanghai</div>
+        <div class="itin-nights">4 nts</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">Oct 12</div>
+        <div class="itin-city">🚄 Beijing</div>
+        <div class="itin-nights">5 nts</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">Oct 17</div>
+        <div class="itin-city">✈️ Chengdu</div>
+        <div class="itin-nights">4 nts</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">Oct 21</div>
+        <div class="itin-city">✈️ Shanghai</div>
+        <div class="itin-nights">1 nt</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot itin-dot--fly"></div>
+        <div class="itin-label">Oct 22</div>
+        <div class="itin-city">🛫 Fly out</div>
+        <div class="itin-nights">ex-SHG</div>
+      </div>
+    </div>
+    <p class="itin-note">After Golden Week → no holiday price spike · 4 rooms (2 rm family + 2 couples)</p>
+  </div>
+
   <!-- TOP NAV -->
   <nav class="top-nav">
-    <button class="top-tab active" data-section="hotels">🏨 Hotels</button>
-    <button class="top-tab" data-section="activities">🎯 Activities</button>
+    <button class="top-tab active" data-section="activities">🎯 Activities</button>
     <button class="top-tab" data-section="food">🍜 Food</button>
+    <button class="top-tab" data-section="hotels">🏨 Hotels</button>
   </nav>
 
   <!-- ═══════════════════════════════════════════ HOTELS -->
-  <div id="section-hotels" class="top-section active">
-    <div class="itinerary-wrap">
-      <div class="itinerary">
-        <div class="itin-step">
-          <div class="itin-dot"></div>
-          <div class="itin-label">Oct 8</div>
-          <div class="itin-city">🛬 Shanghai</div>
-          <div class="itin-nights">4 nts</div>
-        </div>
-        <div class="itin-line"></div>
-        <div class="itin-step">
-          <div class="itin-dot"></div>
-          <div class="itin-label">Oct 12</div>
-          <div class="itin-city">🚄 Beijing</div>
-          <div class="itin-nights">5 nts</div>
-        </div>
-        <div class="itin-line"></div>
-        <div class="itin-step">
-          <div class="itin-dot"></div>
-          <div class="itin-label">Oct 17</div>
-          <div class="itin-city">✈️ Chengdu</div>
-          <div class="itin-nights">4 nts</div>
-        </div>
-        <div class="itin-line"></div>
-        <div class="itin-step">
-          <div class="itin-dot"></div>
-          <div class="itin-label">Oct 21</div>
-          <div class="itin-city">✈️ Shanghai</div>
-          <div class="itin-nights">1 nt</div>
-        </div>
-        <div class="itin-line"></div>
-        <div class="itin-step">
-          <div class="itin-dot itin-dot--fly"></div>
-          <div class="itin-label">Oct 22</div>
-          <div class="itin-city">🛫 Fly out</div>
-          <div class="itin-nights">ex-SHG</div>
-        </div>
-      </div>
-      <p class="itin-note">After Golden Week → no holiday price spike · 4 rooms (2 rm family + 2 couples)</p>
-    </div>
+  <div id="section-hotels" class="top-section">
 
     <nav class="city-tabs hotel-tabs">
       <button class="tab active" data-hotel-city="h-shanghai">🏙️ Shanghai</button>
@@ -174,7 +176,7 @@
   </div>
 
   <!-- ═══════════════════════════════════════════ ACTIVITIES -->
-  <div id="section-activities" class="top-section">
+  <div id="section-activities" class="top-section active">
     <nav class="city-tabs">
       <button class="tab active" data-city="act-shanghai">🏙️ Shanghai</button>
       <button class="tab" data-city="act-beijing">🏯 Beijing</button>
