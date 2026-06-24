@@ -664,6 +664,15 @@ function applyUserToUI(user) {
   if (signinBtn) signinBtn.style.display = 'none';
 }
 
+function nudgeSignIn() {
+  const btn = document.getElementById('signin-btn');
+  if (!btn) return;
+  btn.style.display = '';
+  btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  btn.classList.add('signin-nudge');
+  setTimeout(() => btn.classList.remove('signin-nudge'), 1200);
+}
+
 // Called by Google Identity Services after sign-in — must be global
 function handleCredentialResponse(response) {
   try {
@@ -717,12 +726,12 @@ function refreshBtn(id) {
 
 async function handleUpvote(id, btn) {
   if (!currentUser) {
-    if (window.google) google.accounts.id.prompt();
+    nudgeSignIn();
     return;
   }
-  // Token missing (restored from localStorage) — re-auth silently then abort; user re-clicks after One Tap fires
+  // Token missing (restored from localStorage) — nudge user to re-auth via the visible button
   if (!currentUser.idToken) {
-    if (window.google) google.accounts.id.prompt();
+    nudgeSignIn();
     return;
   }
 
@@ -789,9 +798,7 @@ function loadVoteCounts() {
   document.head.appendChild(s);
 }
 
-document.getElementById('signin-btn')?.addEventListener('click', () => {
-  if (window.google) google.accounts.id.prompt();
-});
+// The #signin-btn is now the rendered Google button — its click is handled by the GSI SDK.
 
 document.getElementById('signout-btn')?.addEventListener('click', () => {
   currentUser = null;

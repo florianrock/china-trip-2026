@@ -48,22 +48,21 @@ header {
   flex-shrink: 0;
 }
 
-.signin-btn {
-  background: transparent;
-  border: 1.5px solid var(--gold);
-  color: var(--gold);
-  padding: 0.4rem 1rem;
-  border-radius: 50px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-  white-space: nowrap;
+/* rendered Google Sign-In button container */
+#signin-btn {
+  display: flex;
+  align-items: center;
 }
 
-.signin-btn:hover {
-  background: var(--gold);
-  color: var(--navy);
+@keyframes signin-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(212,175,55,0.7); }
+  70%  { box-shadow: 0 0 0 8px rgba(212,175,55,0); }
+  100% { box-shadow: 0 0 0 0 rgba(212,175,55,0); }
+}
+
+.signin-nudge {
+  animation: signin-pulse 0.6s ease-out 2;
+  border-radius: 50px;
 }
 
 #user-chip {
@@ -86,7 +85,6 @@ header {
 }
 
 @media (max-width: 500px) {
-  .signin-btn { font-size: 0.75rem; padding: 0.35rem 0.75rem; }
   .user-name { display: none; }
 }
 

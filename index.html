@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>China Trip 2026 🇨🇳</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="style.css?v=20260624s" />
+  <link rel="stylesheet" href="style.css?v=20260624t" />
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
@@ -23,7 +23,14 @@
              data-callback="handleCredentialResponse"
              data-auto_select="true">
         </div>
-        <button id="signin-btn" class="signin-btn">Sign in to vote</button>
+        <div id="signin-btn" class="g_id_signin"
+             data-type="standard"
+             data-shape="pill"
+             data-theme="outline"
+             data-text="signin_with"
+             data-size="medium"
+             data-logo_alignment="left">
+        </div>
         <div id="user-chip" style="display:none">
           <img id="user-avatar" src="" alt="" class="user-avatar" />
           <span id="user-name" class="user-name"></span>
@@ -809,6 +816,6 @@
     <p>🌏 Rock China Adventures · 2026</p>
   </footer>
 
-  <script src="app.js?v=20260624s"></script>
+  <script src="app.js?v=20260624t"></script>
 </body>
 </html>
