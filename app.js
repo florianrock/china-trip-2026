@@ -596,13 +596,9 @@ async function handleUpvote(id, btn) {
     localStorage.removeItem('vote_' + currentUser.email + '_' + id);
     refreshBtn(id);
     if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
-      try {
-        const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
-                    + '&activityId=' + encodeURIComponent(id) + '&action=remove';
-        const res = await fetch(url);
-        const data = await res.json();
-        console.log('[unvote]', data);
-      } catch (e) { console.error('[unvote error]', e); }
+      const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
+                  + '&activityId=' + encodeURIComponent(id) + '&action=remove';
+      fetch(url, { mode: 'no-cors' }).catch(() => {});
     }
     return;
   }
@@ -616,26 +612,32 @@ async function handleUpvote(id, btn) {
   refreshBtn(id);
 
   if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
-    try {
-      const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
-                  + '&activityId=' + encodeURIComponent(id);
-      const res = await fetch(url);
-      const data = await res.json();
-      console.log('[vote]', data);
-    } catch (e) { console.error('[vote error]', e); }
+    const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
+                + '&activityId=' + encodeURIComponent(id);
+    fetch(url, { mode: 'no-cors' }).catch(() => {});
   }
 }
 
-async function loadVoteCounts() {
+function loadVoteCounts() {
   if (APPS_SCRIPT_URL === 'REPLACE_WITH_APPS_SCRIPT_URL') return;
-  try {
-    const res = await fetch(APPS_SCRIPT_URL);
-    const data = await res.json();
-    if (data.ok && data.counts) {
-      Object.assign(serverVotes, data.counts);
-      document.querySelectorAll('.upvote-btn[data-id]').forEach(btn => refreshBtn(btn.dataset.id));
+  const cb = '__vc' + Date.now();
+  window[cb] = data => {
+    try {
+      if (data.ok && data.counts) {
+        Object.assign(serverVotes, data.counts);
+        document.querySelectorAll('.upvote-btn[data-id]').forEach(btn => refreshBtn(btn.dataset.id));
+      }
+    } finally {
+      delete window[cb];
+      const s = document.getElementById(cb);
+      if (s) s.remove();
     }
-  } catch (e) { /* offline — counts show as 0 */ }
+  };
+  const s = document.createElement('script');
+  s.id = cb;
+  s.onerror = () => { delete window[cb]; s.remove(); };
+  s.src = APPS_SCRIPT_URL + '?callback=' + cb;
+  document.head.appendChild(s);
 }
 
 document.getElementById('signin-btn')?.addEventListener('click', () => {
