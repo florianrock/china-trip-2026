@@ -261,6 +261,127 @@ const ACTIVITIES = {
     ]
   },
 
+  // ── SHENZHEN ACTIVITIES ──────────────────────────────────────────────────
+  'szx-drones': {
+    title: 'Drone Delivery & DJI Experience',
+    emoji: '🚁',
+    addr: 'DJI Sky Store: 中海信达广场 B1, Nanshan District · Drone delivery zones: OCT Bay, Futian',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `Shenzhen is the drone capital of earth — and DJI, the company that invented the modern consumer drone, is headquartered here. The DJI Sky Store (their flagship retail experience) is unlike any tech store you've been to: demo units fly indoors, staff can configure any drone on the spot, and the full product range from Mavic to Matrice is on display. You can also visit DJI Sky City, their campus in Nanshan, to see their architectural showpiece.`,
+      `The more mind-bending experience is simply ordering food by drone delivery. Meituan and SF Express run active drone corridors over Shenzhen Bay and the OCT Bay area — you can order food, coffee or packages from designated rooftop pickup points and watch a DJI delivery drone arrive in under 10 minutes. This is not a demo. It's live, operational, and completely normal to locals.`,
+      `The whole experience is a window into where every city is going in 10 years. Shenzhen is already there. Standing on a rooftop watching a drone land a meal next to you, with the bay and the Hong Kong skyline in the background, is one of the most "future is now" moments you can have anywhere on earth.`
+    ]
+  },
+  'szx-huaqiangbei': {
+    title: 'Huaqiangbei Electronics Market',
+    emoji: '💻',
+    addr: '华强北商业步行街, Futian District, Shenzhen (metro: Huaqianglu, Line 1/7)',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `Huaqiangbei (华强北) is the largest electronics market on earth — a kilometre-long pedestrian street flanked by seven-storey towers of stalls selling every electronic component, gadget, accessory and assembled device imaginable. Makers, engineers and wholesale buyers come from 70 countries to source here. It is simultaneously a tourist attraction, an industrial supply chain, and the beating heart of Shenzhen's manufacturing ecosystem.`,
+      `Spend time inside the Huaqiangbei Electronics Market building (华强北电子市场): floors of stalls selling iPhone screens, logic boards, custom PCBs, LED arrays, sensors and motors at prices that will make your jaw drop. The upper floors are less tourist-facing — factories selling direct to builders. Buy a custom keyboard kit. Buy a programmable RGB light strip for a quarter of what it costs anywhere else. Have someone solder something for you on the spot.`,
+      `The best thing to do is wander slowly. Every 20 metres is something you've never seen before — a 5-millimetre drone motor, a fold-flat LCD display, a haptic feedback module the size of a coin. Bring a shopping list but leave room to be surprised. Budget a full half-day and bring a bag. Do NOT buy counterfeit electronics for home use; the legit components are remarkable value.`
+    ]
+  },
+
+  // ── FOOD: SHENZHEN ───────────────────────────────────────────────────────
+  'szx-taotao': {
+    title: '陶陶居 — Traditional Cantonese Dim Sum',
+    emoji: '🥟',
+    addr: '陶陶居 (Tao Tao Ju) — search on Dianping for nearest Shenzhen branch',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `陶陶居 (Tao Tao Ju) is one of the most famous Cantonese restaurants in southern China — a century-old institution originally from Guangzhou that has become the benchmark for traditional dim sum in the region. The Shenzhen branches replicate the old-school Guangzhou experience: hand-pushed trolleys, white-uniformed staff, a roar of Cantonese conversation, and dim sum made the way it was before anyone started optimising for efficiency over craft.`,
+      `Order the har gow (steamed shrimp dumplings), siu mai (pork and shrimp), cheung fun (rice noodle rolls with various fillings), and the baked egg tarts. Everything is made in-house. The wonton soup — a light broth with hand-folded wontons in thin skin — is a perfect thing.`,
+      `Arrive at 10 AM when the kitchen is at peak production and the trolleys are fully loaded. The energy in the room at that hour — three generations at the same round table, sharing clay pots of pu-erh tea and arguing over the last har gow — is a window into Cantonese family culture that no amount of "cultural experience" tourism can replicate.`
+    ]
+  },
+  'szx-dongwan': {
+    title: '東灣 — Modern Cantonese Fine Dining',
+    emoji: '🍽️',
+    addr: '東灣 · Mandarin Oriental Shenzhen, 7 Fuhua 3rd Road, Futian District, Shenzhen',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `東灣 (Dōng Wān) is the signature Cantonese restaurant at the Mandarin Oriental Shenzhen — a refined, calm counterpoint to the city's frenetic energy. The kitchen works with seasonal Cantonese ingredients treated with precision: delicate wok-fried lobster, slow-steamed grouper, roasted suckling pig with impossibly crisp skin, and desserts that reference Guangdong's traditional sweet soups in contemporary form.`,
+      `The setting inside the Mandarin Oriental amplifies the experience — understated elegance, flawless service, a wine list that takes Cantonese food pairing seriously. This is fine dining in the European sense applied to a Chinese culinary tradition that deserves it.`,
+      `Book for dinner. Request a window table if available — the Futian CBD skyline at night provides a backdrop worthy of the food. Plan CHF 100–150 per person including wine. This is the meal for an occasion — the group dinner where you want everyone to remember both the food and the company.`
+    ]
+  },
+  'szx-jiayuan': {
+    title: '嘉苑飯店 — Chaoshan Seafood',
+    emoji: '🦞',
+    addr: '嘉苑飯店 · near 中深花园大厦, Luohu District, Shenzhen',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `嘉苑飯店 specialises in 潮汕菜 (Cháoshàn cuisine) — the coastal cooking tradition of eastern Guangdong, renowned for its obsessive focus on ingredient quality and its light, clear-flavoured approach to seafood. Chaoshan cuisine is to Cantonese what Kyoto kaiseki is to Japanese food: restrained, precise, ingredient-first.`,
+      `The seafood here is ordered live from the tanks: grouper, geoduck clam, mantis shrimp, abalone. The kitchen's job is to cook them as simply as possible and not get in the way. Steamed fish with soy, ginger and spring onion. Geoduck eaten raw, sliced paper-thin, with a dab of wasabi. Mantis shrimp boiled for three minutes in salted water and split at the table.`,
+      `Also order the Chaoshan-style oyster omelette (蚵仔煎) and the braised goose (卤水鹅). Save room for Chaoshan-style congee — thin, silky, almost liquid — with dried shrimp and crispy shallots. A deeply regional meal that you can only really eat in this corner of China.`
+    ]
+  },
+  'szx-kaoya': {
+    title: '花悅庭·果木烤鴨 — Fruit Wood Roast Duck',
+    emoji: '🦆',
+    addr: '花悅庭·果木烤鴨 — search on Dianping for nearest Shenzhen branch',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `花悅庭·果木烤鴨 is Shenzhen's answer to the Peking Duck obsession — but cooked over fruit wood (果木, guǒ mù) rather than the traditional jujube wood of Beijing. The distinction matters: fruit wood burns sweeter and cooler, producing a duck with slightly lacquered skin and a more floral fat. It is a different but equally compelling bird.`,
+      `The restaurant scores on presentation as much as technique — carved tableside, presented on beautiful porcelain, wrapped in gossamer pancakes with the standard accompaniments. The skin is the centrepiece: blistered, brittle, golden, with a thin layer of perfectly rendered fat beneath. The meat is deeply succulent.`,
+      `The difference from a Peking Duck experience in Beijing is the local context: this is how Shenzhen does it — newer, slightly more frenetic, less ceremonial, with a broader menu of southern Chinese supporting dishes. Order the roast duck, then fill the table with Cantonese stir-fries from the full menu.`
+    ]
+  },
+  'szx-roastgoose': {
+    title: '下村新强记 — Gongming Roast Goose',
+    emoji: '🪿',
+    addr: '下村新强记烧鹅店 · Gongming (公明), Guangming District, Shenzhen (original location)',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `Gongming roast goose (公明烧鹅) is a Shenzhen institution — a specific preparation of roast goose developed in the Gongming township of Guangming District that became so celebrated it gave the whole style its own name. 下村新强记 is one of the most famous places to eat it, and it looks exactly like it should: a small, unpretentious storefront with a row of burnished geese hanging in the window and a queue that never quite goes away.`,
+      `The geese are raised locally, marinated in a house blend of five-spice and fermented bean curd, then roasted whole in wood-burning ovens until the skin achieves an amber lacquer and the meat stays deeply juicy beneath. Served chopped over rice with a bright, acidic plum sauce that cuts through the rich fat.`,
+      `This is the kind of place where the food is so good it has outgrown its humble setting by several orders of magnitude, but the setting never changed and that's part of the point. Arrive early — they sell out. Make the 40-minute trip from central Shenzhen. It is very worth it.`
+    ]
+  },
+  'szx-beefhotpot': {
+    title: '潮汕大目牛肉火锅 — Chaoshan Beef Hotpot',
+    emoji: '🔥',
+    addr: '潮汕大目牛肉火锅 — multiple locations in Shenzhen (search Dianping for nearest)',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `潮汕牛肉火锅 (Chaoshan beef hotpot) is one of the most intensely local food experiences in southern China — nothing like Sichuan hotpot, nothing like Mongolian hot pot. The broth is clear and lightly salted, boiled from beef bones for hours. The beef is slaughtered the same morning, never frozen, and hand-cut to order in cuts that have no equivalent in Western butchery: 匙仁 (spoon-tender), 嫩肉 (neck), 脖仁 (neck steak), 五花趾 (flank sinew).`,
+      `Each cut gets between 5 and 15 seconds in the broth — no more. A timer on the table keeps you honest. The result is beef with a texture between sashimi and a perfect medium-rare steak — something that doesn't exist anywhere else. The dipping sauce is a raw garlic, soy and chilli oil blend that you mix yourself at the table.`,
+      `The experience is communal, fast-paced and completely absorbing. You will forget about everything else for two hours. Order the full range of cuts, start with the most delicate ones, and save the richer marbled cuts for when your broth has had time to develop flavour. Finish with the traditional Chaoshan-style satay noodles cooked in the enriched broth.`
+    ]
+  },
+  'szx-cqhotpot': {
+    title: '长安亭院火锅 — Chongqing Hotpot in a Courtyard',
+    emoji: '🌶️',
+    addr: '长安亭院火锅 · Shenzhen (search on Dianping — multiple locations)',
+    img: '',
+    city: 'Shenzhen',
+    gallery: [],
+    desc: [
+      `长安亭院火锅 brings Chongqing-style hotpot into a setting that Shenzhen almost never has: a traditional Chinese courtyard (亭院) environment, with carved wooden screens, lanterns, roof tiles and the kind of architectural care that takes the meal out of the transactional and into the atmospheric.`,
+      `The hotpot itself is Chongqing orthodox — a dark, almost black broth built from dried chillies, Sichuan peppercorns, beef tallow, fermented black beans and doubanjiang. The mala sensation (numbingly spicy) builds across the meal. The dual-pot option (one spicy, one clear) makes it manageable for mixed groups.`,
+      `Order the classic accompaniments: thinly sliced wagyu beef, duck intestine (for texture), lotus root, tofu skin, chrysanthemum greens. The courtyard setting slows you down in a way a regular Chongqing hotpot shop doesn't — you're not just eating, you're sitting in a space designed to make the experience feel like something worth lingering in. Plan 2–3 hours. Bring a full appetite.`
+    ]
+  },
+
   // ── FOOD: CHENGDU ────────────────────────────────────────────────────────
   hotpot: {
     title: 'Authentic Sichuan Hotpot',
@@ -523,8 +644,12 @@ function openModal(id) {
     `<img src="${src}" alt="${a.title}" loading="lazy" />`
   ).join('');
 
+  const heroHtml = a.img
+    ? `<img class="modal-hero" src="${a.img}" alt="${a.title}" />`
+    : `<div class="modal-hero-emoji">${a.emoji || '🍽️'}</div>`;
+
   modalContent.innerHTML = `
-    <img class="modal-hero" src="${a.img}" alt="${a.title}" />
+    ${heroHtml}
     <h2>${a.title}</h2>
     ${a.addr ? `<p class="modal-addr">📍 ${a.addr}</p>` : ''}
     <div class="modal-gallery">${galleryHtml}</div>

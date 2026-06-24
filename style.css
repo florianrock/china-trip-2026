@@ -323,6 +323,18 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
+.modal-hero-emoji {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+
 .modal-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
