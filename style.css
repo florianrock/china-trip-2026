@@ -539,6 +539,7 @@ h1 {
 .badge-luxury   { background: #5c3a00; color: var(--gold-light); }
 .badge-stayed   { background: #1a3a6b; color: #7eb8ff; }
 .badge-location { background: #4a1a6b; color: #d4a0ff; }
+.badge-joke     { background: #5c1a1a; color: #ffb0b0; }
 
 .hotel-body { padding: 1.25rem 1.5rem 1.5rem; }
 
