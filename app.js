@@ -312,6 +312,21 @@ const ACTIVITIES = {
     ]
   },
 
+  'szx-maotai': {
+    title: 'Moutai Shenzhen Flagship Store',
+    emoji: '🥃',
+    addr: 'Moutai Flagship Store, Futian District, Shenzhen (multiple locations — search 茅台旗舰店 深圳)',
+    img: 'act-szx-maotai.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=茅台旗舰店+深圳+福田',
+    gallery: ['act-szx-maotai-g1.jpg', 'act-szx-maotai-g2.jpg'],
+    desc: [
+      `Moutai (茅台) is China's most celebrated spirit — a sauce-aroma baijiu from Guizhou province that has been served at every major state banquet since the 1950s. The Shenzhen flagship store is one of the most immersive brand experiences in China: not just a shop, but a full sensory introduction to baijiu culture, with tasting rooms, rare vintage displays, and bottles that range from everyday expressions to collector editions worth tens of thousands of yuan.`,
+      `The core experience is the guided tasting: a flight of Moutai expressions from the entry-level Flying Fairy (飞天茅台) up through aged 15-year and 30-year reserves, each served in the distinctive small ceramic cup at the precise temperature the distillery recommends. Staff walk you through the production process — the 12 fermentation cycles, the three years of ageing, the reason the sauce-aroma profile is unlike any other spirit on earth. It is genuinely educational and genuinely delicious.`,
+      `Even if you don't buy, the store is worth visiting purely as a cultural window. Moutai occupies a unique place in Chinese society — it is simultaneously luxury gift, national symbol, diplomatic token and investment vehicle. Bottles from the 1970s sell for more than fine Bordeaux. The flagship store makes this history tangible. Pick up a standard 500ml Flying Fairy bottle (around CHF 100–120 at retail) to bring home — it will outlast any souvenir.`
+    ]
+  },
+
   // ── FOOD: SHENZHEN ───────────────────────────────────────────────────────
   'szx-taotao': {
     title: '陶陶居 — Traditional Cantonese Dim Sum',
