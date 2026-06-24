@@ -335,6 +335,14 @@ h1 {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
 }
 
+.maps-link {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+.maps-link:hover { text-decoration: underline; }
+
 .modal-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

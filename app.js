@@ -5,6 +5,7 @@ const ACTIVITIES = {
     addr: 'Departs: Shanghai Hongqiao Railway Station, Minhang District, Shanghai',
     img: 'train-business.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Shanghai+Hongqiao+Railway+Station',
     gallery: ['train-business-2.png', 'train-business-3.png', 'train-business-4.png'],
     desc: [
       `The Shanghai–Beijing high-speed train is one of the great travel experiences in the world — and business class on the Fuxing G-series makes it genuinely extraordinary. The seats recline fully flat into a lie-flat bed, each in its own private pod with a wide personal screen, noise-cancelling headrests and a full-length footrest. At 350 km/h, you barely feel the speed. The 1,318 km journey takes just 4.5 hours.`,
@@ -17,6 +18,7 @@ const ACTIVITIES = {
     addr: 'Multiple locations: e.g. 2090 Shennan Rd, Changning District, Shanghai',
     img: 'shanghai-spa.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=曲水朗庭+上海',
     gallery: ['shanghai-spa-2.png', 'shanghai-spa-3.png', 'shanghai-spa-4.png', 'shanghai-spa-5.png', 'shanghai-spa-6.png', 'shanghai-spa-7.png'],
     desc: [
       `Qushui Langting (曲水朗庭) is Shanghai's most celebrated 24-hour spa resort — a sprawling, lantern-lit sanctuary where you check in, change into robes and simply don't leave for as long as you want. Operating around the clock across multiple floors, it combines a thermal hot spring park, professional treatment rooms, a full-service restaurant, a cinema, a gym, sleeping pods and more under one roof.`,
@@ -29,6 +31,7 @@ const ACTIVITIES = {
     addr: 'The Bund (Zhongshan East 1st Road), Huangpu District, Shanghai',
     img: 'shanghai-bund.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=The+Bund+Shanghai',
     gallery: ['shanghai-bund-2.png', 'shanghai-bund-3.png', 'shanghai-bund-4.png'],
     desc: [
       `Stretching 1.5 km along the western bank of the Huangpu River, the Bund is Shanghai's greatest stage. On one side, 52 Art Deco and colonial-era buildings from the 1920s–30s glow with golden light. On the other, the Pudong skyline — one of the world's most dramatic — reflects in the river below. This view never gets old.`,
@@ -41,6 +44,7 @@ const ACTIVITIES = {
     addr: 'No. 218 Anren Street, Huangpu District, Shanghai (metro: Yuyuan Garden, Line 10)',
     img: 'shanghai-yugarden.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Yu+Garden+Shanghai',
     gallery: ['shanghai-yugarden-2.png', 'shanghai-yugarden-3.png', 'shanghai-yugarden-4.png'],
     desc: [
       `Built in 1559 during the Ming dynasty, Yu Garden is a 2-hectare masterpiece of classical Chinese garden design in the heart of old Shanghai. Rockery mountains, lotus ponds, zigzag bridges, dragon-topped walls and 30 individual pavilions are packed into a space that somehow feels infinite. The famous Huxinting Tea House — a wooden pavilion perched on a lotus pond — is one of the most photographed spots in China.`,
@@ -53,6 +57,7 @@ const ACTIVITIES = {
     addr: '501 Yincheng Middle Road, Pudong New Area, Shanghai (metro: Lujiazui, Line 2)',
     img: 'shanghai-tower.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Shanghai+Tower',
     gallery: ['shanghai-tower-2.png', 'shanghai-tower-3.png', 'shanghai-tower-4.png'],
     desc: [
       `At 632 metres, Shanghai Tower is the second tallest building in the world — and its observation deck on floor 118 delivers one of the most breathtaking urban views on earth. On a clear day you see the entire city spread to every horizon, the Huangpu River snaking silver through it, and the East China Sea glinting in the distance. On a cloudy day, you are literally above the clouds.`,
@@ -65,6 +70,7 @@ const ACTIVITIES = {
     addr: 'Anfu Road / Wulumuqi Road / Xintiandi, Xuhui & Luwan Districts, Shanghai',
     img: 'shanghai-frenchconcession.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=French+Concession+Shanghai',
     gallery: ['shanghai-frenchconcession-2.png', 'shanghai-frenchconcession-3.png', 'shanghai-frenchconcession-4.png'],
     desc: [
       `The Former French Concession is Shanghai's most liveable, most beautiful neighbourhood — and the one most visitors fall hardest for. Wulumuqi Road, Anfu Road and Fuxing Road are lined with towering plane trees that create a canopy of dappled light over Art Deco villas, independent bookshops, specialist coffee roasters and boutiques run by local designers.`,
@@ -77,6 +83,7 @@ const ACTIVITIES = {
     addr: 'Zhujiajiao Ancient Town, Qingpu District, Shanghai (~30km from city centre, Metro Line 17)',
     img: 'shanghai-zhujiajiao.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Zhujiajiao+Water+Town+Shanghai',
     gallery: ['shanghai-zhujiajiao-2.png', 'shanghai-zhujiajiao-3.png', 'shanghai-zhujiajiao-4.png'],
     desc: [
       `Just 30 km from central Shanghai, Zhujiajiao is a perfectly preserved Ming and Qing dynasty water town — 1,700 years old, threaded by canals, connected by 36 ancient stone bridges. Gondolas glide past whitewashed walls and terracotta rooftops, willows trail in the green water, and the pace of life drops to something closer to a Sunday afternoon.`,
@@ -89,6 +96,7 @@ const ACTIVITIES = {
     addr: 'Shiliupu Wharf, 479 Zhongshan East 2nd Road, Huangpu District, Shanghai',
     img: 'shanghai-rivercruise.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Shiliupu+Wharf+Shanghai',
     gallery: ['shanghai-rivercruise-2.png', 'shanghai-rivercruise-3.png', 'shanghai-rivercruise-4.png'],
     desc: [
       `The Bund looks spectacular from the promenade — but from the water, on a slow boat drifting down the Huangpu at night, it is something else entirely. The colonial facades glow warm gold on your left; on your right, the Pudong skyline pulses with coloured light shows reflecting in the black water below. The best single view in Shanghai.`,
@@ -101,6 +109,7 @@ const ACTIVITIES = {
     addr: '310 Shendi West Road, Pudong New Area, Shanghai (Metro Line 11, Disney Resort station)',
     img: 'shanghai-disneyland.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Shanghai+Disneyland',
     gallery: ['shanghai-disneyland-2.png', 'shanghai-disneyland-3.png', 'shanghai-disneyland-4.png'],
     desc: [
       `Shanghai Disneyland is not just another Disney park — it is the newest, the most technologically advanced, and in many ways the most spectacular Disney park on earth. The TRON Lightcycle Power Run is the fastest coaster in any Disney park. The Enchanted Storybook Castle is the tallest and largest Disney castle ever built.`,
@@ -115,6 +124,7 @@ const ACTIVITIES = {
     addr: '4 Jingshan Front Street, Dongcheng District, Beijing (metro: Tiananmen East/West, Line 1)',
     img: 'beijing-forbidden-city.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Forbidden+City+Beijing',
     gallery: ['beijing-forbidden-city-2.png', 'beijing-forbidden-city-3.png', 'beijing-forbidden-city-4.png'],
     desc: [
       `The numbers alone are staggering: 980 buildings, 8,704 rooms, 720,000 m² of imperial splendour. Completed in 1420 under the Yongle Emperor, the Forbidden City served as the home of 24 emperors for nearly 500 years. No other palace complex on earth matches it in scale, preservation or sheer drama.`,
@@ -127,6 +137,7 @@ const ACTIVITIES = {
     addr: 'Mutianyu Village, Huairou District, Beijing (~70km from city centre, ~1.5h by car)',
     img: 'beijing-great-wall.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Mutianyu+Great+Wall+Beijing',
     gallery: ['beijing-great-wall-2.png', 'beijing-great-wall-3.png', 'beijing-great-wall-4.png'],
     desc: [
       `Over 21,000 km of ancient stone snaking across mountains, deserts and plateaus — the Great Wall of China is one of humanity's most audacious achievements. The Mutianyu section near Beijing offers the best combination of dramatic scenery and manageable crowds: steep forested ridges, a watchtower every 300 metres, and in autumn, a blaze of orange and red that makes the landscape look on fire.`,
@@ -139,6 +150,7 @@ const ACTIVITIES = {
     addr: '1 Tiantan East Road, Dongcheng District, Beijing (metro: Tiantan Dongmen, Line 5)',
     img: 'beijing-temple-heaven.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Temple+of+Heaven+Beijing',
     gallery: ['beijing-temple-heaven-2.png', 'beijing-temple-heaven-3.png', 'beijing-temple-heaven-4.png'],
     desc: [
       `Built in 1420, the Temple of Heaven complex was where the Emperor came each winter solstice to pray for a good harvest. The Hall of Prayer for Good Harvests — a triple-roofed circular masterpiece in deep blue tile — is considered the finest example of Chinese religious architecture in existence. Standing beneath it, you understand why.`,
@@ -151,6 +163,7 @@ const ACTIVITIES = {
     addr: '19 Xingjian Road, Haidian District, Beijing (metro: Beigongmen, Line 4)',
     img: 'beijing-summer-palace.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Summer+Palace+Beijing',
     gallery: ['beijing-summer-palace-2.png', 'beijing-summer-palace-3.png', 'beijing-summer-palace-4.png'],
     desc: [
       `The Summer Palace is Beijing's most beautiful imperial retreat — 290 hectares of lakes, gardens, palaces and pavilions built as an escape from the summer heat. At its heart, Kunming Lake was hand-dug by 100,000 workers on the orders of Empress Cixi, who also used navy funds to build a marble boat that never sailed.`,
@@ -163,6 +176,7 @@ const ACTIVITIES = {
     addr: 'Start at Nanluoguxiang, Dongcheng District, Beijing (metro: Nanluoguxiang, Line 6/8)',
     img: 'beijing-hutong.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Nanluoguxiang+Hutong+Beijing',
     gallery: ['beijing-hutong-2.png', 'beijing-hutong-3.png', 'beijing-hutong-4.png'],
     desc: [
       `Beijing's hutongs are the ancient grey-walled alleyways that formed the city's residential fabric for 700 years. Narrow, interconnected, often smelling of coal smoke and street food, they are the opposite of everything modern Beijing projects — and they are completely unmissable. The areas around Nanluoguxiang, Gulou and Shichahai are the most atmospheric.`,
@@ -177,6 +191,7 @@ const ACTIVITIES = {
     addr: '1375 Panda Avenue, Chenghua District, Chengdu (taxi/bus from city centre, ~30 min)',
     img: 'chengdu-pandas.png',
     city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=Chengdu+Research+Base+Giant+Panda+Breeding',
     gallery: ['chengdu-pandas-2.png', 'chengdu-pandas-3.png', 'chengdu-pandas-4.png'],
     desc: [
       `Nothing on earth quite prepares you for seeing a baby giant panda in real life. At the Chengdu Research Base of Giant Panda Breeding, over 150 pandas live in lush naturalistic enclosures — but the nursery is where hearts melt. Tiny fluffy cubs, born blind and pink, grow into the ridiculously photogenic creatures you see everywhere. Watching one tumble through bamboo is pure magic.`,
@@ -191,6 +206,7 @@ const ACTIVITIES = {
     addr: '85 Yuyuan Road (within Yu Garden Bazaar), Huangpu District, Shanghai',
     img: 'food-dimsum.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Nanxiang+Xiaolongbao+Yu+Garden+Shanghai',
     gallery: ['food-dimsum-2.png', 'food-dimsum-3.png', 'food-dimsum-4.png'],
     desc: [
       `Nanxiang Xiaolongbao has been making soup dumplings in the same spot inside Yu Garden since 1900. These are the original — the benchmark against which every other xiaolongbao on earth is judged. Each dumpling is hand-pleated with exactly 18 folds, filled with a nugget of minced pork and a spoonful of rich, gelatinised pork stock that melts into scalding soup as it steams.`,
@@ -203,6 +219,7 @@ const ACTIVITIES = {
     addr: 'Jesse Restaurant (吉士酒家): 41 Tianping Road, Xuhui District, Shanghai',
     img: 'food-shanghainese.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Jesse+Restaurant+Shanghai',
     gallery: ['food-shanghainese-2.png', 'food-shanghainese-3.png', 'food-shanghainese-4.png'],
     desc: [
       `Shanghainese cuisine is the sweetest, richest and most wine-forward of all Chinese regional traditions. The signature dish is hong shao rou: pork belly braised for hours in Shaoxing rice wine, dark soy, sugar and star anise until the fat turns to yielding silk. It is extraordinary.`,
@@ -215,6 +232,7 @@ const ACTIVITIES = {
     addr: 'Yang\'s Fry Dumplings: 269 Wujiang Road, Jing\'an District · Da Hu Chun: 6 Sichuan Middle Rd, Shanghai',
     img: 'food-noodles.png',
     city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Yang%27s+Fry+Dumplings+Wujiang+Road+Shanghai',
     gallery: ['food-noodles-2.png', 'food-noodles-3.png', 'food-noodles-4.png'],
     desc: [
       `Shanghai's street food and noodle culture is one of the city's great pleasures, and the most accessible way into it is yangchun mian — scallion oil noodles. Thin wheat noodles tossed in darkly caramelised scallion oil with soy sauce and sugar: four ingredients, decades of technique, total perfection. Da Hu Chun on Sichuan Road has been making them since 1932.`,
@@ -229,6 +247,7 @@ const ACTIVITIES = {
     addr: 'Da Dong (大董): 22 Dongsishitiao, Dongcheng District, Beijing (multiple branches)',
     img: 'beijing-duck.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Da+Dong+Peking+Duck+Beijing',
     gallery: ['beijing-duck-2.png', 'beijing-duck-3.png', 'beijing-duck-4.png'],
     desc: [
       `Peking Duck is Beijing's greatest culinary gift to the world, and eating it in the city where it was perfected is a completely different experience. Da Dong — Beijing's most celebrated duck restaurant — has elevated the dish to high art. Their ducks are roasted in fruit-wood ovens until the skin is impossibly thin and crackling, the fat rendered clean beneath, the meat succulent throughout.`,
@@ -241,6 +260,7 @@ const ACTIVITIES = {
     addr: 'Sijimingfu (四季民福): Near Wangfujing / Forbidden City, Dongcheng District, Beijing',
     img: 'beijing-sijimingfu.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=Sijimingfu+Beijing',
     gallery: ['beijing-sijimingfu-2.png', 'beijing-sijimingfu-3.png', 'beijing-sijimingfu-4.png'],
     desc: [
       `Sijimingfu is Beijing's most storied Peking Duck restaurant — a converted Qing dynasty courtyard house steps from the Forbidden City, where the recipe has been passed down through the same family for four generations. The setting alone justifies the visit: red lanterns in a carved wooden courtyard, the smell of hickory smoke drifting from century-old ovens.`,
@@ -253,6 +273,7 @@ const ACTIVITIES = {
     addr: '满恒记 (Mǎn Héng Jì): Xicheng District, Beijing — search on Dianping/Google Maps for nearest branch',
     img: 'food-manhengji.png',
     city: 'Beijing',
+    maps: 'https://maps.google.com/?q=满恒记+北京',
     gallery: ['food-manhengji-2.png', 'food-manhengji-3.png', 'food-manhengji-4.png'],
     desc: [
       `满恒记 (Mǎn Héng Jì) is one of Beijing's most beloved old-school restaurants, famous for shuanyangrou — instant boiled mutton, Beijing's winter hot pot tradition. A polished copper chafing dish arrives at the table glowing with charcoal, filled with clear broth. Paper-thin slices of Inner Mongolian lamb are swirled through the broth for precisely ten seconds, then dipped in a thick sesame paste sauce.`,
@@ -266,9 +287,10 @@ const ACTIVITIES = {
     title: 'Drone Delivery & DJI Experience',
     emoji: '🚁',
     addr: 'DJI Sky Store: 中海信达广场 B1, Nanshan District · Drone delivery zones: OCT Bay, Futian',
-    img: '',
+    img: 'act-szx-drones.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=DJI+Sky+City+Shenzhen',
+    gallery: ['act-szx-drones-g1.jpg', 'act-szx-drones-g2.jpg'],
     desc: [
       `Shenzhen is the drone capital of earth — and DJI, the company that invented the modern consumer drone, is headquartered here. The DJI Sky Store (their flagship retail experience) is unlike any tech store you've been to: demo units fly indoors, staff can configure any drone on the spot, and the full product range from Mavic to Matrice is on display. You can also visit DJI Sky City, their campus in Nanshan, to see their architectural showpiece.`,
       `The more mind-bending experience is simply ordering food by drone delivery. Meituan and SF Express run active drone corridors over Shenzhen Bay and the OCT Bay area — you can order food, coffee or packages from designated rooftop pickup points and watch a DJI delivery drone arrive in under 10 minutes. This is not a demo. It's live, operational, and completely normal to locals.`,
@@ -279,9 +301,10 @@ const ACTIVITIES = {
     title: 'Huaqiangbei Electronics Market',
     emoji: '💻',
     addr: '华强北商业步行街, Futian District, Shenzhen (metro: Huaqianglu, Line 1/7)',
-    img: '',
+    img: 'act-szx-huaqiangbei.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=Huaqiangbei+Electronics+Market+Shenzhen',
+    gallery: ['act-szx-huaqiangbei-g1.jpg', 'act-szx-huaqiangbei-g2.jpg'],
     desc: [
       `Huaqiangbei (华强北) is the largest electronics market on earth — a kilometre-long pedestrian street flanked by seven-storey towers of stalls selling every electronic component, gadget, accessory and assembled device imaginable. Makers, engineers and wholesale buyers come from 70 countries to source here. It is simultaneously a tourist attraction, an industrial supply chain, and the beating heart of Shenzhen's manufacturing ecosystem.`,
       `Spend time inside the Huaqiangbei Electronics Market building (华强北电子市场): floors of stalls selling iPhone screens, logic boards, custom PCBs, LED arrays, sensors and motors at prices that will make your jaw drop. The upper floors are less tourist-facing — factories selling direct to builders. Buy a custom keyboard kit. Buy a programmable RGB light strip for a quarter of what it costs anywhere else. Have someone solder something for you on the spot.`,
@@ -294,9 +317,10 @@ const ACTIVITIES = {
     title: '陶陶居 — Traditional Cantonese Dim Sum',
     emoji: '🥟',
     addr: '陶陶居 (Tao Tao Ju) — search on Dianping for nearest Shenzhen branch',
-    img: '',
+    img: 'food-szx-taotaoju.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=陶陶居+深圳',
+    gallery: ['food-szx-taotaoju-g1.jpg', 'food-szx-taotaoju-g2.jpg', 'food-szx-taotaoju-g3.jpg'],
     desc: [
       `陶陶居 (Tao Tao Ju) is one of the most famous Cantonese restaurants in southern China — a century-old institution originally from Guangzhou that has become the benchmark for traditional dim sum in the region. The Shenzhen branches replicate the old-school Guangzhou experience: hand-pushed trolleys, white-uniformed staff, a roar of Cantonese conversation, and dim sum made the way it was before anyone started optimising for efficiency over craft.`,
       `Order the har gow (steamed shrimp dumplings), siu mai (pork and shrimp), cheung fun (rice noodle rolls with various fillings), and the baked egg tarts. Everything is made in-house. The wonton soup — a light broth with hand-folded wontons in thin skin — is a perfect thing.`,
@@ -307,9 +331,10 @@ const ACTIVITIES = {
     title: '東灣 — Modern Cantonese Fine Dining',
     emoji: '🍽️',
     addr: '東灣 · Mandarin Oriental Shenzhen, 7 Fuhua 3rd Road, Futian District, Shenzhen',
-    img: '',
+    img: 'food-szx-dongwan.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=The+Bay+Chef+Fei+Mandarin+Oriental+Shenzhen',
+    gallery: ['food-szx-dongwan-g1.jpg', 'food-szx-dongwan-g2.jpg'],
     desc: [
       `東灣 (Dōng Wān) is the signature Cantonese restaurant at the Mandarin Oriental Shenzhen — a refined, calm counterpoint to the city's frenetic energy. The kitchen works with seasonal Cantonese ingredients treated with precision: delicate wok-fried lobster, slow-steamed grouper, roasted suckling pig with impossibly crisp skin, and desserts that reference Guangdong's traditional sweet soups in contemporary form.`,
       `The setting inside the Mandarin Oriental amplifies the experience — understated elegance, flawless service, a wine list that takes Cantonese food pairing seriously. This is fine dining in the European sense applied to a Chinese culinary tradition that deserves it.`,
@@ -320,9 +345,10 @@ const ACTIVITIES = {
     title: '嘉苑飯店 — Chaoshan Seafood',
     emoji: '🦞',
     addr: '嘉苑飯店 · near 中深花园大厦, Luohu District, Shenzhen',
-    img: '',
+    img: 'food-szx-jiayuan.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=嘉苑飯店+深圳',
+    gallery: ['food-szx-jiayuan-g1.jpg', 'food-szx-jiayuan-g2.jpg', 'food-szx-jiayuan-g3.jpg'],
     desc: [
       `嘉苑飯店 specialises in 潮汕菜 (Cháoshàn cuisine) — the coastal cooking tradition of eastern Guangdong, renowned for its obsessive focus on ingredient quality and its light, clear-flavoured approach to seafood. Chaoshan cuisine is to Cantonese what Kyoto kaiseki is to Japanese food: restrained, precise, ingredient-first.`,
       `The seafood here is ordered live from the tanks: grouper, geoduck clam, mantis shrimp, abalone. The kitchen's job is to cook them as simply as possible and not get in the way. Steamed fish with soy, ginger and spring onion. Geoduck eaten raw, sliced paper-thin, with a dab of wasabi. Mantis shrimp boiled for three minutes in salted water and split at the table.`,
@@ -333,9 +359,10 @@ const ACTIVITIES = {
     title: '花悅庭·果木烤鴨 — Fruit Wood Roast Duck',
     emoji: '🦆',
     addr: '花悅庭·果木烤鴨 — search on Dianping for nearest Shenzhen branch',
-    img: '',
+    img: 'food-szx-roastduck.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=花悅庭果木烤鴨+深圳',
+    gallery: ['food-szx-roastduck-g1.jpg', 'food-szx-roastduck-g2.jpg', 'food-szx-roastduck-g3.jpg'],
     desc: [
       `花悅庭·果木烤鴨 is Shenzhen's answer to the Peking Duck obsession — but cooked over fruit wood (果木, guǒ mù) rather than the traditional jujube wood of Beijing. The distinction matters: fruit wood burns sweeter and cooler, producing a duck with slightly lacquered skin and a more floral fat. It is a different but equally compelling bird.`,
       `The restaurant scores on presentation as much as technique — carved tableside, presented on beautiful porcelain, wrapped in gossamer pancakes with the standard accompaniments. The skin is the centrepiece: blistered, brittle, golden, with a thin layer of perfectly rendered fat beneath. The meat is deeply succulent.`,
@@ -346,9 +373,10 @@ const ACTIVITIES = {
     title: '下村新强记 — Gongming Roast Goose',
     emoji: '🪿',
     addr: '下村新强记烧鹅店 · Gongming (公明), Guangming District, Shenzhen (original location)',
-    img: '',
+    img: 'food-szx-roastgoose.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=下村新强记烧鹅+公明+深圳',
+    gallery: ['food-szx-roastgoose-g1.jpg', 'food-szx-roastgoose-g2.jpg'],
     desc: [
       `Gongming roast goose (公明烧鹅) is a Shenzhen institution — a specific preparation of roast goose developed in the Gongming township of Guangming District that became so celebrated it gave the whole style its own name. 下村新强记 is one of the most famous places to eat it, and it looks exactly like it should: a small, unpretentious storefront with a row of burnished geese hanging in the window and a queue that never quite goes away.`,
       `The geese are raised locally, marinated in a house blend of five-spice and fermented bean curd, then roasted whole in wood-burning ovens until the skin achieves an amber lacquer and the meat stays deeply juicy beneath. Served chopped over rice with a bright, acidic plum sauce that cuts through the rich fat.`,
@@ -359,9 +387,10 @@ const ACTIVITIES = {
     title: '潮汕大目牛肉火锅 — Chaoshan Beef Hotpot',
     emoji: '🔥',
     addr: '潮汕大目牛肉火锅 — multiple locations in Shenzhen (search Dianping for nearest)',
-    img: '',
+    img: 'food-szx-beefhotpot.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=潮汕大目牛肉火锅+深圳',
+    gallery: ['food-szx-beefhotpot-g1.jpg', 'food-szx-beefhotpot-g2.jpg'],
     desc: [
       `潮汕牛肉火锅 (Chaoshan beef hotpot) is one of the most intensely local food experiences in southern China — nothing like Sichuan hotpot, nothing like Mongolian hot pot. The broth is clear and lightly salted, boiled from beef bones for hours. The beef is slaughtered the same morning, never frozen, and hand-cut to order in cuts that have no equivalent in Western butchery: 匙仁 (spoon-tender), 嫩肉 (neck), 脖仁 (neck steak), 五花趾 (flank sinew).`,
       `Each cut gets between 5 and 15 seconds in the broth — no more. A timer on the table keeps you honest. The result is beef with a texture between sashimi and a perfect medium-rare steak — something that doesn't exist anywhere else. The dipping sauce is a raw garlic, soy and chilli oil blend that you mix yourself at the table.`,
@@ -372,9 +401,10 @@ const ACTIVITIES = {
     title: '长安亭院火锅 — Chongqing Hotpot in a Courtyard',
     emoji: '🌶️',
     addr: '长安亭院火锅 · Shenzhen (search on Dianping — multiple locations)',
-    img: '',
+    img: 'food-szx-cqhotpot.jpg',
     city: 'Shenzhen',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=长安亭院火锅+深圳',
+    gallery: ['food-szx-cqhotpot-g1.jpg', 'food-szx-cqhotpot-g2.jpg', 'food-szx-cqhotpot-g3.jpg'],
     desc: [
       `长安亭院火锅 brings Chongqing-style hotpot into a setting that Shenzhen almost never has: a traditional Chinese courtyard (亭院) environment, with carved wooden screens, lanterns, roof tiles and the kind of architectural care that takes the meal out of the transactional and into the atmospheric.`,
       `The hotpot itself is Chongqing orthodox — a dark, almost black broth built from dried chillies, Sichuan peppercorns, beef tallow, fermented black beans and doubanjiang. The mala sensation (numbingly spicy) builds across the meal. The dual-pot option (one spicy, one clear) makes it manageable for mixed groups.`,
@@ -388,6 +418,7 @@ const ACTIVITIES = {
     addr: 'Best area: Yulin neighbourhood, Wuhou District, Chengdu (try Dezhuang or local spots on Yulin East Rd)',
     img: 'chengdu-hotpot.png',
     city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=Yulin+Hotpot+Chengdu',
     gallery: ['chengdu-hotpot-2.png', 'chengdu-hotpot-3.png', 'chengdu-hotpot-4.png'],
     desc: [
       `Sichuan hotpot is one of the great eating experiences of the world. A dark, fragrant cauldron of dried chillies, Sichuan peppercorns, fermented black beans and beef tallow arrives at your table still bubbling furiously. The signature sensation is mala — mouth-numbing heat that builds slowly and lingers beautifully for hours after.`,
@@ -400,6 +431,7 @@ const ACTIVITIES = {
     addr: "Chen Mapo Dofu (陈麻婆豆腐): 197 Yulin West Road, Jinjiang District, Chengdu",
     img: 'food-mapotofu.png',
     city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=Chen+Mapo+Dofu+Chengdu',
     gallery: ['food-mapotofu-2.png', 'food-mapotofu-3.png', 'food-mapotofu-4.png'],
     desc: [
       `Chen Mapo Dofu (陈麻婆豆腐) has been making mapo tofu on the same street in Chengdu since 1862. The dish was invented here — by the pockmarked-faced (mapo) wife of a tofu seller named Chen — and 160 years later her descendants are still running the restaurant. Eating it here, in the city of its birth, is one of those rare food experiences where history and flavour arrive simultaneously.`,
@@ -416,6 +448,7 @@ const HOTELS = {
     stars: '★★★★★',
     addr: '5023 Yi Tian Road, Futian District, Shenzhen',
     price: 'CHF ~150–180 / night',
+    maps: 'https://maps.google.com/?q=Park+Hyatt+Shenzhen',
     img: 'hotel-park-hyatt-shenzhen.jpg',
     gallery: ['hotel-ph-lobby.jpg', 'hotel-ph-room.jpg', 'hotel-ph-suite-bed.jpg', 'hotel-ph-suite-living.jpg', 'hotel-ph-glasshouse.jpg', 'hotel-ph-pavilion.jpg'],
     desc: [
@@ -429,6 +462,7 @@ const HOTELS = {
     stars: '★★★★★',
     addr: 'T7, One Shenzhen Bay, 3008 Zhongxin Road, Nanshan District, Shenzhen',
     price: 'CHF ~200–280 / night',
+    maps: 'https://maps.google.com/?q=Raffles+Shenzhen',
     img: 'hotel-raffles-shenzhen.jpg',
     gallery: ['hotel-raffles-concert.jpg', 'hotel-raffles-bar.jpg', 'hotel-raffles-lobby.jpg', 'hotel-raffles-suite.jpg', 'hotel-raffles-room.jpg'],
     desc: [
@@ -437,11 +471,26 @@ const HOTELS = {
       `The lobby contains a decommissioned aircraft installed as sculpture, visible against a floor-to-ceiling window framing the KK100 tower. Rooms begin from the 45th floor — the standard suites have panoramic bay views from the bed. This is not a hotel you choose for location alone — it is a destination in its own right.`
     ]
   },
+  'fashion-town-mgallery': {
+    title: 'Fashion Town Hotel — MGallery',
+    stars: '★★★★',
+    addr: 'No. 8 Langyun Road, Dalang Street, Longhua District, Shenzhen 518110',
+    price: 'CHF ~80–160 / night',
+    maps: 'https://maps.google.com/?q=Fashion+Town+Hotel+Shenzhen+MGallery',
+    img: 'hotel-fashion-town-shenzhen.jpg',
+    gallery: ['hotel-fashion-town-g1.jpg', 'hotel-fashion-town-g2.jpg', 'hotel-fashion-town-g3.jpg'],
+    desc: [
+      `Shenzhen's first MGallery hotel by Accor opened in December 2024 in the Dalang fashion district of Longhua — adjacent to Shenzhen North Railway Station, giving you 30-minute HSR access to both Hong Kong and Guangzhou from the door. The 262-room boutique property is built around an emerald stone and metallic accent design language that reflects the fashion district's creative identity.`,
+      `The centrepiece is a 188m² heated indoor pool — unusually generous for a 4-star boutique. Add a Cantonese restaurant, rooftop bar, and a design-forward lobby that doubles as an art installation space, and this is a hotel that punches significantly above its price point.`,
+      `At CHF 80–160 per night it's the most affordable quality option in Shenzhen, and the Longhua location — right on Shenzhen North station — means you can be in Hong Kong before lunch and back for dinner. Smart choice for the days when the group splits: some heading south, others exploring northern Shenzhen.`
+    ]
+  },
   'four-seasons-kids': {
     title: 'Four Seasons — Little Prince Suite',
     stars: '★★★★★',
     addr: '🎉 Plot twist: this is at Four Seasons Beijing — which you ARE visiting! · No. 1 Wangfujing Dajie, Dongcheng, Beijing',
     price: 'From CNY ~4,288 / night (~CHF 580) · Koch kids would talk about this forever',
+    maps: 'https://maps.google.com/?q=Four+Seasons+Hotel+Beijing',
     img: 'hotel-fs-lp-room.jpg',
     gallery: ['hotel-fs-lp-biplane.jpg', 'hotel-fs-lp-tent.jpg', 'hotel-fs-lp-stars.jpg'],
     desc: [
@@ -651,7 +700,7 @@ function openModal(id) {
   modalContent.innerHTML = `
     ${heroHtml}
     <h2>${a.title}</h2>
-    ${a.addr ? `<p class="modal-addr">📍 ${a.addr}</p>` : ''}
+    ${a.addr ? `<p class="modal-addr">📍 ${a.addr}${a.maps ? ` · <a href="${a.maps}" target="_blank" rel="noopener" class="maps-link">Maps ↗</a>` : ''}</p>` : ''}
     <div class="modal-gallery">${galleryHtml}</div>
     ${a.desc.map(p => `<p>${p}</p>`).join('')}
     <div class="modal-upvote">
@@ -684,7 +733,7 @@ function openHotelModal(id) {
   modalContent.innerHTML = `
     <img class="modal-hero" src="${h.img}" alt="${h.title}" />
     <h2>${h.title} <span class="hotel-stars-modal">${h.stars}</span></h2>
-    ${h.addr ? `<p class="modal-addr">📍 ${h.addr}</p>` : ''}
+    ${h.addr ? `<p class="modal-addr">📍 ${h.addr}${h.maps ? ` · <a href="${h.maps}" target="_blank" rel="noopener" class="maps-link">Maps ↗</a>` : ''}</p>` : ''}
     <p class="hotel-price-modal">${h.price}</p>
     ${galleryHtml ? `<div class="modal-gallery">${galleryHtml}</div>` : ''}
     ${h.desc.map(p => `<p>${p}</p>`).join('')}
