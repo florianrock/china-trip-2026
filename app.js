@@ -288,6 +288,49 @@ const ACTIVITIES = {
   }
 };
 
+// ── Hotels data ───────────────────────────────────────────────────────────────
+const HOTELS = {
+  'park-hyatt-shenzhen': {
+    title: 'Park Hyatt Shenzhen',
+    stars: '★★★★★',
+    addr: '5023 Yi Tian Road, Futian District, Shenzhen',
+    price: 'CHF ~150–180 / night',
+    img: 'hotel-park-hyatt-shenzhen.jpg',
+    gallery: [],
+    desc: [
+      `Park Hyatt Shenzhen occupies floors 36–44 of the KK100 Tower in Futian CBD — the geometric heart of Shenzhen and the city's most connected district. From the upper floors, floor-to-ceiling windows look out over Lianhuashan Park and the endless urban horizon beyond. The skyline views at night, with the city grid extending to every edge, are spectacular.`,
+      `The top-floor sky pool runs along the edge of the building with unobstructed park views. The spa, gym and club lounge are all anchored on the same floors. Futian is also where you want to be for transport: the HSR station connecting to Hong Kong (45 min) and the rest of China sits directly beneath the district.`,
+      `At CHF 150–180 per night, this is the most sensible luxury pick in Shenzhen — full Hyatt points earning, the best location in the city, and the kind of views that make checking in feel like an arrival.`
+    ]
+  },
+  'raffles-shenzhen': {
+    title: 'Raffles Shenzhen',
+    stars: '★★★★★',
+    addr: 'T7, One Shenzhen Bay, 3008 Zhongxin Road, Nanshan District, Shenzhen',
+    price: 'CHF ~200–280 / night',
+    img: 'hotel-raffles-shenzhen.jpg',
+    gallery: ['hotel-raffles-concert.jpg', 'hotel-raffles-bar.jpg', 'hotel-raffles-lobby.jpg', 'hotel-raffles-suite.jpg', 'hotel-raffles-room.jpg'],
+    desc: [
+      `Raffles Shenzhen occupies the upper floors of T7 at One Shenzhen Bay — the most dramatic address in the city. From floor 45 upwards, panoramic floor-to-ceiling windows look out over Shenzhen Bay toward Hong Kong. The Shenzhen Bay Bridge curves through the water far below. On a clear evening, you can see all the way to Lantau Island.`,
+      `The hotel's sky concert hall at 350 metres is one of the most extraordinary spaces in China — a 200-seat auditorium with wraparound windows and a concert grand piano suspended above the bay. Evening performances here are unforgettable. The Michelin-starred restaurant and gold-bar lounge sit at the same altitude, with the entire Shenzhen skyline beneath you.`,
+      `The lobby contains a decommissioned aircraft installed as sculpture, visible against a floor-to-ceiling window framing the KK100 tower. Rooms begin from the 45th floor — the standard suites have panoramic bay views from the bed. This is not a hotel you choose for location alone — it is a destination in its own right.`
+    ]
+  },
+  'four-seasons-kids': {
+    title: 'Four Seasons — Little Prince Suite',
+    stars: '★★★★★',
+    addr: '🎉 Plot twist: this is at Four Seasons Beijing — which you ARE visiting! · No. 1 Wangfujing Dajie, Dongcheng, Beijing',
+    price: 'From CNY ~4,288 / night (~CHF 580) · Koch kids would talk about this forever',
+    img: 'hotel-fs-lp-room.jpg',
+    gallery: ['hotel-fs-lp-biplane.jpg', 'hotel-fs-lp-tent.jpg', 'hotel-fs-lp-stars.jpg'],
+    desc: [
+      `The Little Prince themed suite — officially the "Little Prince Kids Room" — is at Four Seasons Beijing, not Shenzhen. The good news: Beijing is on the itinerary. The better news: the Koch kids have no idea. The suite features a red biplane bunk bed with a full-length slide, star-spangled blue carpet, and murals of the Little Prince and his rose across every wall.`,
+      `One room has the biplane bed and slide; the adjoining children's bedroom has cloud wallpaper, a moon and star nightstand, a wooden teepee reading tent, and a rocking llama. Both rooms connect via a play corridor. The Great Wall of China is painted subtly into the clouds above the castle walls.`,
+      `Four Seasons Beijing is at Wangfujing — walking distance from the Forbidden City and five minutes from the Grand Hyatt Beijing. At CHF ~580 per night, it's eye-watering — but booking it secretly for the Kochs and watching the kids discover the room would be a trip highlight money can't replace. The look on their faces is priceless.`
+    ]
+  }
+};
+
 // ── Config ────────────────────────────────────────────────────────────────────
 // After deploying the Apps Script web app, paste its /exec URL here
 const APPS_SCRIPT_URL = 'REPLACE_WITH_APPS_SCRIPT_URL';
@@ -452,6 +495,33 @@ function openModal(id) {
   document.body.style.overflow = 'hidden';
 }
 
+function openHotelModal(id) {
+  const h = HOTELS[id];
+  if (!h) return;
+
+  const galleryHtml = (h.gallery || []).map(src =>
+    `<img src="${src}" alt="${h.title}" loading="lazy" />`
+  ).join('');
+
+  modalContent.innerHTML = `
+    <img class="modal-hero" src="${h.img}" alt="${h.title}" />
+    <h2>${h.title} <span class="hotel-stars-modal">${h.stars}</span></h2>
+    ${h.addr ? `<p class="modal-addr">📍 ${h.addr}</p>` : ''}
+    <p class="hotel-price-modal">${h.price}</p>
+    ${galleryHtml ? `<div class="modal-gallery">${galleryHtml}</div>` : ''}
+    ${h.desc.map(p => `<p>${p}</p>`).join('')}
+  `;
+
+  modalContent.querySelectorAll('.modal-gallery img').forEach(img => {
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => openLightbox(img.src));
+  });
+
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
 function closeModal() {
   modal.classList.remove('open');
   modal.setAttribute('aria-hidden', 'true');
@@ -478,7 +548,10 @@ document.addEventListener('click', e => {
   // Card click (not on a button)
   if (!e.target.closest('button')) {
     const card = e.target.closest('.card[data-id]');
-    if (card) openModal(card.dataset.id);
+    if (card) { openModal(card.dataset.id); return; }
+
+    const hotelCard = e.target.closest('.hotel-card[data-hotel-id]');
+    if (hotelCard) openHotelModal(hotelCard.dataset.hotelId);
   }
 });
 

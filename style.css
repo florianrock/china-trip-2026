@@ -541,6 +541,9 @@ h1 {
 .badge-location { background: #4a1a6b; color: #d4a0ff; }
 .badge-joke     { background: #5c1a1a; color: #ffb0b0; }
 
+.hotel-stars-modal { font-size: 0.65em; opacity: 0.6; margin-left: 0.4em; vertical-align: middle; }
+.hotel-price-modal { color: var(--gold); font-weight: 600; margin: 0.5rem 0 1rem; font-size: 1.05rem; }
+
 .hotel-body { padding: 1.25rem 1.5rem 1.5rem; }
 
 .hotel-header {
