@@ -398,17 +398,17 @@ const ACTIVITIES = {
     ]
   },
   'szx-maotai': {
-    title: 'Moutai Shenzhen Flagship Store',
+    title: 'Moutai Shenzhen — Brand Experience Store',
     emoji: '🥃',
-    addr: 'Moutai Flagship Store, Futian District, Shenzhen (multiple locations — search 茅台旗舰店 深圳)',
+    addr: '深圳市福田区福华三路8-2号 · Futian District, Shenzhen (13 locations across the city — main experience center at Fuhua 3rd Rd)',
     img: 'act-szx-maotai.jpg',
     city: 'Shenzhen',
-    maps: 'https://maps.google.com/?q=茅台旗舰店+深圳+福田',
+    maps: 'https://maps.google.com/?q=22.532997,114.066196',
     gallery: ['act-szx-maotai-g1.jpg', 'act-szx-maotai-g2.jpg'],
     desc: [
-      `Moutai (茅台) is China's most celebrated spirit — a sauce-aroma baijiu from Guizhou province that has been served at every major state banquet since the 1950s. The Shenzhen flagship store is one of the most immersive brand experiences in China: not just a shop, but a full sensory introduction to baijiu culture, with tasting rooms, rare vintage displays, and bottles that range from everyday expressions to collector editions worth tens of thousands of yuan.`,
-      `The core experience is the guided tasting: a flight of Moutai expressions from the entry-level Flying Fairy (飞天茅台) up through aged 15-year and 30-year reserves, each served in the distinctive small ceramic cup at the precise temperature the distillery recommends. Staff walk you through the production process — the 12 fermentation cycles, the three years of ageing, the reason the sauce-aroma profile is unlike any other spirit on earth. It is genuinely educational and genuinely delicious.`,
-      `Even if you don't buy, the store is worth visiting purely as a cultural window. Moutai occupies a unique place in Chinese society — it is simultaneously luxury gift, national symbol, diplomatic token and investment vehicle. Bottles from the 1970s sell for more than fine Bordeaux. The flagship store makes this history tangible. Pick up a standard 500ml Flying Fairy bottle (around CHF 100–120 at retail) to bring home — it will outlast any souvenir.`
+      `Kweichow Moutai's Shenzhen network of 13 specialty stores — opened simultaneously across the city in November 2022 — represents the brand's third-generation retail concept: cultural embassies for China's national spirit, not mere liquor shops. Inside, smart illuminated wine cabinets display Moutai's most coveted bottles, multimedia interactive walls narrate the distillery's history in Maotai Town, Guizhou, and dedicated tasting zones let staff guide you through the aromas and flavors of sauce-aroma (酱香) baijiu. Sound, light, and digital technology create an atmosphere that feels closer to a luxury boutique or museum than a conventional spirits retailer.`,
+      `The tasting is the highlight. Staff walk guests through Moutai's extraordinary production process — twelve rounds of fermentation, nine rounds of distillation, a minimum three-year aging — before pouring the signature 53% ABV spirit into small traditional cups. The iconic 78-step pouring ritual, used at ceremonial Moutai tastings globally, is often demonstrated. For shoppers: bottles must be reserved through the official "i茅台" app and collected in-store, a process that adds to the sense of occasion. It's genuinely educational, genuinely delicious, and unlike any spirits experience you'll have elsewhere.`,
+      `Shenzhen also became globally famous in 2022 as the site of Moutai's baijiu ice cream craze: the i茅台冰淇淋 flagship at Mixc World in Nanshan opened to hour-long queues and scalper prices. The ice cream — laced with genuine 53% Moutai baijiu in classic milk, vanilla, and green plum flavors — became a cultural moment that introduced younger Chinese consumers to the brand. While the ice cream concept has mostly wound down, any Moutai store visit today carries the same energy: irreverence and reverence in equal measure. A standard 500ml Flying Fairy (飞天茅台) bottle runs around ¥1,500 at retail — buy one to bring home.`
     ]
   },
 
