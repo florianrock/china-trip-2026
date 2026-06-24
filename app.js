@@ -283,6 +283,21 @@ const ACTIVITIES = {
   },
 
   // ── SHENZHEN ACTIVITIES ──────────────────────────────────────────────────
+  'szx-robot6s': {
+    title: '全球首家机器人6S店 — World\'s First Robot Dealership',
+    emoji: '🤖',
+    addr: '6S Robotics Flagship Store · Xinghe World, Longgang District, Shenzhen (星河世界·龙岗)',
+    img: 'act-szx-robot6s.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=6S+Robotics+星河世界+深圳龙岗',
+    video: 'act-szx-robot6s.mp4',
+    gallery: [],
+    desc: [
+      `Shenzhen's Longgang district is now home to the world's first Robot 6S Store — a dealership for humanoid and service robots modelled exactly on the automotive 6S concept (Sales, Service, Spare parts, Survey, Second-hand, Safety). You walk in and test-drive robots the way you'd test-drive a car: assistants demo home models, commercial delivery robots navigate the showroom floor, and the service centre behind the glass wall does live maintenance on customer units.`,
+      `The robots on sale range from wheeled service models (hotel concierge, restaurant delivery) to early-stage bipedal humanoids from startups operating just a few kilometres away in Longhua's robot R&D corridor. Several of the brands on the showroom floor don't exist yet as consumer products — this is the spec sheet before mass production. Prices range from a few thousand RMB for basic units to hundreds of thousands for advanced bipeds.`,
+      `This is the most concentrated glimpse of where personal robotics is actually heading — not the renders from tech presentations, but the physical, clunky, occasionally impressive reality of robots that exist in 2026. Shenzhen is the only city in the world where you could open this store, and it opened here first. The 40-minute metro ride from central Shenzhen (Line 3 to Yijing, then Line 14) is completely worth it.`
+    ]
+  },
   'szx-drones': {
     title: 'Drone Delivery & DJI Experience',
     emoji: '🚁',
@@ -891,6 +906,10 @@ function openModal(id) {
     `<img src="${src}" alt="${a.title}" loading="lazy" />`
   ).join('');
 
+  const videoHtml = a.video
+    ? `<video class="modal-video" controls playsinline preload="metadata" src="${a.video}"></video>`
+    : '';
+
   const heroHtml = a.img
     ? `<img class="modal-hero" src="${a.img}" alt="${a.title}" />`
     : `<div class="modal-hero-emoji">${a.emoji || '🍽️'}</div>`;
@@ -899,6 +918,7 @@ function openModal(id) {
     ${heroHtml}
     <h2>${a.title}</h2>
     ${a.addr ? `<p class="modal-addr">📍 ${a.addr}${a.maps ? ` · <a href="${a.maps}" target="_blank" rel="noopener" class="maps-link">Maps ↗</a>` : ''}</p>` : ''}
+    ${videoHtml}
     <div class="modal-gallery">${galleryHtml}</div>
     ${a.desc.map(p => `<p>${p}</p>`).join('')}
     <div class="modal-upvote">
@@ -948,6 +968,8 @@ function openHotelModal(id) {
 }
 
 function closeModal() {
+  const v = modalContent.querySelector('video');
+  if (v) { v.pause(); }
   modal.classList.remove('open');
   modal.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
