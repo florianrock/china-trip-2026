@@ -634,6 +634,12 @@ h1 {
   margin-top: 0.85rem;
 }
 
+.upvote-btn.votes-loading {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .signout-btn {
   background: none;
   border: none;

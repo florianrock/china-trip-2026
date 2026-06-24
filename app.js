@@ -605,6 +605,11 @@ async function handleUpvote(id, btn) {
     if (window.google) google.accounts.id.prompt();
     return;
   }
+  // Token missing (restored from localStorage) — re-auth silently then abort; user re-clicks after One Tap fires
+  if (!currentUser.idToken) {
+    if (window.google) google.accounts.id.prompt();
+    return;
+  }
 
   if (userVotedSet.has(id)) {
     // Unvote — optimistic
@@ -635,16 +640,28 @@ async function handleUpvote(id, btn) {
   }
 }
 
+function setVoteButtonsLoading(loading) {
+  document.querySelectorAll('.upvote-btn').forEach(btn => {
+    btn.disabled = loading;
+    btn.classList.toggle('votes-loading', loading);
+  });
+}
+
 function loadVoteCounts() {
-  if (APPS_SCRIPT_URL === 'REPLACE_WITH_APPS_SCRIPT_URL') return;
+  setVoteButtonsLoading(true);
+  if (APPS_SCRIPT_URL === 'REPLACE_WITH_APPS_SCRIPT_URL') { setVoteButtonsLoading(false); return; }
+  // Fallback: enable buttons after 5s even if JSONP never fires
+  const fallback = setTimeout(() => setVoteButtonsLoading(false), 5000);
   const cb = '__vc' + Date.now();
   window[cb] = data => {
+    clearTimeout(fallback);
     try {
       if (data.ok && data.counts) {
         Object.assign(serverVotes, data.counts);
         document.querySelectorAll('.upvote-btn[data-id]').forEach(btn => refreshBtn(btn.dataset.id));
       }
     } finally {
+      setVoteButtonsLoading(false);
       delete window[cb];
       const s = document.getElementById(cb);
       if (s) s.remove();
@@ -652,7 +669,7 @@ function loadVoteCounts() {
   };
   const s = document.createElement('script');
   s.id = cb;
-  s.onerror = () => { delete window[cb]; s.remove(); };
+  s.onerror = () => { clearTimeout(fallback); setVoteButtonsLoading(false); delete window[cb]; s.remove(); };
   s.src = APPS_SCRIPT_URL + '?callback=' + cb;
   document.head.appendChild(s);
 }
