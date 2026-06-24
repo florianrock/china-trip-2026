@@ -864,9 +864,43 @@ initTabs('data-city',       'city-section', 'activities');
 initTabs('data-food-city',  'food-city',    'food');
 
 // Apply hash on load and back/forward navigation
+function activateSectionAndPanel(topSection, panelEl, tabAttr) {
+  document.querySelectorAll('.top-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.top-section').forEach(s => s.classList.remove('active'));
+  document.querySelector(`.top-tab[data-section="${topSection}"]`)?.classList.add('active');
+  document.getElementById('section-' + topSection)?.classList.add('active');
+  if (panelEl) {
+    const panelId = panelEl.id;
+    const cityTab = document.querySelector(`[${tabAttr}="${panelId}"]`);
+    if (cityTab) {
+      cityTab.closest('nav').querySelectorAll(`[${tabAttr}]`).forEach(t => t.classList.remove('active'));
+      cityTab.classList.add('active');
+    }
+    panelEl.parentElement.querySelectorAll('[id]').forEach(p => p.classList.remove('active'));
+    panelEl.classList.add('active');
+  }
+}
+
 function applyHash() {
   const hash = location.hash.slice(1);
   if (!hash) return;
+
+  if (hash.startsWith('entry-')) {
+    const id = hash.slice(6);
+    const card = document.querySelector(`[data-id="${id}"]`);
+    if (card) {
+      const actPanel  = card.closest('.city-section');
+      const foodPanel = card.closest('.food-city');
+      const hotelPanel = card.closest('.hotel-city');
+      if (actPanel)   activateSectionAndPanel('activities', actPanel, 'data-city');
+      else if (foodPanel) activateSectionAndPanel('food', foodPanel, 'data-food-city');
+      else if (hotelPanel) activateSectionAndPanel('hotels', hotelPanel, 'data-hotel-city');
+    }
+    if (ACTIVITIES[id]) openModal(id, true);
+    else if (HOTELS[id]) openHotelModal(id, true);
+    return;
+  }
+
   const [section, ...rest] = hash.split('-');
   const city = rest[0] || null;
 
@@ -892,15 +926,22 @@ function applyHash() {
 }
 
 applyHash();
-window.addEventListener('popstate', applyHash);
+window.addEventListener('popstate', () => {
+  if (modal.classList.contains('open') && !location.hash.startsWith('#entry-')) {
+    closeModal({ fromPopstate: true });
+  } else {
+    applyHash();
+  }
+});
 
 // ── Modal ────────────────────────────────────────────────────────────────────
 const modal = document.getElementById('modal');
 const modalContent = document.getElementById('modalContent');
 
-function openModal(id) {
+function openModal(id, skipHistory = false) {
   const a = ACTIVITIES[id];
   if (!a) return;
+  if (!skipHistory) history.pushState({ isModalEntry: true, entryId: id }, '', '#entry-' + id);
 
   const galleryHtml = a.gallery.map(src =>
     `<img src="${src}" alt="${a.title}" loading="lazy" />`
@@ -940,9 +981,10 @@ function openModal(id) {
   document.body.style.overflow = 'hidden';
 }
 
-function openHotelModal(id) {
+function openHotelModal(id, skipHistory = false) {
   const h = HOTELS[id];
   if (!h) return;
+  if (!skipHistory) history.pushState({ isModalEntry: true, entryId: id }, '', '#entry-' + id);
 
   const galleryHtml = (h.gallery || []).map(src =>
     `<img src="${src}" alt="${h.title}" loading="lazy" />`
@@ -967,12 +1009,19 @@ function openHotelModal(id) {
   document.body.style.overflow = 'hidden';
 }
 
-function closeModal() {
+function closeModal(opts = {}) {
   const v = modalContent.querySelector('video');
-  if (v) { v.pause(); }
+  if (v) v.pause();
   modal.classList.remove('open');
   modal.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
+  if (!opts.fromPopstate) {
+    if (history.state?.isModalEntry) {
+      history.back();
+    } else if (location.hash.startsWith('#entry-')) {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
 }
 
 document.getElementById('modalClose').addEventListener('click', closeModal);
