@@ -296,7 +296,7 @@ const HOTELS = {
     addr: '5023 Yi Tian Road, Futian District, Shenzhen',
     price: 'CHF ~150–180 / night',
     img: 'hotel-park-hyatt-shenzhen.jpg',
-    gallery: [],
+    gallery: ['hotel-ph-lobby.jpg', 'hotel-ph-room.jpg', 'hotel-ph-suite-bed.jpg', 'hotel-ph-suite-living.jpg', 'hotel-ph-glasshouse.jpg', 'hotel-ph-pavilion.jpg'],
     desc: [
       `Park Hyatt Shenzhen occupies floors 36–44 of the KK100 Tower in Futian CBD — the geometric heart of Shenzhen and the city's most connected district. From the upper floors, floor-to-ceiling windows look out over Lianhuashan Park and the endless urban horizon beyond. The skyline views at night, with the city grid extending to every edge, are spectacular.`,
       `The top-floor sky pool runs along the edge of the building with unobstructed park views. The spa, gym and club lounge are all anchored on the same floors. Futian is also where you want to be for transport: the HSR station connecting to Hong Kong (45 min) and the rest of China sits directly beneath the district.`,
