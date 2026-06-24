@@ -498,6 +498,34 @@ const HOTELS = {
       `One room has the biplane bed and slide; the adjoining children's bedroom has cloud wallpaper, a moon and star nightstand, a wooden teepee reading tent, and a rocking llama. Both rooms connect via a play corridor. The Great Wall of China is painted subtly into the clouds above the castle walls.`,
       `Four Seasons Beijing is at Wangfujing — walking distance from the Forbidden City and five minutes from the Grand Hyatt Beijing. At CHF ~580 per night, it's eye-watering — but booking it secretly for the Kochs and watching the kids discover the room would be a trip highlight money can't replace. The look on their faces is priceless.`
     ]
+  },
+  'grand-hyatt-shenzhen': {
+    title: 'Grand Hyatt Shenzhen',
+    stars: '★★★★★',
+    addr: 'No. 1881 Bao\'an South Road, Luohu District, Shenzhen',
+    price: 'CHF ~125–170 / night',
+    maps: 'https://maps.google.com/?q=Grand+Hyatt+Shenzhen',
+    img: 'hotel-grand-hyatt-shenzhen.jpg',
+    gallery: ['hotel-grand-hyatt-g1.jpg', 'hotel-grand-hyatt-g2.jpg', 'hotel-grand-hyatt-g3.jpg', 'hotel-grand-hyatt-g4.jpg'],
+    desc: [
+      `The Grand Hyatt Shenzhen rises 38 stories above the MixC Shopping Mall in the heart of Luohu, with its glass-encased upper floors glowing like a lantern over the city skyline. Opened in 2009, the 491 rooms and 53 suites start well above street level — the lobby itself sits on the 33rd floor — combining warm wood finishes with floor-to-ceiling windows framing panoramic views across Shenzhen toward Hong Kong.`,
+      `Eight distinct restaurants and bars span floors 33 to 38, from The Penthouse's rooftop cocktail lounge to the 226-seat Show Kitchen with four live open kitchens, and the landmark China Lodge Cantonese restaurant occupying floors 35–36 with 14 private dining rooms. The 3,132m² Shui Xiang Spa offers 13 individual treatment houses alongside a 25-metre heated outdoor pool, yoga studio, steam rooms, and hydrotherapy pool on the third-floor terrace.`,
+      `For location it is hard to match: four metro lines converge directly beneath the hotel, putting every corner of Shenzhen within 30 minutes and the Lo Wu border crossing to Hong Kong just two stops away. The adjacent MixC mall connects directly to the tower. Rated #21 of 1,596 Shenzhen hotels on TripAdvisor — 4.8/5 across 2,835 reviews.`
+    ]
+  },
+  'hyatt-place-dongmen': {
+    title: 'Hyatt Place Shenzhen Dongmen',
+    stars: '★★★★',
+    addr: 'No. 3018 Jianshe Road (Dongmen), Luohu District, Shenzhen',
+    price: 'CHF ~63–112 / night — breakfast included',
+    maps: 'https://maps.google.com/?q=Hyatt+Place+Shenzhen+Dongmen',
+    img: 'hotel-hyatt-place-dongmen.jpg',
+    gallery: ['hotel-hyatt-place-dongmen-g1.jpg', 'hotel-hyatt-place-dongmen-g2.jpg', 'hotel-hyatt-place-dongmen-g3.jpg', 'hotel-hyatt-place-dongmen-g4.jpg'],
+    desc: [
+      `The Hyatt Place Shenzhen Dongmen sits directly above the Dongmen pedestrian shopping district (东门步行街), Shenzhen's most storied retail and street-food hub with a history stretching back 700 years. The hotel towers over the neon-lit lanes, and Laojie Metro Station (Lines 1 and 3) is literally steps from the entrance — making it one of the most walkable hotel locations in the city.`,
+      `As the first Hyatt Place to open in Asia-Pacific (May 2014), the property set the brand template for the region: 138 rooms on floors 7–17 with the signature Cozy Corner sofa-sleeper, Hyatt Grand Bed, and complimentary high-speed WiFi throughout. The Gallery restaurant delivers a full hot breakfast each morning — both Chinese and Western — included in the room rate and consistently the #1 guest highlight.`,
+      `Rates of CHF 63–112 per night with breakfast included make this the strongest value proposition for World of Hyatt members in Shenzhen. The rooftop terrace delivers open-air views across the Dongmen rooftops toward the Luohu skyline, and the hotel is just two metro stops from the Hong Kong Lo Wu border crossing.`
+    ]
   }
 };
 
