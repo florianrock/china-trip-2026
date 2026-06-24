@@ -426,19 +426,33 @@ document.getElementById('signin-btn')?.addEventListener('click', () => {
 
 loadVoteCounts();
 
+// ── Deep-link / URL hash ─────────────────────────────────────────────────────
+// Hash format: #section  or  #section-city  e.g. #hotels-shenzhen #food-beijing
+const DL = {
+  activities: { tabAttr: 'data-city',       idPrefix: 'act-', panelClass: 'city-section' },
+  hotels:     { tabAttr: 'data-hotel-city', idPrefix: 'h-',   panelClass: 'hotel-city'   },
+  food:       { tabAttr: 'data-food-city',  idPrefix: 'f-',   panelClass: 'food-city'    },
+};
+
+function setHash(section, city) {
+  const h = city ? `${section}-${city}` : section;
+  history.replaceState(null, '', '#' + h);
+}
+
 // ── Tab switching (generic) ──────────────────────────────────────────────────
-// Each nav with data-tabs-group selects panels with matching data-tab-group
-function initTabs(tabAttr, panelClass) {
+function initTabs(tabAttr, panelClass, section) {
   document.querySelectorAll(`[${tabAttr}]`).forEach(tab => {
     tab.addEventListener('click', () => {
-      // deactivate siblings (same parent nav)
       tab.closest('nav').querySelectorAll(`[${tabAttr}]`).forEach(t => t.classList.remove('active'));
-      // deactivate all panels of this type
       document.querySelectorAll('.' + panelClass).forEach(p => p.classList.remove('active'));
       tab.classList.add('active');
       const target = tab.getAttribute(tabAttr);
       const el = document.getElementById(target);
       if (el) el.classList.add('active');
+      if (section && DL[section]) {
+        const city = target.replace(DL[section].idPrefix, '');
+        setHash(section, city);
+      }
     });
   });
 }
@@ -449,14 +463,53 @@ document.querySelectorAll('.top-tab').forEach(tab => {
     document.querySelectorAll('.top-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.top-section').forEach(s => s.classList.remove('active'));
     tab.classList.add('active');
-    const el = document.getElementById('section-' + tab.dataset.section);
+    const section = tab.dataset.section;
+    const el = document.getElementById('section-' + section);
     if (el) el.classList.add('active');
+    const cfg = DL[section];
+    let city = null;
+    if (cfg) {
+      const activeCity = document.querySelector(`[${cfg.tabAttr}].active`);
+      if (activeCity) city = activeCity.getAttribute(cfg.tabAttr).replace(cfg.idPrefix, '');
+    }
+    setHash(section, city);
   });
 });
 
-initTabs('data-hotel-city', 'hotel-city');
-initTabs('data-city',       'city-section');
-initTabs('data-food-city',  'food-city');
+initTabs('data-hotel-city', 'hotel-city',   'hotels');
+initTabs('data-city',       'city-section', 'activities');
+initTabs('data-food-city',  'food-city',    'food');
+
+// Apply hash on load and back/forward navigation
+function applyHash() {
+  const hash = location.hash.slice(1);
+  if (!hash) return;
+  const [section, ...rest] = hash.split('-');
+  const city = rest[0] || null;
+
+  const topTab = document.querySelector(`.top-tab[data-section="${section}"]`);
+  if (!topTab) return;
+  document.querySelectorAll('.top-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.top-section').forEach(s => s.classList.remove('active'));
+  topTab.classList.add('active');
+  const panel = document.getElementById('section-' + section);
+  if (panel) panel.classList.add('active');
+
+  if (city && DL[section]) {
+    const cfg = DL[section];
+    const cityTab = document.querySelector(`[${cfg.tabAttr}="${cfg.idPrefix}${city}"]`);
+    if (cityTab) {
+      cityTab.closest('nav').querySelectorAll(`[${cfg.tabAttr}]`).forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.' + cfg.panelClass).forEach(p => p.classList.remove('active'));
+      cityTab.classList.add('active');
+      const cityPanel = document.getElementById(cfg.idPrefix + city);
+      if (cityPanel) cityPanel.classList.add('active');
+    }
+  }
+}
+
+applyHash();
+window.addEventListener('popstate', applyHash);
 
 // ── Modal ────────────────────────────────────────────────────────────────────
 const modal = document.getElementById('modal');
