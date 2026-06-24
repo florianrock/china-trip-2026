@@ -538,6 +538,17 @@ let currentUser = null;         // { email, name, picture, idToken }
 const serverVotes = {};         // activityId → total count from server
 const userVotedSet = new Set(); // activityIds current user has already voted on
 
+function applyUserToUI(user) {
+  const avatar = document.getElementById('user-avatar');
+  const nameEl = document.getElementById('user-name');
+  const chip = document.getElementById('user-chip');
+  const signinBtn = document.getElementById('signin-btn');
+  if (avatar) avatar.src = user.picture || '';
+  if (nameEl) nameEl.textContent = user.name;
+  if (chip) chip.style.display = 'flex';
+  if (signinBtn) signinBtn.style.display = 'none';
+}
+
 // Called by Google Identity Services after sign-in — must be global
 function handleCredentialResponse(response) {
   try {
@@ -549,17 +560,23 @@ function handleCredentialResponse(response) {
       picture: payload.picture,
       idToken: response.credential
     };
-    const avatar = document.getElementById('user-avatar');
-    const nameEl = document.getElementById('user-name');
-    const chip = document.getElementById('user-chip');
-    const signinBtn = document.getElementById('signin-btn');
-    if (avatar) avatar.src = payload.picture || '';
-    if (nameEl) nameEl.textContent = currentUser.name;
-    if (chip) chip.style.display = 'flex';
-    if (signinBtn) signinBtn.style.display = 'none';
+    localStorage.setItem('china_user', JSON.stringify({ email: currentUser.email, name: currentUser.name, picture: currentUser.picture }));
+    applyUserToUI(currentUser);
     restoreUserVotes();
   } catch (e) { console.error('auth error', e); }
 }
+
+// Restore visual user state from localStorage on page load (before One Tap fires)
+(function restoreSessionUser() {
+  try {
+    const saved = localStorage.getItem('china_user');
+    if (!saved) return;
+    const u = JSON.parse(saved);
+    currentUser = { email: u.email, name: u.name, picture: u.picture, idToken: null };
+    applyUserToUI(currentUser);
+    restoreUserVotes();
+  } catch (e) {}
+})();
 
 function restoreUserVotes() {
   if (!currentUser) return;
@@ -642,6 +659,20 @@ function loadVoteCounts() {
 
 document.getElementById('signin-btn')?.addEventListener('click', () => {
   if (window.google) google.accounts.id.prompt();
+});
+
+document.getElementById('signout-btn')?.addEventListener('click', () => {
+  currentUser = null;
+  userVotedSet.clear();
+  localStorage.removeItem('china_user');
+  // Remove all vote_* keys
+  Object.keys(localStorage).filter(k => k.startsWith('vote_')).forEach(k => localStorage.removeItem(k));
+  const chip = document.getElementById('user-chip');
+  const signinBtn = document.getElementById('signin-btn');
+  if (chip) chip.style.display = 'none';
+  if (signinBtn) signinBtn.style.display = '';
+  document.querySelectorAll('.upvote-btn').forEach(btn => { btn.classList.remove('user-voted'); btn.title = ''; });
+  if (window.google) google.accounts.id.disableAutoSelect();
 });
 
 loadVoteCounts();

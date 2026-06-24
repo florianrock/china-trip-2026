@@ -630,6 +630,23 @@ h1 {
   font-style: italic;
 }
 
+.hotel-vote-row {
+  margin-top: 0.85rem;
+}
+
+.signout-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  line-height: 1;
+  border-radius: 50%;
+  transition: color 0.2s;
+}
+.signout-btn:hover { color: var(--gold); }
+
 /* ── Footer ── */
 footer {
   text-align: center;

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>China Trip 2026 🇨🇳</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="style.css?v=20260624k" />
+  <link rel="stylesheet" href="style.css?v=20260624l" />
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
@@ -21,12 +21,13 @@
         <div id="g_id_onload"
              data-client_id="709093476989-b7dsh9l1kbor7aqkbt10l4dcidpe9pp4.apps.googleusercontent.com"
              data-callback="handleCredentialResponse"
-             data-auto_select="false">
+             data-auto_select="true">
         </div>
         <button id="signin-btn" class="signin-btn">Sign in to vote</button>
         <div id="user-chip" style="display:none">
           <img id="user-avatar" src="" alt="" class="user-avatar" />
           <span id="user-name" class="user-name"></span>
+          <button id="signout-btn" class="signout-btn" title="Sign out">✕</button>
         </div>
       </div>
     </div>
@@ -105,6 +106,7 @@
               <ul class="pros"><li>Central Jing'an district</li><li>Top metro connection</li><li>Best value in Shanghai</li></ul>
               <ul class="cons"><li>Business hotel feel</li><li>No Bund view</li></ul>
               <div class="hotel-vs">↓ Half the cost of Hyatt on the Bund</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-pullman-jingan">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card">
@@ -118,6 +120,7 @@
               <ul class="pros"><li>Iconic Bund river &amp; skyline view</li><li>Full luxury experience</li><li>Earn Hyatt points</li></ul>
               <ul class="cons"><li>~2× the price of Pullman</li><li>15–20 min walk to metro</li></ul>
               <div class="hotel-vs">↑ Premium for the view — worth it for a splurge</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-hyatt-bund">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
         </div>
@@ -137,6 +140,7 @@
               <ul class="pros"><li>CBD / Chaoyang location</li><li>Polished French luxury</li><li>Excellent club lounge</li></ul>
               <ul class="cons"><li>Farther from old city</li><li>More taxis needed</li></ul>
               <div class="hotel-vs">Proven choice — you know what you're getting</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-sofitel-beijing">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card">
@@ -150,6 +154,7 @@
               <ul class="pros"><li>Wangfujing — walk to Forbidden City</li><li>Matches Grand Hyatt Chengdu (points)</li><li>Same price as Sofitel</li></ul>
               <ul class="cons"><li>Touristy neighbourhood</li><li>Building slightly older</li></ul>
               <div class="hotel-vs">Same price → the location argument wins here</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-grand-hyatt-beijing">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
         </div>
@@ -169,6 +174,7 @@
               <ul class="pros"><li>Chunxi / Taikoo Li — prime central</li><li>Full 5-star luxury</li><li>Earn Hyatt points</li></ul>
               <ul class="cons"><li>Priciest option by far</li></ul>
               <div class="hotel-vs">3× the cost — luxury for luxury's sake</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-grand-hyatt-chengdu">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card">
@@ -182,6 +188,7 @@
               <ul class="pros"><li>Brand-new (opened Aug 2025)</li><li>Walk to Jinli Street &amp; Wuhou Temple</li><li>Clean, modern, Japanese toilets</li><li>Saves ~CHF 320–380/room</li></ul>
               <ul class="cons"><li>4-star, no Hyatt points</li></ul>
               <div class="hotel-vs">↓ Best value — proven pick, right location</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-mercure-chengdu">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
         </div>
@@ -200,6 +207,7 @@
               <ul class="pros"><li>The kids will absolutely love it</li><li>Christmas morning energy, but Beijing</li><li>Bragging rights: eternal</li><li>Walking distance to Forbidden City</li></ul>
               <ul class="cons"><li>Might need to sell a car</li><li>Koch kids will expect this every trip forever</li></ul>
               <div class="hotel-vs">Strongly recommended if money is fake 💸</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-four-seasons-kids">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card" data-hotel-id="park-hyatt-shenzhen" style="cursor:pointer">
@@ -213,6 +221,7 @@
               <ul class="pros"><li>World of Hyatt points</li><li>Futian CBD — dead central</li><li>Sky views from floors 36–44 over Lianhuashan Park</li><li>Top-floor pool &amp; spa</li></ul>
               <ul class="cons"><li>Priciest of the three</li><li>Futian is more business than buzz at night</li></ul>
               <div class="hotel-vs">Best Hyatt in the city, right where you want to be</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-park-hyatt-shenzhen">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card" data-hotel-id="raffles-shenzhen" style="cursor:pointer">
@@ -226,6 +235,7 @@
               <ul class="pros"><li>One Shenzhen Bay — iconic bay + city views</li><li>Michelin-starred restaurant on-site</li><li>350m-high sky concert hall</li><li>Accor ALL points</li></ul>
               <ul class="cons"><li>Nanshan — 20–25 min from Futian CBD</li><li>Higher price point</li></ul>
               <div class="hotel-vs">The most spectacular hotel in Shenzhen — worth it for a short stay</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-raffles-shenzhen">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card" data-hotel-id="grand-hyatt-shenzhen" style="cursor:pointer">
@@ -239,6 +249,7 @@
               <ul class="pros"><li>World of Hyatt points · #21 of 1,596 hotels on TripAdvisor</li><li>4 metro lines beneath — 2 stops to HK border</li><li>8 restaurants &amp; bars, signature Cantonese dining</li><li>3,100m² spa + 25m rooftop pool</li></ul>
               <ul class="cons"><li>Luohu district — less fashionable than Futian/Nanshan</li><li>2009 opening; some areas feel dated</li></ul>
               <div class="hotel-vs">Shenzhen's most celebrated 5-star — unbeatable location and points value</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-grand-hyatt-shenzhen">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card" data-hotel-id="hyatt-place-dongmen" style="cursor:pointer">
@@ -252,6 +263,7 @@
               <ul class="pros"><li>World of Hyatt points — Asia-Pacific's 1st Hyatt Place</li><li>Above Dongmen night market, metro steps away</li><li>Full hot breakfast (Chinese + Western) included</li><li>2 stops to HK Lo Wu border crossing</li></ul>
               <ul class="cons"><li>138 rooms only — books out fast on weekends</li><li>No full spa</li></ul>
               <div class="hotel-vs">Best Hyatt points value in Shenzhen — breakfast + HK access sorted</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-hyatt-place-dongmen">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
           <div class="hotel-card" data-hotel-id="fashion-town-mgallery" style="cursor:pointer">
@@ -265,6 +277,7 @@
               <ul class="pros"><li>Next to Shenzhen North HSR — 30 min to HK &amp; GZ</li><li>Boutique design hotel, opened Dec 2024</li><li>188m² heated indoor pool</li><li>Accor ALL points</li></ul>
               <ul class="cons"><li>Longhua — 25 min from Futian CBD</li><li>Very new, limited reviews yet</li></ul>
               <div class="hotel-vs">Best value boutique in Shenzhen — perfect if you're day-tripping to HK</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-fashion-town-mgallery">❤️ <span class="count">0</span></button></div>
             </div>
           </div>
         </div>
@@ -708,6 +721,6 @@
     <p>🌏 Rock Family China Adventure · 2026</p>
   </footer>
 
-  <script src="app.js?v=20260624k"></script>
+  <script src="app.js?v=20260624l"></script>
 </body>
 </html>
