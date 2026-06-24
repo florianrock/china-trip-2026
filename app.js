@@ -575,9 +575,11 @@ function getVotes(id) { return serverVotes[id] || 0; }
 
 function refreshBtn(id) {
   document.querySelectorAll(`.upvote-btn[data-id="${id}"]`).forEach(btn => {
+    const voted = userVotedSet.has(id);
     const count = btn.querySelector('.count');
     if (count) count.textContent = getVotes(id);
-    btn.classList.toggle('user-voted', userVotedSet.has(id));
+    btn.classList.toggle('user-voted', voted);
+    btn.title = voted ? 'Click to remove your vote' : '';
   });
 }
 
@@ -586,9 +588,26 @@ async function handleUpvote(id, btn) {
     if (window.google) google.accounts.id.prompt();
     return;
   }
-  if (userVotedSet.has(id)) return;
 
-  // Optimistic update
+  if (userVotedSet.has(id)) {
+    // Unvote — optimistic
+    serverVotes[id] = Math.max(0, (serverVotes[id] || 1) - 1);
+    userVotedSet.delete(id);
+    localStorage.removeItem('vote_' + currentUser.email + '_' + id);
+    refreshBtn(id);
+    if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
+      try {
+        const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
+                    + '&activityId=' + encodeURIComponent(id) + '&action=remove';
+        const res = await fetch(url);
+        const data = await res.json();
+        console.log('[unvote]', data);
+      } catch (e) { console.error('[unvote error]', e); }
+    }
+    return;
+  }
+
+  // Vote — optimistic
   serverVotes[id] = (serverVotes[id] || 0) + 1;
   userVotedSet.add(id);
   localStorage.setItem('vote_' + currentUser.email + '_' + id, '1');
@@ -596,7 +615,6 @@ async function handleUpvote(id, btn) {
   setTimeout(() => btn.classList.remove('voted'), 400);
   refreshBtn(id);
 
-  // Sync to server
   if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
     try {
       const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
