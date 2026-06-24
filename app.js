@@ -509,7 +509,7 @@ const HOTELS = {
     img: 'hotel-fs-lp-room.jpg',
     gallery: ['hotel-fs-lp-biplane.jpg', 'hotel-fs-lp-tent.jpg', 'hotel-fs-lp-stars.jpg'],
     desc: [
-      `The Little Prince themed suite — officially the "Little Prince Kids Room" — is at Four Seasons Beijing, not Shenzhen. The good news: Beijing is on the itinerary. The better news: the Koch kids have no idea. The suite features a red biplane bunk bed with a full-length slide, star-spangled blue carpet, and murals of the Little Prince and his rose across every wall.`,
+      `The Little Prince themed suite — officially the "Little Prince Kids Room" — is at Four Seasons Beijing. The Koch kids have no idea this exists. The suite features a red biplane bunk bed with a full-length slide, star-spangled blue carpet, and murals of the Little Prince and his rose across every wall.`,
       `One room has the biplane bed and slide; the adjoining children's bedroom has cloud wallpaper, a moon and star nightstand, a wooden teepee reading tent, and a rocking llama. Both rooms connect via a play corridor. The Great Wall of China is painted subtly into the clouds above the castle walls.`,
       `Four Seasons Beijing is at Wangfujing — walking distance from the Forbidden City and five minutes from the Grand Hyatt Beijing. At CHF ~580 per night, it's eye-watering — but booking it secretly for the Kochs and watching the kids discover the room would be a trip highlight money can't replace. The look on their faces is priceless.`
     ]
