@@ -531,7 +531,7 @@ const HOTELS = {
 
 // ── Config ────────────────────────────────────────────────────────────────────
 // After deploying the Apps Script web app, paste its /exec URL here
-const APPS_SCRIPT_URL = 'REPLACE_WITH_APPS_SCRIPT_URL';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyDkllCnL7N5pjPqfg42KgHmFRHvL6OHjzzZxFgUoiA46OM3oDASyKxjE6BlJ7U94Uh/exec';
 
 // ── Auth & vote state ─────────────────────────────────────────────────────────
 let currentUser = null;         // { email, name, picture, idToken }
