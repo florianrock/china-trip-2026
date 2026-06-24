@@ -39,6 +39,57 @@ header {
 
 .logo { font-size: 3rem; }
 
+.header-title { flex: 1; }
+
+/* ── Auth area ── */
+#auth-area {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.signin-btn {
+  background: transparent;
+  border: 1.5px solid var(--gold);
+  color: var(--gold);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.signin-btn:hover {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+#user-chip {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 0.85rem;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .signin-btn { font-size: 0.75rem; padding: 0.35rem 0.75rem; }
+  .user-name { display: none; }
+}
+
 h1 {
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   font-weight: 700;
@@ -180,6 +231,12 @@ h1 {
 }
 
 .upvote-btn.voted { animation: heartbeat 0.3s ease; }
+
+.upvote-btn.user-voted {
+  background: #c0392b33;
+  border-color: #e74c3c;
+  color: #ff6b6b;
+}
 
 @keyframes heartbeat {
   0% { transform: scale(1); }

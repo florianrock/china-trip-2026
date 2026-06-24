@@ -288,25 +288,100 @@ const ACTIVITIES = {
   }
 };
 
-const votes = {};
+// ── Config ────────────────────────────────────────────────────────────────────
+// After deploying the Apps Script web app, paste its /exec URL here
+const APPS_SCRIPT_URL = 'REPLACE_WITH_APPS_SCRIPT_URL';
 
-function getVotes(id) {
-  if (votes[id] === undefined) votes[id] = 0;
-  return votes[id];
+// ── Auth & vote state ─────────────────────────────────────────────────────────
+let currentUser = null;         // { email, name, picture, idToken }
+const serverVotes = {};         // activityId → total count from server
+const userVotedSet = new Set(); // activityIds current user has already voted on
+
+// Called by Google Identity Services after sign-in — must be global
+function handleCredentialResponse(response) {
+  try {
+    const b64 = response.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+    const payload = JSON.parse(atob(b64));
+    currentUser = {
+      email: payload.email,
+      name: payload.given_name || payload.name,
+      picture: payload.picture,
+      idToken: response.credential
+    };
+    const avatar = document.getElementById('user-avatar');
+    const nameEl = document.getElementById('user-name');
+    const chip = document.getElementById('user-chip');
+    const signinBtn = document.getElementById('signin-btn');
+    if (avatar) avatar.src = payload.picture || '';
+    if (nameEl) nameEl.textContent = currentUser.name;
+    if (chip) chip.style.display = 'flex';
+    if (signinBtn) signinBtn.style.display = 'none';
+    restoreUserVotes();
+  } catch (e) { console.error('auth error', e); }
 }
 
-function renderCount(id) {
-  document.querySelectorAll(`.upvote-btn[data-id="${id}"] .count`).forEach(el => {
-    el.textContent = getVotes(id);
+function restoreUserVotes() {
+  if (!currentUser) return;
+  const prefix = 'vote_' + currentUser.email + '_';
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith(prefix)) userVotedSet.add(k.slice(prefix.length));
+  }
+  document.querySelectorAll('.upvote-btn[data-id]').forEach(btn => refreshBtn(btn.dataset.id));
+}
+
+function getVotes(id) { return serverVotes[id] || 0; }
+
+function refreshBtn(id) {
+  document.querySelectorAll(`.upvote-btn[data-id="${id}"]`).forEach(btn => {
+    const count = btn.querySelector('.count');
+    if (count) count.textContent = getVotes(id);
+    btn.classList.toggle('user-voted', userVotedSet.has(id));
   });
 }
 
-function handleUpvote(id, btn) {
-  votes[id] = (votes[id] || 0) + 1;
+async function handleUpvote(id, btn) {
+  if (!currentUser) {
+    if (window.google) google.accounts.id.prompt();
+    return;
+  }
+  if (userVotedSet.has(id)) return;
+
+  // Optimistic update
+  serverVotes[id] = (serverVotes[id] || 0) + 1;
+  userVotedSet.add(id);
+  localStorage.setItem('vote_' + currentUser.email + '_' + id, '1');
   btn.classList.add('voted');
   setTimeout(() => btn.classList.remove('voted'), 400);
-  renderCount(id);
+  refreshBtn(id);
+
+  // Sync to server (fire and forget — local state is source of truth until reload)
+  if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
+    try {
+      const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
+                  + '&activityId=' + encodeURIComponent(id);
+      await fetch(url);
+    } catch (e) { /* will sync on next page load */ }
+  }
 }
+
+async function loadVoteCounts() {
+  if (APPS_SCRIPT_URL === 'REPLACE_WITH_APPS_SCRIPT_URL') return;
+  try {
+    const res = await fetch(APPS_SCRIPT_URL);
+    const data = await res.json();
+    if (data.ok && data.counts) {
+      Object.assign(serverVotes, data.counts);
+      document.querySelectorAll('.upvote-btn[data-id]').forEach(btn => refreshBtn(btn.dataset.id));
+    }
+  } catch (e) { /* offline — counts show as 0 */ }
+}
+
+document.getElementById('signin-btn')?.addEventListener('click', () => {
+  if (window.google) google.accounts.id.prompt();
+});
+
+loadVoteCounts();
 
 // ── Tab switching (generic) ──────────────────────────────────────────────────
 // Each nav with data-tabs-group selects panels with matching data-tab-group
@@ -359,7 +434,7 @@ function openModal(id) {
     <div class="modal-gallery">${galleryHtml}</div>
     ${a.desc.map(p => `<p>${p}</p>`).join('')}
     <div class="modal-upvote">
-      <button class="upvote-btn modal-upvote-btn" data-id="${id}">❤️ <span class="count">${getVotes(id)}</span> I want to go!</button>
+      <button class="upvote-btn modal-upvote-btn${userVotedSet.has(id) ? ' user-voted' : ''}" data-id="${id}">❤️ <span class="count">${getVotes(id)}</span> I want to go!</button>
     </div>
   `;
 

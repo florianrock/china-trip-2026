@@ -6,15 +6,28 @@
   <title>China Trip 2026 🇨🇳</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
 
   <header>
     <div class="header-inner">
       <div class="logo">🇨🇳</div>
-      <div>
+      <div class="header-title">
         <h1>China Trip 2026</h1>
         <p class="subtitle">Oct 8–22 · Shanghai · Beijing · Chengdu · Rock Family + 2 Couples</p>
+      </div>
+      <div id="auth-area">
+        <div id="g_id_onload"
+             data-client_id="REPLACE_WITH_GOOGLE_CLIENT_ID"
+             data-callback="handleCredentialResponse"
+             data-auto_select="false">
+        </div>
+        <button id="signin-btn" class="signin-btn">Sign in to vote</button>
+        <div id="user-chip" style="display:none">
+          <img id="user-avatar" src="" alt="" class="user-avatar" />
+          <span id="user-name" class="user-name"></span>
+        </div>
       </div>
     </div>
   </header>
