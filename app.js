@@ -596,13 +596,15 @@ async function handleUpvote(id, btn) {
   setTimeout(() => btn.classList.remove('voted'), 400);
   refreshBtn(id);
 
-  // Sync to server (fire and forget — local state is source of truth until reload)
+  // Sync to server
   if (APPS_SCRIPT_URL !== 'REPLACE_WITH_APPS_SCRIPT_URL') {
     try {
       const url = APPS_SCRIPT_URL + '?token=' + encodeURIComponent(currentUser.idToken)
                   + '&activityId=' + encodeURIComponent(id);
-      await fetch(url);
-    } catch (e) { /* will sync on next page load */ }
+      const res = await fetch(url);
+      const data = await res.json();
+      console.log('[vote]', data);
+    } catch (e) { console.error('[vote error]', e); }
   }
 }
 
