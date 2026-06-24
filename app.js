@@ -290,7 +290,7 @@ const ACTIVITIES = {
     img: 'act-szx-drones.jpg',
     city: 'Shenzhen',
     maps: 'https://maps.google.com/?q=DJI+Sky+City+Shenzhen',
-    gallery: ['act-szx-drones-g1.jpg', 'act-szx-drones-g2.jpg'],
+    gallery: ['act-szx-drones-g1.jpg', 'act-szx-drones-g2.jpg', 'act-szx-drones-g3.jpg'],
     desc: [
       `Shenzhen is the drone capital of earth — and DJI, the company that invented the modern consumer drone, is headquartered here. The DJI Sky Store (their flagship retail experience) is unlike any tech store you've been to: demo units fly indoors, staff can configure any drone on the spot, and the full product range from Mavic to Matrice is on display. You can also visit DJI Sky City, their campus in Nanshan, to see their architectural showpiece.`,
       `The more mind-bending experience is simply ordering food by drone delivery. Meituan and SF Express run active drone corridors over Shenzhen Bay and the OCT Bay area — you can order food, coffee or packages from designated rooftop pickup points and watch a DJI delivery drone arrive in under 10 minutes. This is not a demo. It's live, operational, and completely normal to locals.`,
