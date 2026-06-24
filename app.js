@@ -312,6 +312,76 @@ const ACTIVITIES = {
     ]
   },
 
+  'szx-seaworld': {
+    title: '海上世界 — Sea World Shekou',
+    emoji: '⚓',
+    addr: 'Sea World, Shekou, Nanshan District, Shenzhen (metro: Sea World, Line 2)',
+    img: 'act-szx-seaworld.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=Sea+World+Shekou+Shenzhen',
+    gallery: ['act-szx-seaworld-g1.jpg', 'act-szx-seaworld-g2.jpg'],
+    desc: [
+      `Sea World (海上世界) in Shekou is Shenzhen's most charismatic waterfront district — a pedestrianised plaza centred on the Ming Hua, a real retired ocean liner permanently docked here and converted into restaurants, bars and a luxury hotel. The surrounding streets are lined with outdoor terraces, international restaurants, independent coffee shops and live music venues that spill onto the promenade in the evenings.`,
+      `The area has undergone a full creative transformation in recent years. The new Sea World Culture & Arts Centre — designed by Fumihiko Maki — hosts major international exhibitions and is architecturally one of the most striking buildings in Shenzhen. On weekends, the entire district becomes a destination: families, expats and young Shenzhenites pack the waterfront for brunch, sunset drinks and evening markets.`,
+      `It is the most European-feeling neighbourhood in Shenzhen — relaxed, walkable and international, with a genuine sense of community. Come for dinner and stay for drinks on the deck of the Ming Hua as the sun sets over the Pearl River Delta. Pair it with Nantou Ancient City (15 minutes by metro) for a perfect half-day loop.`
+    ]
+  },
+  'szx-nantou': {
+    title: '南头古城 — Nantou Ancient City',
+    emoji: '🏯',
+    addr: '南头古城, Nanshan District, Shenzhen (metro: Nantou Ancient City, Line 12)',
+    img: 'act-szx-nantou.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=Nantou+Ancient+City+Shenzhen',
+    gallery: ['act-szx-nantou-g1.jpg', 'act-szx-nantou-g2.jpg'],
+    desc: [
+      `Nantou Ancient City (南头古城) is one of the strangest and most fascinating places in China: a 1,700-year-old walled city that has been completely swallowed by Shenzhen's urban growth, with tower blocks rising directly behind its Ming dynasty gates. The contrast is jarring and beautiful — ancient stone archways framing glass skyscrapers, cobblestone lanes threading between modern apartments whose residents hang laundry above Ming-era walls.`,
+      `The old city was comprehensively restored by the Urbanus architecture firm in 2019 and has become one of Shenzhen's most creative neighbourhoods. The lanes are now lined with independent galleries, concept stores, craft beer bars, specialty coffee roasters and a remarkable density of excellent small restaurants. Local designers, artists and ceramicists have set up studios here. The Nantou Biennale uses the entire historic district as its exhibition space.`,
+      `Don't miss the 报德广场 (Baode Square) at the heart of the old city, the 关帝庙 (Guan Di Temple) still in active use, and the rooftop viewpoint looking out over the juxtaposition of ancient and ultra-modern. Come hungry — the food scene is exceptional. Combine with Sea World (two stops by metro) for a full Nanshan afternoon.`
+    ]
+  },
+  'szx-snowworld': {
+    title: '前海华发冰雪世界 — Indoor Snow Park',
+    emoji: '⛷️',
+    addr: '前海华发冰雪世界 · Jingcong Road, Bao\'an District, Shenzhen (search 前海华发冰雪世界 on maps)',
+    img: 'act-szx-snowworld.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=前海华发冰雪世界+深圳+宝安',
+    gallery: ['act-szx-snowworld-g1.jpg', 'act-szx-snowworld-g2.jpg'],
+    desc: [
+      `前海华发冰雪世界 (Qianhai Huafa Snow World) in Bao'an is one of Shenzhen's indoor snow parks — a fully climate-controlled mountain environment with real snow where it's 25°C outside. The facility opened in 2025 and features a main ski slope designed for all levels, from wide beginner runs to a longer intermediate course. Snowboards, skis and full winter gear are included or available for hire.`,
+      `Beyond skiing, the complex includes an ice skating rink, snow play areas designed for children (sledding, snow tubing, snow castle building), and a dedicated section for very young children experiencing snow for the first time. For a child who has never seen snow in Guangdong province, this is a genuinely magical experience. The temperature is kept at around -5°C on the slopes.`,
+      `This is an ideal half-day activity — particularly for Felix's age group — that breaks up the intensity of city sightseeing with something physically fun and genuinely novel. Book online to avoid the weekend queue. Arriving at opening time is recommended as weekend afternoons can get crowded. Allow 3–4 hours minimum. Note: Shenzhen also has 阿尔卑斯冰雪世界 (Alps Snow World) in Guangming District as another option.`
+    ]
+  },
+  'szx-bambulab': {
+    title: 'Bambu Lab Flagship Store',
+    emoji: '🖨️',
+    addr: 'Bambu Lab (拓竹) Flagship Store, near inno100, Nanshan District, Shenzhen',
+    img: 'act-szx-bambulab.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=Bambu+Lab+Shenzhen+flagship',
+    gallery: ['act-szx-bambulab-g1.jpg', 'act-szx-bambulab-g2.jpg'],
+    desc: [
+      `Bambu Lab (拓竹科技) is the Shenzhen company that upended the consumer 3D printing market with the X1 Carbon — a fully automated, multi-material, insanely fast desktop printer that made every other machine on the market look obsolete. Their Shenzhen flagship store is not just a shop but a working showcase: every machine running, printing in real time, surrounded by finished models in every material imaginable — carbon fibre, flexible TPU, translucent resins, wood composites.`,
+      `The store sits near the inno100 tech hub in Nanshan, an area that has become the hardware startup capital of the world — within walking distance you'll also find the Meituan drone delivery pickup station (try ordering a coffee by drone) and a cluster of robotics companies including 6s Robotics. The whole neighbourhood is a live demonstration that Shenzhen isn't just making the world's electronics — it's designing its future too.`,
+      `Even if you're not in the market for a 3D printer, the store is worth visiting for what it represents: a homegrown Chinese brand that now leads a global category, designed and built entirely in this city. For anyone interested in technology, manufacturing or design, it is one of the most inspiring retail spaces in Shenzhen. The staff are knowledgeable and happy to demo any machine.`
+    ]
+  },
+  'szx-sciencemuseum': {
+    title: '深圳科学馆 — Shenzhen Science Museum',
+    emoji: '🔬',
+    addr: '深圳科学馆, Futian District, Shenzhen — free entry, no reservation (metro: Lianhuashan Park, Line 4)',
+    img: 'act-szx-sciencemuseum.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=深圳科学馆+福田',
+    gallery: ['act-szx-sciencemuseum-g1.jpg', 'act-szx-sciencemuseum-g2.jpg'],
+    desc: [
+      `The Shenzhen Science Museum (深圳科学馆) in Futian is one of the most hands-on, interactive science centres in southern China — and uniquely, it is free to enter with no advance booking required. The permanent collection covers physics, biology, astronomy, environmental science and technology through exhibits that visitors can touch, activate and experiment with. It is the kind of museum where children have to be dragged out at closing time.`,
+      `Key exhibits include a full-scale astronomy section with a working planetarium, a physics hall where every exhibit demonstrates a principle through direct interaction (pendulums, optics, electrostatics, fluid dynamics), and a technology floor covering AI, robotics and Shenzhen's own manufacturing story. The museum is clearly designed for school groups but is genuinely engaging for adults too — particularly anyone curious about how Shenzhen built its technology ecosystem from scratch.`,
+      `Note: there are two science venues in Shenzhen — this one (深圳科学馆, Futian, free, no reservation) and the newer 深圳科学技术馆 in Guangming which requires booking and is much further out. For a visit with children, the Futian museum is the right call — central location, free, immediately rewarding. Combine it with a walk in Lianhuashan Park directly behind the museum.`
+    ]
+  },
   'szx-maotai': {
     title: 'Moutai Shenzhen Flagship Store',
     emoji: '🥃',
@@ -424,6 +494,21 @@ const ACTIVITIES = {
       `长安亭院火锅 brings Chongqing-style hotpot into a setting that Shenzhen almost never has: a traditional Chinese courtyard (亭院) environment, with carved wooden screens, lanterns, roof tiles and the kind of architectural care that takes the meal out of the transactional and into the atmospheric.`,
       `The hotpot itself is Chongqing orthodox — a dark, almost black broth built from dried chillies, Sichuan peppercorns, beef tallow, fermented black beans and doubanjiang. The mala sensation (numbingly spicy) builds across the meal. The dual-pot option (one spicy, one clear) makes it manageable for mixed groups.`,
       `Order the classic accompaniments: thinly sliced wagyu beef, duck intestine (for texture), lotus root, tofu skin, chrysanthemum greens. The courtyard setting slows you down in a way a regular Chongqing hotpot shop doesn't — you're not just eating, you're sitting in a space designed to make the experience feel like something worth lingering in. Plan 2–3 hours. Bring a full appetite.`
+    ]
+  },
+
+  'szx-heytea': {
+    title: '喜茶 — Heytea',
+    emoji: '🧋',
+    addr: 'Heytea (喜茶) — multiple Shenzhen locations; original flagship: 益田假日广场, Futian District',
+    img: 'act-szx-heytea.jpg',
+    city: 'Shenzhen',
+    maps: 'https://maps.google.com/?q=喜茶+深圳+福田',
+    gallery: ['act-szx-heytea-g1.jpg', 'act-szx-heytea-g2.jpg'],
+    desc: [
+      `喜茶 (Heytea) is the brand that single-handedly transformed Chinese milk tea from a street snack into a design-forward lifestyle product — and it was born in Shenzhen. Founded in 2012 in the city's Jiangmen district, Heytea's signature innovation was replacing powder-based milk tea with real loose-leaf tea, fresh dairy cream and seasonal fruit — a quality jump that created a queue-around-the-block phenomenon before queues became a product feature.`,
+      `The crispy cheese tea (芝士茗茶) is the flagship drink: a strong green or oolong tea base topped with a thick layer of salted cream cheese foam — sweet and savoury, cool and warming at the same time. The seasonal fruit teas (mango, strawberry, lychee, watermelon depending on the time of year) use whole fresh fruit and are exceptional. The egg tarts (波波蛋挞) are equally famous: flaky pastry, soft custard centre, perfect with any tea.`,
+      `There are dozens of Heytea locations across Shenzhen — the Futian Yitian Holiday Plaza branch (near the Four Seasons and COCO Park) is the most central. Expect a 15–30 minute queue at peak times on weekends; the app allows pre-ordering. Total cost: CHF 5–8 per person including drinks and a pastry. Non-negotiable Shenzhen experience.`
     ]
   },
 
