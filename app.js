@@ -307,6 +307,19 @@ const ACTIVITIES = {
       `The restaurant has been operating in the same neighbourhood for decades and the crowd tells the story: local Beijing families, groups of friends who have been coming here since university. Order the lamb first, then add tofu, cabbage and glass noodles as the broth enriches. Finish with a bowl of the deeply flavoured broth as soup.`
     ]
   },
+  henjiu: {
+    title: '很久以前羊肉串 — Mutton Skewers',
+    addr: '很久以前 Gulou Branch: 旧鼓楼外大街甲1号, Xicheng District, Beijing · Metro Line 2/8, Gulou Dajie · Open 17:00–late',
+    img: 'food-henjiu.png',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=很久以前羊肉串+旧鼓楼外大街+北京',
+    gallery: ['food-henjiu-2.png', 'food-henjiu-3.png', 'food-henjiu-4.png'],
+    desc: [
+      `很久以前羊肉串 ("Long Time Ago Mutton Skewers") was founded in 2008 by Song Ji, an Inner Mongolian native who set out to build the Haidilao of lamb BBQ — same obsessive service standards, same no-franchising discipline, applied to a single product done to perfection. Each skewer uses lamb sourced exclusively from 6-month-old Hulunbuir grassland sheep, skewered in a precise sequence (rib → lean → fat → lean → lean) and seasoned only with cumin and chili — nothing else, so the clean, milky sweetness of the lamb comes through. The gaminess that puts people off cheaper skewers is completely absent.`,
+      `The table setup is the other thing: a 360° rotating smokeless electric grill that turns continuously so every skewer chars evenly without manual tending. Staff monitor the grill and add or remove skewers — you drink beer and eat, they cook. Cumin packets come individually sealed. Ice towels arrive in summer. Milk candy on the way out. Five consecutive years on Dianping's 必吃榜 Must-Eat List at the Gulou branch, which is the hardest restaurant recognition in China to sustain.`,
+      `Order the lamb skewers (obviously), grilled scallops with vermicelli, the chicken wings and at least one round of the fried rice as a base. ~¥100–150 per person. Book ahead in the evening — walk-in queues at peak hours are long and the wait is not managed gently. The Gulou branch near the Drum Tower is the flagship; the Guijie (Ghost Street) branch at 209 Dongzhimen Neidajie is also excellent and slightly easier to get into.`
+    ]
+  },
 
   // ── SHENZHEN ACTIVITIES ──────────────────────────────────────────────────
   'szx-robot6s': {
@@ -578,6 +591,19 @@ const ACTIVITIES = {
       `Chen Mapo Dofu (陈麻婆豆腐) has been making mapo tofu on the same street in Chengdu since 1862. The dish was invented here — by the pockmarked-faced (mapo) wife of a tofu seller named Chen — and 160 years later her descendants are still running the restaurant. Eating it here, in the city of its birth, is one of those rare food experiences where history and flavour arrive simultaneously.`,
       `The dish itself is a study in extremes: silken white tofu, barely holding together, swimming in a sauce of scorching chili oil, fermented black beans, Sichuan peppercorns, minced beef and a glossy layer of bright red oil. The mala sensation — simultaneously numbing and burning — builds slowly and peaks about ten minutes after you stop eating. Deeply addictive.`,
       `Order the original recipe (传统麻婆豆腐) rather than any modified version. Add a bowl of plain steamed rice — essential for tempering the heat — and a cold Tsingtao. The restaurant is always busy at lunch; arrive at 11:30 AM or be prepared to queue.`
+    ]
+  },
+  wagyu: {
+    title: '锦城印象火锅(彩虹店) — Wagyu Hotpot',
+    addr: '锦城印象火锅 Rainbow Bridge Branch: 武侯祠大街19号（近彩虹桥头）, Wuhou District, Chengdu · Near Wuhou Temple · Open 11:00–02:00',
+    img: 'food-wagyu.png',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=锦城印象火锅+武侯祠大街+成都',
+    gallery: ['food-wagyu-2.png', 'food-wagyu-3.png', 'food-wagyu-4.png'],
+    desc: [
+      `锦城印象火锅 (Jǐnchéng Yìnxiàng Hotpot) at the Rainbow Bridge branch in Wuhou sits five minutes from the Wuhou Temple, Chengdu's most visited historic site. The restaurant holds a Michelin Selected listing (2024 and 2025 Chengdu Guide) and a Black Pearl designation — a rare combination that marks it as the city's most decorated hotpot address. The décor is warm, the service attentive by Sichuan hotpot standards, and the kitchen takes the ingredients seriously.`,
+      `The signature is the 和牛嫩肩M9+ (Australian M9+ wagyu shoulder), sliced thin and cooked for no more than 15 seconds in the beef-tallow Sichuan broth. M9 is the highest commercial marbling grade in the Australian grading system — heavily intramuscular fat that melts on contact with the hot oil and practically dissolves on the palate. The broth itself is the other star: a classic Chengdu-style mala base built on beef tallow, dried chillies, Sichuan peppercorn, and doubanjiang fermented bean paste, aged for months before service.`,
+      `Order strategy: start with the wagyu shoulder (和牛嫩肩, ~¥88/plate), then fill out the table with bean curd skin, lotus root, oyster mushrooms, and duck blood (a Chengdu staple). The sesame dipping sauce cuts the fat without competing with the heat. Budget ¥120–162 per person for a proper meal. The restaurant opens at 11:00 and stays open until 02:00 — one of the few premium hotpot spots in Chengdu worth visiting for a late dinner.`
     ]
   }
 };
