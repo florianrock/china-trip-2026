@@ -119,15 +119,15 @@ const ACTIVITIES = {
   },
   legoland: {
     title: 'LEGOLAND Discovery Center Shanghai',
-    addr: 'Raffles City Changning, 1239 Changning Road, Changning District, Shanghai (metro: Loushanguan Road, Line 2/10)',
+    addr: 'Changfeng Joy City (长风大悦城), 2/F, 196 Daduhe Road, Putuo District, Shanghai · Metro Line 11, Changfeng Park station',
     img: 'shanghai-legoland.png',
     city: 'Shanghai',
-    maps: 'https://maps.google.com/?q=LEGOLAND+Discovery+Center+Shanghai',
+    maps: 'https://maps.google.com/?q=LEGOLAND+Discovery+Center+Shanghai+Changfeng+Joy+City',
     gallery: ['shanghai-legoland-2.png', 'shanghai-legoland-3.png', 'shanghai-legoland-4.png'],
     desc: [
-      `LEGOLAND Discovery Center Shanghai is the ultimate indoor LEGO playground — not an outdoor theme park, but a LEGO world under one roof inside Raffles City Changning. The centrepiece is MINILAND: Shanghai's iconic skyline — the Bund, Oriental Pearl Tower, Jin Mao — recreated in extraordinary detail from over a million LEGO bricks, with working lights and animated scenes. Surrounding it: a 4D cinema, themed rides (Kingdom Quest laser ride, Merlin's Apprentice), a dedicated LEGO build zone and a LEGO Factory tour showing how bricks are designed and manufactured.`,
-      `The Master Builder Academy runs daily workshops where kids work alongside real LEGO designers to build specific models from scratch. The Duplo soft-play and toddler zone makes it genuinely cross-age — Felix and younger kids can all find their level simultaneously without anyone getting bored or feeling left out. Allow 2.5–3 hours minimum; the LEGO store at the exit is unavoidable and excellent.`,
-      `Practical note: LEGOLAND Discovery Center is designed for children aged 3–12. Adults without a child are not admitted — which keeps the atmosphere genuinely kid-focused. Book tickets online to skip queues; peak times (weekends, school holidays) sell out. The on-site café is fine. Entry is around CHF 25 per person. For context, this is the same LEGOLAND Discovery Center brand as the ones in Manchester, Chicago and Berlin — but the Shanghai MINILAND is larger and more detailed than any of them.`
+      `LEGOLAND Discovery Center Shanghai — China's first, opened April 2016 — is a 10-zone indoor LEGO world on the second floor of Changfeng Joy City in Putuo District. The centrepiece is MINILAND: a miniature Shanghai built from 3.9 million LEGO bricks, complete with a day-night lighting cycle that makes the Bund, Oriental Pearl Tower and Jin Mao shimmer exactly as they do from the real waterfront. Rides include Kingdom Quest (a laser-targeting dark ride) and Build & Race (design your own LEGO car and send it down the track). The 4D cinema adds wind, mist and scent to short animated films.`,
+      `The DUPLO Farm soft-play area covers the under-5s; the LEGO Friends zone and Creative Workshop handle older kids; the Master Builder Academy runs daily sessions with trained LEGO designers. You can genuinely split a group across age ranges here and have everyone occupied at once. The Factory Tour explains how bricks are manufactured — surprisingly interesting even for adults. Plan for 2–3 hours. The LEGO Shop at the exit is the only place in China selling bulk LEGO bricks by the piece.`,
+      `Practical: online tickets ~¥170 (CHF 22), door price ¥200. Mon–Fri 10:30–18:30, Sat–Sun 10:00–20:00. Adults must be accompanied by a child to enter (designed for ages 3–10). Book online before you go — weekends sell out. Metro Line 11 to Changfeng Park station, 5-minute walk.`
     ]
   },
 
@@ -242,7 +242,7 @@ const ACTIVITIES = {
   },
   noodles: {
     title: 'Shanghai Noodles & Street Food',
-    addr: 'Yang\'s Fry Dumplings: 269 Wujiang Road, Jing\'an District · Da Hu Chun: 6 Sichuan Middle Rd, Shanghai',
+    addr: 'Yang\'s Fry Dumplings: 269 Wujiang Road, Jing\'an District · Da Hu Chun: 136 Sichuan Middle Road, Huangpu District',
     img: 'food-noodles.png',
     city: 'Shanghai',
     maps: 'https://maps.google.com/?q=Yang%27s+Fry+Dumplings+Wujiang+Road+Shanghai',
@@ -255,15 +255,15 @@ const ACTIVITIES = {
   },
   panfried: {
     title: '大壶春 — Pan-fried Pork Buns',
-    addr: 'Da Hu Chun (大壶春): 6 Sichuan Middle Road, Huangpu District, Shanghai (near the Bund)',
+    addr: 'Da Hu Chun (大壶春): 136 Sichuan Middle Road, Huangpu District, Shanghai · Open 7:00–19:30 daily',
     img: 'food-panfried.png',
     city: 'Shanghai',
-    maps: 'https://maps.google.com/?q=大壶春+四川中路+上海',
+    maps: 'https://maps.google.com/?q=大壶春+四川中路136号+上海',
     gallery: ['food-panfried-2.png', 'food-panfried-3.png', 'food-panfried-4.png'],
     desc: [
-      `大壶春 (Da Hu Chun) has been making Shanghai's definitive shengjian bao from the same address on Sichuan Middle Road since 1932. These are pan-fried pork buns — not steamed, not baked — cooked in enormous cast-iron skillets until the bottoms are golden and crackling like a crêpe, while the tops are soft and pillowy, dusted with sesame seeds and spring onion. Inside: a nugget of coarsely minced pork and a mouthful of hot soup that releases the moment you bite in. Michelin Bib Gourmand. Under $3 for four.`,
-      `The technique is everything. The skin is thicker than a xiaolongbao — it needs to survive the frying — but thinner than a regular bao. The bottom crust shatters. The soup hits you immediately. It is one of the great single bites in China, and it costs ¥20 (about CHF 2.50) for four pieces. The kitchen cranks out pan after pan from dawn; come at breakfast or lunch for buns hot off the skillet — they're noticeably better fresh than rested.`,
-      `No English menu. No English needed. Point at the buns, pay at the counter, collect your order. Wash them down with a small cup of fresh soy milk from the counter beside the fryer — the combination is one of those perfect pairings that seems obvious only in retrospect. This is the Instagram reel Florian saw: @zoe_shanghailocal, #panfried, "$3 Michelin Shanghai." She's right.`
+      `大壶春 (Da Hu Chun) was founded in 1932 and has held a Michelin Bib Gourmand every year since 2016. It is the home of the "清水派" — the clear-water school of shengjian bao, which uses a leavened, fermented dough that puffs up like a small mantou. This makes the skin chewier and more bread-like than the thinner-wrapped competitors; less oily, more absorptive, and it holds the soup inside better. The bottoms are fried in giant cast-iron skillets until golden and crackling; the tops steam soft, dusted with sesame and spring onion. Four buns cost ~¥11 (about CHF 1.40). Order the curry beef soup alongside — it's been on the menu since the 1930s.`,
+      `The fillings go beyond the classic pork: prawn (虾仁), crab roe (蟹粉) and — the modern signature — foie gras (鹅肝) buns at ~¥8 each. The foie gras version sounds wrong and tastes completely right. The original pork remains the benchmark. Come at breakfast or lunch: the kitchen starts fresh each morning and the buns are noticeably better hot from the skillet, straight into your hands.`,
+      `136 Sichuan Middle Road, Huangpu District — a 10-minute walk from the Bund. Open daily 7:00–19:30. No English menu, none needed — point at the bun tray, pay at the counter. This is the place from Florian's Instagram reel (@zoe_shanghailocal, #panfried, "$3 Michelin Shanghai"). She's right.`
     ]
   },
 
