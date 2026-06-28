@@ -118,16 +118,16 @@ const ACTIVITIES = {
     ]
   },
   legoland: {
-    title: 'LEGOLAND Discovery Center Shanghai',
-    addr: 'Changfeng Joy City (长风大悦城), 2/F, 196 Daduhe Road, Putuo District, Shanghai · Metro Line 11, Changfeng Park station',
-    img: 'shanghai-legoland.png',
+    title: 'Shanghai LEGOLAND Resort',
+    addr: 'Jinshan District, Shanghai (~60 km SW of the centre, near Hangzhou Bay) · dedicated rail/shuttle link, allow ~1.5 h each way',
+    img: 'shanghai-legoland.jpg',
     city: 'Shanghai',
-    maps: 'https://maps.google.com/?q=LEGOLAND+Discovery+Center+Shanghai+Changfeng+Joy+City',
-    gallery: ['shanghai-legoland-2.png', 'shanghai-legoland-3.png', 'shanghai-legoland-4.png'],
+    maps: 'https://maps.google.com/?q=Shanghai+LEGOLAND+Resort+Jinshan',
+    gallery: ['shanghai-legoland-2.jpg', 'shanghai-legoland-3.jpg'],
     desc: [
-      `LEGOLAND Discovery Center Shanghai — China's first, opened April 2016 — is a 10-zone indoor LEGO world on the second floor of Changfeng Joy City in Putuo District. The centrepiece is MINILAND: a miniature Shanghai built from 3.9 million LEGO bricks, complete with a day-night lighting cycle that makes the Bund, Oriental Pearl Tower and Jin Mao shimmer exactly as they do from the real waterfront. Rides include Kingdom Quest (a laser-targeting dark ride) and Build & Race (design your own LEGO car and send it down the track). The 4D cinema adds wind, mist and scent to short animated films.`,
-      `The DUPLO Farm soft-play area covers the under-5s; the LEGO Friends zone and Creative Workshop handle older kids; the Master Builder Academy runs daily sessions with trained LEGO designers. You can genuinely split a group across age ranges here and have everyone occupied at once. The Factory Tour explains how bricks are manufactured — surprisingly interesting even for adults. Plan for 2–3 hours. The LEGO Shop at the exit is the only place in China selling bulk LEGO bricks by the piece.`,
-      `Practical: online tickets ~¥170 (CHF 22), door price ¥200. Mon–Fri 10:30–18:30, Sat–Sun 10:00–20:00. Adults must be accompanied by a child to enter (designed for ages 3–10). Book online before you go — weekends sell out. Metro Line 11 to Changfeng Park station, 5-minute walk.`
+      `Shanghai LEGOLAND Resort opened in July 2025 in Jinshan District — China's first LEGOLAND and the largest in the world. This is a full outdoor theme park (not the small indoor Discovery Center): eight themed lands across a huge site with dozens of rides, shows and hands-on build zones, plus the on-site LEGOLAND Hotel where every room is themed — pirates, ninjas, LEGO Friends — and the kids get their own bunk nook.`,
+      `The heart of the park is MINILAND — a miniature China rebuilt entirely in LEGO bricks: the Shanghai Bund and Oriental Pearl skyline, Yu Garden, the Beijing skyline and more, with day-night lighting and tiny moving trains and boats. Around it, LEGO Castle, LEGO City (kids drive their own cars and earn a "licence"), Brick Dimension and the LEGO Friends zones split cleanly across age ranges — ideal for our family group with the little ones.`,
+      `Practical: it's ~60 km southwest of central Shanghai (Jinshan, near Hangzhou Bay), so treat it as a full day — allow about 1.5 hours each way via the dedicated rail/shuttle link. Aimed at roughly ages 2–12. Buy timed tickets online in advance (cheaper than the gate) and arrive at opening to beat queues. Our October dates are perfect — mild autumn weather, post-summer crowds.`
     ]
   },
 
@@ -256,10 +256,10 @@ const ACTIVITIES = {
   panfried: {
     title: '大壶春 — Pan-fried Pork Buns',
     addr: 'Da Hu Chun (大壶春): 136 Sichuan Middle Road, Huangpu District, Shanghai · Open 7:00–19:30 daily',
-    img: 'food-panfried.png',
+    img: 'food-panfried.jpg',
     city: 'Shanghai',
     maps: 'https://maps.google.com/?q=大壶春+四川中路136号+上海',
-    gallery: ['food-panfried-2.png', 'food-panfried-3.png', 'food-panfried-4.png'],
+    gallery: ['food-panfried-2.jpg', 'food-panfried-3.jpg'],
     desc: [
       `大壶春 (Da Hu Chun) was founded in 1932 and has held a Michelin Bib Gourmand every year since 2016. It is the home of the "清水派" — the clear-water school of shengjian bao, which uses a leavened, fermented dough that puffs up like a small mantou. This makes the skin chewier and more bread-like than the thinner-wrapped competitors; less oily, more absorptive, and it holds the soup inside better. The bottoms are fried in giant cast-iron skillets until golden and crackling; the tops steam soft, dusted with sesame and spring onion. Four buns cost ~¥11 (about CHF 1.40). Order the curry beef soup alongside — it's been on the menu since the 1930s.`,
       `The fillings go beyond the classic pork: prawn (虾仁), crab roe (蟹粉) and — the modern signature — foie gras (鹅肝) buns at ~¥8 each. The foie gras version sounds wrong and tastes completely right. The original pork remains the benchmark. Come at breakfast or lunch: the kitchen starts fresh each morning and the buns are noticeably better hot from the skillet, straight into your hands.`,
