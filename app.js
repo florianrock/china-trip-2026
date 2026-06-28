@@ -117,6 +117,19 @@ const ACTIVITIES = {
       `October is perfect timing: post-Golden Week means the crowds have thinned significantly but the park is still running full autumn programming. Book FastPass for TRON and Pirates before you arrive. The fireworks spectacular over the castle at 9 PM is the best in any Disney park — save your spot 20 minutes early.`
     ]
   },
+  legoland: {
+    title: 'LEGOLAND Discovery Center Shanghai',
+    addr: 'Raffles City Changning, 1239 Changning Road, Changning District, Shanghai (metro: Loushanguan Road, Line 2/10)',
+    img: 'shanghai-legoland.png',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=LEGOLAND+Discovery+Center+Shanghai',
+    gallery: ['shanghai-legoland-2.png', 'shanghai-legoland-3.png', 'shanghai-legoland-4.png'],
+    desc: [
+      `LEGOLAND Discovery Center Shanghai is the ultimate indoor LEGO playground — not an outdoor theme park, but a LEGO world under one roof inside Raffles City Changning. The centrepiece is MINILAND: Shanghai's iconic skyline — the Bund, Oriental Pearl Tower, Jin Mao — recreated in extraordinary detail from over a million LEGO bricks, with working lights and animated scenes. Surrounding it: a 4D cinema, themed rides (Kingdom Quest laser ride, Merlin's Apprentice), a dedicated LEGO build zone and a LEGO Factory tour showing how bricks are designed and manufactured.`,
+      `The Master Builder Academy runs daily workshops where kids work alongside real LEGO designers to build specific models from scratch. The Duplo soft-play and toddler zone makes it genuinely cross-age — Felix and younger kids can all find their level simultaneously without anyone getting bored or feeling left out. Allow 2.5–3 hours minimum; the LEGO store at the exit is unavoidable and excellent.`,
+      `Practical note: LEGOLAND Discovery Center is designed for children aged 3–12. Adults without a child are not admitted — which keeps the atmosphere genuinely kid-focused. Book tickets online to skip queues; peak times (weekends, school holidays) sell out. The on-site café is fine. Entry is around CHF 25 per person. For context, this is the same LEGOLAND Discovery Center brand as the ones in Manchester, Chicago and Berlin — but the Shanghai MINILAND is larger and more detailed than any of them.`
+    ]
+  },
 
   // ── BEIJING ACTIVITIES ───────────────────────────────────────────────────
   forbidden: {
@@ -238,6 +251,19 @@ const ACTIVITIES = {
       `Shanghai's street food and noodle culture is one of the city's great pleasures, and the most accessible way into it is yangchun mian — scallion oil noodles. Thin wheat noodles tossed in darkly caramelised scallion oil with soy sauce and sugar: four ingredients, decades of technique, total perfection. Da Hu Chun on Sichuan Road has been making them since 1932.`,
       `Shengjian bao — pan-fried pork buns — are Shanghai's other signature street food. The bottoms are fried until golden and crackling in a giant iron skillet; the tops are soft and pillowy, sprinkled with sesame seeds and chopped spring onion. Inside: soup and pork. Yang's Fry Dumplings on Wujiang Road is the definitive spot — always a queue, always worth it.`,
       `For a full street-food crawl: start on Wujiang Road (shengjian bao, egg tarts), then move to the Old City Bazaar for sesame pastries and red bean soup. Total cost for all three stops: under CHF 5.`
+    ]
+  },
+  panfried: {
+    title: '大壶春 — Pan-fried Pork Buns',
+    addr: 'Da Hu Chun (大壶春): 6 Sichuan Middle Road, Huangpu District, Shanghai (near the Bund)',
+    img: 'food-panfried.png',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=大壶春+四川中路+上海',
+    gallery: ['food-panfried-2.png', 'food-panfried-3.png', 'food-panfried-4.png'],
+    desc: [
+      `大壶春 (Da Hu Chun) has been making Shanghai's definitive shengjian bao from the same address on Sichuan Middle Road since 1932. These are pan-fried pork buns — not steamed, not baked — cooked in enormous cast-iron skillets until the bottoms are golden and crackling like a crêpe, while the tops are soft and pillowy, dusted with sesame seeds and spring onion. Inside: a nugget of coarsely minced pork and a mouthful of hot soup that releases the moment you bite in. Michelin Bib Gourmand. Under $3 for four.`,
+      `The technique is everything. The skin is thicker than a xiaolongbao — it needs to survive the frying — but thinner than a regular bao. The bottom crust shatters. The soup hits you immediately. It is one of the great single bites in China, and it costs ¥20 (about CHF 2.50) for four pieces. The kitchen cranks out pan after pan from dawn; come at breakfast or lunch for buns hot off the skillet — they're noticeably better fresh than rested.`,
+      `No English menu. No English needed. Point at the buns, pay at the counter, collect your order. Wash them down with a small cup of fresh soy milk from the counter beside the fryer — the combination is one of those perfect pairings that seems obvious only in retrospect. This is the Instagram reel Florian saw: @zoe_shanghailocal, #panfried, "$3 Michelin Shanghai." She's right.`
     ]
   },
 
