@@ -566,6 +566,21 @@ h1 {
 .badge-stayed   { background: #1a3a6b; color: #7eb8ff; }
 .badge-location { background: #4a1a6b; color: #d4a0ff; }
 .badge-joke     { background: #5c1a1a; color: #ffb0b0; }
+.badge-pick     { background: #1a4a1a; color: #7aff7a; }
+
+.hotel-alternatives {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.hotel-alternatives-heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  margin: 0 0 1.25rem;
+}
 
 .hotel-stars-modal { font-size: 0.65em; opacity: 0.6; margin-left: 0.4em; vertical-align: middle; }
 .hotel-price-modal { color: var(--gold); font-weight: 600; margin: 0.5rem 0 1rem; font-size: 1.05rem; }
