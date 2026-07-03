@@ -601,6 +601,9 @@ h1 {
   color: var(--gold-light);
 }
 
+.hotel-header h3 a { color: inherit; text-decoration: none; }
+.hotel-header h3 a:hover { text-decoration: underline; }
+
 .hotel-stars { color: var(--gold); font-size: 0.8rem; letter-spacing: 1px; }
 
 .hotel-price {
