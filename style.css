@@ -801,3 +801,101 @@ footer {
 @media (max-width: 600px) {
   html, body { overflow-x: hidden; }
 }
+
+/* ---- Flight chip on a connector (desktop: minimal, full detail on hover) */
+.itin-line--flight { position: relative; overflow: visible; }
+.itin-flight {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--navy-mid);
+  border: 1px solid var(--navy-light);
+  color: var(--text-muted);
+  font-size: 0.62rem;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  cursor: help;
+}
+.itin-flight:hover, .itin-flight:focus { color: var(--gold); border-color: var(--gold); outline: none; }
+.itin-flight-info {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  background: var(--navy-dark, #0f1b2d);
+  border: 1px solid var(--gold);
+  color: var(--text);
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  white-space: nowrap;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.itin-flight:hover .itin-flight-info,
+.itin-flight:focus .itin-flight-info { display: block; }
+
+/* ---- Mobile: run the whole timeline vertically -------------------------
+   The horizontal version needed a sideways swipe on every phone. Stacked, the
+   entire trip is visible in one scroll and each stop has room for its day
+   markers, hotel and flight. */
+@media (max-width: 600px) {
+  .itinerary {
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: visible;
+    padding: 1rem 1.1rem;
+  }
+  .itinerary-wrap::after { display: none; }   /* no sideways fade needed */
+
+  .itin-step {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.6rem;
+    min-width: 0;
+    max-width: none;
+    text-align: left;
+    padding: 0.15rem 0;
+    flex-wrap: wrap;
+  }
+  .itin-dot { flex: 0 0 auto; margin-top: 0.15rem; }
+  .itin-label { flex: 0 0 3.6rem; font-size: 0.7rem; }
+  .itin-city  { flex: 1 1 auto; font-size: 0.82rem; text-align: left; }
+  .itin-nights{ flex: 0 0 auto; font-size: 0.68rem; }
+  .itin-day, .itin-hotel {
+    /* basis must subtract the indent, or the margin pushes it past the edge */
+    flex: 0 0 calc(100% - 4.6rem);
+    max-width: calc(100% - 4.6rem);
+    margin-left: 4.6rem;
+    text-align: left;
+  }
+  .itin-hotel { border-top: none; padding-top: 0; }
+
+  .itin-line {
+    width: 2px !important;
+    min-width: 2px;
+    height: 22px;
+    flex: 0 0 auto;
+    margin-left: 4px;
+  }
+  .itin-line--flight { height: 34px; overflow: visible; }
+  .itin-flight {
+    left: 0;
+    transform: translate(0, -50%);
+    margin-left: 12px;
+  }
+  .itin-flight-info {
+    left: 0;
+    transform: none;
+    white-space: normal;
+    width: 15rem;
+  }
+}
