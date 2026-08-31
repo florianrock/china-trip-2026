@@ -691,3 +691,59 @@ footer {
   .cards-grid { grid-template-columns: 1fr; }
   .modal-gallery { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Day highlight inside an itinerary step (e.g. Oct 15 Great Wall) */
+.itin-day {
+  margin-top: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--navy-dark, #0f1b2d);
+  background: var(--gold);
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  white-space: nowrap;
+}
+
+/* "Not considered" — ideas kept visible but clearly parked */
+.parked { margin-top: 2.5rem; }
+.parked-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin: 0 0 0.15rem;
+}
+.parked-note {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin: 0 0 1rem;
+}
+.card--parked { opacity: 0.55; filter: saturate(0.5); }
+.card--parked:hover { opacity: 0.85; filter: none; }
+
+/* Itinerary hotel row — revealed by the toggle */
+.itin-hotel {
+  display: none;
+  margin-top: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-top: 1px dashed var(--navy-light);
+  padding-top: 0.3rem;
+  white-space: nowrap;
+}
+.itinerary.show-hotels .itin-hotel { display: block; }
+
+.itin-toggle {
+  display: block;
+  margin: 0.75rem auto 0;
+  background: transparent;
+  border: 1px solid var(--navy-light);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.itin-toggle:hover { color: var(--gold); border-color: var(--gold); }
