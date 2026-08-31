@@ -5,9 +5,9 @@ const TRIP = { start: '2026-10-08', end: '2026-10-22' };
 
 // City blocks — a day inherits its city + hotel from whichever block covers it.
 const BLOCKS = [
-  { from: '2026-10-08', to: '2026-10-12', city: 'Chengdu',  emoji: '🐼', hotel: 'Mercure Tianfu Square' },
-  { from: '2026-10-12', to: '2026-10-17', city: 'Beijing',  emoji: '🏯', hotel: 'Grand Hyatt Beijing' },
-  { from: '2026-10-17', to: '2026-10-22', city: 'Shanghai', emoji: '🏙️', hotel: 'Pullman Jing An' },
+  { from: '2026-10-08', to: '2026-10-12', city: 'Chengdu',  emoji: '🐼', hotel: 'Mercure Tianfu Square', hotelId: 'hotel-mercure-chengdu' },
+  { from: '2026-10-12', to: '2026-10-17', city: 'Beijing',  emoji: '🏯', hotel: 'Grand Hyatt Beijing', hotelId: 'hotel-grand-hyatt-beijing' },
+  { from: '2026-10-17', to: '2026-10-22', city: 'Shanghai', emoji: '🏙️', hotel: 'Pullman Jing An', hotelId: 'hotel-pullman-jingan' },
 ];
 
 // Anything actually scheduled. Empty array => day is flagged as free.
@@ -17,14 +17,14 @@ const PLANS = {
     { icon: '✈️', text: 'Onward flight to Chengdu' },
   ],
   '2026-10-09': [
-    { icon: '🐼', text: 'Chengdu Panda Base', note: 'Giant Panda Baby Zone · 1375 Panda Avenue, Chenghua District · ~30 min from the centre. Go early — the cubs are most active before 10:00.' },
+    { icon: '🐼', text: 'Chengdu Panda Base', id: 'pandas', note: 'Giant Panda Baby Zone · 1375 Panda Avenue, Chenghua District · ~30 min from the centre. Go early — the cubs are most active before 10:00.' },
   ],
   '2026-10-12': [
-    { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
+    { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
   ],
-  '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China' }],
-  '2026-10-16': [{ icon: '🏛️', text: 'Forbidden City' }],
-  '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai' }],
+  '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
+  '2026-10-16': [{ icon: '🏛️', text: 'Forbidden City', id: 'forbidden' }],
+  '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
   '2026-10-22': [{ icon: '🛫', text: 'Fly home from Shanghai' }],
 };
 
@@ -69,10 +69,14 @@ function build() {
         <span class="cal-dow">${d.toLocaleDateString('en-GB', { weekday: 'short' })}</span>
       </div>
       ${blk ? `<div class="cal-city">${blk.emoji} ${blk.city}</div>
-               <div class="cal-hotel">🏨 ${blk.hotel}</div>` : ''}
+               ${blk.hotelId && typeof ACTIVITIES !== 'undefined' && ACTIVITIES[blk.hotelId]
+                 ? `<button class="cal-hotel cal-hotel--link" data-open="${blk.hotelId}">🏨 ${blk.hotel} <span class="cal-more">›</span></button>`
+                 : `<div class="cal-hotel">🏨 ${blk.hotel}</div>`}` : ''}
       <div class="cal-items">
         ${items.length
-          ? items.map(i => `<div class="cal-item" ${i.note ? `title="${i.note}"` : ''}>${i.icon} ${i.text}</div>`).join('')
+          ? items.map(i => i.id && typeof ACTIVITIES !== 'undefined' && ACTIVITIES[i.id]
+              ? `<button class="cal-item cal-item--link" data-open="${i.id}" ${i.note ? `title="${i.note}"` : ''}>${i.icon} ${i.text} <span class="cal-more">›</span></button>`
+              : `<div class="cal-item" ${i.note ? `title="${i.note}"` : ''}>${i.icon} ${i.text}</div>`).join('')
           : '<div class="cal-free">No agenda yet</div>'}
       </div>`;
     grid.appendChild(cell);
@@ -83,3 +87,40 @@ function build() {
 }
 
 build();
+
+
+// ── Detail popup ───────────────────────────────────────────────────────────
+// Read-only version of the main page's modal: same content, no vote button
+// (the calendar page deliberately does not load the sign-in / voting stack).
+const modal = document.getElementById('cal-modal');
+const modalContent = document.getElementById('cal-modal-content');
+
+function openDetail(id) {
+  const a = (typeof ACTIVITIES !== 'undefined') ? ACTIVITIES[id] : null;
+  if (!a) return;
+  const hero = a.img
+    ? `<img class="modal-hero" src="${a.img}" alt="${a.title}" />`
+    : `<div class="modal-hero-emoji">${a.emoji || '📍'}</div>`;
+  modalContent.innerHTML = `
+    ${hero}
+    <h2>${a.title}</h2>
+    ${a.addr ? `<p class="modal-addr">📍 ${a.addr}${a.maps ? ` · <a href="${a.maps}" target="_blank" rel="noopener" class="maps-link">Maps ↗</a>` : ''}</p>` : ''}
+    <div class="modal-gallery">${(a.gallery || []).map(src => `<img src="${src}" alt="${a.title}" loading="lazy" />`).join('')}</div>
+    ${a.desc.map(p => `<p>${p}</p>`).join('')}`;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDetail() {
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('click', e => {
+  const open = e.target.closest('[data-open]');
+  if (open) { openDetail(open.dataset.open); return; }
+  if (e.target.id === 'cal-modal' || e.target.closest('#cal-modal-close')) closeDetail();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });

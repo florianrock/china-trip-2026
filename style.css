@@ -959,3 +959,20 @@ footer {
   .cal-hotel { flex: 1 0 100%; }
   .cal-items { flex: 1 0 100%; }
 }
+
+/* Calendar items that open a detail popup */
+.cal-item--link {
+  font-family: inherit; text-align: left; width: 100%;
+  border: 1px solid transparent; cursor: pointer;
+  display: flex; align-items: center; gap: 0.3rem;
+}
+.cal-item--link:hover { border-color: var(--gold); color: var(--gold); }
+.cal-more { margin-left: auto; opacity: 0.6; font-weight: 700; }
+
+.cal-hotel--link {
+  font-family: inherit; text-align: left; width: 100%;
+  background: transparent; border: 1px solid transparent; cursor: pointer;
+  padding: 0.1rem 0.2rem; border-radius: 5px;
+  display: flex; align-items: center; gap: 0.3rem;
+}
+.cal-hotel--link:hover { border-color: var(--gold); color: var(--gold); }
