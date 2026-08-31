@@ -16,6 +16,9 @@ const PLANS = {
     { icon: '🛬', text: 'Arrive Shanghai' },
     { icon: '✈️', text: 'Onward flight to Chengdu' },
   ],
+  '2026-10-09': [
+    { icon: '🐼', text: 'Chengdu Panda Base', note: 'Giant Panda Baby Zone · 1375 Panda Avenue, Chenghua District · ~30 min from the centre. Go early — the cubs are most active before 10:00.' },
+  ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
   ],
