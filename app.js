@@ -1150,8 +1150,8 @@ lightbox.addEventListener('click', closeLightbox);
   const itin = document.querySelector('.itinerary');
   if (!btn || !itin) return;
   btn.addEventListener('click', () => {
-    const open = itin.classList.toggle('show-hotels');
-    btn.setAttribute('aria-expanded', String(open));
-    btn.textContent = open ? '🏨 Hide hotels' : '🏨 Show hotels';
+    const hidden = itin.classList.toggle('hide-hotels');
+    btn.setAttribute('aria-expanded', String(!hidden));
+    btn.textContent = hidden ? '🏨 Show hotels' : '🏨 Hide hotels';
   });
 })();
