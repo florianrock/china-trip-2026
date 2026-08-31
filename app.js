@@ -13,6 +13,32 @@ const ACTIVITIES = {
       `Compare this to flying: no airport security theatre, no baggage carousel, city centre to city centre — Shanghai Hongqiao station to Beijing South station, both fully metro-connected. Business class tickets run around CHF 90–120 per person. It is, without question, the right way to make this journey. Book weeks ahead — business class sells out fast on this route.`
     ]
   },
+  harmay: {
+    title: 'Harmay 话梅 — Anfu Road',
+    addr: '308 Anfu Road, Xuhui District, Shanghai (安福路308号)',
+    img: 'shanghai-harmay.jpg',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=HARMAY+话梅+安福路308号+上海',
+    gallery: [],
+    desc: [
+      `Harmay (话梅) started life in 2008 as a Taobao seller and opened this, its first physical store, on Anfu Road in 2017 — and effectively reinvented what a beauty shop looks like in China. The interior is deliberately unfinished: raw concrete, exposed steel racking, industrial trolleys and warehouse crates, designed by AIM Architecture. It looks more like a parts depot than a cosmetics counter, which is exactly the point.`,
+      `The draw is the format. Harmay sells luxury beauty in sample and miniature sizes — you take a basket, walk the racks and pick decants of brands that would cost a fortune in full size. It's the cheapest possible way to try La Mer, Creed, SK-II and dozens of others, and it makes for genuinely good small gifts to bring home. Each Harmay store runs a different theme, so this one is worth seeing even if you've been to another.`,
+      `Anfu Road itself is the other reason to come. It's the prettiest street in the former French Concession — plane trees, low Art Deco houses, independent coffee shops and boutiques — and it's a five-minute walk from Wukang Mansion. Pair it with the French Concession card: this is the same neighbourhood, so do both in one afternoon.`
+    ]
+  },
+  zzer: {
+    title: 'ZZER 只二 — Transparent Warehouse',
+    addr: 'B1, Hongqiao The Hub, 52 Shaohong Road, Minhang District, Shanghai (只二透明仓)',
+    img: 'shanghai-zzer.jpg',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=只二+透明仓+绍虹路52号+虹桥天地+上海',
+    gallery: [],
+    desc: [
+      `ZZER (只二) is China's largest offline second-hand luxury store, and the scale is the attraction. The "Transparent Warehouse" (透明仓) holds around 100,000 authenticated pre-owned pieces from more than 5,000 brands, and takes in roughly 5,000 new items every day. It is laid out like a warehouse rather than a boutique — long racks, floor-to-ceiling shelving, everything out and browsable.`,
+      `The inventory runs across Hermès, Chanel, Louis Vuitton, Dior and Gucci, plus rare collaboration pieces that never reach European resale. Everything is authenticated in-house before it goes on the floor. Prices sit well below European second-hand levels for the same items, which is what makes it worth a dedicated trip rather than a browse.`,
+      `Location is the one catch: it's at Hongqiao, out west by the transport hub, not central. The upside is that it sits directly at Hongqiao The Hub next to the railway station and Terminal 2 — so it works well as a stop on the way to or from the airport or a high-speed train, rather than a special journey from the Bund.`
+    ]
+  },
   spa: {
     title: 'Qushui Langting — 24h Luxury Spa',
     addr: 'Multiple locations: e.g. 2090 Shennan Rd, Changning District, Shanghai',
