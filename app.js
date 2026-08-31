@@ -1143,3 +1143,15 @@ const lightboxImg = document.getElementById('lightboxImg');
 function openLightbox(src) { lightboxImg.src = src; lightbox.classList.add('open'); }
 function closeLightbox() { lightbox.classList.remove('open'); }
 lightbox.addEventListener('click', closeLightbox);
+
+// Itinerary hotel row toggle
+(() => {
+  const btn = document.getElementById('itin-hotel-toggle');
+  const itin = document.querySelector('.itinerary');
+  if (!btn || !itin) return;
+  btn.addEventListener('click', () => {
+    const open = itin.classList.toggle('show-hotels');
+    btn.setAttribute('aria-expanded', String(open));
+    btn.textContent = open ? '🏨 Hide hotels' : '🏨 Show hotels';
+  });
+})();
