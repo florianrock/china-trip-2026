@@ -672,15 +672,30 @@ const ACTIVITIES = {
   },
   mapotofu: {
     title: "Mapo Tofu at Chen's",
-    addr: "Chen Mapo Dofu (陈麻婆豆腐): 197 Yulin West Road, Jinjiang District, Chengdu",
+    addr: "陈麻婆豆腐 (旗舰店) Chen Mapo Dofu flagship: 青华路10号附10-12号, Qingyang District, Chengdu · Next to Du Fu's Thatched Cottage · ☎ 028-87317216 · Open 11:00–21:00",
     img: 'food-mapotofu.png',
     city: 'Chengdu',
-    maps: 'https://maps.google.com/?q=Chen+Mapo+Dofu+Chengdu',
-    gallery: ['food-mapotofu-2.png', 'food-mapotofu-3.png', 'food-mapotofu-4.png'],
+    maps: 'https://maps.google.com/?q=陈麻婆豆腐旗舰店+青华路+成都',
+    gallery: ['food-mapotofu-5.jpg', 'food-mapotofu-6.jpg', 'food-mapotofu-2.png', 'food-mapotofu-3.png', 'food-mapotofu-4.png'],
     desc: [
       `Chen Mapo Dofu (陈麻婆豆腐) has been making mapo tofu on the same street in Chengdu since 1862. The dish was invented here — by the pockmarked-faced (mapo) wife of a tofu seller named Chen — and 160 years later her descendants are still running the restaurant. Eating it here, in the city of its birth, is one of those rare food experiences where history and flavour arrive simultaneously.`,
+      `Go to the <strong>flagship on Qinghua Road</strong> (旗舰店), not the Luomashi head store and not the Yulin Road branch — this is the one carrying the Michelin Bib Gourmand, awarded again in the 2026 Chengdu guide and every year since the guide launched. It sits directly beside Du Fu's Thatched Cottage and Huanhuaxi Park, so it pairs naturally with a morning at the poet's garden. Around ¥70–80 per person.`,
       `The dish itself is a study in extremes: silken white tofu, barely holding together, swimming in a sauce of scorching chili oil, fermented black beans, Sichuan peppercorns, minced beef and a glossy layer of bright red oil. The mala sensation — simultaneously numbing and burning — builds slowly and peaks about ten minutes after you stop eating. Deeply addictive.`,
       `Order the original recipe (传统麻婆豆腐) rather than any modified version. Add a bowl of plain steamed rice — essential for tempering the heat — and a cold Tsingtao. The restaurant is always busy at lunch; arrive at 11:30 AM or be prepared to queue.`
+    ]
+  },
+  mawangzi: {
+    title: '马旺子·川小馆 — Michelin ★ Sichuan',
+    addr: '马旺子·川小馆 Ma Wangzi (Ma\'s Kitchen): 东糠市街1号, Jinjiang District, Chengdu · 3 min walk from Taikoo Li · ☎ 028-64231923 · Mon–Thu 11:00–14:00 & 17:00–20:30, Fri–Sun 11:30–14:30 & 17:00–20:30',
+    img: 'food-mawangzi.jpg',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=马旺子川小馆+东糠市街+成都',
+    gallery: ['food-mawangzi-2.jpg'],
+    desc: [
+      `马旺子 (Mǎ Wàngzi, "Ma's Kitchen") started in 1923 in Meishan, the town an hour south of Chengdu, and is now run by the fourth generation of the family. It took a Michelin star in the very first Chengdu guide in 2022 and has held it every year since — and in 2023 it was named a Chinese Time-Honored Brand (中华老字号). What makes it unusual is the price: a Michelin-starred kitchen where the average bill lands around ¥100 per person, roughly CHF 12.`,
+      `The cooking is refined Sichuan rather than fiery Sichuan — traditional recipes cleaned up and re-plated without losing the point of them. The dishes to order are 毛血旺 (máo xuè wàng, the spicy duck-blood and offal stew that is the house signature), 宫保茄香虾球 (kung pao prawn balls with aubergine), 担担面 (dandan noodles), and 甜烧白 (sweet steamed pork belly with sticky rice) to finish. The room is new-Chinese minimal — pale wood, warm light, private rooms upstairs.`,
+      `⚠️ Book early. Reports from recent diners describe tables going half a month in advance, with touts outside reselling queue numbers. This is the one restaurant on this page worth reserving before we fly, not after we land.`,
+      `It sits beside Taikoo Li — the same block as the 谧寻茶室 and 元古 tea houses — so lunch here, tea in the afternoon and a wander through Daci Temple all fit into one walkable afternoon.`
     ]
   },
   wagyu: {
