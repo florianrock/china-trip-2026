@@ -1,6 +1,22 @@
 // Shared activity/detail data — consumed by app.js (main page) and
 // calendar.js (calendar page). Pure data, no side effects.
 const ACTIVITIES = {
+  peoplespark: {
+    title: '人民公园 — Marriage Market & Heming Tea House',
+    addr: "People's Park (人民公园): 祠堂街9号, Qingyang District, Chengdu · Metro Line 2 → People's Park station, exit H, 250 m · Park free · Marriage corner daily 09:00–17:00, busiest Wed/Fri/Sat afternoons",
+    img: 'chengdu-peoples-park.jpg',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=人民公园+相亲角+成都',
+    gallery: ['chengdu-peoples-park-1.jpg', 'chengdu-peoples-park-2.jpg', 'chengdu-peoples-park-3.jpg', 'chengdu-peoples-park-4.jpg', 'chengdu-peoples-park-5.jpg'],
+    desc: [
+      `The 相亲角 (xiāngqīnjiǎo, "marriage corner") is the strangest and most human thing in Chengdu. Parents advertise their unmarried adult children on sheets hung along curved racks under the trees: birth year, height, salary, whether there is a flat and a car, hukou, education — and what they expect in return. Then they stand around bargaining with each other on their children's behalf. The children themselves are frequently unaware any of this is happening.`,
+      `Since the park took the corner over, listings are centrally managed rather than self-posted, and colour-coded: <strong>pink sheets for women, teal for men</strong>. Each rack panel holds 56 sheets and is signed with its number range — 女生 1441–1496, 男生 785–824 — so the numbering runs past 1,490 on both sides. That is roughly three thousand people on display at once.`,
+      `You do not need any Chinese to enjoy it. Half the crowd is foreigners holding phones up to the sheets with translation apps open, and the aunties will happily try to recruit you: one recent visitor sat down on a bench to watch and was immediately asked whether she'd like to hear about somebody's daughter. Do note the park's own warning board — commercial matchmakers work the crowd and their pitch is a scam. Ignore the stalls.`,
+      `⏰ Timing matters more than for anything else on this list. The corner is nominally open 09:00–17:00 daily, but it only really happens on <strong>Wednesday, Friday and Saturday afternoons</strong>, with weekend afternoons the peak. On a quiet weekday morning there is almost nothing to see.`,
+      `While you're in the park: 鹤鸣茶社 (Heming Tea House), founded 1923, is one of the oldest surviving tea houses in the city — a Republican-era pavilion with carved doors and blue brick paving, and an open-air terrace of bamboo chairs that is the defining image of Chengdu daily life. Tea is ¥12–30 (Zhuyeqing, Mengding Ganlu, jasmine) with free refills, and 采耳 ear-cleaners work the tables with tuning forks for about ¥30–50. It is the exact opposite of the two design tea houses in Taikoo Li — this one is loud, cheap and full of locals playing cards.`,
+      `🚶 Pairs naturally with 宽窄巷子 (Kuanzhai Alley), about 10 minutes' walk away, and Chen Mapo's Qinghua Road flagship is ~10 minutes by taxi — so marriage corner, tea, lunch and the alleys make one unhurried half-day.`
+    ]
+  },
   teahouses: {
     title: 'Chengdu Tea Houses',
     img: 'chengdu-teahouses.jpg',
