@@ -3,10 +3,11 @@
 const ACTIVITIES = {
   teahouses: {
     title: 'Chengdu Tea Houses',
+    img: 'chengdu-teahouses.jpg',
     addr: 'Mi Xun: The Temple House, 81 Bitieshi St, Jinjiang · Yuangu: Taikoo Li, 2F–3F — both a short walk apart',
     emoji: '🍵',
     city: 'Chengdu',
-    gallery: [],
+    gallery: ['chengdu-teahouses-1.jpg','chengdu-teahouses-2.jpg','chengdu-teahouses-3.jpg','chengdu-teahouses-4.jpg','chengdu-teahouses-5.jpg','chengdu-teahouses-6.jpg'],
     maps: 'https://maps.google.com/?q=谧寻茶室+博舍+成都',
     desc: [
       `In Chengdu the invitation is <strong>“出来喝茶撒”</strong> — <em>come out for tea</em>. It arrives whenever the weather is decent, and it usually means nothing in particular: no agenda, no important conversation, not even strong feelings about the tea. Just somewhere to sit lazily with a pot and stare into space. The city has thousands of teahouses and this is what they are for.`,
