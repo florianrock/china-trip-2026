@@ -1,6 +1,21 @@
 // Shared activity/detail data — consumed by app.js (main page) and
 // calendar.js (calendar page). Pure data, no side effects.
 const ACTIVITIES = {
+  teahouses: {
+    title: 'Chengdu Tea Houses',
+    addr: 'Mi Xun: The Temple House, 81 Bitieshi St, Jinjiang · Yuangu: Taikoo Li, 2F–3F — both a short walk apart',
+    emoji: '🍵',
+    city: 'Chengdu',
+    gallery: [],
+    maps: 'https://maps.google.com/?q=谧寻茶室+博舍+成都',
+    desc: [
+      `In Chengdu the invitation is <strong>“出来喝茶撒”</strong> — <em>come out for tea</em>. It arrives whenever the weather is decent, and it usually means nothing in particular: no agenda, no important conversation, not even strong feelings about the tea. Just somewhere to sit lazily with a pot and stare into space. The city has thousands of teahouses and this is what they are for.`,
+      `<strong>谧寻茶室 · Mi Xun Teahouse</strong> — inside The Temple House, 81 Bitieshi Street, Jinjiang. <strong>Michelin one star</strong> three years running, and Chengdu's <strong>first Michelin Green Star</strong> for its zero-waste kitchen. Entirely vegetarian, set in a historic courtyard building — the vegan mapo tofu with chanterelles is the dish people talk about. The afternoon tea set is the thing to book. ☎ 028-62974193`,
+      `<strong>元古 · Yuangu</strong> — Taikoo Li, second and third floors. New-Chinese creative tea and Chinese pastry, from a group that also runs spaces in Beijing and Shanghai. The dim sum is the draw and, usefully, it isn't sweet.`,
+      `<strong>集活 · Jihuo</strong> — a small room down an alley, run on <em>客随主人茶</em>: the host brews whatever they feel like and that is what you drink. Once a few strangers are sitting together it tends to turn into a conversation, which is rather the point.`,
+      `Mi Xun and Yuangu are both in the Taikoo Li / Temple House area, so the two pair naturally into one afternoon. Oct 10 and 11 are still open on the calendar.`
+    ]
+  },
   'hotel-mercure-chengdu': {
     title: 'Mercure Chengdu Tianfu Square',
     addr: 'Jinli East Road, Qingyang District, Chengdu',
