@@ -18,6 +18,10 @@ const PLANS = {
   ],
   '2026-10-09': [
     { icon: '🐼', text: 'Chengdu Panda Base', id: 'pandas', note: 'Giant Panda Baby Zone · 1375 Panda Avenue, Chenghua District · ~30 min from the centre. Go early — the cubs are most active before 10:00.' },
+    { icon: '🥩', text: 'Wagyu Hotpot dinner', id: 'wagyu', note: '锦城印象火锅 (彩虹店) · 武侯祠大街19号, Wuhou · Michelin Selected + Black Pearl · open till 02:00, so an easy dinner after the pandas.' },
+  ],
+  '2026-10-10': [
+    { icon: '💘', text: "Marriage Market · People's Park", id: 'peoplespark', note: 'Saturday — one of the three afternoons the 相亲角 is actually busy (Wed/Fri/Sat). Metro Line 2 → People\'s Park, exit H. Heming Tea House (1923) is in the same park.' },
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },

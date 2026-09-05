@@ -320,6 +320,22 @@ const ACTIVITIES = {
   },
 
   // ── FOOD: SHANGHAI ───────────────────────────────────────────────────────
+  bars: {
+    title: '🍸 Shanghai Bars — INS, the Bund & the quiet ones',
+    addr: 'INS 新乐园: inside 复兴公园 Fuxing Park, Huangpu · COA: 复兴中路580号 (5 min walk from INS) · Leo Roof Bar: House of Roosevelt, Bund 27, 中山东一路27号 · Punch Room: The Shanghai EDITION, 南京东路199号 · All ~10 min by taxi from the Pullman Jing An',
+    img: 'shanghai-bars.jpg',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=INS新乐园+复兴公园+上海',
+    gallery: ['shanghai-bars-1.jpg', 'shanghai-bars-2.jpg', 'shanghai-bars-3.jpg', 'shanghai-bars-4.jpg', 'shanghai-bars-5.jpg'],
+    desc: [
+      `<strong>INS 新乐园 — the whole building.</strong> A dozen-odd bars stacked in one block inside Fuxing Park, on the site of the old Park 97 / Muse complex that defined Shanghai nightlife in the 2000s. One pass gets you into most of them: roughly ¥168–208 midweek, ¥248–288 at weekends, with about a free drink at each bar. Arrive before 21:00, drop your bag, and collect the wristbands and drink vouchers early — the queues form later.`,
+      `Floor by floor: <strong>5F Friends</strong> is the busiest — Mandopop and K-pop, huge dancefloor, the easy one if you've never done this. <strong>3F KEZEE</strong> is really a livehouse, concert-grade sound and genuinely good singers, for sitting and listening rather than dancing. <strong>2F Hush</strong> is a cave-like hip-hop room full of students. <strong>6F Lafin</strong> plays Western pop and hip-hop and has the most international crowd. <strong>4F</strong> holds two: Dirty, dark and prison-themed, and Culture, a rainbow bar with good K-pop. There's a B1 lounge ("Oasis") where pass-holders gather.`,
+      `<strong>For the view.</strong> <em>Leo Roof Bar</em> sits on the roof of the House of Roosevelt at Bund 27, looking straight across the river at the Oriental Pearl and the Lujiazui three — go at blue hour, just after sunset. <em>Punch Room</em> at The Shanghai EDITION is the opposite mood: a modern take on a 19th-century London private club, wood-slatted and low-lit, with Pudong close up through the glass. It's <strong>reservations only</strong>.`,
+      `<strong>For an actual conversation.</strong> <em>Sober Company</em> is Shingo Gokan's place (the man behind Speak Low) — World's 50 Best Bars No. 39 and Asia's No. 5 in 2021. It's three venues stacked: Sober Café from 8am, Sober Kitchen doing modern Chinese, and Sober Society upstairs for cocktails. There's a fourth, hidden room called Tipsy — you get in by drinking one in each of the other three and collecting the three tokens.`,
+      `<em>COA</em> is the Shanghai sister of Hong Kong's COA, which was Asia's Best Bar three years running (2021–23). Agave-focused — mezcal and tequila — in a four-storey lanehouse at 复兴中路580号, five minutes' walk from INS, with Mexican food and a deliberately unmarked door. <strong>No reservations, and closed Mondays</strong>; Tue–Thu and Sun 18:30–01:00, Fri–Sat until 02:00.`,
+      `🚕 Everything here is 10 minutes or so by taxi from the Pullman Jing An. INS and COA are five minutes' walk apart on Fuxing Park, so those two make one evening; the Bund rooftops are the other direction and better paired with a walk along the waterfront.`
+    ]
+  },
   dimsum: {
     title: 'Nanxiang Xiaolongbao',
     addr: '85 Yuyuan Road (within Yu Garden Bazaar), Huangpu District, Shanghai',
