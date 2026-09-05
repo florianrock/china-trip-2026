@@ -976,3 +976,37 @@ footer {
   display: flex; align-items: center; gap: 0.3rem;
 }
 .cal-hotel--link:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ── Phone in landscape: wide enough for the 7-column grid, but only ~390px tall.
+   The default layout needs 2.2 screens of scrolling there, most of it spent on a
+   header taller than a third of the viewport. Trade type size for vertical density
+   so the whole trip is one short scroll. Keyed on height + orientation so tablets
+   and desktops (both taller than 520px) are untouched. ── */
+@media (orientation: landscape) and (max-height: 520px) {
+  header { padding: 0.5rem 0.9rem; }
+  .header-inner { gap: 0.6rem; }
+  .logo { font-size: 1.5rem; }
+  .header-title h1 { font-size: 1.15rem; }
+  .header-title .subtitle { font-size: 0.7rem; margin: 0; }
+  .cal-back { font-size: 0.72rem; padding: 0.25rem 0.55rem; }
+
+  .cal-wrap { padding: 0.5rem 0.6rem 1rem; max-width: none; }
+  .cal-summary-line { font-size: 0.74rem; margin: 0 0 0.45rem; }
+
+  .cal-dow-head { gap: 0.3rem; margin-bottom: 0.25rem; }
+  .cal-dow-head span { font-size: 0.6rem; }
+  .cal-grid { gap: 0.3rem; }
+
+  .cal-cell { min-height: 0; padding: 0.35rem 0.35rem 0.4rem; gap: 0.2rem; }
+  .cal-date { gap: 0.3rem; }
+  .cal-dnum { font-size: 0.9rem; }
+  .cal-dow { font-size: 0.58rem; }
+  .cal-city { font-size: 0.64rem; }
+  .cal-hotel { font-size: 0.58rem; line-height: 1.15; }
+  .cal-hotel--link { padding: 0; }
+  .cal-items { gap: 0.15rem; margin-top: 0; }
+  .cal-item { font-size: 0.6rem; line-height: 1.2; padding: 0.15rem 0.25rem; }
+  .cal-free { font-size: 0.6rem; }
+  .cal-more { display: none; }        /* the ">" chevron costs a wrap at this width */
+  .itin-note { font-size: 0.65rem; margin-top: 0.5rem; }
+}
