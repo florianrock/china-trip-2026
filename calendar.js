@@ -44,6 +44,8 @@ const PLANS = {
   ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
+    { icon: '🚶', text: 'Gulou → Shichahai → Nanluoguxiang citywalk', id: 'citywalk', note: 'Flat, free, ~2.5 km. Evening is best — lakes lit, tour groups gone. Easy on an arrival day.' },
+    { icon: '🏮', text: '胡同 — old Beijing courtyard lanes', id: 'hutong', note: 'The siheyuan courtyard houses the citywalk runs through. Nanluoguxiang, Line 6/8.' },
   ],
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
   '2026-10-16': [
