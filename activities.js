@@ -67,6 +67,30 @@ const ACTIVITIES = {
       `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`
     ]
   },
+  'flight-ca4592': {
+    title: 'CA4592 · Shanghai → Chengdu',
+    addr: 'Shanghai Pudong (PVG) T2 → Chengdu Tianfu (TFU) T2 · dep 09:30, arr 12:40',
+    emoji: '✈️',
+    city: 'Chengdu',
+    gallery: [],
+    desc: [
+      `Air China <strong>CA4592</strong>, Pudong Terminal 2 <strong>09:30</strong> → Chengdu Tianfu Terminal 2 <strong>12:40</strong> on Thursday 8 October 2026. About 3h10 in the air, 1,660 km, usually an A321neo or A320neo.`,
+      `This lands at <strong>Tianfu (TFU)</strong>, the newer airport roughly 50 km south-east of the city — allow an hour to the centre, more at rush hour. It is the same airport MU664 leaves from on the 12th, so the whole Chengdu leg is Tianfu.`,
+      `⚠️ Cami and Joe are on <strong>CA4504, which lands at Shuangliu (CTU)</strong> — a different Chengdu airport, about 60 km away, and two hours later. Meeting at the airport does not work; meet at the hotel.`
+    ]
+  },
+  'flight-ca4504': {
+    title: 'CA4504 · Shanghai → Chengdu (Cami & Joe)',
+    addr: 'Shanghai Pudong (PVG) T2 → Chengdu Shuangliu (CTU) T2 · dep 11:25, arr 14:40',
+    emoji: '✈️',
+    city: 'Chengdu',
+    gallery: [],
+    desc: [
+      `Air China <strong>CA4504</strong> for Cami and Joe: Pudong Terminal 2 <strong>11:25</strong> → Chengdu <strong>Shuangliu</strong> Terminal 2 <strong>14:40</strong> on Thursday 8 October 2026. About 3h15, usually an A321.`,
+      `⚠️ <strong>Different airport from the rest of us.</strong> Shuangliu (CTU) is the old city airport, close in to the south-west; the family's CA4592 lands at Tianfu (TFU), roughly 60 km away on the other side of the city. The two arrivals are also two hours apart — 12:40 versus 14:40.`,
+      `The upside is that Shuangliu is much closer to town: Metro Line 10 runs from the terminal into the centre, and a taxi is 30–40 minutes rather than an hour. Simplest plan is that everyone makes their own way to the Mercure and meets there.`
+    ]
+  },
   'flight-mu664': {
     title: 'MU664 · Chengdu → Beijing',
     addr: 'Chengdu Tianfu (TFU) → Beijing Daxing (PKX)',
@@ -80,6 +104,21 @@ const ACTIVITIES = {
     ]
   },
   // ── SHANGHAI ACTIVITIES ──────────────────────────────────────────────────
+  herbalbar: {
+    title: '🌿 酿青 Herbal Bar — the TCM cocktail bar',
+    addr: '酿青 Herbal Bar: 襄阳北路100号 2楼 (Xiangyang North Road 100, 2F), former French Concession · Second branch: 杨浦区大学路248号16楼1603室 · Open 17:00–03:00 · ~10 min taxi from the Pullman Jing An',
+    img: 'shanghai-herbalbar.jpg',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=酿青+Herbal+Bar+襄阳北路100号+上海',
+    gallery: ['shanghai-herbalbar-1.jpg', 'shanghai-herbalbar-2.jpg', 'shanghai-herbalbar-3.jpg', 'shanghai-herbalbar-4.jpg', 'shanghai-herbalbar-5.jpg', 'shanghai-herbalbar-6.jpg'],
+    desc: [
+      `A bar where you see a doctor before you see a menu. Two qualified Chinese-medicine physicians sit at the entrance and give you a real consultation — they take your pulse, look at your tongue, and ask the usual questions (望闻问切, the four TCM diagnostics: look, listen, ask, touch). It runs about ten minutes.`,
+      `You come away with a written prescription naming your constitution type — 阳虚 yang-deficient, 阴虚 yin-deficient, 湿热 damp-heat, 气郁 qi-stagnation, and so on. You carry the slip to the bar, where they pull the matching herbs out of the apothecary drawers and build your drink around them. Everyone's is different.`,
+      `The room is the other half of the appeal: a full wall of Chinese-medicine drawers with 悬壶济世 carved in gold above it — "hang up the gourd and heal the world", the old idiom for practising medicine — spirits shelved either side, dark sandalwood, low light, and a pin board of other customers' prescriptions.`,
+      `Billed as Shanghai's first traditional-medicine bar. The drinks split into herbal tea-liquors and the pulse-diagnosis cocktails. Open <strong>17:00 to 03:00</strong>.`,
+      `📍 Two branches. The one worth going to is <strong>襄阳北路100号, 2nd floor</strong>, in the former French Concession — the same neighbourhood as the French Concession walk already on this page, so it slots naturally into that evening. The other is out in Yangpu on University Road.`
+    ]
+  },
   train: {
     title: 'Bullet Train Business Class',
     addr: 'Departs: Shanghai Hongqiao Railway Station, Minhang District, Shanghai',
