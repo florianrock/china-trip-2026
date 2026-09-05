@@ -36,7 +36,9 @@ const PLANS = {
     { icon: '🍖', text: '丁老头烤肉 · dinner on 南山', id: 'nanshanbbq', note: 'BBQ terraced down the hillside over the lit skyline. Sunset 18:30 — be seated by 17:30. Line 6 to 上新街 exit 3.' },
   ],
   '2026-10-11': [
-    { icon: '⭐', text: '马旺子·川小馆 · dinner', id: 'mawangzi', note: 'Michelin ★, Taikoo Li. Order the mapo tofu and 毛血旺. BOOK AHEAD — tables go ~2 weeks out.' },
+    { icon: '🚄', text: 'Chongqing → Chengdu', id: 'chongqing', note: 'Return leg. Train not booked yet — 100+ a day, ~1h19 on the fast ones.' },
+    { icon: '🍵', text: 'Afternoon tea — chill', id: 'afternoontea', note: '鹤鸣茶社 in People\'s Park for the local version, or 谧寻/元古 by Taikoo Li if you want quiet. Nothing to see, that is the point.' },
+    { icon: '⭐', text: '马旺子·川小馆 · dinner', id: 'mawangzi', note: 'Michelin ★, Taikoo Li — a few minutes from the Taikoo Li tea houses. BOOK AHEAD, tables go ~2 weeks out.' },
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
