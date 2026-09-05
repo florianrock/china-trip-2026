@@ -16,6 +16,8 @@ const PLANS = {
     { icon: '🛬', text: 'Arrive Shanghai' },
     { icon: '✈️', text: 'CA4592 · PVG → TFU · 09:30–12:40', id: 'flight-ca4592', note: 'Air China · Pudong T2 → Chengdu Tianfu T2' },
     { icon: '✈️', text: 'CA4504 · PVG → CTU · 11:25–14:40 (Cami & Joe)', id: 'flight-ca4504', note: 'Different Chengdu airport — Shuangliu, ~60 km from Tianfu. Meet at the hotel, not the airport.' },
+    { icon: '🌃', text: 'Twin Towers light show (optional)', id: 'lightshow', note: 'From ~19:30 at 交子之环. Metro Line 1 → 金融城, 20 min. Optional — skip it if everyone is wrecked.' },
+    { icon: '🥡', text: 'Food delivery to the room', id: 'roomdelivery', note: 'Meituan or Ele.me via the Alipay mini-program. Have the hotel address in Chinese ready.' },
   ],
   '2026-10-09': [
     { icon: '🐼', text: 'Chengdu Panda Base', id: 'pandas', note: 'Giant Panda Baby Zone · 1375 Panda Avenue, Chenghua District · ~30 min from the centre. Go early — the cubs are most active before 10:00.' },
