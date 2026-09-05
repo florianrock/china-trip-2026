@@ -56,6 +56,7 @@ const PLANS = {
   '2026-10-16': [
     { icon: '🏛️', text: 'Forbidden City', id: 'forbidden' },
     { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
+    { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
   '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
   '2026-10-21': [
