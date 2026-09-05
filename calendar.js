@@ -42,6 +42,10 @@ const PLANS = {
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
     { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
+  '2026-10-13': [
+    { icon: '🛍️', text: 'Shopping day', id: 'shopping', note: 'Tuesday — the good day for all of it. Panjiayuan in the morning, Silk Street or Sanlitun after lunch.' },
+    { icon: '🏬', text: '三里屯太古里', id: 'sanlitun', note: 'Midweek is the time to go — weekend afternoons after 15:00 are a wall of people.' },
+  ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
     { icon: '🚶', text: 'Gulou → Shichahai → Nanluoguxiang citywalk', id: 'citywalk', note: 'Flat, free, ~2.5 km. Evening is best — lakes lit, tour groups gone. Easy on an arrival day.' },
