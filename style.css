@@ -1010,3 +1010,13 @@ footer {
   .cal-more { display: none; }        /* the ">" chevron costs a wrap at this width */
   .itin-note { font-size: 0.65rem; margin-top: 0.5rem; }
 }
+
+/* Day-trip marker: the cell keeps its block hotel, so the city label needs to
+   say why it disagrees with the hotel underneath it. */
+.cal-daytrip {
+  font-size: 0.62em; font-weight: 600; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--text-muted);
+  border: 1px solid var(--navy-light); border-radius: 999px;
+  padding: 0.05em 0.45em; margin-left: 0.3em; vertical-align: middle;
+  white-space: nowrap;
+}

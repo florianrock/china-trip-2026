@@ -10,6 +10,13 @@ const BLOCKS = [
   { from: '2026-10-17', to: '2026-10-22', city: 'Shanghai', emoji: '🏙️', hotel: 'Pullman Jing An', hotelId: 'hotel-pullman-jingan' },
 ];
 
+// Day trips — the day is spent in another city but we still sleep in the block's
+// hotel, so this overrides the CITY label only and deliberately leaves the hotel
+// line alone; that pairing is what tells you it's a there-and-back day.
+const DAYTRIPS = {
+  '2026-10-10': { city: 'Chongqing', emoji: '🚄' },
+};
+
 // Anything actually scheduled. Empty array => day is flagged as free.
 const PLANS = {
   '2026-10-08': [
@@ -66,6 +73,7 @@ function build() {
     const key = iso(d);
     const items = PLANS[key] || [];
     const blk = blockFor(key);
+    const trip = DAYTRIPS[key];
     const isFree = items.length === 0;
     isFree ? free++ : planned++;
 
@@ -76,7 +84,7 @@ function build() {
         <span class="cal-dnum">${d.getDate()}</span>
         <span class="cal-dow">${d.toLocaleDateString('en-GB', { weekday: 'short' })}</span>
       </div>
-      ${blk ? `<div class="cal-city">${blk.emoji} ${blk.city}</div>
+      ${blk ? `<div class="cal-city">${trip ? `${trip.emoji} ${trip.city} <span class="cal-daytrip">day trip</span>` : `${blk.emoji} ${blk.city}`}</div>
                ${blk.hotelId && typeof ACTIVITIES !== 'undefined' && ACTIVITIES[blk.hotelId]
                  ? `<button class="cal-hotel cal-hotel--link" data-open="${blk.hotelId}">🏨 ${blk.hotel} <span class="cal-more">›</span></button>`
                  : `<div class="cal-hotel">🏨 ${blk.hotel}</div>`}` : ''}
