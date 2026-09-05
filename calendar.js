@@ -33,9 +33,13 @@ const PLANS = {
   '2026-10-10': [
     { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37', id: 'chongqing', note: '1h19 on a 复兴号, from ¥174. Full day: Jiefangbei, 李子坝, Hongyadong after dark. Return train still to pick — aim 21:00–22:00.' },
     { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
+    { icon: '🍖', text: '丁老头烤肉 · dinner on 南山', id: 'nanshanbbq', note: 'BBQ terraced down the hillside over the lit skyline. Sunset 18:30 — be seated by 17:30. Line 6 to 上新街 exit 3.' },
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
+  ],
+  '2026-10-14': [
+    { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Olli's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
   ],
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
   '2026-10-16': [{ icon: '🏛️', text: 'Forbidden City', id: 'forbidden' }],

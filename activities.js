@@ -99,6 +99,22 @@ const ACTIVITIES = {
     ]
   },
 
+  nanshanbbq: {
+    title: '丁老头烤肉 — BBQ over the night skyline',
+    addr: '丁老头烤肉·听民谣看夜景, 南山, Nan\'an District · Metro Line 6 to 上新街 Shangxinjie, exit 3, straight then left · Or bus 346 toward 悠山路, off at 一天门, then ~921 m / 14 min on foot · Sunset on 10 Oct is 18:30',
+    emoji: '🍖',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=丁老头烤肉+南山+重庆',
+    gallery: ['cq-nanshan-1.jpg', 'cq-nanshan-2.jpg', 'cq-nanshan-3.jpg', 'cq-nanshan-4.jpg', 'cq-nanshan-5.jpg', 'cq-nanshan-6.jpg', 'cq-nanshan-7.jpg', 'cq-nanshan-8.jpg', 'cq-nanshan-9.jpg'],
+    desc: [
+      `Wooden tables terraced down the hillside on 南山 (Nanshan), each with its own charcoal grill and an oil lantern, under trees strung with hundreds more lanterns — and below you the whole of Chongqing, lit. Its full name on the listings is 丁老头烤肉·听民谣看夜景: "Old Ding's BBQ — listen to folk songs, watch the night view". There is live music.`,
+      `Chongqing has plenty of night-view platforms, but this one you eat at. You're on the Nan'an side looking across the river at the Yuzhong peninsula, which is the postcard angle on the city — the same skyline everyone photographs, seen whole instead of from underneath.`,
+      `⏰ <strong>Get there before sunset.</strong> On 10 October the sun sets at <strong>18:30</strong>, and the whole point is watching it go from sunset through dusk to full city lights. Aim to be sitting by 17:30.`,
+      `🚇 Metro <strong>Line 6 to 上新街 (Shangxinjie), exit 3</strong>, straight ahead then left. Or bus 346 toward 悠山路, off at 一天门, then about 921 m on foot. ⚠️ It is genuinely uphill — the walk is the one complaint in every write-up, so wear something you can climb in.`,
+      `⚠️ <strong>This clashes with Hongyadong, and that is fine.</strong> Hongyadong is across the river and lights up at the same hour. You cannot stand in it and look at it. From up here you see it, and the towers behind it, all at once — which is the better version. If someone wants Hongyadong up close, do it in the afternoon before coming up.`,
+      `🚄 <strong>Watch the last train.</strong> Getting from Nanshan back down and across to 重庆北站 is 40–50 minutes. A dinner running to 21:00 means a 22:00-ish departure at the earliest — worth checking that a train that late exists before committing, or deciding to stay the night in Chongqing instead.`
+    ]
+  },
   lightshow: {
     title: '天府双塔 Twin Towers Light Show',
     addr: '成都双子塔 / 天府双塔, 天府国际金融中心, 天府大道北段966号, Gaoxin District · Best viewpoint: 交子之环 (Jiaozi Ring, the orange circular footbridge) on 交子大道 · Free, no booking · Metro Line 1 from Tianfu Square to 金融城 Financial City, 8 stops, ~20 min',
@@ -127,6 +143,19 @@ const ACTIVITIES = {
       `<strong>What to have ready:</strong> the hotel's address in Chinese characters (get it from reception or the booking confirmation — copy-paste it, don't retype it), the room number, and a phone number the driver can call. Delivery fees run about ¥3–6, and the food itself is a fraction of restaurant prices.`,
       `<strong>How it actually arrives:</strong> most Chinese hotels have the driver leave orders at reception or a locker rather than coming to the door, so expect a call or a message and a short trip to the lobby. Tell reception you're expecting a delivery when you check in.`,
       `Worth ordering the local thing rather than hotel food: 串串香 skewers, 冒菜 (mala hotpot in a bowl, made for one person), or 钟水饺 dumplings all travel well and are exactly what Chengdu does best.`
+    ]
+  },
+  'flight-ca184': {
+    title: "CA184 · Tokyo → Beijing (Olli's family)",
+    addr: 'Tokyo Haneda (HND) T3 → Beijing Capital (PEK) T3 · dep 08:30, arr 11:20 · Wed 14 Oct 2026 · Mario & Sonia Correa',
+    emoji: '🛬',
+    city: 'Beijing',
+    gallery: [],
+    desc: [
+      `Air China <strong>CA184</strong>, Haneda Terminal 3 <strong>08:30</strong> → Beijing Capital Terminal 3 <strong>11:20</strong> on Wednesday 14 October 2026, about 4h in the air on an A321. Mario and Sonia.`,
+      `⚠️ <strong>This is Beijing Capital (PEK), not Daxing.</strong> We fly into <strong>Daxing (PKX)</strong> on the 12th; PEK is the old airport on the opposite side of the city, roughly 60 km from Daxing. Nobody should plan to meet at an airport — the Grand Hyatt is the meeting point.`,
+      `Getting them in from PEK T3: the Capital Airport Express runs to Dongzhimen in about 20 minutes, then Line 2 to Line 1 for Wangfujing. A taxi is ~25 km and 30–40 minutes outside rush hour, longer inside it. Landing at 11:20 they should be at the hotel comfortably by 13:00.`,
+      `🔒 Booking reference and eTicket numbers deliberately left off this page — it is public. They're in the confirmation email.`
     ]
   },
   'flight-ca4592': {
