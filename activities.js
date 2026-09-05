@@ -398,6 +398,22 @@ const ACTIVITIES = {
       `💡 Local tips worth having: the vintage shops on the 2nd floor of 3.3 Mall, 那里花园 Nali Patio for Mediterranean food, and a cheap food street in the hutong behind Uniqlo. ⚠️ <strong>Avoid weekend afternoons</strong> — after 15:00 on a Saturday or Sunday it is a wall of people. Mornings or evenings are far better.`
     ]
   },
+  citywalk: {
+    title: '🚶 Gulou → Shichahai → Nanluoguxiang citywalk',
+    addr: 'Start: 鼓楼大街 Gulou Dajie metro (Lines 2/8) · Route: 什刹海 Shichahai → 烟袋斜街 Yandai Xiejie → 南锣鼓巷 Nanluoguxiang metro (Lines 6/8) · Roughly 2.5 km, flat, an afternoon or evening · Free',
+    img: 'beijing-citywalk.jpg',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=烟袋斜街+北京',
+    gallery: ['beijing-citywalk-1.jpg', 'beijing-citywalk-2.jpg', 'beijing-citywalk-3.jpg', 'beijing-citywalk-4.jpg', 'beijing-citywalk-5.jpg', 'beijing-citywalk-6.jpg', 'beijing-citywalk-7.jpg', 'beijing-citywalk-8.jpg'],
+    desc: [
+      `The walk that visitors to Beijing consistently end up loving most, and it costs nothing: out of <strong>鼓楼大街 Gulou Dajie</strong> metro, down past the Drum and Bell Towers, along the <strong>什刹海 Shichahai</strong> lakes, through <strong>烟袋斜街</strong> and out at <strong>南锣鼓巷</strong>. About 2.5 km, flat, and you can stretch it over a whole afternoon without getting tired.`,
+      `<strong>烟袋斜街 (Yandai Xiejie, "Tobacco Pouch Slanted Street")</strong> is the piece worth slowing down for. It is Beijing's oldest commercial hutong street, and it runs on a diagonal — genuinely odd in a city laid out on a strict grid — which is why it feels different from everything around it.`,
+      `Shichahai itself is a chain of lakes with willows down to the water and grey-brick courtyard walls behind them, crossed at the narrow point by the 银锭桥 Silver Ingot Bridge. The old courtyard houses along here have been turned into cafés, so 四合院 coffee is the thing to do: sit in a 500-year-old courtyard with a flat white.`,
+      `A local writing about this route pointed out that "citywalk" is just the English rebrand of <strong>遛弯儿 (liūwānr)</strong> — the Beijing habit of going out for an aimless wander. That is the correct way to do it. There is no sight to tick off.`,
+      `🍢 Handy overlaps with the rest of our plan: <strong>很久以前羊肉串</strong>, our dinner on the 12th, is right at Gulou Dajie metro where this walk starts. And <strong>烤肉季</strong> — the 1848 Beijing barbecue house — sits on Shichahai directly on the route, if anyone wants the old-school 炙子烤肉 version.`,
+      `⏰ Evening suits it: the lakes light up, the bars along the water open, and the daytime tour groups have gone. It is also flat and needs no tickets, which makes it a forgiving thing to do on an arrival day.`
+    ]
+  },
   forbidden: {
     title: 'The Forbidden City',
     addr: '4 Jingshan Front Street, Dongcheng District, Beijing (metro: Tiananmen East/West, Line 1)',
