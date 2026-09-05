@@ -67,6 +67,34 @@ const ACTIVITIES = {
       `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`
     ]
   },
+  chongqing: {
+    title: 'Chongqing day trip',
+    addr: 'Chengdu East (成都东) → Chongqing North (重庆北) or Chongqing West (重庆西) · 319 km · fastest ~1h02, typically 1–2h · 100+ trains a day · 2nd class from about ¥96',
+    emoji: '🚄',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=解放碑+重庆',
+    gallery: [],
+    desc: [
+      `Chongqing is close enough to Chengdu to be a proper day out — 319 km, and the fastest high-speed trains do it in just over an hour. There are more than a hundred a day, so the plan does not depend on any particular departure: take a morning train and come back late.`,
+      `It is a completely different city from Chengdu despite the proximity. Built on cliffs above the confluence of the Yangtze and the Jialing, it stacks vertically — roads running over rooftops, and a metro line that goes straight through an apartment block at 李子坝. Chengdu is flat and slow; Chongqing is vertical and loud.`,
+      `The obvious stops for one day: 解放碑 (Jiefangbei, the central junction), 洪崖洞 (Hongyadong, the stilt-house complex that lights up and is the reason half the photographs of Chongqing exist), 李子坝 for the train-through-the-building, and 磁器口 old town if there is time. Hongyadong is best after dark, which argues for a late train home.`,
+      `🎫 Book through Trip.com or 12306 — passports work on both, and you scan in with the passport itself. Chengdu East is on Metro Lines 2 and 7.`
+    ]
+  },
+  xiaomian: {
+    title: '重庆小面 — street noodles for lunch',
+    addr: '花市豌杂面 (解放碑总店): 渝中区民生路85号, Yuzhong District — a few minutes from 解放碑',
+    emoji: '🍜',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=花市豌杂面+民生路85号+重庆',
+    gallery: [],
+    desc: [
+      `重庆小面 (Chóngqìng xiǎomiàn) is what Chongqing actually eats — chewy alkaline noodles under a mala dressing of chilli oil, Sichuan pepper, preserved vegetable and garlic. It is a breakfast food there, eaten on a plastic stool on the pavement, and the city has something like <strong>84,000 noodle shops</strong> competing at it.`,
+      `<strong>花市豌杂面</strong> tops practically every local ranking, and its flagship is at 民生路85号 — a few minutes from 解放碑, so it sits exactly where we'll already be. Order the <strong>豌杂面</strong>: stewed yellow peas and minced pork sauce over the noodles. Ask for it <strong>干馏 (gān liù)</strong>, dry-mixed without soup, which is how it is meant to be eaten. The 红烧牛肉面 (braised beef) is the other thing to get.`,
+      `A bowl is about ¥10–15. Say <strong>微辣 (wēi là)</strong> for mild or <strong>不要辣 (bú yào là)</strong> for none — the default is genuinely hot, and Chongqing's version runs hotter than Chengdu's.`,
+      `Get a 凉糕 or another cold sweet alongside if the heat gets away from anyone. It is the standard local fix and it works.`
+    ]
+  },
   lightshow: {
     title: '天府双塔 Twin Towers Light Show',
     addr: '成都双子塔 / 天府双塔, 天府国际金融中心, 天府大道北段966号, Gaoxin District · Best viewpoint: 交子之环 (Jiaozi Ring, the orange circular footbridge) on 交子大道 · Free, no booking · Metro Line 1 from Tianfu Square to 金融城 Financial City, 8 stops, ~20 min',
