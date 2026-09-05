@@ -413,6 +413,22 @@ const ACTIVITIES = {
       `💡 Local tips worth having: the vintage shops on the 2nd floor of 3.3 Mall, 那里花园 Nali Patio for Mediterranean food, and a cheap food street in the hutong behind Uniqlo. ⚠️ <strong>Avoid weekend afternoons</strong> — after 15:00 on a Saturday or Sunday it is a wall of people. Mornings or evenings are far better.`
     ]
   },
+  shopping: {
+    title: 'Beijing shopping day',
+    addr: '王府井 Wangfujing — at the hotel door · 三里屯太古里 Sanlitun — Line 17 to Workers\' Stadium · 秀水街 Silk Street, 秀水东街8号, daily 09:30–21:00, Line 1 to Yong\'anli · 潘家园 Panjiayuan flea market, 潘家园路华威里18号, mornings only in practice',
+    emoji: '🛍️',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=三里屯太古里+北京',
+    gallery: [],
+    desc: [
+      `A free day before the others land, and <strong>Tuesday happens to be the best possible day for this</strong> — every one of these places is unpleasant at the weekend and civilised midweek.`,
+      `<strong>潘家园 Panjiayuan</strong> — the sprawling antiques and bric-a-brac market, 3,000-odd stalls of calligraphy, porcelain, furniture, Mao-era junk and outright fakes. Go in the <strong>morning</strong>: stalls are fullest between roughly 09:00 and 11:30 and it winds down in the afternoon. At weekends it takes 60–70,000 visitors a day, so a Tuesday morning is exactly when you want to be there. Nothing is what it claims to be and that is fine — buy things you like the look of, not things you think are old.`,
+      `<strong>秀水街 Silk Street</strong>, 秀水东街8号, daily 09:30–21:00, Metro Line 1 to Yong'anli. Silk, tailoring, clothing, souvenirs and a great deal of counterfeit. <strong>Everything is negotiable</strong> — open well under the asking price and be willing to walk away, which is the only technique that reliably works here.`,
+      `<strong>三里屯太古里</strong> for the actual brands — see its own entry on this page. It's the one place on this list where the price on the label is the price, and midweek it's genuinely pleasant rather than the weekend crush.`,
+      `<strong>王府井</strong> is downstairs from the Grand Hyatt, which makes it the obvious fallback but the least interesting of the four: mostly chains and tourist tat. Fine for an hour, not a day.`,
+      `🚕 Realistic plan: Panjiayuan first thing while the stalls are full, Silk Street or Sanlitun after lunch, back near the hotel by evening. They're spread across the city, so pick two rather than all four.`
+    ]
+  },
   ktv: {
     title: '🎤 KTV with Emma\'s Beijing friends',
     addr: "Ask for a 量贩式 KTV (liàngfànshì) — the self-service kind · Nearest to the Grand Hyatt: 魅KTV, 王府井大街253号 5楼, a few minutes' walk · Big chains: 麦乐迪 Melody, 温莎 Windsor, 纯K, 唱吧麦颂 · Book through Dianping or Meituan, never walk-in",
