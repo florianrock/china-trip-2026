@@ -51,6 +51,9 @@ const PLANS = {
     { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
   ],
   '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
+  '2026-10-21': [
+    { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Olli's in-laws out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
+  ],
   '2026-10-22': [{ icon: '🛫', text: 'Fly home from Shanghai' }],
 };
 
