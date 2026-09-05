@@ -263,6 +263,21 @@ const ACTIVITIES = {
       `Location is the one catch: it's at Hongqiao, out west by the transport hub, not central. The upside is that it sits directly at Hongqiao The Hub next to the railway station and Terminal 2 — so it works well as a stop on the way to or from the airport or a high-speed train, rather than a special journey from the Bund.`
     ]
   },
+  footmassage: {
+    title: '💆 足疗 — Foot massage',
+    addr: "Near the Pullman Jing An: 感智盲人按摩 (静安寺店), 愚园东路20号2号楼4楼 — top-rated in Jing'an, from about ¥125 · Dragonfly 悠庭 (several branches, English-speaking, upscale) · Green Massage 青籁养身 (chain since 2001) · Most open late into the evening",
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=足疗+静安寺+上海',
+    gallery: [],
+    desc: [
+      `A proper Chinese 足疗 (zúliáo) is not a ten-minute rub. It usually starts with your feet in a bucket of hot herbal water while someone works on your neck and shoulders, then 45–90 minutes of genuinely firm work on the feet and lower legs — often with the back and arms thrown in. You stay dressed, in a reclining chair, frequently in a room with other people and a television on. It is completely ordinary here, and after days of walking it is the best-value thing in the city.`,
+      `<strong>Where to go near our hotel.</strong> <em>感智盲人按摩 (静安寺店)</em> at 愚园东路20号, 4th floor — the top-rated massage place in Jing'an across thousands of reviews, from about ¥125. It's a 盲人按摩 house: blind masseurs, a long-standing tradition in China and usually the strongest technique you'll find. <em>Dragonfly 悠庭</em> is the polished option with English-speaking staff and several branches, priced accordingly. <em>Green Massage 青籁养身</em>, going since 2001, sits between the two.`,
+      `💰 Roughly ¥125–200 at a good local place for 60–90 minutes, ¥300+ at the expat-facing chains. Tipping is not expected.`,
+      `🗣️ Useful words: <strong>足疗 zúliáo</strong> (foot massage), <strong>按摩 ànmó</strong> (massage), <strong>推拿 tuīná</strong> (therapeutic massage), <strong>轻一点 qīng yìdiǎn</strong> ("lighter please") — you will want that last one, because the default pressure is serious.`,
+      `⚠️ Stick to places with a printed menu of fixed treatments and prices at the door, which all three above have. If a place has no visible price list, walk on — that is the reliable way to tell a genuine 足疗 shop from the other kind.`,
+      `📸 No photo on this one yet — I did not have a picture I could vouch for, and did not want to put a stock shot of the wrong shop on here.`
+    ]
+  },
   spa: {
     title: 'Qushui Langting — 24h Luxury Spa',
     addr: 'Multiple locations: e.g. 2090 Shennan Rd, Changning District, Shanghai',
