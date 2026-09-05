@@ -35,6 +35,9 @@ const PLANS = {
     { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
     { icon: '🍖', text: '丁老头烤肉 · dinner on 南山', id: 'nanshanbbq', note: 'BBQ terraced down the hillside over the lit skyline. Sunset 18:30 — be seated by 17:30. Line 6 to 上新街 exit 3.' },
   ],
+  '2026-10-11': [
+    { icon: '⭐', text: '马旺子·川小馆 · dinner', id: 'mawangzi', note: 'Michelin ★, Taikoo Li. Order the mapo tofu and 毛血旺. BOOK AHEAD — tables go ~2 weeks out.' },
+  ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
   ],
