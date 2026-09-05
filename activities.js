@@ -83,18 +83,20 @@ const ACTIVITIES = {
   },
   xiaomian: {
     title: '重庆小面 — street noodles for lunch',
-    addr: '花市豌杂面 (解放碑总店): 渝中区民生路85号, Yuzhong District — a few minutes from 解放碑',
+    addr: '阿福板凳面 Afu Bench Noodles — Jiefangbei branch (解放碑店), and a second at 十八梯/较场口. The one in the post is the 观音桥 branch, Jiangbei, across the river · Alternative: 花市豌杂面, 渝中区民生路85号',
     emoji: '🍜',
     city: 'Chengdu',
-    maps: 'https://maps.google.com/?q=花市豌杂面+民生路85号+重庆',
-    gallery: [],
+    maps: 'https://maps.google.com/?q=阿福板凳面+解放碑+重庆',
+    gallery: ['cq-afu-1.jpg', 'cq-afu-2.jpg', 'cq-afu-3.jpg', 'cq-afu-4.jpg', 'cq-afu-5.jpg', 'cq-afu-6.jpg'],
     desc: [
-      `重庆小面 (Chóngqìng xiǎomiàn) is what Chongqing actually eats — chewy alkaline noodles under a mala dressing of chilli oil, Sichuan pepper, preserved vegetable and garlic. It is a breakfast food there, eaten on a plastic stool on the pavement, and the city has something like <strong>84,000 noodle shops</strong> competing at it.`,
-      `<strong>花市豌杂面</strong> tops practically every local ranking, and its flagship is at 民生路85号 — a few minutes from 解放碑, so it sits exactly where we'll already be. Order the <strong>豌杂面</strong>: stewed yellow peas and minced pork sauce over the noodles. Ask for it <strong>干馏 (gān liù)</strong>, dry-mixed without soup, which is how it is meant to be eaten. The 红烧牛肉面 (braised beef) is the other thing to get.`,
-      `A bowl is about ¥10–15. Say <strong>微辣 (wēi là)</strong> for mild or <strong>不要辣 (bú yào là)</strong> for none — the default is genuinely hot, and Chongqing's version runs hotter than Chengdu's.`,
-      `Get a 凉糕 or another cold sweet alongside if the heat gets away from anyone. It is the standard local fix and it works.`
+      `<strong>阿福板凳面 (Ā Fú Bǎndèng Miàn — "Afu Bench Noodles")</strong>. The name is the concept: 板凳 means stool, and you eat sitting on a little red plastic one on the pavement, using a second stool as your table. Half the street outside is seating. This is street noodles in the literal sense.`,
+      `The bowls are wide flat noodles under chilli oil with greens, often with a fried egg on top — heavier and chewier than the thin round 小面 noodle. Order a 凉糕 with it: the cold rice-cake pudding in brown-sugar syrup you can see on the stools in the photos, which is the standard local antidote when the chilli gets away from you. Diced watermelon does the same job.`,
+      `📍 <strong>Go to the 解放碑 (Jiefangbei) branch, not the one in the post.</strong> The photos are from the 观音桥 branch, which is in Jiangbei across the river; there is a Jiefangbei branch — Trip.com ranks it among the city's top restaurants — plus one at 十八梯/较场口. Either puts you a short walk from where we'll already be for Hongyadong.`,
+      `<strong>Alternative if the queue is grim:</strong> 花市豌杂面 at 渝中区民生路85号, also minutes from 解放碑, which tops most local rankings for the classic 豌杂面 — stewed yellow peas and minced pork over the noodles. Ask for it 干馏 (dry-mixed, no soup).`,
+      `Either way a bowl is about ¥10–15. Say <strong>微辣 (wēi là)</strong> for mild or <strong>不要辣 (bú yào là)</strong> for none — Chongqing runs hotter than Chengdu by default. The city has roughly 84,000 noodle shops, so nobody agrees on the best one; both of these survive every list.`
     ]
   },
+
   lightshow: {
     title: '天府双塔 Twin Towers Light Show',
     addr: '成都双子塔 / 天府双塔, 天府国际金融中心, 天府大道北段966号, Gaoxin District · Best viewpoint: 交子之环 (Jiaozi Ring, the orange circular footbridge) on 交子大道 · Free, no booking · Metro Line 1 from Tianfu Square to 金融城 Financial City, 8 stops, ~20 min',

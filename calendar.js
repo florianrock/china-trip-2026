@@ -25,7 +25,7 @@ const PLANS = {
   ],
   '2026-10-10': [
     { icon: '🚄', text: 'Chongqing — full day', id: 'chongqing', note: 'High-speed from Chengdu East, ~1h02 at fastest, 100+ trains a day. Jiefangbei, Hongyadong after dark, 李子坝. Late train back.' },
-    { icon: '🍜', text: '重庆小面 street noodles · lunch', id: 'xiaomian', note: '花市豌杂面, 民生路85号, minutes from 解放碑. Order 豌杂面 干馏.' },
+    { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
