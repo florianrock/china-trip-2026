@@ -413,6 +413,21 @@ const ACTIVITIES = {
       `💡 Local tips worth having: the vintage shops on the 2nd floor of 3.3 Mall, 那里花园 Nali Patio for Mediterranean food, and a cheap food street in the hutong behind Uniqlo. ⚠️ <strong>Avoid weekend afternoons</strong> — after 15:00 on a Saturday or Sunday it is a wall of people. Mornings or evenings are far better.`
     ]
   },
+  ktv: {
+    title: '🎤 KTV with Emma\'s Beijing friends',
+    addr: "Ask for a 量贩式 KTV (liàngfànshì) — the self-service kind · Nearest to the Grand Hyatt: 魅KTV, 王府井大街253号 5楼, a few minutes' walk · Big chains: 麦乐迪 Melody, 温莎 Windsor, 纯K, 唱吧麦颂 · Book through Dianping or Meituan, never walk-in",
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=魅KTV+王府井大街253号+北京',
+    gallery: [],
+    desc: [
+      `An evening in a private KTV room with Emma's university friends is the single most Chinese thing on this whole itinerary, and the one nobody will forget. You get your own room, a screen, two microphones and a tablet to queue songs, and you stay as long as you've booked for. Nobody is watching except your own group, which is the point — it is nothing like a karaoke bar in Europe.`,
+      `⚠️ <strong>One word matters when booking: 量贩式 (liàngfànshì).</strong> That's the self-service, all-ages, buy-your-own-drinks kind — the format that replaced the old disreputable song-and-dance halls and made KTV a normal family outing. The other kind, <strong>商务KTV</strong> ("business KTV"), is a hostess club and is emphatically not what we want. Emma's friends will know this instinctively; it's written here for whoever ends up doing the booking.`,
+      `💰 <strong>Timing changes the price enormously.</strong> Afternoon 欢唱 (huānchàng) packages run from around ¥38 for a couple of hours for the whole room; evenings and weekends cost several times that. Book a 团购 deal through Dianping or Meituan rather than turning up — walk-in rates are the worst you can pay.`,
+      `🍺 Drinks and snacks come from a counter, usually as a package with free-flow soft drinks, sometimes with beer bundles. Some places let you bring your own; policies vary, so ask.`,
+      `🎶 English catalogues exist but are thin and heavy on the obvious. Lean into it — let Emma and her friends run the Mandopop and take the songs you're handed. 朋友, 月亮代表我的心 and anything by 周杰伦 will come up.`,
+      `📍 Closest to us: <strong>魅KTV</strong> at 王府井大街253号, 5th floor — a few minutes on foot from the Grand Hyatt, so nobody needs a taxi home. That said, Emma's friends should pick: they'll know which places have the good sound systems and current song libraries, and this is their city.`
+    ]
+  },
   citywalk: {
     title: '🚶 Gulou → Shichahai → Nanluoguxiang citywalk',
     addr: 'Start: 鼓楼大街 Gulou Dajie metro (Lines 2/8) · Route: 什刹海 Shichahai → 烟袋斜街 Yandai Xiejie → 南锣鼓巷 Nanluoguxiang metro (Lines 6/8) · Roughly 2.5 km, flat, an afternoon or evening · Free',
