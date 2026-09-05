@@ -145,6 +145,20 @@ const ACTIVITIES = {
       `Worth ordering the local thing rather than hotel food: 串串香 skewers, 冒菜 (mala hotpot in a bowl, made for one person), or 钟水饺 dumplings all travel well and are exactly what Chengdu does best.`
     ]
   },
+  'flight-ca929': {
+    title: "CA929 · Shanghai → Tokyo (Olli's in-laws out)",
+    addr: 'Shanghai Pudong (PVG) T2 → Tokyo Narita (NRT) T1 · dep 10:00, arr 14:00 · Wed 21 Oct 2026 · 3h in the air, A350-900',
+    emoji: '🛫',
+    city: 'Shanghai',
+    gallery: [],
+    desc: [
+      `Air China <strong>CA929</strong>, Pudong Terminal 2 <strong>10:00</strong> → Narita <strong>Terminal 1</strong> <strong>14:00</strong> on Wednesday 21 October 2026. Three hours, on an A350-900.`,
+      `Presumably the return half of the same trip as <strong>CA184</strong> on the 14th — Mario and Sonia came in from Haneda and go back out to Narita — so they're with us for the Beijing leg and most of Shanghai, leaving the day before we do.`,
+      `⏰ <strong>A 10:00 departure from Pudong is an early start.</strong> PVG is about 50 km from the Pullman Jing An — 45–60 minutes by car, and international check-in wants three hours. That means leaving the hotel around <strong>06:30–07:00</strong>. Either book a car the night before, or use the Maglev from Longyang Road, which covers the airport run in 8 minutes.`,
+      `Note it is <strong>Narita, not Haneda</strong> — the opposite Tokyo airport from the one they arrived through. Anyone meeting them at the other end needs to know that.`,
+      `🔒 Booking reference deliberately left off this page — it's public.`
+    ]
+  },
   'flight-ca184': {
     title: "CA184 · Tokyo → Beijing (Olli's family)",
     addr: 'Tokyo Haneda (HND) T3 → Beijing Capital (PEK) T3 · dep 08:30, arr 11:20 · Wed 14 Oct 2026 · Mario & Sonia Correa',
