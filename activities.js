@@ -465,7 +465,7 @@ const ACTIVITIES = {
     img: 'beijing-citywalk.jpg',
     city: 'Beijing',
     maps: 'https://maps.google.com/?q=烟袋斜街+北京',
-    gallery: ['beijing-citywalk-1.jpg', 'beijing-citywalk-2.jpg', 'beijing-citywalk-3.jpg', 'beijing-citywalk-4.jpg', 'beijing-citywalk-5.jpg', 'beijing-citywalk-6.jpg', 'beijing-citywalk-7.jpg', 'beijing-citywalk-8.jpg'],
+    gallery: ['beijing-citywalk-1.jpg', 'beijing-citywalk-2.jpg', 'beijing-citywalk-3.jpg', 'beijing-citywalk-4.jpg', 'beijing-citywalk-5.jpg', 'beijing-citywalk-6.jpg', 'beijing-citywalk-8.jpg'],
     desc: [
       `The walk that visitors to Beijing consistently end up loving most, and it costs nothing: out of <strong>鼓楼大街 Gulou Dajie</strong> metro, down past the Drum and Bell Towers, along the <strong>什刹海 Shichahai</strong> lakes, through <strong>烟袋斜街</strong> and out at <strong>南锣鼓巷</strong>. About 2.5 km, flat, and you can stretch it over a whole afternoon without getting tired.`,
       `<strong>烟袋斜街 (Yandai Xiejie, "Tobacco Pouch Slanted Street")</strong> is the piece worth slowing down for. It is Beijing's oldest commercial hutong street, and it runs on a diagonal — genuinely odd in a city laid out on a strict grid — which is why it feels different from everything around it.`,
