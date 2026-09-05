@@ -45,6 +45,7 @@ const PLANS = {
   '2026-10-13': [
     { icon: '🛍️', text: 'Shopping day', id: 'shopping', note: 'Tuesday — the good day for all of it. Panjiayuan in the morning, Silk Street or Sanlitun after lunch.' },
     { icon: '🏬', text: '三里屯太古里', id: 'sanlitun', note: 'Midweek is the time to go — weekend afternoons after 15:00 are a wall of people.' },
+    { icon: '🛒', text: 'Supermarket run', id: 'supermarket', note: '盒马 Hema for the spectacle, 物美/永辉 for the cheap snacks worth taking home. Sort Alipay before you go.' },
   ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },

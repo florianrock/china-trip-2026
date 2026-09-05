@@ -413,6 +413,21 @@ const ACTIVITIES = {
       `💡 Local tips worth having: the vintage shops on the 2nd floor of 3.3 Mall, 那里花园 Nali Patio for Mediterranean food, and a cheap food street in the hutong behind Uniqlo. ⚠️ <strong>Avoid weekend afternoons</strong> — after 15:00 on a Saturday or Sunday it is a wall of people. Mornings or evenings are far better.`
     ]
   },
+  supermarket: {
+    title: 'Supermarket run',
+    addr: '盒马鲜生 Hema (Freshippo) — Dongcheng branch at 东打磨厂街7号 新活馆2层, plus Sanlitun and Guomao · Everyday chains: 物美 Wumart, 永辉 Yonghui, 京客隆 — everywhere, including under most malls',
+    emoji: '🛒',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=盒马鲜生+东打磨厂街+北京',
+    gallery: [],
+    desc: [
+      `Genuinely one of the better hours you can spend in China, and the right place to buy things to take home — a Chinese supermarket is cheaper, stranger and more interesting than any souvenir shop.`,
+      `<strong>Two different errands.</strong> For actually buying stuff: a normal <strong>物美 (Wumart)</strong>, <strong>永辉</strong> or <strong>京客隆</strong> — they sit under most shopping centres and that is where the cheap snacks are. For the spectacle: <strong>盒马鲜生 (Hema / Freshippo)</strong>, Alibaba's supermarket — live seafood tanks you pick from, bags travelling overhead on ceiling conveyors to the packing room, everything scannable for 30-minute delivery. The Dongcheng branch is at 东打磨厂街7号, and there are others at Sanlitun and Guomao.`,
+      `🛒 <strong>What's worth carrying home:</strong> loose tea and tea sets, 花椒 Sichuan peppercorns and chilli oil, 老干妈 chilli crisp, 辣条 and 卫龙 snacks, 大白兔 milk sweets, dried fruit and nuts, and the regional Oreo/KitKat/Lay's flavours that don't exist in Europe. Baijiu if anyone is brave.`,
+      `⚠️ <strong>Payment is the one thing to sort first.</strong> Hema is app-first and has historically been awkward with Alipay, being Alibaba's own ecosystem. Cash must legally be accepted everywhere, and since the 2024 rules foreigners can bind international cards to Alipay and WeChat Pay — worth setting that up before the trip rather than discovering it at a till. Ordinary supermarkets take cash and cards without drama.`,
+      `📦 This is also where the parcel-to-hotel plan pays off: buy the heavy, bulky things here rather than carrying them from Beijing to Chengdu to Shanghai.`
+    ]
+  },
   shopping: {
     title: 'Beijing shopping day',
     addr: '王府井 Wangfujing — at the hotel door · 三里屯太古里 Sanlitun — Line 17 to Workers\' Stadium · 秀水街 Silk Street, 秀水东街8号, daily 09:30–21:00, Line 1 to Yong\'anli · 潘家园 Panjiayuan flea market, 潘家园路华威里18号, mornings only in practice',
