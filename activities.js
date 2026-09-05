@@ -146,7 +146,7 @@ const ACTIVITIES = {
     ]
   },
   'flight-ca929': {
-    title: "CA929 · Shanghai → Tokyo (Olli's in-laws out)",
+    title: "CA929 · Shanghai → Tokyo (Hisa's family out)",
     addr: 'Shanghai Pudong (PVG) T2 → Tokyo Narita (NRT) T1 · dep 10:00, arr 14:00 · Wed 21 Oct 2026 · 3h in the air, A350-900',
     emoji: '🛫',
     city: 'Shanghai',
@@ -160,7 +160,7 @@ const ACTIVITIES = {
     ]
   },
   'flight-ca184': {
-    title: "CA184 · Tokyo → Beijing (Olli's family)",
+    title: "CA184 · Tokyo → Beijing (Hisa's family)",
     addr: 'Tokyo Haneda (HND) T3 → Beijing Capital (PEK) T3 · dep 08:30, arr 11:20 · Wed 14 Oct 2026 · Mario & Sonia Correa',
     emoji: '🛬',
     city: 'Beijing',
