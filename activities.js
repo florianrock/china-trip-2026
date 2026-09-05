@@ -69,13 +69,15 @@ const ACTIVITIES = {
   },
   chongqing: {
     title: 'Chongqing day trip',
-    addr: 'Chengdu East (成都东) → Chongqing North (重庆北) or Chongqing West (重庆西) · 319 km · fastest ~1h02, typically 1–2h · 100+ trains a day · 2nd class from about ¥96',
+    addr: '🎫 G8613 · 成都东 Chengdu East 11:18 → 重庆北 Chongqing North 12:37 · 1h19 · 复兴号 · from ¥174 · Metro Line 2 from Tianfu Square to Chengdu East, ~20 min',
     emoji: '🚄',
     city: 'Chengdu',
     maps: 'https://maps.google.com/?q=解放碑+重庆',
     gallery: [],
     desc: [
-      `Chongqing is close enough to Chengdu to be a proper day out — 319 km, and the fastest high-speed trains do it in just over an hour. There are more than a hundred a day, so the plan does not depend on any particular departure: take a morning train and come back late.`,
+      `<strong>Out on G8613</strong>: 成都东 Chengdu East <strong>11:18</strong> → 重庆北 Chongqing North <strong>12:37</strong>, 1h19 on a 复兴号, from ¥174. That lands us in time for a late lunch and leaves the whole afternoon and evening. Metro Line 2 runs from Tianfu Square to Chengdu East in about 20 minutes, so leaving the hotel around 10:15 is comfortable.`,
+      `⚠️ Those times are off a search for a different Saturday — G-train timetables are stable but not guaranteed, so re-check G8613 when actually booking for 10 October. Same for the return: nothing is picked yet, and 洪崖洞 is only worth it after dark, so we want a train somewhere around 21:00–22:00 rather than an afternoon one.`,
+      `There are 100+ trains a day on the route in any case — 319 km, the fastest doing it in just over an hour — so nothing collapses if we miss one.`,
       `It is a completely different city from Chengdu despite the proximity. Built on cliffs above the confluence of the Yangtze and the Jialing, it stacks vertically — roads running over rooftops, and a metro line that goes straight through an apartment block at 李子坝. Chengdu is flat and slow; Chongqing is vertical and loud.`,
       `The obvious stops for one day: 解放碑 (Jiefangbei, the central junction), 洪崖洞 (Hongyadong, the stilt-house complex that lights up and is the reason half the photographs of Chongqing exist), 李子坝 for the train-through-the-building, and 磁器口 old town if there is time. Hongyadong is best after dark, which argues for a late train home.`,
       `🎫 Book through Trip.com or 12306 — passports work on both, and you scan in with the passport itself. Chengdu East is on Metro Lines 2 and 7.`
