@@ -67,6 +67,36 @@ const ACTIVITIES = {
       `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`
     ]
   },
+  lightshow: {
+    title: '天府双塔 Twin Towers Light Show',
+    addr: '成都双子塔 / 天府双塔, 天府国际金融中心, 天府大道北段966号, Gaoxin District · Best viewpoint: 交子之环 (Jiaozi Ring, the orange circular footbridge) on 交子大道 · Free, no booking · Metro Line 1 from Tianfu Square to 金融城 Financial City, 8 stops, ~20 min',
+    emoji: '🌃',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=交子之环+成都',
+    gallery: [],
+    desc: [
+      `Two 220 m towers whose entire facades are LED screens — about 52,000 m² of display built from roughly 162 km of LED strip. After dark they run animated shows across both buildings together: pandas, cityscapes, characters, the lot. It is free, needs no booking, and is the single most impressive thing to do in Chengdu after dark without planning anything.`,
+      `<strong>Where to stand:</strong> not at the foot of the towers — you want distance to see both facades at once. The spot everyone uses is <strong>交子之环</strong>, an orange circular pedestrian bridge on 交子大道 a few minutes away, which frames both towers head-on.`,
+      `<strong>Timing:</strong> Chinese sources disagree slightly — some say nightly 19:30–22:30, others give Thursday–Sunday 19:30–22:00 as the regular schedule, with extra shows on public holidays. <strong>8 October is a Thursday</strong>, so it should be running either way, and we arrive just after Golden Week when holiday programming often still lingers. Worth having the hotel confirm the evening's times before we set off.`,
+      `<strong>Getting there:</strong> Metro Line 1 runs directly from Tianfu Square (under the hotel) to 金融城 Financial City in about 20 minutes, no changes. Coming back, note the last trains run around 22:30 and the show ends about then — budget for a Didi home rather than sprinting for the metro.`,
+      `Optional extra in the same district: the 生机之塔 at Chengdu SKP, a 39 m illuminated water column, lit from 19:30 and best around 20:00–21:00.`,
+      `⚠️ If anyone suggests the <strong>339 / 天府熊猫塔</strong> observation tower instead — it has been shut since 2025 after its operating company went into bankruptcy liquidation. Don't build an evening around it.`
+    ]
+  },
+  roomdelivery: {
+    title: 'Food delivery to the room',
+    addr: 'Meituan 美团 or Ele.me 饿了么, both reachable as mini-programs inside Alipay · Typical delivery fee ¥3–6 · Most Chengdu kitchens deliver until at least 22:00, many far later',
+    emoji: '🥡',
+    city: 'Chengdu',
+    gallery: [],
+    desc: [
+      `Landing at Tianfu at 12:40 and getting into town takes an hour, so the first evening will be a tired one. Food delivery in China is extraordinarily good and cheap, and getting it to a hotel room is completely normal — this is the low-effort plan for night one.`,
+      `<strong>The easy route for foreigners:</strong> open <strong>Alipay</strong> and use the <strong>Meituan (美团)</strong> or <strong>Ele.me (饿了么)</strong> mini-program inside it rather than installing the standalone apps. The mini-programs have built-in translation and accept international cards through Alipay, so you avoid needing a Chinese bank account.`,
+      `<strong>What to have ready:</strong> the hotel's address in Chinese characters (get it from reception or the booking confirmation — copy-paste it, don't retype it), the room number, and a phone number the driver can call. Delivery fees run about ¥3–6, and the food itself is a fraction of restaurant prices.`,
+      `<strong>How it actually arrives:</strong> most Chinese hotels have the driver leave orders at reception or a locker rather than coming to the door, so expect a call or a message and a short trip to the lobby. Tell reception you're expecting a delivery when you check in.`,
+      `Worth ordering the local thing rather than hotel food: 串串香 skewers, 冒菜 (mala hotpot in a bowl, made for one person), or 钟水饺 dumplings all travel well and are exactly what Chengdu does best.`
+    ]
+  },
   'flight-ca4592': {
     title: 'CA4592 · Shanghai → Chengdu',
     addr: 'Shanghai Pudong (PVG) T2 → Chengdu Tianfu (TFU) T2 · dep 09:30, arr 12:40',
