@@ -24,7 +24,7 @@ const PLANS = {
     { icon: '🥩', text: 'Wagyu Hotpot dinner', id: 'wagyu', note: '锦城印象火锅 (彩虹店) · 武侯祠大街19号, Wuhou · Michelin Selected + Black Pearl · open till 02:00, so an easy dinner after the pandas.' },
   ],
   '2026-10-10': [
-    { icon: '🚄', text: 'Chongqing — full day', id: 'chongqing', note: 'High-speed from Chengdu East, ~1h02 at fastest, 100+ trains a day. Jiefangbei, Hongyadong after dark, 李子坝. Late train back.' },
+    { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37', id: 'chongqing', note: '1h19 on a 复兴号, from ¥174. Full day: Jiefangbei, 李子坝, Hongyadong after dark. Return train still to pick — aim 21:00–22:00.' },
     { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
   ],
   '2026-10-12': [
