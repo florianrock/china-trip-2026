@@ -40,12 +40,16 @@ const PLANS = {
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
+    { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Olli's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
   ],
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
-  '2026-10-16': [{ icon: '🏛️', text: 'Forbidden City', id: 'forbidden' }],
+  '2026-10-16': [
+    { icon: '🏛️', text: 'Forbidden City', id: 'forbidden' },
+    { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
+  ],
   '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
   '2026-10-22': [{ icon: '🛫', text: 'Fly home from Shanghai' }],
 };

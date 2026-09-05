@@ -368,6 +368,22 @@ const ACTIVITIES = {
   },
 
   // ── BEIJING ACTIVITIES ───────────────────────────────────────────────────
+  sanlitun: {
+    title: '🛍️ 三里屯太古里 Taikoo Li Sanlitun',
+    addr: '朝阳区三里屯路19号 · Metro Line 17 to Workers\' Stadium (工人体育场), or Line 10 to Tuanjiehu exit B and ~15 min walk · Open 10:00–22:00 · Free',
+    img: 'beijing-sanlitun.jpg',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=三里屯太古里+北京',
+    gallery: ['beijing-sanlitun-1.jpg', 'beijing-sanlitun-2.jpg', 'beijing-sanlitun-3.jpg'],
+    desc: [
+      `Beijing's open-air shopping district, and free to walk into — an outdoor grid of glass-and-steel blocks whose layout deliberately references old Beijing hutong alleys. It's the same Swire development as the 太古里 in Chengdu that 马旺子 sits beside, so it will feel familiar by the time we get here.`,
+      `<strong>The two halves are completely different.</strong> <em>South</em> is streetwear and youth culture: Popcorn (genuine Supreme), Edison Chen's JUICE with its green courtyard, SOULGOODS for guochao labels, Page One bookshop, Moleskine. <em>North</em> is luxury: Chanel, Dior and Prada flagships, and the all-glass Apple store. Know which you want before you set off — they're a walk apart.`,
+      `📸 The photogenic bits: the north-side glass box (much better after dark), the graffiti wall at the Nike flagship, the south central plaza where art installations and pop-ups appear, and <strong>红馆 THE RED</strong> — a Kengo Kuma building with 7.5 m ceilings, worth going into for the architecture alone.`,
+      `☕ Coffee is everywhere: %Arabica is the famous one and gets mobbed, so go in the morning; Blue Bottle is calmer; Manner is the cheap and good option.`,
+      `🌃 <strong>It doubles as the nightlife district.</strong> Migas Mercado has a roof terrace over the Sanlitun neon, D Lounge does proper cocktails, and the Workers' Stadium (工体) area next door is where Beijing's night actually happens. Worth pairing an evening here rather than treating it purely as shopping.`,
+      `💡 Local tips worth having: the vintage shops on the 2nd floor of 3.3 Mall, 那里花园 Nali Patio for Mediterranean food, and a cheap food street in the hutong behind Uniqlo. ⚠️ <strong>Avoid weekend afternoons</strong> — after 15:00 on a Saturday or Sunday it is a wall of people. Mornings or evenings are far better.`
+    ]
+  },
   forbidden: {
     title: 'The Forbidden City',
     addr: '4 Jingshan Front Street, Dongcheng District, Beijing (metro: Tiananmen East/West, Line 1)',
@@ -534,18 +550,21 @@ const ACTIVITIES = {
     ]
   },
   sijimingfu: {
-    title: 'Sijimingfu — Imperial Duck',
-    addr: 'Sijimingfu (四季民福): Near Wangfujing / Forbidden City, Dongcheng District, Beijing',
+    title: '四季民福 — Peking Duck by the Forbidden City',
+    addr: '四季民福烤鸭店 (故宫店): 南池子大街11号, Dongcheng — right by the Forbidden City east gate (东华门) · Tables on the upper floor look out at the palace wall and corner tower',
     img: 'beijing-sijimingfu.png',
     city: 'Beijing',
-    maps: 'https://maps.google.com/?q=Sijimingfu+Beijing',
+    maps: 'https://maps.google.com/?q=四季民福烤鸭店+故宫店+南池子大街+北京',
     gallery: ['beijing-sijimingfu-2.png', 'beijing-sijimingfu-3.png', 'beijing-sijimingfu-4.png'],
     desc: [
-      `Sijimingfu is Beijing's most storied Peking Duck restaurant — a converted Qing dynasty courtyard house steps from the Forbidden City, where the recipe has been passed down through the same family for four generations. The setting alone justifies the visit: red lanterns in a carved wooden courtyard, the smell of hickory smoke drifting from century-old ovens.`,
-      `The ducks here are raised on a specific grain diet for 65 days, then air-dried for 24 hours before roasting in a closed oven over jujube and pear wood — a technique that produces skin so thin and crackling it shatters at a touch. The chef carves it at the table in under two minutes: 108 slices, every one skin-on, presented on antique blue-and-white porcelain.`,
-      `Order the full duck set: crispy skin dipped in fine sugar, wrapped pancakes, then a bowl of silky duck bone congee that has been simmering since morning. Book the courtyard room if you can — eating under paper lanterns with the roofline of the Forbidden City visible beyond the walls is the kind of moment you don't forget.`
+      `四季民福 (Sìjì Mínfú) is the Peking duck everyone actually queues for now, and the 故宫店 is the branch worth the trouble: it sits at the Forbidden City's east gate, and the upstairs tables look straight out at the palace wall and the corner tower. Eating duck with that view is the entire point of coming to this branch rather than any other.`,
+      `The chain was founded in 2008 and grew fast on the strength of the duck rather than any imperial pedigree. The birds go into a sealed steel oven that holds its heat hard, and are turned continuously so the skin colours evenly — you can watch it happening in the atrium while you wait, which you will.`,
+      `⚠️ <strong>The queue is the whole problem.</strong> This branch is notorious for queueing from opening to closing; on public holidays the waiting list has run past a thousand parties, and the other branches start backing up from about 16:00. Take a queue number the moment you come out of the Forbidden City rather than after wandering, or eat early. They hand out snacks and hot tea to people waiting, which tells you how normal the wait is.`,
+      `Order the duck, obviously, and the sides are genuinely good rather than filler — the mustard duck web (芥末鸭掌) and the cold dishes are worth ordering while you wait for the bird.`,
+      `Alternative: <strong>大董 Da Dong</strong>, also on this page, does a leaner, more modern "crisp-skin" duck and takes bookings — the sensible fallback if the queue here is absurd on the day.`
     ]
   },
+
   manhengji: {
     title: '满恒记 — Instant Boiled Mutton',
     addr: '满恒记 (Mǎn Héng Jì): Xicheng District, Beijing — search on Dianping/Google Maps for nearest branch',
@@ -561,7 +580,7 @@ const ACTIVITIES = {
   },
   henjiu: {
     title: '很久以前羊肉串 — Mutton Skewers',
-    addr: '很久以前 Gulou Branch: 旧鼓楼外大街甲1号, Xicheng District, Beijing · Metro Line 2/8, Gulou Dajie · Open 17:00–late',
+    addr: '很久以前羊肉串 (鼓楼店): 旧鼓楼外大街甲1号, Xicheng — 50 m north of Gulou Dajie metro exit A2 (Lines 2/8) · Open 11:30–14:30 and 16:30–02:00 · about ¥93 a head',
     img: 'food-henjiu.png',
     city: 'Beijing',
     maps: 'https://maps.google.com/?q=很久以前羊肉串+旧鼓楼外大街+北京',
