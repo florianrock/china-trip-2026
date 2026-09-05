@@ -43,7 +43,7 @@ const PLANS = {
     { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
   '2026-10-14': [
-    { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Olli's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
+    { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
   ],
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
   '2026-10-16': [
@@ -52,7 +52,7 @@ const PLANS = {
   ],
   '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
   '2026-10-21': [
-    { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Olli's in-laws out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
+    { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
   ],
   '2026-10-22': [{ icon: '🛫', text: 'Fly home from Shanghai' }],
 };
