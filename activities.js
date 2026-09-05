@@ -67,6 +67,20 @@ const ACTIVITIES = {
       `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`
     ]
   },
+  afternoontea: {
+    title: 'Afternoon tea, Chengdu style',
+    addr: '鹤鸣茶社 Heming Tea House, inside 人民公园 — bamboo chairs, gaiwan, ear cleaners · Or the Taikoo Li pair: 谧寻茶室 and 元古, both a few minutes from 马旺子 · Tea ¥12–30 with free refills',
+    emoji: '🍵',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=鹤鸣茶社+人民公园+成都',
+    gallery: [],
+    desc: [
+      `The correct way to spend an afternoon in Chengdu is to do nothing at all, slowly, with tea. This is the city's actual pastime — "出来喝茶撒" — and it is the thing Chengdu is for.`,
+      `<strong>鹤鸣茶社</strong> in People's Park is the classic: founded 1923, an open-air terrace of bamboo chairs under the trees, gaiwan lids clattering, card games, and 采耳 ear-cleaners circulating with their tuning forks (¥30–50). Tea is ¥12–30 with endless refills and nobody will hurry you — people sit for four hours. It's loud, cheap and entirely local.`,
+      `<strong>The alternative, if you'd rather be quiet:</strong> 谧寻茶室 or 元古 by Taikoo Li — the design tea houses already on this page. Both are a few minutes from 马旺子, so tea there rolls straight into dinner without moving.`,
+      `Either way this is a recovery afternoon: no tickets, no timings, nothing to see. After a full day in Chongqing that is exactly the right shape.`
+    ]
+  },
   chongqing: {
     title: 'Chongqing day trip',
     addr: '🎫 G8613 · 成都东 Chengdu East 11:18 → 重庆北 Chongqing North 12:37 · 1h19 · 复兴号 · from ¥174 · Metro Line 2 from Tianfu Square to Chengdu East, ~20 min',
