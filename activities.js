@@ -58,13 +58,17 @@ const ACTIVITIES = {
   },
   'hotel-pullman-jingan': {
     title: 'Pullman Jing An',
-    addr: "Jing'an District, Shanghai",
+    addr: "上海静安铂尔曼酒店 Pullman Shanghai Jing An · 梅园路330号, 静安区 (No. 330 Meiyuan Road) · ☎ 021-6353-5555 · Under 100 m from Shanghai Railway Station metro (Lines 1/3/4), about 2 minutes' walk · Check-in 17 Oct",
     img: 'hotel-pullman-jingan.png',
     emoji: '🏨', city: 'Shanghai', gallery: [],
     desc: [
       `Our pick for Shanghai — <strong>CHF ~90/night, about CHF 450 for the five nights per room</strong>. The best value of the Shanghai options.`,
       `Jing'an is central with a strong metro connection, which is what you want across five nights and four still-open days: Disneyland, Zhujiajiao and the French Concession are all straightforward from here.`,
-      `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`
+      `Trade-offs: it has a business-hotel feel rather than a boutique one, and there is no Bund view — the Hyatt on the Bund is the alternative if the view matters more than the price.`,
+      `📦 <strong>PARCEL DELIVERIES — confirmed with the hotel.</strong> They will accept and store parcels before we arrive, <strong>free of charge</strong>, with <strong>no limit on quantity, size or weight</strong> (they ask only that we keep the volume reasonable). The concierge team is authorised to sign for deliveries. Parcels can start arriving <strong>from 8 October</strong> and they hold them until check-in on the 17th.`,
+      `🏷️ <strong>Address to put on orders</strong> — recipient name plus <strong>礼宾部代收</strong> (or "c/o Concierge") after it:<br><strong>上海市静安区天目西路街道梅园路330号，上海静安铂尔曼酒店</strong><br>Phone: <strong>021-6353-5555</strong> — this is the hotel <em>landline</em>; they have no mobile number. Chinese couriers ring it to confirm delivery.`,
+      `⚠️ <strong>The one snag: Chinese checkout forms usually demand an 11-digit mobile.</strong> On the Taobao/JD <em>desktop</em> site a landline is accepted if written as <code>021-63535555</code> — leading zero, one hyphen, no spaces or brackets. In the <em>mobile apps</em> the field normally rejects anything that isn't a mobile, so either order from a laptop, or put a Chinese mobile (Emma's) in the phone field and add the landline and 礼宾部代收 into the address line itself.`,
+      `💡 Tell reception at check-in that parcels are waiting — and remember the Swiss allowance is CHF 300 per person duty-free before VAT and duty apply.`
     ]
   },
   afternoontea: {
