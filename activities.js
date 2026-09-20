@@ -643,6 +643,20 @@ const ACTIVITIES = {
       `136 Sichuan Middle Road, Huangpu District — a 10-minute walk from the Bund. Open daily 7:00–19:30. No English menu, none needed — point at the bun tray, pay at the counter. This is the place from Florian's Instagram reel (@zoe_shanghailocal, #panfried, "$3 Michelin Shanghai"). She's right.`
     ]
   },
+  lailai: {
+    title: '莱莱小笼 — Michelin Crab Roe Xiaolongbao',
+    addr: 'Lai Lai Xiao Long (莱莱小笼): 504 Tianjin Road (天津路504号), Huangpu District, Shanghai · Open 8:00–21:30 daily',
+    img: 'food-lailai.jpg',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=莱莱小笼+天津路504号+上海',
+    gallery: ['food-lailai-2.jpg', 'food-lailai-3.jpg', 'food-lailai-4.jpg', 'food-lailai-5.jpg', 'food-lailai-6.jpg'],
+    desc: [
+      `莱莱小笼 (Lai Lai Xiao Long) is a small, no-frills soup dumpling shop on Tianjin Road, one street north of the Nanjing Road pedestrian street. It holds a Michelin Bib Gourmand, and the red plaques on the wall read 2024, 2025 and 2026. It is also on Dianping's 必吃榜 ("must-eat list"). Expect to pay roughly ¥50–100 per person, which makes it one of the cheapest Michelin meals you will ever have.`,
+      `The one thing to order is the 蟹粉鲜肉小笼 — crab roe and pork xiaolongbao. The skin is thin, the inside is mostly hot golden broth, and the crab roe turns the soup orange. Dip it in the crab vinegar with ginger. Good extras from the same kitchen: 蟹粉小馄饨 (small crab roe wontons in clear broth), 蟹粉三鲜春卷 (crab and three-delicacy spring rolls, crisp outside and soft inside) and a big crunchy fried pork chop (炸猪排).`,
+      `How it works: you queue, order and pay at the counter, then take a table. You can only order once, so get everything in the first round. At lunch and dinner time there is always a line, but tables turn fast. Come right at 8:00 for breakfast or mid-afternoon and you mostly walk in. There is a second branch behind Jing'an Temple (北京西路1722号) if you are on that side of town.`,
+      `Eating technique, so nobody burns their mouth: lift the dumpling by the top knot into your spoon, bite a small hole, sip the soup, then eat the rest. Florian found this one on Xiaohongshu — the post calls it "the first stop on any Shanghai trip".`
+    ]
+  },
 
   // ── FOOD: BEIJING ────────────────────────────────────────────────────────
   duck: {
