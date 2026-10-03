@@ -199,19 +199,7 @@ const ACTIVITIES = {
     desc: [
       `Air China <strong>CA4592</strong>, Pudong Terminal 2 <strong>09:30</strong> → Chengdu Tianfu Terminal 2 <strong>12:40</strong> on Thursday 8 October 2026. About 3h10 in the air, 1,660 km, usually an A321neo or A320neo.`,
       `This lands at <strong>Tianfu (TFU)</strong>, the newer airport roughly 50 km south-east of the city — allow an hour to the centre, more at rush hour. It is the same airport MU664 leaves from on the 12th, so the whole Chengdu leg is Tianfu.`,
-      `⚠️ Cami and Joe are on <strong>CA4504, which lands at Shuangliu (CTU)</strong> — a different Chengdu airport, about 60 km away, and two hours later. Meeting at the airport does not work; meet at the hotel.`
-    ]
-  },
-  'flight-ca4504': {
-    title: 'CA4504 · Shanghai → Chengdu (Cami & Joe)',
-    addr: 'Shanghai Pudong (PVG) T2 → Chengdu Shuangliu (CTU) T2 · dep 11:25, arr 14:40',
-    emoji: '✈️',
-    city: 'Chengdu',
-    gallery: [],
-    desc: [
-      `Air China <strong>CA4504</strong> for Cami and Joe: Pudong Terminal 2 <strong>11:25</strong> → Chengdu <strong>Shuangliu</strong> Terminal 2 <strong>14:40</strong> on Thursday 8 October 2026. About 3h15, usually an A321.`,
-      `⚠️ <strong>Different airport from the rest of us.</strong> Shuangliu (CTU) is the old city airport, close in to the south-west; the family's CA4592 lands at Tianfu (TFU), roughly 60 km away on the other side of the city. The two arrivals are also two hours apart — 12:40 versus 14:40.`,
-      `The upside is that Shuangliu is much closer to town: Metro Line 10 runs from the terminal into the centre, and a taxi is 30–40 minutes rather than an hour. Simplest plan is that everyone makes their own way to the Mercure and meets there.`
+      `✅ <strong>Cami and Joe are on this flight too</strong> (rebooked from CA4504 on 4 October), so the whole group lands at Tianfu at 12:40 and can share the ride to the Mercure.`
     ]
   },
   'flight-mu664': {
