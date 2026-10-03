@@ -59,7 +59,10 @@ const PLANS = {
     { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
     { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
-  '2026-10-17': [{ icon: '🚄', text: 'Beijing → Shanghai', id: 'train' }],
+  '2026-10-17': [
+    { icon: '🚄', text: 'G15 · Beijing South → Shanghai Hongqiao · 12:00–16:38 · First (Cami, Joe, Emma)', id: 'train', note: 'Smart Fuxing set. First class (一等) — Business was sold out. Fully refundable until 9 Oct.' },
+    { icon: '🚄', text: 'G749 · Beijing South → Shanghai Hongqiao · 13:19–19:04 · Business (Hisa, Olli, Mario, Sonia, Flo + kids)', id: 'train', note: 'Smart Fuxing set, 1+1 Business pods. Under-6s travel free on an adult\'s lap (one per adult) — child tickets = 50% if they should get their own pod.' },
+  ],
   '2026-10-21': [
     { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
   ],
