@@ -15,6 +15,7 @@ const BLOCKS = [
 // line alone; that pairing is what tells you it's a there-and-back day.
 const DAYTRIPS = {
   '2026-10-10': { city: 'Chongqing', emoji: '🚄' },
+  '2026-10-11': { city: 'Chongqing → Chengdu', emoji: '🚄' },
 };
 
 // Anything actually scheduled. Empty array => day is flagged as free.
@@ -30,12 +31,12 @@ const PLANS = {
     { icon: '🥩', text: 'Wagyu Hotpot dinner', id: 'wagyu', note: '锦城印象火锅 (彩虹店) · 武侯祠大街19号, Wuhou · Michelin Selected + Black Pearl · open till 02:00, so an easy dinner after the pandas.' },
   ],
   '2026-10-10': [
-    { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37', id: 'chongqing', note: '1h19 on a 复兴号, from ¥174. Full day: Jiefangbei, 李子坝, Hongyadong after dark. Return train still to pick — aim 21:00–22:00.' },
+    { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37 · ✅ booked (9)', id: 'chongqing', note: 'Booked 1 Oct, 9 tickets. 1h19 on a 复兴号. Full day: Jiefangbei, 李子坝, Hongyadong after dark — and we now sleep in Chongqing (return is Sunday 13:24). Hotel for the night: TBD.' },
     { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
     { icon: '🍖', text: '丁老头烤肉 · dinner on 南山', id: 'nanshanbbq', note: 'BBQ terraced down the hillside over the lit skyline. Sunset 18:30 — be seated by 17:30. Line 6 to 上新街 exit 3.' },
   ],
   '2026-10-11': [
-    { icon: '🚄', text: 'Chongqing → Chengdu', id: 'chongqing', note: 'Return leg. Train not booked yet — 100+ a day, ~1h19 on the fast ones.' },
+    { icon: '🚄', text: 'G3424 · 重庆北 13:24 → 成都东 14:51 · ✅ booked (9)', id: 'chongqing', note: 'Return leg, booked 1 Oct, 9 tickets. 1h27. Morning free in Chongqing; back in Chengdu for tea and the 马旺子 dinner.' },
     { icon: '🍵', text: 'Afternoon tea — chill', id: 'afternoontea', note: '鹤鸣茶社 in People\'s Park for the local version, or 谧寻/元古 by Taikoo Li if you want quiet. Nothing to see, that is the point.' },
     { icon: '⭐', text: '马旺子·川小馆 · dinner', id: 'mawangzi', note: 'Michelin ★, Taikoo Li — a few minutes from the Taikoo Li tea houses. BOOK AHEAD, tables go ~2 weeks out.' },
   ],
@@ -60,8 +61,8 @@ const PLANS = {
     { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
   '2026-10-17': [
-    { icon: '🚄', text: 'G15 · Beijing South → Shanghai Hongqiao · 12:00–16:38 · First (Cami, Joe, Emma)', id: 'train', note: 'Smart Fuxing set. First class (一等) — Business was sold out. Fully refundable until 9 Oct.' },
-    { icon: '🚄', text: 'G749 · Beijing South → Shanghai Hongqiao · 13:19–19:04 · Business (Hisa, Olli, Mario, Sonia, Flo + kids)', id: 'train', note: 'Smart Fuxing set, 1+1 Business pods. Under-6s travel free on an adult\'s lap (one per adult) — child tickets = 50% if they should get their own pod.' },
+    { icon: '🚄', text: 'G17 · Beijing South → Shanghai Station · 13:00–17:35 · First (Cami, Joe, Emma) · ✅ booked (3)', id: 'train', note: 'Smart Fuxing set, 4h35. First class — Business was sold out. Arrives 上海站 (city centre), NOT Hongqiao. Order EB89322519, refundable until 9 Oct.' },
+    { icon: '🚄', text: 'G749 · Beijing South → Shanghai Hongqiao · 13:19–19:04 · Business (Hisa, Olli, Mario, Sonia, Flo + kids) · ✅ booked', id: 'train', note: 'Smart Fuxing set, 1+1 Business pods, 5h45. Arrives Hongqiao. Under-6s travel free on an adult\'s lap (one per adult) — child tickets = 50% if they should get their own pod. Refundable until 9 Oct.' },
   ],
   '2026-10-21': [
     { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
