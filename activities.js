@@ -190,6 +190,20 @@ const ACTIVITIES = {
       `🔒 Booking reference and eTicket numbers deliberately left off this page — it is public. They're in the confirmation email.`
     ]
   },
+  xiyuehezi: {
+    title: '熹玥盒子 Xi Yue He Zi — tea & dessert in 下浩里',
+    addr: '下浩里老街128号 (55号店), 龙门浩街道, 南岸区, 重庆 · Xiahao Li Old Street No. 128 (Store 55), Nan\'an District',
+    emoji: '🍵',
+    city: 'Chengdu',
+    maps: 'https://maps.google.com/?q=29.5604626,106.5916274',
+    gallery: [],
+    desc: [
+      `Florian's pick from Instagram (@foodiswhyimbroke): a small, pretty tea-and-dessert house in <strong>下浩里</strong>, the restored old lanes climbing the south bank of the Yangtze in Nan'an. The reel's verdict: "the perfect place for tea in Chongqing — delicate, calm, and just sweet enough", not crowded, no wait.`,
+      `📍 Where it sits: right next to <strong>龙门浩老街</strong> (200 m), at the south end of the 东水门 Yangtze bridge — about 1.7 km / ~21 min on foot from <strong>洪崖洞</strong> across the bridge, and the same hillside as the 南山 BBQ dinner. Metro Line 6 上新街 is the nearest station.`,
+      `🗓️ Slot: the free <strong>Sunday morning in Chongqing (11 Oct)</strong> before G3424 at 13:24 — tea here around 10:00, then taxi to 重庆北 (allow 40 min). Opening hours aren't published online; check Amap/Dianping (熹玥盒子 下浩里店) the day before.`,
+      `🔗 Source reel: https://www.instagram.com/reel/DdcqP_7yIcP/`
+    ]
+  },
   'flight-ca4592': {
     title: 'CA4592 · Shanghai → Chengdu',
     addr: 'Shanghai Pudong (PVG) T2 → Chengdu Tianfu (TFU) T2 · dep 09:30, arr 12:40',
