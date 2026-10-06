@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 中国之行 🇨🇳</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css?v=20261002a" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">🇨🇳</div>
+      <div class="header-title">
+        <h1>2026 中国之行</h1>
+        <p class="subtitle">10月8日–22日 · 成都 · 北京 · 上海 · ❤️ Joe+Cami、Flo+Emma 和 Koch 一家 ❤️</p>
+      </div>
+      <div id="auth-area">
+        <div id="g_id_onload"
+             data-client_id="709093476989-b7dsh9l1kbor7aqkbt10l4dcidpe9pp4.apps.googleusercontent.com"
+             data-callback="handleCredentialResponse"
+             data-auto_select="true"
+             data-locale="zh_CN">
+        </div>
+        <div id="signin-btn" class="g_id_signin" data-locale="zh_CN"
+             data-type="standard"
+             data-shape="pill"
+             data-theme="outline"
+             data-text="signin_with"
+             data-size="medium"
+             data-logo_alignment="left">
+        </div>
+        <div id="user-chip" style="display:none">
+          <img id="user-avatar" src="" alt="" class="user-avatar" />
+          <span id="user-name" class="user-name"></span>
+          <button id="signout-btn" class="signout-btn" title="退出登录">✕</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ITINERARY TIMELINE — always visible -->
+  <div class="itinerary-wrap">
+    <div class="itinerary">
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">10月8日</div>
+        <div class="itin-city">🛬 上海</div>
+        <div class="itin-nights">抵达</div>
+      </div>
+      <div class="itin-line itin-line--flight">
+        <span class="itin-flight" tabindex="0">✈️ CA4592
+          <span class="itin-flight-info">中国国航 <strong>CA4592</strong><br>上海浦东 (PVG) T2 → 成都天府 (TFU) T2<br>起飞 <strong>09:30</strong>，抵达 <strong>12:40</strong> · 2026年10月8日 周四<br>✅ Cami 和 Joe 搭乘<strong>同一航班</strong> — 大家一起降落天府</span>
+        </span>
+      </div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">10月8日</div>
+        <div class="itin-city">✈️ 成都</div>
+        <div class="itin-nights">4 晚</div>
+        <div class="itin-day">10月9日 · 🐼 大熊猫基地</div>
+        <div class="itin-day">10月9日 · 🥩 和牛火锅</div>
+        <div class="itin-day" title="G8613 · 成都东 11:18 → 重庆北 12:37 · 已订，9 张票 · 在重庆过夜">10月10日 · 🚄 G8613 → 重庆（过夜）</div>
+        <div class="itin-day" title="G3424 · 重庆北 13:24 → 成都东 14:51 · 已订，9 张票">10月11日 · 🚄 G3424 → 成都 13:24</div>
+        <div class="itin-day">10月11日 · 🍵 喝茶 + ⭐ 马旺子</div>
+        <div class="itin-hotel">🏨 天府广场美居</div>
+      </div>
+      <div class="itin-line itin-line--flight">
+        <span class="itin-flight" tabindex="0">✈️ MU664
+          <span class="itin-flight-info">中国东方航空 <strong>MU664</strong><br>成都天府 (TFU) → 北京大兴 (PKX)<br>起飞 <strong>12:40</strong> · 2026年10月12日 周一</span>
+        </span>
+      </div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">10月12日</div>
+        <div class="itin-city">✈️ 北京</div>
+        <div class="itin-nights">5 晚</div>
+        <div class="itin-day">10月12日 · 🍢 很久以前羊肉串</div>
+        <div class="itin-day">10月13日 · 🛍️ 购物日</div>
+        <div class="itin-day">10月14日 · 🛬 Hisa 一家抵达（CA184）</div>
+        <div class="itin-day">10月14日 · 🚶 胡同城市漫步</div>
+        <div class="itin-day">10月15日 · 🧱 长城</div>
+        <div class="itin-day">10月16日 · 🏛️ 故宫 + 🦆 烤鸭 + 🎤 KTV</div>
+        <div class="itin-hotel">🏨 北京东方君悦大酒店</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot"></div>
+        <div class="itin-label">10月17日</div>
+        <div class="itin-city">🚄 上海</div>
+        <div class="itin-nights">5 晚</div>
+        <div class="itin-day" title="G17 · 北京南 → 上海站 · 13:00–17:35 · 一等座（商务座售罄） · Cami、Joe、Emma · 已订，10月9日前可退">10月17日 · 🚄 G17 13:00 · 一等座（Cami、Joe、Emma）</div>
+        <div class="itin-day" title="G749 · 北京南 → 上海虹桥 · 13:19–19:04 · 商务座，智能复兴号 1+1 座舱 · Hisa、Olli、Mario、Sonia、Flo + 孩子们 · 10月9日前可退">10月17日 · 🚄 G749 13:19 · 商务座（其余人）</div>
+        <div class="itin-day">10月21日 · 🛫 Hisa 一家离开（CA929）</div>
+        <div class="itin-hotel">🏨 静安铂尔曼</div>
+      </div>
+      <div class="itin-line"></div>
+      <div class="itin-step">
+        <div class="itin-dot itin-dot--fly"></div>
+        <div class="itin-label">10月22日</div>
+        <div class="itin-city">🛫 返程</div>
+        <div class="itin-nights">上海出发</div>
+      </div>
+    </div>
+    <div class="itin-controls">
+      <button id="itin-hotel-toggle" class="itin-toggle" aria-expanded="true">🏨 隐藏酒店</button>
+      <a class="itin-toggle" href="cn-calendar.html">📅 日历视图</a>
+    </div>
+    <p class="itin-note">黄金周之后 → 没有节假日涨价 · 4 间房（2 间家庭房 + 2 对情侣房）</p>
+  </div>
+
+  <!-- TOP NAV -->
+  <nav class="top-nav">
+    <button class="top-tab active" data-section="activities">🎯 景点/活动</button>
+    <button class="top-tab" data-section="food">🍜 美食</button>
+    <button class="top-tab" data-section="hotels">🏨 酒店</button>
+    <button class="top-tab" data-section="remember">📌 注意事项</button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════ HOTELS -->
+  <div id="section-hotels" class="top-section">
+
+    <nav class="city-tabs hotel-tabs">
+      <button class="tab active" data-hotel-city="h-chengdu">🐼 成都</button>
+      <button class="tab" data-hotel-city="h-beijing">🏯 北京</button>
+      <button class="tab" data-hotel-city="h-shanghai">🏙️ 上海</button>
+    </nav>
+
+    <div class="hotel-sections">
+      <div class="hotel-city" id="h-shanghai">
+        <p class="hotel-city-note">5 晚（10月17日–22日） · 黄金周之后——不涨价</p>
+        <div class="hotel-grid">
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-pullman-jingan.png" alt="Pullman Jing An" />
+              <span class="hotel-badge badge-pick">✅ 我们的首选</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header"><h3>静安铂尔曼</h3><div class="hotel-stars">★★★★★</div></div>
+              <div class="hotel-price">CHF ~90 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~450</span></div>
+              <ul class="pros"><li>静安区中心地段</li><li>地铁连接极佳</li><li>上海性价比最高</li></ul>
+              <ul class="cons"><li>商务酒店风格</li><li>看不到外滩景</li></ul>
+              <div class="hotel-vs">↓ 仅为外滩茂悦酒店价格的一半</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-pullman-jingan">❤️ <span class="count">0</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="hotel-alternatives">
+          <p class="hotel-alternatives-heading">其他选择</p>
+          <div class="hotel-grid">
+            <div class="hotel-card">
+              <div class="hotel-img-wrap">
+                <img src="hotel-hyatt-bund.png" alt="Hyatt on the Bund" />
+                <span class="hotel-badge badge-luxury">奢华之选</span>
+              </div>
+              <div class="hotel-body">
+                <div class="hotel-header"><h3>外滩茂悦大酒店</h3><div class="hotel-stars">★★★★★</div></div>
+                <div class="hotel-price">CHF ~160–195 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~770–910</span></div>
+                <ul class="pros"><li>标志性的外滩江景与天际线</li><li>完整的奢华体验</li><li>可累积凯悦积分</li></ul>
+                <ul class="cons"><li>约为铂尔曼价格的 2 倍</li><li>步行到地铁需 15–20 分钟</li></ul>
+                <div class="hotel-vs">↑ 为景观支付的溢价——偶尔奢侈一把值得</div>
+                <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-hyatt-bund">❤️ <span class="count">0</span></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hotel-city" id="h-beijing">
+        <p class="hotel-city-note">5 晚（10月12日–17日） · 东方君悦：王府井，步行可达故宫 · 四季酒店是奢华的大胆之选 💸</p>
+        <div class="hotel-grid">
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-grand-hyatt-beijing.png" alt="Grand Hyatt Beijing" />
+              <span class="hotel-badge badge-pick">✅ 我们的首选</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header"><h3>北京东方君悦大酒店</h3><div class="hotel-stars">★★★★★</div></div>
+              <div class="hotel-price">CHF ~115–120 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~575–600</span></div>
+              <ul class="pros"><li>王府井——步行可达故宫</li><li>与成都君悦相匹配（积分）</li><li>与索菲特同价</li></ul>
+              <ul class="cons"><li>游客聚集的街区</li><li>建筑略显陈旧</li></ul>
+              <div class="hotel-vs">以合适的价格拿下北京最佳地段</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-grand-hyatt-beijing">❤️ <span class="count">0</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="hotel-alternatives">
+          <p class="hotel-alternatives-heading">其他选择</p>
+          <div class="hotel-grid">
+            <div class="hotel-card">
+              <div class="hotel-img-wrap">
+                <img src="hotel-sofitel-beijing.png" alt="Sofitel Beijing Central" />
+                <span class="hotel-badge badge-stayed">✅ 住过并喜欢</span>
+              </div>
+              <div class="hotel-body">
+                <div class="hotel-header"><h3>北京索菲特</h3><div class="hotel-stars">★★★★★</div></div>
+                <div class="hotel-price">CHF ~114 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~570</span></div>
+                <ul class="pros"><li>CBD / 朝阳地段</li><li>精致的法式奢华</li><li>出色的行政酒廊</li></ul>
+                <ul class="cons"><li>离老城区较远</li><li>需要更多打车</li></ul>
+                <div class="hotel-vs">经过验证的选择——你清楚能得到什么</div>
+                <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-sofitel-beijing">❤️ <span class="count">0</span></button></div>
+              </div>
+            </div>
+            <div class="hotel-card" data-hotel-id="four-seasons-kids" style="cursor:pointer">
+              <div class="hotel-img-wrap">
+                <img src="hotel-fs-lp-room.jpg" alt="Four Seasons Little Prince Suite" />
+              </div>
+              <div class="hotel-body">
+                <div class="hotel-header"><h3>北京四季酒店 — 儿童套房</h3><div class="hotel-stars">★★★★★</div></div>
+                <span class="hotel-badge badge-joke" style="position:static;display:inline-block;margin-bottom:0.75rem;">😂 给孩子们的</span>
+                <div class="hotel-price">CHF ~580 <span class="per-night">/晚</span></div>
+                <ul class="pros"><li>孩子们绝对会爱死它</li><li>圣诞节早晨般的兴奋感</li><li>炫耀资本：永恒</li><li>步行可达故宫</li></ul>
+                <ul class="cons"><li>可能得卖辆车</li><li>Koch 家的孩子以后每次旅行都会期待这个</li></ul>
+                <div class="hotel-vs">如果钱是假的，强烈推荐 💸</div>
+                <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-four-seasons-kids">❤️ <span class="count">0</span></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hotel-city active" id="h-chengdu">
+        <p class="hotel-city-note">4 晚（10月8日–12日） · 美居整个住期每间房省下 CHF 320–380</p>
+        <div class="hotel-grid">
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img src="hotel-mercure-chengdu.png" alt="Mercure Chengdu Tianfu Square" />
+              <span class="hotel-badge badge-pick">✅ 我们的首选</span>
+            </div>
+            <div class="hotel-body">
+              <div class="hotel-header"><h3><a href="https://all.accor.com/hotel/C3D3/index.en.shtml" target="_blank" rel="noopener">成都天府广场美居酒店</a></h3><div class="hotel-stars">★★★★</div></div>
+              <div class="hotel-price">CHF ~50 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~200</span></div>
+              <ul class="pros"><li>全新开业（2025年8月）</li><li>锦里东路——步行可达锦里古街与武侯祠，临近天府广场</li><li>干净、现代，配日式马桶</li><li>每间房省下约 CHF 320–380</li></ul>
+              <ul class="cons"><li>4 星级，无凯悦积分</li></ul>
+              <div class="hotel-vs">↓ 性价比最高——经过验证的选择，地段正合适</div>
+              <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-mercure-chengdu">❤️ <span class="count">0</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="hotel-alternatives">
+          <p class="hotel-alternatives-heading">其他选择</p>
+          <div class="hotel-grid">
+            <div class="hotel-card">
+              <div class="hotel-img-wrap">
+                <img src="hotel-grand-hyatt-chengdu.png" alt="Grand Hyatt Chengdu" />
+                <span class="hotel-badge badge-luxury">豪华之选</span>
+              </div>
+              <div class="hotel-body">
+                <div class="hotel-header"><h3>成都群光君悦酒店</h3><div class="hotel-stars">★★★★★</div></div>
+                <div class="hotel-price">CHF ~110–145 <span class="per-night">/晚</span> <span class="total-price">每间共计 ~520–580</span></div>
+                <ul class="pros"><li>春熙路 / 太古里——核心黄金地段</li><li>完整的五星级奢华</li><li>可累积凯悦积分</li></ul>
+                <ul class="cons"><li>目前为止最贵的选择</li></ul>
+                <div class="hotel-vs">3 倍价格——为奢华而奢华</div>
+                <div class="hotel-vote-row"><button class="upvote-btn" data-id="h-grand-hyatt-chengdu">❤️ <span class="count">0</span></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ ACTIVITIES -->
+  <div id="section-activities" class="top-section active">
+    <nav class="city-tabs">
+      <button class="tab active" data-city="act-chengdu">🐼 成都</button>
+      <button class="tab" data-city="act-beijing">🏯 北京</button>
+      <button class="tab" data-city="act-shanghai">🏙️ 上海</button>
+    </nav>
+    <div class="act-sections">
+      <section class="city-section" id="act-shanghai">
+        <div class="cards-grid">
+          <div class="card" data-id="train">
+            <div class="card-img-wrap"><img src="train-business.png" alt="Bullet Train" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🚄 高铁商务座</h2>
+              <p class="teaser">北京到上海仅需 4.5 小时，时速 350 公里——可平躺座椅、精致餐食服务、全景视野。在各方面都胜过坐飞机。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="train">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="train">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="disneyland">
+            <div class="card-img-wrap"><img src="shanghai-disneyland.png" alt="Shanghai Disneyland" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>上海迪士尼乐园</h2>
+              <p class="teaser">地球上最新、最壮观的迪士尼乐园——创极速光轮过山车、全球最大的城堡，以及护城河上空令你惊叹的烟花秀。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="disneyland">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="disneyland">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="bund">
+            <div class="card-img-wrap"><img src="shanghai-bund.png" alt="The Bund" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>外滩滨江</h2>
+              <p class="teaser">一英里长的殖民风格建筑群长廊，面朝未来感十足的浦东天际线——上海最具标志性的全景。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="bund">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="bund">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="yugarden">
+            <div class="card-img-wrap"><img src="shanghai-yugarden.png" alt="Yu Garden" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>豫园 &amp; 老城厢</h2>
+              <p class="teaser">一座 16 世纪的古典园林，有月洞门、锦鲤池和龙墙——还有就在荷花池上的那家最早的小笼包茶楼。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="yugarden">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="yugarden">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="tower">
+            <div class="card-img-wrap"><img src="shanghai-tower.png" alt="Shanghai Tower" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>上海中心大厦 — 118 层</h2>
+              <p class="teaser">世界第二高楼，632 米高空——在云层之上俯瞰整座城市，远眺东海。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="tower">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="tower">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="frenchconcession">
+            <div class="card-img-wrap"><img src="shanghai-frenchconcession.png" alt="French Concession" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>法租界</h2>
+              <p class="teaser">林荫大道、装饰艺术风格街道、独立咖啡馆、新天地和田子坊——会让你想搬来上海的街区。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="frenchconcession">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="frenchconcession">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="zhujiajiao">
+            <div class="card-img-wrap"><img src="shanghai-zhujiajiao.png" alt="Zhujiajiao" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>朱家角水乡</h2>
+              <p class="teaser">距上海 30 公里、保存完好的明代运河古镇——摇橹船、36 座石桥，没有一栋摩天大楼。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="zhujiajiao">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="zhujiajiao">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="rivercruise">
+            <div class="card-img-wrap"><img src="shanghai-rivercruise.png" alt="River Cruise" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>黄浦江夜游</h2>
+              <p class="teaser">夜晚从江面上看外滩和浦东——两岸天际线交相辉映，倒影映在江水上。上海最佳的单一景观。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="rivercruise">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="rivercruise">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="spa">
+            <div class="card-img-wrap"><img src="shanghai-spa.png" alt="Qushui Langting Spa" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>曲水廊亭 — 24 小时豪华水疗</h2>
+              <p class="teaser">上海传奇的通宵水疗度假中心——温泉池、按摩区、影院卧舱、深夜点心，还有城市上空的屋顶温泉。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="spa">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="spa">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="harmay">
+            <div class="card-img-wrap"><img src="shanghai-harmay.jpg" onerror="this.closest('.card-img-wrap').remove()" alt="Harmay Anfu Road" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🧴 话梅 Harmay — 安福路</h2>
+              <p class="teaser">让美妆零售在中国变酷的那家店。坐落在上海最美街道上的一座原始混凝土与钢铁风格仓库，堆满小样装奢侈化妆品，你可以像挑五金件一样称重挑选。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="harmay">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="harmay">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="zzer">
+            <div class="card-img-wrap"><img src="shanghai-zzer.jpg" onerror="this.closest('.card-img-wrap').remove()" alt="ZZER Transparent Warehouse" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>👜 只二 ZZER — 透明仓库</h2>
+              <p class="teaser">中国最大的二手奢侈品仓库。来自 5,000+ 品牌的 10 万件经鉴定真品——爱马仕、香奈儿、迪奥、路易威登——每天还有 5,000 件新品到货。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="zzer">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="zzer">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="bars">
+            <div class="card-img-wrap"><img src="shanghai-bars.jpg" alt="Shanghai bars" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🍸 上海酒吧</h2>
+              <p class="teaser">在 INS 新乐园，一张通票逛遍一整栋楼的酒吧；想看天际线就去外滩屋顶酒吧；真想好好聊天就去 Sober Company 和 COA。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="bars">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="bars">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="footmassage">
+            <div class="card-body">
+              <h2>💆 足疗 — 足底按摩</h2>
+              <p class="teaser">先泡个热草药足浴，再来 60–90 分钟针对足部和腿部的正经按摩，约 ¥125 起。走了一周路之后，这是上海性价比最高的享受。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="footmassage">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="footmassage">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="herbalbar">
+            <div class="card-img-wrap"><img src="shanghai-herbalbar.jpg" alt="酿青 Herbal Bar" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🌿 酿青 草本酒吧</h2>
+              <p class="teaser">进门时一位医师为你把脉看舌苔，给你开张方子，吧台便从药柜里按方为你调制饮品。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="herbalbar">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="herbalbar">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parked">
+          <h3 class="parked-title">🅿️ 未纳入考虑</h3>
+          <p class="parked-note">仅留作参考——不在计划之内。</p>
+          <div class="cards-grid">
+            <div class="card card--parked" data-id="legoland">
+              <div class="card-img-wrap"><img src="shanghai-legoland.jpg" alt="Shanghai LEGOLAND Resort" loading="lazy" /></div>
+              <div class="card-body">
+                <h2>🧱 上海乐高乐园度假区</h2>
+                <p class="teaser">中国首座乐高乐园——也是全球最大的一座——于 2025 年 7 月在金山开业。一座完整的户外乐园：8 个主题园区、用数百万块积木搭成的中国微缩景观、各种游乐设施和一家主题酒店。玩上一整天，为孩子们量身打造。</p>
+                <div class="card-footer">
+                  <button class="upvote-btn" data-id="legoland">❤️ <span class="count">0</span></button>
+                  <button class="details-btn" data-id="legoland">更多 →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="city-section" id="act-beijing">
+        <div class="cards-grid">
+          <div class="card" data-id="forbidden">
+            <div class="card-img-wrap"><img src="beijing-forbidden-city.png" alt="Forbidden City" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>故宫</h2>
+              <p class="teaser">穿行于 180 英亩金顶殿宇之间，走过 600 年的帝王历史——世界上最大的宫殿建筑群。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="forbidden">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="forbidden">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="wall">
+            <div class="card-img-wrap"><img src="beijing-great-wall.png" alt="Great Wall" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>长城</h2>
+              <p class="teaser">站在人类最伟大的成就之一的顶端——绵延数千公里的古老石墙，蜿蜒在荒野的山脊之上。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="wall">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="wall">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="temple">
+            <div class="card-img-wrap"><img src="beijing-temple-heaven.png" alt="Temple of Heaven" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>天坛</h2>
+              <p class="teaser">一座蓝色琉璃瓦顶的几何杰作，昔日皇帝在此祈求丰收——如今每天清晨都有成千上万当地人在此打太极。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="temple">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="temple">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="summerpalace">
+            <div class="card-img-wrap"><img src="beijing-summer-palace.png" alt="Summer Palace" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>颐和园</h2>
+              <p class="teaser">290 公顷的皇家湖泊、垂柳长廊和大理石桥——北京最浪漫的世外桃源，却被大多数游客错过。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="summerpalace">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="summerpalace">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="hutong">
+            <div class="card-img-wrap"><img src="beijing-hutong.png" alt="Hutong Tour" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>胡同街区游</h2>
+              <p class="teaser">在北京古老的胡同小巷消失之前漫步其中——人力三轮车、街头煎饼、四合院民居，以及眺望鼓楼的屋顶风光。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="hutong">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="hutong">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="sanlitun">
+            <div class="card-img-wrap"><img src="beijing-sanlitun.jpg" alt="三里屯太古里 Taikoo Li Sanlitun" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🛍️ 三里屯太古里</h2>
+              <p class="teaser">免费逛。南区是潮牌和 Supreme，北区是香奈儿和玻璃幕墙的苹果店，入夜后整片街区就变成北京的夜生活中心。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="sanlitun">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="sanlitun">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="citywalk">
+            <div class="card-img-wrap"><img src="beijing-citywalk.jpg" alt="Gulou Shichahai citywalk" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🚶 鼓楼 → 什刹海 城市漫步</h2>
+              <p class="teaser">从鼓楼经南锣鼓巷，穿过北京最古老的胡同街，沿着什刹海湖畔漫步。地势平坦、免费，傍晚最佳。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="citywalk">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="citywalk">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="ktv">
+            <div class="card-body">
+              <h2>🎤 和 Emma 的朋友们唱 KTV</h2>
+              <p class="teaser">包厢、两支麦克风，Emma 的大学朋友们掌控华语流行金曲。认准 量贩式 KTV——订下午场，价格只有晚上的零头。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="ktv">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="ktv">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="city-section active" id="act-chengdu">
+        <div class="cards-grid">
+          <div class="card" data-id="pandas">
+            <div class="card-img-wrap"><img src="chengdu-pandas.png" alt="Baby Pandas" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>大熊猫幼崽园区</h2>
+              <p class="teaser">在成都大熊猫繁育研究基地邂逅世界上最可爱的幼崽——近距离看竹林天堂里的熊猫宝宝。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="pandas">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="pandas">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="teahouses">
+            <div class="card-img-wrap"><img src="chengdu-teahouses.jpg" alt="Chengdu tea houses" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>🍵 成都茶馆</h2>
+              <p class="teaser">“出来喝茶撒”。成都真正的消遣不是某个景点，而是坐上几个小时什么都不做。三家值得消磨一下午：一家米其林星级的素食茶馆、一家新中式茶室，还有一间由主人决定你喝什么的后巷茶室。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="teahouses">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="teahouses">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="peoplespark">
+            <div class="card-img-wrap"><img src="chengdu-peoples-park.jpg" alt="人民公园 marriage market" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>人民公园 — 相亲角</h2>
+              <p class="teaser">父母们在树下 1,400 多张编号纸上为未婚子女打广告，并代为讲价。还有鹤鸣茶社，始于 1923 年。周三/周五/周六下午。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="peoplespark">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="peoplespark">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ FOOD -->
+  <div id="section-food" class="top-section">
+    <nav class="city-tabs">
+      <button class="tab active" data-food-city="f-chengdu">🐼 成都</button>
+      <button class="tab" data-food-city="f-beijing">🏯 北京</button>
+      <button class="tab" data-food-city="f-shanghai">🏙️ 上海</button>
+    </nav>
+    <div class="food-sections">
+      <div class="food-city" id="f-shanghai">
+        <div class="cards-grid">
+          <div class="card" data-id="dimsum">
+            <div class="card-img-wrap"><img src="food-dimsum.png" alt="Xiaolongbao" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>南翔小笼</h2>
+              <p class="teaser">豫园内始于 1900 年的小笼包老店——18 道手工褶子，咬开里面是滚烫汤汁。所有其他小笼包都以它为标杆。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="dimsum">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="dimsum">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="shanghainese">
+            <div class="card-img-wrap"><img src="food-shanghainese.png" alt="Shanghainese Food" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>本帮菜经典</h2>
+              <p class="teaser">红烧肉、十月正当季的大闸蟹、醉鸡——在吉士酒家品尝中国最浓油赤酱、最甜润的菜系。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="shanghainese">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="shanghainese">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="noodles">
+            <div class="card-img-wrap"><img src="food-noodles.png" alt="Shanghai Noodles" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>上海面条 &amp; 街头小吃</h2>
+              <p class="teaser">始于 1932 年的葱油拌面、生煎包、馄饨汤——上海必尝的街头小吃巡礼，人均不到 CHF 5。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="noodles">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="noodles">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="panfried">
+            <div class="card-img-wrap"><img src="food-panfried.jpg" alt="Da Hu Chun Pan-fried Buns" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>大壶春 — 3 美元的米其林生煎</h2>
+              <p class="teaser">上海最具标志性的生煎包，始于 1932 年——金黄焦脆的底、里面有汤汁，刚从铸铁平底锅端出。米其林必比登推荐，不到 3 美元。四川中路。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="panfried">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="panfried">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="lailai">
+            <div class="card-img-wrap"><img src="food-lailai.jpg" alt="Lai Lai Xiao Long crab roe xiaolongbao" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>莱莱小笼 — 米其林蟹粉小笼</h2>
+              <p class="teaser">皮薄，里面是一勺金黄的蟹粉汤汁。米其林必比登 2024–2026 推荐，人均约 ¥50–100，就在南京路以北一条街。点一次，队伍移动很快。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="lailai">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="lailai">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-city" id="f-beijing">
+        <div class="cards-grid">
+          <div class="card" data-id="duck">
+            <div class="card-img-wrap"><img src="beijing-duck.png" alt="Peking Duck Da Dong" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>大董烤鸭</h2>
+              <p class="teaser">北京发明、历经 600 年臻于完美的招牌菜——焦脆油亮的鸭皮、桌边片鸭、薄如蝉翼的荷叶饼。唯一值得一尝的北京烤鸭。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="duck">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="duck">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="sijimingfu">
+            <div class="card-img-wrap"><img src="beijing-sijimingfu.png" alt="Sijimingfu" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>四季民福 — 故宫边的烤鸭</h2>
+              <p class="teaser">一座距故宫仅几步之遥的清代四合院，四代家传秘方——果木熏烤炉，108 片的片鸭仪式。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="sijimingfu">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="sijimingfu">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="manhengji">
+            <div class="card-img-wrap"><img src="food-manhengji.png" alt="满恒记" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>满恒记 — 涮羊肉</h2>
+              <p class="teaser">北京传奇的铜锅涮肉老字号——薄如纸片的内蒙古羊肉、招牌芝麻蘸料，还有地道的老北京待客之道。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="manhengji">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="manhengji">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="henjiu">
+            <div class="card-img-wrap"><img src="food-henjiu.png" alt="很久以前羊肉串" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>很久以前 — 羊肉串</h2>
+              <p class="teaser">北京最较真的羊肉串连锁——呼伦贝尔草原羊肉在无烟旋转烤架上烤制，连续 5 年登上大众点评必吃榜。烧烤界的海底捞。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="henjiu">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="henjiu">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-city active" id="f-chengdu">
+        <div class="cards-grid">
+          <div class="card" data-id="hotpot">
+            <div class="card-img-wrap"><img src="chengdu-hotpot.png" alt="Sichuan Hotpot" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>地道四川火锅</h2>
+              <p class="teaser">一头扎进成都的灵魂美食——翻滚的麻辣锅底、新鲜的肉类和蔬菜，最适合大家一起分享。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="hotpot">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="hotpot">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="mapotofu">
+            <div class="card-img-wrap"><img src="food-mapotofu.png" alt="Mapo Tofu" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>陈麻婆豆腐</h2>
+              <p class="teaser">在发明这道菜的餐厅品尝始于 1862 年的原版配方。米其林必比登——去青华路旗舰店，就在杜甫草堂旁边。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="mapotofu">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="mapotofu">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="mawangzi">
+            <div class="card-img-wrap"><img src="food-mawangzi.jpg" alt="马旺子·川小馆 Ma Wangzi" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>马旺子·川小馆 — 米其林 ★</h2>
+              <p class="teaser">自成都首版米其林指南起就摘得一星，1923 年起家族经营，人均约 ¥100——距太古里步行 3 分钟。请提前数周预订。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="mawangzi">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="mawangzi">更多 →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-id="wagyu">
+            <div class="card-img-wrap"><img src="food-wagyu.png" alt="锦城印象火锅 Wagyu Hotpot" loading="lazy" /></div>
+            <div class="card-body">
+              <h2>锦城印象火锅 — 和牛火锅</h2>
+              <p class="teaser">武侯区的米其林入选和牛火锅——澳洲 M9+ 和牛肩肉在牛油四川锅底中桌边现涮，距武侯祠 5 分钟。</p>
+              <div class="card-footer">
+                <button class="upvote-btn" data-id="wagyu">❤️ <span class="count">0</span></button>
+                <button class="details-btn" data-id="wagyu">更多 →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ REMEMBER -->
+  <div id="section-remember" class="top-section">
+    <div class="remember-wrap">
+      <p class="remember-intro">能救命的简短清单。打包前读一遍，到机场再读一遍。</p>
+      <ul class="remember-list">
+        <li class="remember-item remember-item--critical">
+          <span class="remember-icon">🛂</span>
+          <div><strong>护照随身携带，时刻不离身</strong><br>
+          它既是你的身份证件、火车票，也是你的入场券：景点（故宫、上海博物馆、大多数公园）实行实名售票并在入口扫描护照；高铁没有纸质车票，直接扫护照；酒店入住需要它，警察也可能随时查验。在手机里存一张护照页和入境章的照片作为备份。</div>
+        </li>
+        <li class="remember-item remember-item--critical">
+          <span class="remember-icon">🔋</span>
+          <div><strong>充电宝：必须有 3C 标志，最大 100 Wh，仅限随身携带</strong><br>
+          自 2025 年 6 月 28 日起，中国民航局禁止没有清晰 3C/CCC 认证标志的充电宝（以及被召回的型号）登上所有国内航班；北京和上海还会抽查国际出港。欧洲的充电宝没有 3C 标志，会被没收。把你的留在家里，到中国买一个有 3C 标志的（Anker、小米、酷态科，任何电子产品店都有），或者干脆不带。</div>
+        </li>
+        <li class="remember-item remember-item--critical">
+          <span class="remember-icon">🚭</span>
+          <div><strong>中国境内任何航班都不得携带打火机和火柴</strong><br>
+          全面禁止：不能随身带、不能放手提行李、不能放托运行李，也没有"每人一个打火机"的例外。罚款最高 5,000 元。到目的地再买一个，下一趟航班前扔掉。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">🚄</span>
+          <div><strong>火车：护照即车票，提前 30–40 分钟到</strong><br>
+          实名制车票，进站口有安检，发车前 5 分钟停止检票。外国护照通常无法走自动闸机：请走人工通道。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">📱</span>
+          <div><strong>落地前先设置好支付宝或微信支付</strong><br>
+          在家就绑定好境外信用卡；现金合法，但出租车、小餐馆和街头小吃实际上只收手机支付。到达前也要装好 VPN 和 eSIM/漫游套餐：没有这些，Google、WhatsApp、Instagram 和 Gmail 在中国的网络上都无法使用。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">🏨</span>
+          <div><strong>不住酒店？24 小时内登记</strong><br>
+          酒店会自动为你登记。若住在亲友家或公寓，旅客本人或房东必须在 24 小时内在线登记（自 2026 年 9 月 21 日起全国可办）或到当地派出所登记；不登记最高罚款 2,000 元。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">🗓️</span>
+          <div><strong>每次入境免签停留 30 天</strong><br>
+          德国和瑞士护照在 2026 年 12 月 31 日前每次入境可免签停留至多 30 天（旅游、探访、商务、过境）。哪怕超期一天也会被罚款并留下入境记录。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">🎟️</span>
+          <div><strong>提前几天预订景点</strong><br>
+          故宫门票提前 3–10 天售罄，上海博物馆东馆放票后几分钟内就被抢光。预订时用与护照完全一致的姓名；一个字母错了就进不去。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">💧</span>
+          <div><strong>琐碎小事</strong><br>
+          自来水不能喝，酒店会提供瓶装水。随身带纸巾：很多公共厕所没有纸。没有给小费的习惯。A/C 型插头加中国的 I 型：带一个转换插头。</div>
+        </li>
+        <li class="remember-item">
+          <span class="remember-icon">📍</span>
+          <div><strong>福莱恩在高德地图上的地点</strong><br>
+          高德地图就是中国的谷歌地图（谷歌地图在那里没法用）。福莱恩在他的高德个人主页上分享了我们推荐的地点和应避开的地点：在手机上装好高德 App 后打开链接，点关注，收藏的地点就会出现在你自己的地图里。<br>
+          <a class="remember-link" href="https://a.a-map.cn/l49M1guycZX" target="_blank" rel="noopener">打开福莱恩的高德地点列表 ↗</a></div>
+        </li>
+      </ul>
+      <p class="remember-note">资料来源：民航局 2025 年 6 月 26 日通知（充电宝）、民航局危险品规定（打火机）、德国外交部中国旅行提示、中国国家移民管理局（登记）。最后核对于 2026 年 9 月 29 日。</p>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" style="position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:2000;align-items:center;justify-content:center;cursor:zoom-out;">
+    <img id="lightboxImg" src="" alt="" style="max-width:95vw;max-height:92vh;object-fit:contain;border-radius:8px;box-shadow:0 8px 60px rgba(0,0,0,0.8);" />
+  </div>
+  <style>
+    #lightbox { display: none; }
+    #lightbox.open { display: flex; }
+    .modal-gallery img:hover { opacity: 1; filter: brightness(1); transform: scale(1.02); transition: all 0.2s; }
+  </style>
+
+  <footer>
+    <p>🌏 Rock China Adventures · 2026</p>
+  </footer>
+
+  <!-- Photo credits (Wikimedia Commons, reused under their licences):
+       Shanghai LEGOLAND entrance/buildings/hotel — CC BY-SA 4.0;
+       shengjian "on a pan" — Luca Mascaro CC BY-SA 2.0; shengjian close-up — Pauloleong2002 CC BY-SA 4.0;
+       shengjian shop — ToastyKen CC BY 2.0. -->
+  <script src="cn-activities.js"></script>
+  <script src="cn-app.js?v=20261006cn"></script>
+</body>
+</html>
