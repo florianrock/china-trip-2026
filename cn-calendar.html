@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行程日历 · 2026 中国之行 🇨🇳</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css?v=20260831c" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">🇨🇳</div>
+      <div class="header-title">
+        <h1>行程日历</h1>
+        <p class="subtitle">10月8–22日 · 成都 · 北京 · 上海</p>
+      </div>
+      <div id="auth-area"><a class="cal-back" href="./cn.html">← 返回行程</a></div>
+    </div>
+  </header>
+
+  <main class="cal-wrap">
+    <p class="cal-summary-line"><span id="cal-summary">…</span> — 尚未安排的日子以金色边框标出。</p>
+
+    <div class="cal-dow-head">
+      <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+    </div>
+    <div class="cal-grid" id="cal-grid"></div>
+
+    <p class="itin-note">2026年10月 · 一天只要有一项安排，就算已规划</p>
+  </main>
+
+  <div class="modal-overlay" id="cal-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="cal-modal-close" aria-label="关闭">✕</button>
+      <div class="modal-content" id="cal-modal-content"></div>
+    </div>
+  </div>
+
+  <script src="cn-activities.js"></script>
+  <script src="cn-calendar.js"></script>
+</body>
+</html>
