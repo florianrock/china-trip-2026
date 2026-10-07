@@ -515,8 +515,8 @@ lightbox.addEventListener('click', closeLightbox);
   const itin = document.querySelector('.itinerary');
   if (!btn || !itin) return;
   btn.addEventListener('click', () => {
-    const hidden = itin.classList.toggle('hide-hotels');
+    const hidden = itin.classList.toggle('hide-details');
     btn.setAttribute('aria-expanded', String(!hidden));
-    btn.textContent = hidden ? '🏨 显示酒店' : '🏨 隐藏酒店';
+    btn.textContent = hidden ? '📋 显示详情' : '📋 隐藏详情';
   });
 })();

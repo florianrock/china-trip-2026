@@ -515,8 +515,8 @@ lightbox.addEventListener('click', closeLightbox);
   const itin = document.querySelector('.itinerary');
   if (!btn || !itin) return;
   btn.addEventListener('click', () => {
-    const hidden = itin.classList.toggle('hide-hotels');
+    const hidden = itin.classList.toggle('hide-details');
     btn.setAttribute('aria-expanded', String(!hidden));
-    btn.textContent = hidden ? '🏨 Show hotels' : '🏨 Hide hotels';
+    btn.textContent = hidden ? '📋 Show details' : '📋 Hide details';
   });
 })();
