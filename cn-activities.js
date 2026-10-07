@@ -1,6 +1,17 @@
 // Shared activity/detail data — consumed by app.js (main page) and
 // calendar.js (calendar page). Pure data, no side effects.
 const ACTIVITIES = {
+  'hotel-urcove-chongqing': {
+    title: '重庆解放碑洪崖洞逸扉酒店（UrCove by Hyatt）',
+    addr: '重庆市渝中区民族路108号 · 紧邻洪崖洞，洪崖洞轻轨站就在楼下 · 步行约10分钟到解放碑 · 10月10日入住，1晚',
+    emoji: '🏨', city: 'Chongqing', gallery: [],
+    maps: 'https://maps.google.com/?q=UrCove+by+Hyatt+Chongqing+Jiefangbei+Hongyadong',
+    desc: [
+      `我们10月10日在重庆的过夜酒店 — <strong>已预订</strong>。逸扉（UrCove）是凯悦旗下的生活方式品牌，这家2025年10月才开业，全新。`,
+      `位置是最大亮点：就在<strong>洪崖洞</strong>旁边，轻轨站就在楼下，步行约10分钟到解放碑 — 重庆这一晚正合适。`,
+      `评价很高 — 携程 <strong>9.6/10</strong>（位置9.7、卫生9.6、服务9.5）：房间干净全新，高楼层江景夜色绝佳，服务友好。小缺点：与隔壁酒店共用电梯，高峰时偏慢，部分房间通风一般 — 建议订高楼层江景房。`
+    ]
+  },
   peoplespark: {
     title: '人民公园 — 相亲角与鹤鸣茶社',
     addr: "人民公园：成都市青羊区祠堂街9号 · 地铁2号线 → 人民公园站H口，250米 · 公园免费 · 相亲角每天09:00–17:00，周三/周五/周六下午最热闹",
