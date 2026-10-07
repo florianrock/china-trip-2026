@@ -31,7 +31,8 @@ const PLANS = {
     { icon: '🥩', text: 'Wagyu Hotpot dinner', id: 'wagyu', note: '锦城印象火锅 (彩虹店) · 武侯祠大街19号, Wuhou · Michelin Selected + Black Pearl · open till 02:00, so an easy dinner after the pandas.' },
   ],
   '2026-10-10': [
-    { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37 · ✅ booked (9)', id: 'chongqing', note: 'Booked 1 Oct, 9 tickets. 1h19 on a 复兴号. Full day: Jiefangbei, 李子坝, Hongyadong after dark — and we now sleep in Chongqing (return is Sunday 13:24). Hotel for the night: TBD.' },
+    { icon: '🚄', text: 'G8613 · 成都东 11:18 → 重庆北 12:37 · ✅ booked (9)', id: 'chongqing', note: 'Booked 1 Oct, 9 tickets. 1h19 on a 复兴号. Full day: Jiefangbei, 李子坝, Hongyadong after dark — and we now sleep in Chongqing (return is Sunday 13:24). We sleep at UrCove by Hyatt (Hongyadong) — booked.' },
+    { icon: '🏨', text: 'UrCove by Hyatt Chongqing (Hongyadong) · overnight', id: 'hotel-urcove-chongqing', note: 'Booked. Right at Hongyadong, monorail downstairs, ~10 min walk to Jiefangbei. 9.6/10 on Trip.com.' },
     { icon: '🍜', text: '阿福板凳面 street noodles · lunch', id: 'xiaomian', note: 'Eat on red stools on the pavement. Go to the 解放碑 branch, not the 观音桥 one in the post.' },
     { icon: '🍖', text: '丁老头烤肉 · dinner on 南山', id: 'nanshanbbq', note: 'BBQ terraced down the hillside over the lit skyline. Sunset 18:30 — be seated by 17:30. Line 6 to 上新街 exit 3.' },
   ],

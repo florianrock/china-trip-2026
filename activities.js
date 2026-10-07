@@ -1,6 +1,17 @@
 // Shared activity/detail data — consumed by app.js (main page) and
 // calendar.js (calendar page). Pure data, no side effects.
 const ACTIVITIES = {
+  'hotel-urcove-chongqing': {
+    title: 'UrCove by Hyatt Chongqing Jiefangbei Hongyadong',
+    addr: 'No. 108 Minzu Road, Yuzhong District, Chongqing (民族路108号) · right at Hongyadong, monorail station downstairs · ~10 min walk to Jiefangbei · check-in 10 Oct, 1 night',
+    emoji: '🏨', city: 'Chongqing', gallery: [],
+    maps: 'https://maps.google.com/?q=UrCove+by+Hyatt+Chongqing+Jiefangbei+Hongyadong',
+    desc: [
+      `Our Chongqing overnight for 10 Oct — <strong>booked</strong>. UrCove is Hyatt's lifestyle brand; this one opened October 2025, so it's brand new.`,
+      `Location is the whole point: it's right at <strong>Hongyadong</strong> with the monorail station downstairs, and Jiefangbei is about 10 minutes' walk — ideal for the Chongqing night.`,
+      `Reviews are excellent — <strong>9.6/10</strong> on Trip.com (Location 9.7, Cleanliness 9.6, Service 9.5): spotless new rooms, stunning night river views from high floors, friendly staff. Minor gripes: shared elevators with the adjacent hotel can be slow at peak, and some rooms have limited airflow — worth requesting a high-floor river-view room.`
+    ]
+  },
   peoplespark: {
     title: '人民公园 — Marriage Market & Heming Tea House',
     addr: "People's Park (人民公园): 祠堂街9号, Qingyang District, Chengdu · Metro Line 2 → People's Park station, exit H, 250 m · Park free · Marriage corner daily 09:00–17:00, busiest Wed/Fri/Sat afternoons",
