@@ -734,7 +734,8 @@ footer {
   padding-top: 0.3rem;
   white-space: nowrap;
 }
-.itinerary.hide-hotels .itin-hotel { display: none; }
+.itinerary.hide-details .itin-day,
+.itinerary.hide-details .itin-hotel { display: none; }
 
 .itin-toggle {
   display: inline-block;
