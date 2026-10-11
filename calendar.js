@@ -58,7 +58,7 @@ const PLANS = {
   ],
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
   '2026-10-16': [
-    { icon: '🏛️', text: 'Forbidden City', id: 'forbidden' },
+    { icon: '🏛️', text: '✅ Forbidden City — guided tour 09:30', id: 'forbidden', note: 'BOOKED (Discover Beijing Tours) — Tian\'anmen + Forbidden City, tickets incl. Meet 09:30 at 老舍茶馆 Laoshe Teahouse (panda flag), arrive 10 min early. Bring everyone\'s passport! Taxi: 请带我去老舍茶馆. Subway: Line 2 → Qianmen Exit C, 300 m west. Guide Qing +86 13522069857.' },
     { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
     { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
