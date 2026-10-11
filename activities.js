@@ -223,20 +223,20 @@ const ACTIVITIES = {
     gallery: [],
     desc: [
       `Air China <strong>CA4592</strong>, Pudong Terminal 2 <strong>09:30</strong> → Chengdu Tianfu Terminal 2 <strong>12:40</strong> on Thursday 8 October 2026. About 3h10 in the air, 1,660 km, usually an A321neo or A320neo.`,
-      `This lands at <strong>Tianfu (TFU)</strong>, the newer airport roughly 50 km south-east of the city — allow an hour to the centre, more at rush hour. It is the same airport MU6644 leaves from on the 12th, so the whole Chengdu leg is Tianfu.`,
+      `This lands at <strong>Tianfu (TFU)</strong>, the newer airport roughly 50 km south-east of the city — allow an hour to the centre, more at rush hour. ⚠️ Your <strong>departure</strong> on the 12th (MU6644) is from a <strong>different</strong> Chengdu airport — Shuangliu (CTU), ~70 km away — so don't come back here to fly out.`,
       `✅ <strong>Cami and Joe are on this flight too</strong> (rebooked from CA4504 on 4 October), so the whole group lands at Tianfu at 12:40 and can share the ride to the Mercure.`
     ]
   },
   'flight-mu664': {
     title: 'MU6644 · Chengdu → Beijing',
-    addr: 'Chengdu Tianfu (TFU) → Beijing Daxing (PKX)',
+    addr: 'Chengdu Shuangliu (CTU) → Beijing Daxing (PKX)',
     emoji: '✈️',
     city: 'Chengdu',
     gallery: [],
     desc: [
-      `China Eastern <strong>MU6644</strong>, departing <strong>12:40 on Monday 12 October 2026</strong>. Chengdu Tianfu (TFU) to Beijing Daxing (PKX), roughly 2h45 in the air.`,
-      `Note both airports are the newer ones. Chengdu Tianfu opened in 2021 and sits about 50 km southeast of the city — allow an hour from the centre, longer at rush hour. Beijing Daxing is likewise well south of Beijing, around 46 km from Tiananmen, but the Daxing Airport Express gets you to Caoqiao in 19 minutes.`,
-      `Star Alliance Gold gets one extra checked bag of up to 20 kg on Chinese domestic routes — but as a separate piece, not added weight. Two bags at 20 kg go free; one at 40 kg does not.`
+      `China Eastern <strong>MU6644</strong>, departing <strong>12:40 on Monday 12 October 2026</strong>. Chengdu <strong>Shuangliu (CTU)</strong> to Beijing Daxing (PKX), roughly 2h35 in the air.`,
+      `⚠️ <strong>Important:</strong> this leaves from <strong>Chengdu Shuangliu (CTU)</strong>, the older airport ~16 km southwest of the centre — <strong>NOT Tianfu, where you landed on the 8th.</strong> The two are ~70 km / over an hour apart, so plan the transfer to Shuangliu. Beijing Daxing (PKX) at the far end is well south of the city (~46 km from Tiananmen), but the Daxing Airport Express reaches Caoqiao in 19 minutes.`,
+      `Note MU6644 is <strong>China Eastern (SkyTeam)</strong> — so your Star Alliance (United) and oneworld (Qatar) status earn no perks or extra baggage here. The standard China Eastern domestic weight allowance applies.`
     ]
   },
   // ── SHANGHAI ACTIVITIES ──────────────────────────────────────────────────

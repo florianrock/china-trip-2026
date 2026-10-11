@@ -43,7 +43,7 @@ const PLANS = {
     { icon: '⭐', text: '马旺子·川小馆 · dinner · 17:30', id: 'mawangzi', note: 'Michelin ★ Sichuan, Jinjiang / Taikoo Li (东糠市街1号, 500 m from metro 东门大桥 exit D2). ¥119pp, 4.8★ / 31k reviews, 必吃榜 2026. Kitchen 17:00–20:30, so 17:30 is an early seating — go right on open, it gets packed. 可预订 — call 028-64231923 or reserve on Dianping. Has baby chairs.' },
   ],
   '2026-10-12': [
-    { icon: '✈️', text: 'MU6644 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
+    { icon: '✈️', text: 'MU6644 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Shuangliu (CTU) → Beijing Daxing · ⚠️ departs SHUANGLIU, not the Tianfu you landed at (~70 km apart)' },
     { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
   '2026-10-13': [
