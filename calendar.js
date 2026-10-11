@@ -40,7 +40,7 @@ const PLANS = {
     { icon: '🚄', text: 'G3424 · 重庆北 13:24 → 成都东 14:51 · ✅ booked (9)', id: 'chongqing', note: 'Return leg, booked 1 Oct, 9 tickets. 1h27. Morning free in Chongqing; back in Chengdu for tea and the 马旺子 dinner.' },
     { icon: '🍵', text: '熹玥盒子 Xi Yue He Zi · tea + dessert @ 下浩里 (morning)', id: 'xiyuehezi', note: 'Pretty, calm tea-and-dessert house in the 下浩里 old lanes on the south bank (Nan\'an), 下浩里老街128号 (55号店). Next to 龙门浩老街; ~21 min walk over the 东水门 bridge from 洪崖洞. Fits the free Chongqing morning before G3424 at 13:24.' },
     { icon: '🍵', text: 'Afternoon tea — chill', id: 'afternoontea', note: '鹤鸣茶社 in People\'s Park for the local version, or 谧寻/元古 by Taikoo Li if you want quiet. Nothing to see, that is the point.' },
-    { icon: '⭐', text: '马旺子·川小馆 · dinner', id: 'mawangzi', note: 'Michelin ★, Taikoo Li — a few minutes from the Taikoo Li tea houses. BOOK AHEAD, tables go ~2 weeks out.' },
+    { icon: '⭐', text: '马旺子·川小馆 · dinner · 17:30', id: 'mawangzi', note: 'Michelin ★ Sichuan, Jinjiang / Taikoo Li (东糠市街1号, 500 m from metro 东门大桥 exit D2). ¥119pp, 4.8★ / 31k reviews, 必吃榜 2026. Kitchen 17:00–20:30, so 17:30 is an early seating — go right on open, it gets packed. 可预订 — call 028-64231923 or reserve on Dianping. Has baby chairs.' },
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU664 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Tianfu → Beijing Daxing' },
