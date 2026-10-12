@@ -44,7 +44,8 @@ const PLANS = {
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU6644 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Shuangliu (CTU) → Beijing Daxing · ⚠️ departs SHUANGLIU, not the Tianfu you landed at (~70 km apart)' },
-    { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
+    { icon: '🦆', text: '四季民福 (故宫店) · Peking duck · ✅ 18:30 reservation', id: 'sijimingfu', note: 'RESERVED 18:30 tonight. Right at the Forbidden City east gate, upstairs tables face the palace wall — take a queue number if needed.' },
+    { icon: '🍢', text: '很久以前羊肉串 · late-night option', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
   '2026-10-13': [
     { icon: '🛍️', text: 'Shopping day', id: 'shopping', note: 'Tuesday — the good day for all of it. Panjiayuan in the morning, Silk Street or Sanlitun after lunch.' },
