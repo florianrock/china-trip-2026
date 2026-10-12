@@ -66,6 +66,9 @@ const PLANS = {
     { icon: '🚄', text: 'G17 · Beijing South → Shanghai Station · 13:00–17:35 · First (Cami, Joe, Emma) · ✅ booked (3)', id: 'train', note: 'Smart Fuxing set, 4h35. First class — Business was sold out. Arrives 上海站 (city centre), NOT Hongqiao. Order EB89322519, refundable until 9 Oct.' },
     { icon: '🚄', text: 'G749 · Beijing South → Shanghai Hongqiao · 13:19–19:04 · Business (Hisa, Olli, Mario, Sonia, Flo + kids) · ✅ booked', id: 'train', note: 'Smart Fuxing set, 1+1 Business pods, 5h45. Arrives Hongqiao. Under-6s travel free on an adult\'s lap (one per adult) — child tickets = 50% if they should get their own pod. Refundable until 9 Oct.' },
   ],
+  '2026-10-18': [
+    { icon: '🥟', text: '小笼包 — 莱莱小笼 (Michelin crab-roe) · placeholder', id: 'lailai', note: 'Placeholder on a free Shanghai day (movable). 莱莱小笼 (504 Tianjin Rd): Michelin Bib crab-roe xiaolongbao, ~¥50–100pp. Alt: Nanxiang in Yu Garden.' },
+  ],
   '2026-10-21': [
     { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
   ],
