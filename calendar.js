@@ -44,8 +44,7 @@ const PLANS = {
   ],
   '2026-10-12': [
     { icon: '✈️', text: 'MU6644 · CTU → PKX · dep 12:40', id: 'flight-mu664', note: 'China Eastern · Chengdu Shuangliu (CTU) → Beijing Daxing · ⚠️ departs SHUANGLIU, not the Tianfu you landed at (~70 km apart)' },
-    { icon: '🦆', text: '四季民福 (故宫店) · Peking duck · ✅ 18:30 reservation', id: 'sijimingfu', note: 'RESERVED 18:30 tonight. Right at the Forbidden City east gate, upstairs tables face the palace wall — take a queue number if needed.' },
-    { icon: '🍢', text: '很久以前羊肉串 · late-night option', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
+    { icon: '🍢', text: '很久以前羊肉串 · dinner', id: 'henjiu', note: 'Gulou branch, 50 m north of Gulou Dajie exit A2. Open till 02:00, ~¥93 a head — easy after a travel day.' },
   ],
   '2026-10-13': [
     { icon: '🛍️', text: 'Shopping day', id: 'shopping', note: 'Tuesday — the good day for all of it. Panjiayuan in the morning, Silk Street or Sanlitun after lunch.' },
@@ -60,7 +59,7 @@ const PLANS = {
   '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
   '2026-10-16': [
     { icon: '🏛️', text: '✅ Forbidden City — guided tour 09:30', id: 'forbidden', note: 'BOOKED (Discover Beijing Tours) — Tian\'anmen + Forbidden City, tickets incl. Meet 09:30 at 老舍茶馆 Laoshe Teahouse (panda flag), arrive 10 min early. Bring everyone\'s passport! Taxi: 请带我去老舍茶馆. Subway: Line 2 → Qianmen Exit C, 300 m west. Guide Qing +86 13522069857.' },
-    { icon: '🦆', text: '四季民福 (故宫店) · Peking duck', id: 'sijimingfu', note: "Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number as you come out — this branch queues all day." },
+    { icon: '🦆', text: '四季民福 (故宫店) · Peking duck · ✅ 18:30 reservation', id: 'sijimingfu', note: "RESERVED 18:30. Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number if needed — this branch queues all day." },
     { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
   '2026-10-17': [
