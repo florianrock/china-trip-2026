@@ -705,6 +705,19 @@ const ACTIVITIES = {
     ]
   },
 
+  xinjingxi: {
+    title: '新京熙·北京涮肉 — Cloisonné Copper-Pot Lamb (Sanlitun)',
+    addr: '新京熙·北京涮肉（三里屯耀莱店）: Bldg C, 1F, No.1–40, Yaolai Center, 幸福二村二巷, Chaoyang District, Beijing (朝阳区幸福二村二巷耀莱中心C座1层1-40号) · 11:00–24:00 · ~¥230/person',
+    img: 'beijing-xinjingxi.png',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=新京熙+北京涮肉+三里屯+耀莱中心',
+    gallery: [],
+    desc: [
+      `新京熙 (Xīnjīngxī) is a beautiful, upscale take on old-Beijing copper-pot lamb (北京涮肉), cooked in ornate <strong>景泰蓝 (cloisonné) brass pots</strong>. It's <strong>#1 on Dianping's Sanlitun/Gongti hotpot list</strong>, with stellar scores — 口味 4.8 / 环境 4.8 / 服务 4.7 across 12,900+ reviews. Emma picked this one.`,
+      `Hand-sliced lamb on long trays, a clear 清汤 broth, nutty sesame dip, and a striking dining room. Private rooms (包间) and baby chairs (宝宝椅) make it work for the whole group — ~¥230/person, a step up from the classic Niujie spots.`,
+      `📍 Bldg C (1F, No.1–40), Yaolai Center, 幸福二村二巷, Chaoyang (朝阳区幸福二村二巷耀莱中心C座1层1-40号) — by Workers' Stadium (工体), ~480 m from 工人体育场 subway (exit C), ~15 min taxi from the Grand Hyatt. Open 11:00–24:00. On 高德 Amap: https://www.amap.com/search?query=新京熙北京涮肉+三里屯耀莱店 · On Google Maps: https://maps.google.com/?q=新京熙+北京涮肉+三里屯+耀莱中心`
+    ]
+  },
   jubaoyuan: {
     title: '聚宝源 — Charcoal Copper-Pot Lamb (Wangfujing)',
     addr: '聚宝源（王府井·故宫店）: 6F, Beijing Department Store, 253 Wangfujing Street (王府井大街253号 王府井百货大楼6层), Dongcheng District, Beijing · Tel 010-65060608 · ~¥113/person',
