@@ -705,6 +705,19 @@ const ACTIVITIES = {
     ]
   },
 
+  jubaoyuan: {
+    title: '聚宝源 — Charcoal Copper-Pot Lamb (Wangfujing)',
+    addr: '聚宝源（王府井·故宫店）: 6F, Beijing Department Store, 253 Wangfujing Street (王府井大街253号 王府井百货大楼6层), Dongcheng District, Beijing · Tel 010-65060608 · ~¥113/person',
+    img: 'beijing-jubaoyuan.png',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=聚宝源+王府井+北京',
+    gallery: [],
+    desc: [
+      `聚宝源 (Jùbǎoyuán) is one of Beijing's most famous old-style halal (清真) copper-pot lamb houses — <strong>炭火铜锅涮肉, cooked over real glowing charcoal, not induction</strong>. Originally from Niujie, this Wangfujing branch brings the exact same experience about <strong>55 minutes closer</strong> to the Grand Hyatt. A charcoal-fired brass chimney pot of clear broth (清汤) comes to the table; swirl paper-thin lamb for 10–15 seconds, then dip in the nutty sesame sauce (麻酱).`,
+      `The draw is the fresh- and hand-cut lamb — 鲜切羊上脑, 小三岔 — plus 原切肥牛, sesame cakes (麻酱烧饼) and the classic sides. Same old-Beijing charcoal copper-pot vibe as 满恒记, and hugely popular: <strong>4.4★ across 20,000+ Dianping reviews</strong>, #2 on the Wangfujing/Dongdan hotpot list.`,
+      `📍 6F, Beijing Department Store, 253 Wangfujing Street (王府井大街253号 王府井百货大楼6层), Dongcheng — about <strong>3–5 min by taxi / ~10 min walk</strong> from the Grand Hyatt. Tel 010-65060608, ~¥113/person. Famous for queues — book or queue via Dianping, or arrive early. On 高德 Amap: https://www.amap.com/search?query=聚宝源+王府井 · On Google Maps: https://maps.google.com/?q=聚宝源+王府井+北京`
+    ]
+  },
   manhengji: {
     title: '满恒记 — Old-Beijing Copper-Pot Lamb Hotpot',
     addr: '满恒记（平安里西大街店）: 14 Ping\'anli West Street (平安里西大街14号), Xicheng District, Beijing — SW corner of Ping\'anli West St × Zhaodengyu Rd, 210 m from Ping\'anli subway (Lines 4 & 6, exit H) · Tel 010-66517188 · 11:00–24:00 · ~¥113/person',
