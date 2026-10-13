@@ -50,6 +50,7 @@ const PLANS = {
     { icon: '🛍️', text: 'Shopping day', id: 'shopping', note: 'Tuesday — the good day for all of it. Panjiayuan in the morning, Silk Street or Sanlitun after lunch.' },
     { icon: '🏬', text: '三里屯太古里', id: 'sanlitun', note: 'Midweek is the time to go — weekend afternoons after 15:00 are a wall of people.' },
     { icon: '🛒', text: 'Supermarket run', id: 'supermarket', note: '盒马 Hema for the spectacle, 物美/永辉 for the cheap snacks worth taking home. Sort Alipay before you go.' },
+    { icon: '🍲', text: '满恒记 (平安里西大街店) · 铜锅涮羊肉 · ✅ 19:00 reservation', id: 'manhengji', note: "RESERVED 19:00. MICHELIN Bib Gourmand 2026 + Dianping 必吃榜 — old-Beijing copper-pot lamb hotpot, ~¥113pp. 14 Ping'anli West St, Xicheng (210 m from Ping'anli subway, Lines 4/6 exit H). Private rooms (包间) + baby chairs (宝宝椅) — good for the group with kids." },
   ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },

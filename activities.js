@@ -706,16 +706,16 @@ const ACTIVITIES = {
   },
 
   manhengji: {
-    title: '满恒记 — Instant Boiled Mutton',
-    addr: '满恒记 (Mǎn Héng Jì): Xicheng District, Beijing — search on Dianping/Google Maps for nearest branch',
-    img: 'food-manhengji.png',
+    title: '满恒记 — Old-Beijing Copper-Pot Lamb Hotpot',
+    addr: '满恒记（平安里西大街店）: 14 Ping\'anli West Street (平安里西大街14号), Xicheng District, Beijing — SW corner of Ping\'anli West St × Zhaodengyu Rd, 210 m from Ping\'anli subway (Lines 4 & 6, exit H) · Tel 010-66517188 · 11:00–24:00 · ~¥113/person',
+    img: 'beijing-manhengji.png',
     city: 'Beijing',
-    maps: 'https://maps.google.com/?q=满恒记+北京',
-    gallery: ['food-manhengji-2.png', 'food-manhengji-3.png', 'food-manhengji-4.png'],
+    maps: 'https://maps.google.com/?q=满恒记+平安里西大街14号+北京',
+    gallery: [],
     desc: [
-      `满恒记 (Mǎn Héng Jì) is one of Beijing's most beloved old-school restaurants, famous for shuanyangrou — instant boiled mutton, Beijing's winter hot pot tradition. A polished copper chafing dish arrives at the table glowing with charcoal, filled with clear broth. Paper-thin slices of Inner Mongolian lamb are swirled through the broth for precisely ten seconds, then dipped in a thick sesame paste sauce.`,
-      `The sesame dipping sauce is the secret weapon. 满恒记's version is legendary in Beijing: intensely nutty, slightly sweet, perfectly balanced against the clean mineral flavour of the lamb. The restaurant makes it fresh every morning and it bears no resemblance to anything from a jar.`,
-      `The restaurant has been operating in the same neighbourhood for decades and the crowd tells the story: local Beijing families, groups of friends who have been coming here since university. Order the lamb first, then add tofu, cabbage and glass noodles as the broth enriches. Finish with a bowl of the deeply flavoured broth as soup.`
+      `满恒记 (Mǎn Héng Jì) is classic old-Beijing halal (清真) copper-pot instant-boiled lamb — 铜锅涮羊肉. Founded in 1998, the 平安里西大街 branch is a <strong>MICHELIN Guide Bib Gourmand 2026</strong> pick and sits on Dianping's 必吃榜 (Must-Eat List) 2026, with a 4.8★ taste rating across 77,000+ reviews. A charcoal-fired brass pot of clear broth comes to the table and you cook at your own pace. Emma recommended it.`,
+      `The signature is hand-cut fresh lamb (手切鲜羊肉) from Inner Mongolian grassland sheep, served on long wooden boards, alongside lamb meatballs and the famous sesame sugar cake (招牌麻酱糖饼). Swirl each slice through the broth for 10–15 seconds, then dip it in the sesame sauce (麻酱, with fermented bean curd and chive flower). It's a relaxed, family-friendly meal — the branch has private rooms (包间) and baby chairs (宝宝椅), so it works well for a group with kids.`,
+      `📍 14 Ping'anli West Street (平安里西大街14号), Xicheng District — the SW corner of Ping'anli West St and Zhaodengyu Rd, about 210 m from Ping'anli subway station (Lines 4 & 6, exit H). Tel 010-66517188, open 11:00–24:00, ~¥113 per person. On 高德 Amap: https://www.amap.com/search?query=满恒记+平安里西大街店 · On Google Maps: https://maps.google.com/?q=满恒记+平安里西大街14号+北京`
     ]
   },
   henjiu: {
