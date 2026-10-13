@@ -718,6 +718,19 @@ const ACTIVITIES = {
       `📍 14 Ping'anli West Street (平安里西大街14号), Xicheng District — the SW corner of Ping'anli West St and Zhaodengyu Rd, about 210 m from Ping'anli subway station (Lines 4 & 6, exit H). Tel 010-66517188, open 11:00–24:00, ~¥113 per person. On 高德 Amap: https://www.amap.com/search?query=满恒记+平安里西大街店 · On Google Maps: https://maps.google.com/?q=满恒记+平安里西大街14号+北京`
     ]
   },
+  fangzhuanchang: {
+    title: '方砖厂69号炸酱面 — Old-Beijing Fried-Sauce Noodles',
+    addr: '方砖厂69号炸酱面（王府井食品商场店）: 3F, Beijing Food Mall, 186 Wangfujing Street (王府井大街186号食品商场3层), Dongcheng District, Beijing',
+    img: 'beijing-fangzhuanchang.png',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=方砖厂69号炸酱面+王府井食品商场+北京',
+    gallery: [],
+    desc: [
+      `方砖厂69号 (Fāngzhuānchǎng Liùshíjiǔ Hào) is a beloved old-Beijing <strong>zhajiangmian</strong> (炸酱面, fried bean-sauce noodles) institution — a long-running <strong>MICHELIN Bib Gourmand</strong> pick (the storefront carries the MICHELIN 2020 & 2021 Bibendum badges, "老北京吃的米其林 / Native's Choice of Bibendum"). Hand-pulled wheat noodles come with a rich fried soybean-paste sauce (炸酱) and a ring of crisp raw-vegetable toppings (菜码) you mix in yourself.`,
+      `Beyond the noodles, the old-Beijing plates are the draw: braised tripe (焖肚), shredded roast-duck (烤鸭丝), and classic snacks. It's a quick, casual, properly local lunch — not fancy plating, just the real thing. This is the Wangfujing Food Mall branch, up on the 3rd floor inside the market.`,
+      `📍 3F, Beijing Food Mall, 186 Wangfujing Street (王府井大街186号食品商场3层), Dongcheng District. It's a market — meet out front. On 高德 Amap: https://www.amap.com/search?query=方砖厂69号炸酱面+王府井 · On Google Maps: https://maps.google.com/?q=方砖厂69号炸酱面+王府井食品商场+北京`
+    ]
+  },
   henjiu: {
     title: '很久以前羊肉串 — Mutton Skewers',
     addr: '很久以前羊肉串 (鼓楼店): 旧鼓楼外大街甲1号, Xicheng — 50 m north of Gulou Dajie metro exit A2 (Lines 2/8) · Open 11:30–14:30 and 16:30–02:00 · about ¥93 a head',
