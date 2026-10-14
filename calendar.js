@@ -59,7 +59,7 @@ const PLANS = {
     { icon: '🏮', text: '胡同 — old Beijing courtyard lanes', id: 'hutong', note: 'The siheyuan courtyard houses the citywalk runs through. Nanluoguxiang, Line 6/8.' },
   ],
   '2026-10-15': [
-    { icon: '🚗', text: 'Depart for the Great Wall · 07:00 · cars in front of the Grand Hyatt', id: 'wall-departure', note: 'Private cars (round trip) leave at 07:00 from in front of the Grand Hyatt Beijing. ~1.5 h to the wall — the early start beats the traffic and the crowds. Eat quick or grab breakfast to-go before 7.' },
+    { icon: '🚗', text: 'Depart for the Great Wall · 06:30 · cars in front of the Grand Hyatt', id: 'wall-departure', note: 'Private cars (round trip) leave at 06:30 from in front of the Grand Hyatt — a bit earlier to beat the traffic and crowds (~1.5 h to the wall). Everyone sort breakfast in advance: ideally order it on Meituan (美团) the night before so it is ready to grab before 6:30.' },
     { icon: '🧱', text: 'Great Wall of China', id: 'wall' },
   ],
   '2026-10-16': [
