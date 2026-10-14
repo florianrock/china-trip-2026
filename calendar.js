@@ -58,7 +58,10 @@ const PLANS = {
     { icon: '🚶', text: 'Gulou → Shichahai → Nanluoguxiang citywalk', id: 'citywalk', note: 'Flat, free, ~2.5 km. Evening is best — lakes lit, tour groups gone. Easy on an arrival day.' },
     { icon: '🏮', text: '胡同 — old Beijing courtyard lanes', id: 'hutong', note: 'The siheyuan courtyard houses the citywalk runs through. Nanluoguxiang, Line 6/8.' },
   ],
-  '2026-10-15': [{ icon: '🧱', text: 'Great Wall of China', id: 'wall' }],
+  '2026-10-15': [
+    { icon: '🚗', text: 'Depart for the Great Wall · 07:00 · cars in front of the Grand Hyatt', id: 'wall-departure', note: 'Private cars (round trip) leave at 07:00 from in front of the Grand Hyatt Beijing. ~1.5 h to the wall — the early start beats the traffic and the crowds. Eat quick or grab breakfast to-go before 7.' },
+    { icon: '🧱', text: 'Great Wall of China', id: 'wall' },
+  ],
   '2026-10-16': [
     { icon: '🏛️', text: '✅ Forbidden City — guided tour 09:30', id: 'forbidden', note: 'BOOKED (Discover Beijing Tours) — Tian\'anmen + Forbidden City, tickets incl. Meet 09:30 at 老舍茶馆 Laoshe Teahouse (panda flag), arrive 10 min early. Bring everyone\'s passport! Taxi: 请带我去老舍茶馆. Subway: Line 2 → Qianmen Exit C, 300 m west. Guide Qing +86 13522069857.' },
     { icon: '🦆', text: '四季民福 (故宫店) · Peking duck · ✅ 18:30 reservation', id: 'sijimingfu', note: "RESERVED 18:30. Right at the Forbidden City east gate, upstairs tables face the palace wall. Take a queue number if needed — this branch queues all day." },
