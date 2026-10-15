@@ -257,17 +257,17 @@ const ACTIVITIES = {
   },
   train: {
     title: 'Bullet Train Business Class',
-    addr: 'Sat 17 Oct · Beijing South Railway Station (北京南站) → Shanghai Hongqiao (上海虹桥)',
+    addr: 'Sat 17 Oct · Beijing South (北京南站) → Shanghai Station (上海站, city centre — not Hongqiao)',
     img: 'train-business.png',
     city: 'Shanghai',
     maps: 'https://maps.google.com/?q=Beijing+South+Railway+Station',
     gallery: ['train-business-2.png', 'train-business-3.png', 'train-business-4.png'],
     desc: [
-      `✅ <strong>Booked (4 Oct):</strong> two trains, both smart Fuxing sets from Beijing South. <strong>G749</strong> 13:19 → Hongqiao 19:04 in <strong>Business</strong> (1+1 pods) for Hisa, Olli, Mario, Sonia, Flo and the kids; <strong>G17</strong> 13:00 → <strong>Shanghai Station (上海站)</strong> 17:35 in <strong>First class</strong> for Cami, Joe and Emma — Business on the 4½-hour trains was sold out. Note the two groups arrive at different stations: G17 at 上海站 in the centre, G749 at Hongqiao. Both fully refundable until 9 Oct; a watcher pings Flo if Business opens on G749 or any 12–16h departure.`,
-      `👶 Kids: under-6s ride free on an adult's lap (one per adult, declared on the booking); a child who should have an own pod needs a child ticket at 50% of the Business fare.`,
+      `✅ <strong>Booked:</strong> everyone's on <strong>G17</strong> from Beijing South, 13:00 → <strong>Shanghai Station (上海站)</strong> 17:35 (4h35), all in <strong>Business class (商务座)</strong>, Car 1 — a smart Fuxing with 1+1 solo pods. Seats (find yours): Florian 05F · Sonja 06A · Mario 06F · Andre 07A · Hisa 07F · Cami 08A · Joe 08F · Emma 09A · Olli 10A · Noah 10F (child) · + little Koch Adam free on a lap. ¥2337/adult, ¥1870 child. Arrives 上海站 in the city centre — NOT Hongqiao.`,
+      `👶 Kids: under-6s ride free on an adult's lap (one per adult, declared on the booking); Noah has his own child pod (10F) at 50% of the Business fare; little Koch Adam rides free on a lap.`,
       `The Shanghai–Beijing high-speed train is one of the great travel experiences in the world — and business class on the Fuxing G-series makes it genuinely extraordinary. The seats recline fully flat into a lie-flat bed, each in its own private pod with a wide personal screen, noise-cancelling headrests and a full-length footrest. At 350 km/h, you barely feel the speed. The 1,318 km journey takes just 4.5 hours.`,
       `Meals are served at your seat on white linen with real cutlery — hot dim sum, noodle dishes, Chinese desserts and a proper tea service. The carriage is quiet, the staff attentive without being intrusive, and the panoramic window beside each seat frames a constantly shifting canvas of Chinese countryside: rice paddies, river valleys, ancient hill towns and slowly emerging urban skylines.`,
-      `Compare this to flying: no airport security theatre, no baggage carousel, city centre to city centre — Shanghai Hongqiao station to Beijing South station, both fully metro-connected. Business class tickets run around CHF 90–120 per person. It is, without question, the right way to make this journey. Book weeks ahead — business class sells out fast on this route.`
+      `Compare this to flying: no airport security theatre, no baggage carousel, city centre to city centre — Beijing South to Shanghai Station, both fully metro-connected. On this flagship G17 you're in Business at ¥2337 each (peak floating fare, ~CHF 290). It is, without question, the right way to make this journey. Book weeks ahead — business class sells out fast on this route.`
     ]
   },
   harmay: {
