@@ -66,7 +66,7 @@ const PLANS = {
     { icon: '🎤', text: '和 Emma 的朋友唱 KTV · 晚上', id: 'ktv', note: '周五，按周末价 — 提前在大众点评订团购。量贩式 KTV，不是商务KTV。王府井的魅KTV 从酒店步行可达。' },
   ],
   '2026-10-17': [
-    { icon: '🚄', text: 'G17 · 北京南 → 上海站 · 13:00–17:35 · 商务座 · ✅ 已订', id: 'train', note: '全家都在G17商务座，1车（01车）——对号入座：Andre 05F · Sonja 06A · Mario 06F · Hisa 07A · Olli 07F · Noah 08A（儿童）· Joe 08F · Cami 09A · Florian 10A · Emma（楼梦斯）10F · + 小Koch Adam（免票坐腿上）。成人每张¥2337（儿童¥1870）。到达上海站（市中心），不是虹桥。' },
+    { icon: '🚄', text: 'G17 · 北京南 → 上海站 · 13:00–17:35 · 商务座 · ✅ 已订', id: 'train', note: '全家都在G17商务座，1车（01车）——对号入座：Noah 05F（儿童）· Sonja 06A · Mario 06F · Hisa 07A · Olli 07F · Cami 08A · Joe 08F · Andre 09A · Florian 10A · Emma（楼梦斯）10F · + 小Koch Adam（免票坐腿上）。成人每张¥2337（儿童¥1870）。到达上海站（市中心），不是虹桥。' },
   ],
   '2026-10-18': [
     { icon: '🥟', text: '小笼包 — 莱莱小笼（米其林蟹粉）· 占位', id: 'lailai', note: '上海自由日占位（可调整）。莱莱小笼（天津路504号）：米其林必比登蟹粉小笼，人均约¥50–100。备选：豫园南翔小笼。' },
