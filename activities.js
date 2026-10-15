@@ -267,6 +267,17 @@ const ACTIVITIES = {
       `⚠️ <strong>Only worth it if you're flying out of Pudong (PVG).</strong> The maglev does not reach Hongqiao (SHA) or the city centre — it's strictly Longyang Road ↔ PVG. If your flight home leaves from Hongqiao, skip it (or ride it as a round-trip joyride another day). Light luggage is fine on board; it's a quick, iconic way to end the trip.`
     ]
   },
+  henjiuyiqian: {
+    title: '🍢 很久以前羊肉串 (王府井apm店)',
+    addr: '王府井大街138号 · 北京apm 6F L607 · Wed 15 Oct 19:00',
+    city: 'Beijing',
+    maps: 'https://maps.google.com/?q=很久以前羊肉串+王府井apm',
+    gallery: [],
+    desc: [
+      `Tonight's dinner (19:00) — <strong>很久以前羊肉串</strong>, an old-Beijing-themed lamb-skewer BBQ and one of the best-rated grills in the city: <strong>4.9★ over 1,272 reviews</strong>, #1 for BBQ in Dongcheng, ~¥91 per person. It's in the Beijing apm mall on Wangfujing, 6th floor L607 — about a 14-minute (960 m) walk from the hotel, or a short taxi.`,
+      `The signatures are the <strong>呼伦贝尔 (Hulunbuir) lamb skewers</strong> — the Inner-Mongolian grassland lamb the place is named for — plus grilled bread slices and beef-roll with enoki mushroom. Open late (11:00–14:00, 16:30–24:00), private rooms and baby chairs available. A lively, smoky, hands-on grill. No pets (service dogs only).`
+    ]
+  },
   train: {
     title: 'Bullet Train Business Class',
     addr: 'Sat 17 Oct · Beijing South (北京南站) → Shanghai Station (上海站, city centre — not Hongqiao)',

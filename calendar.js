@@ -61,6 +61,7 @@ const PLANS = {
   '2026-10-15': [
     { icon: '🚗', text: 'Depart for the Great Wall · 06:30 · cars in front of the Grand Hyatt', id: 'wall-departure', note: 'Private cars (round trip) leave at 06:30 from in front of the Grand Hyatt — a bit earlier to beat the traffic and crowds (~1.5 h to the wall). Everyone sort breakfast in advance: ideally order it on Meituan (美团) the night before so it is ready to grab before 6:30.' },
     { icon: '🧱', text: 'Great Wall of China', id: 'wall' },
+    { icon: '🍢', text: 'Dinner · 很久以前羊肉串 (王府井apm店) · 19:00', id: 'henjiuyiqian', note: 'Old-Beijing lamb-skewer BBQ — 4.9★ (1,272 reviews), ~¥91pp, #1 grill in Dongcheng. Beijing apm mall, 6F L607 (王府井大街138号), ~14 min (960 m) walk from the hotel or a short taxi. Signature 呼伦贝尔 lamb skewers, grilled bread slices, beef-roll with enoki. Private rooms + baby chairs; open to midnight.' },
   ],
   '2026-10-16': [
     { icon: '🏛️', text: '✅ Forbidden City — guided tour 09:30', id: 'forbidden', note: 'BOOKED (Discover Beijing Tours) — Tian\'anmen + Forbidden City, tickets incl. Meet 09:30 at 老舍茶馆 Laoshe Teahouse (panda flag), arrive 10 min early. Bring everyone\'s passport! Taxi: 请带我去老舍茶馆. Subway: Line 2 → Qianmen Exit C, 300 m west. Guide Qing +86 13522069857.' },
