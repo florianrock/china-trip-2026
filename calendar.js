@@ -76,7 +76,10 @@ const PLANS = {
   '2026-10-21': [
     { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
   ],
-  '2026-10-22': [{ icon: '🛫', text: 'Fly home from Shanghai' }],
+  '2026-10-22': [
+    { icon: '🚄', text: 'Ride the Maglev to the airport (if flying from PVG) · 龙阳路 → 浦东机场', id: 'maglev', note: 'The Shanghai Transrapid — the only commercial maglev in the world. Metro Line 2 (or a taxi) to Longyang Road 龙阳路, then the maglev: 30 km in ~7.5 min at up to 300 km/h, a train every ~15–20 min, ~¥50 one-way (¥40 if you show a same-day boarding pass). Only serves Pudong (PVG) — no good if you fly out of Hongqiao.' },
+    { icon: '🛫', text: 'Fly home from Shanghai', id: 'fly-home' },
+  ],
 };
 
 // Format from LOCAL parts. toISOString() converts to UTC first, which in any

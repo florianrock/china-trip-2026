@@ -255,6 +255,18 @@ const ACTIVITIES = {
       `📍 Two branches. The one worth going to is <strong>襄阳北路100号, 2nd floor</strong>, in the former French Concession — the same neighbourhood as the French Concession walk already on this page, so it slots naturally into that evening. The other is out in Yangpu on University Road.`
     ]
   },
+  maglev: {
+    title: '🚄 Shanghai Maglev (磁悬浮)',
+    addr: 'Departure day · Longyang Road 龙阳路 → Pudong Airport (PVG)',
+    city: 'Shanghai',
+    maps: 'https://maps.google.com/?q=Shanghai+Maglev+Longyang+Road+Station',
+    gallery: [],
+    desc: [
+      `The Shanghai Maglev (上海磁悬浮示范运营线) is the only commercial high-speed maglev line in the world — German Transrapid technology, running since 2004. It covers the 30 km from Longyang Road to Pudong International Airport in about <strong>7.5 minutes</strong>, hitting up to <strong>300 km/h</strong> (431 km/h in its record-setting early days). You feel the acceleration more than the speed; the counter on the cabin display is half the fun.`,
+      `<strong>How to use it on departure day:</strong> take Metro Line 2 (or a taxi) to <strong>Longyang Road station (龙阳路)</strong>, then transfer to the maglev platform. Trains leave every ~15–20 minutes, roughly 06:45–21:40. One-way is ~¥50, or <strong>¥40 if you show a same-day flight boarding pass</strong>; a round-trip is ¥80.`,
+      `⚠️ <strong>Only worth it if you're flying out of Pudong (PVG).</strong> The maglev does not reach Hongqiao (SHA) or the city centre — it's strictly Longyang Road ↔ PVG. If your flight home leaves from Hongqiao, skip it (or ride it as a round-trip joyride another day). Light luggage is fine on board; it's a quick, iconic way to end the trip.`
+    ]
+  },
   train: {
     title: 'Bullet Train Business Class',
     addr: 'Sat 17 Oct · Beijing South (北京南站) → Shanghai Station (上海站, city centre — not Hongqiao)',
