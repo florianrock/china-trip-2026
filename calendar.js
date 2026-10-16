@@ -74,6 +74,9 @@ const PLANS = {
   ],
   '2026-10-18': [
     { icon: '🥟', text: '小笼包 — 莱莱小笼 (Michelin crab-roe) · placeholder', id: 'lailai', note: 'Placeholder on a free Shanghai day (movable). 莱莱小笼 (504 Tianjin Rd): Michelin Bib crab-roe xiaolongbao, ~¥50–100pp. Alt: Nanxiang in Yu Garden.' },
+    { icon: '🌊', text: 'The Bund waterfront · draft', id: 'bund', note: 'Draft day plan — order/times TBD. Walk the Bund promenade (外滩) for the colonial skyline on one side and Lujiazui towers across the river. From the Pullman: Metro Line 1 上海火车站 → 人民广场, change to Line 2 → 南京东路 (exit 2), ~20–25 min, or ~15 min taxi; walk down Nanjing Rd East to the river. Best light late afternoon; the towers light up from ~19:00.' },
+    { icon: '🏙️', text: 'Shanghai Tower — 118F observation deck · draft', id: 'tower', note: 'Draft. 上海之巅 observatory on floor 118 (546 m), 08:30–22:00 (last entry 21:30), adult ¥180 / child ¥90 (2026). Cross from the Bund: Metro Line 2 南京东路 → 陆家嘴 (1 stop) or the ferry from 金陵东路 pier; entrance at 银城中路501号 B1. Aim for sunset so you get day + night views in one ticket. Alt: Oriental Pearl two-sphere ticket ¥199.' },
+    { icon: '🏢', text: 'Google Shanghai office — maybe · draft', note: 'Optional. Google\'s Shanghai office is in the Shanghai World Financial Center (环球金融中心, 100 Century Ave 世纪大道100号), the bottle-opener tower right next to Shanghai Tower — so it slots in before/after the observation deck. Florian to arrange with a local Googler for building access; non-Googlers need a host. Same Lujiazui cluster, 5 min walk between the two.' },
   ],
   '2026-10-21': [
     { icon: '🛫', text: "CA929 · PVG → NRT · 10:00–14:00 (Hisa's family out)", id: 'flight-ca929', note: 'Early start — leave the hotel 06:30–07:00 for a 10:00 departure. Narita T1, not Haneda.' },
