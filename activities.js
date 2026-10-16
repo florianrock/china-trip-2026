@@ -713,16 +713,19 @@ const ACTIVITIES = {
     ]
   },
   sijimingfu: {
-    title: '四季民福 — Peking Duck by the Forbidden City',
-    addr: '四季民福烤鸭店 (故宫店): 南池子大街11号, Dongcheng — right by the Forbidden City east gate (东华门) · Tables on the upper floor look out at the palace wall and corner tower',
+    title: '四季民福 — Peking Duck (Xidan branch)',
+    addr: '四季民福烤鸭店 (西单华威约饭街店): 8F, Huawei Building, 130 Xidan North Street (西城区西单北大街130号华威大厦8层39号), Xicheng District · ✅ reserved Fri 16 Oct 18:30 · ~¥130–180/person',
     img: 'beijing-sijimingfu.png',
     city: 'Beijing',
-    maps: 'https://maps.google.com/?q=四季民福烤鸭店+故宫店+南池子大街+北京',
+    maps: 'https://maps.google.com/?q=四季民福烤鸭店+西单华威约饭街店+西单北大街130号+北京',
     gallery: ['beijing-sijimingfu-2.png', 'beijing-sijimingfu-3.png', 'beijing-sijimingfu-4.png'],
     desc: [
-      `四季民福 (Sìjì Mínfú) is the Peking duck everyone actually queues for now, and the 故宫店 is the branch worth the trouble: it sits at the Forbidden City's east gate, and the upstairs tables look straight out at the palace wall and the corner tower. Eating duck with that view is the entire point of coming to this branch rather than any other.`,
+      `<strong>Tonight's duck is at the XIDAN branch, not the Forbidden City one.</strong> Same restaurant, same duck, different address: 四季民福烤鸭店 西单华威约饭街店, on the 8th floor of the Huawei Building (华威大厦) at 130 Xidan North Street — the building's upper floors are the 约饭街 food street, so take the lifts up to 8F, unit 39. Reservation is at <strong>18:30</strong>.`,
+      `🚇 <strong>Metro (recommended at Friday rush hour):</strong> Line 1 from 王府井 Wangfujing station — the entrance is right under Oriental Plaza / the Grand Hyatt — 3 stops west (天安门东 → 天安门西 → 西单), about 8 min on the train. At 西单 Xidan follow signs for 西单北大街 / 华威大厦; it's a 2–8 min walk from the exits. Roughly <strong>20–25 min door to door, ¥3</strong>, immune to traffic.`,
+      `🚕 <strong>Didi / taxi:</strong> about 4 km straight west along Chang'an Avenue (长安街), past Tian'anmen. <strong>15–25 min</strong> depending on the evening jam, ~¥20–30 per car. Give the driver: <strong>西单北大街130号华威大厦</strong>. With 12 people that's 3 cars, so the metro is honestly easier for the group.`,
+      `四季民福 (Sìjì Mínfú) is the Peking duck everyone actually queues for now; the famous 故宫店 by the Forbidden City east gate has the palace-wall view, but every branch roasts the same bird.`,
       `The chain was founded in 2008 and grew fast on the strength of the duck rather than any imperial pedigree. The birds go into a sealed steel oven that holds its heat hard, and are turned continuously so the skin colours evenly — you can watch it happening in the atrium while you wait, which you will.`,
-      `⚠️ <strong>The queue is the whole problem.</strong> This branch is notorious for queueing from opening to closing; on public holidays the waiting list has run past a thousand parties, and the other branches start backing up from about 16:00. Take a queue number the moment you come out of the Forbidden City rather than after wandering, or eat early. They hand out snacks and hot tea to people waiting, which tells you how normal the wait is.`,
+      `⚠️ <strong>Queues:</strong> the Forbidden City branch is notorious for queueing from opening to closing, and the other branches — this one included — back up from about 16:00. We hold an <strong>18:30 reservation</strong>, so be there on time; a late table usually goes back to the queue. They hand out snacks and hot tea to people waiting, which tells you how normal the wait is.`,
       `Order the duck, obviously, and the sides are genuinely good rather than filler — the mustard duck web (芥末鸭掌) and the cold dishes are worth ordering while you wait for the bird.`,
       `Alternative: <strong>大董 Da Dong</strong>, also on this page, does a leaner, more modern "crisp-skin" duck and takes bookings — the sensible fallback if the queue here is absurd on the day.`
     ]
