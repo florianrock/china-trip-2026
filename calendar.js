@@ -66,6 +66,7 @@ const PLANS = {
   '2026-10-16': [
     { icon: '🏛️', text: '✅ Forbidden City — guided tour 09:30', id: 'forbidden', note: 'BOOKED (Discover Beijing Tours) — Tian\'anmen + Forbidden City, tickets incl. Meet 09:30 at 老舍茶馆 Laoshe Teahouse (panda flag), arrive 10 min early. Bring everyone\'s passport! Taxi: 请带我去老舍茶馆. Subway: Line 2 → Qianmen Exit C, 300 m west. Guide Qing +86 13522069857.' },
     { icon: '🦆', text: '四季民福 (西单华威约饭街店) · Peking duck · ✅ 18:30 reservation', id: 'sijimingfu', note: "RESERVED 18:30 — NOTE: the XIDAN branch, not the Forbidden City one. 8F, Huawei Building, 130 Xidan North St (西单北大街130号华威大厦8层39号), Xicheng. From the Grand Hyatt: Metro Line 1 from 王府井 (under Oriental Plaza) 3 stops west to 西单, ~20–25 min door to door, ¥3 · Didi/taxi ~4 km along Chang'an Ave, 15–25 min in Friday-evening traffic, ~¥20–30. Tell the driver: 西单北大街130号华威大厦." },
+    { icon: '🎤', text: "KTV with Emma's friends · evening", id: 'ktv', note: 'Friday, so weekend rates — book a 团购 on Dianping ahead. 量贩式 KTV, not 商务KTV. 魅KTV on Wangfujing is walkable from the hotel.' },
   ],
   '2026-10-17': [
     { icon: '🚄', text: 'G17 · Beijing South → Shanghai Station · 13:00–17:35 · Business 商务座 · ✅ booked', id: 'train', note: "Everyone's on G17 in BUSINESS (商务座), Car 1 (01车) — find your seat: Noah 05F (child) · Sonja 06A · Mario 06F · Hisa 07A · Olli 07F · Cami 08A · Joe 08F · Andre 09A · Florian 10A · Emma 10F · + little Koch Adam (free, on a lap). ¥2337 each (child ¥1870). Smart Fuxing set, 4h35. Arrives 上海站 (city centre), NOT Hongqiao." },
