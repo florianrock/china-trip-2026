@@ -69,6 +69,7 @@ const PLANS = {
   ],
   '2026-10-17': [
     { icon: '🚄', text: 'G17 · Beijing South → Shanghai Station · 13:00–17:35 · Business 商务座 · ✅ booked', id: 'train', note: "Everyone's on G17 in BUSINESS (商务座), Car 1 (01车) — find your seat: Noah 05F (child) · Sonja 06A · Mario 06F · Hisa 07A · Olli 07F · Cami 08A · Joe 08F · Andre 09A · Florian 10A · Emma 10F · + little Koch Adam (free, on a lap). ¥2337 each (child ¥1870). Smart Fuxing set, 4h35. Arrives 上海站 (city centre), NOT Hongqiao." },
+    { icon: '🥟', text: 'Dim sum dinner · evening · restaurant TBD (placeholder)', note: 'Placeholder for the arrival evening — train in at 17:35 (上海站), drop bags at the Pullman, then dim sum nearby. Restaurant not chosen yet; shortlist: 誉八仙 Cantonese teahouse at 静安大悦城 (~20 min walk / 5 min taxi), 莱莱小笼 Michelin crab-roe xiaolongbao at People\'s Square (~10 min taxi), or Seventh Son 家全七福 (Michelin 1★, 威海路500号, ~15 min taxi, ~¥300–450pp). Will be replaced once Florian picks.' },
   ],
   '2026-10-18': [
     { icon: '🥟', text: '小笼包 — 莱莱小笼 (Michelin crab-roe) · placeholder', id: 'lailai', note: 'Placeholder on a free Shanghai day (movable). 莱莱小笼 (504 Tianjin Rd): Michelin Bib crab-roe xiaolongbao, ~¥50–100pp. Alt: Nanxiang in Yu Garden.' },
