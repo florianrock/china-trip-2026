@@ -51,7 +51,7 @@ const PLANS = {
     { icon: '🏬', text: '三里屯太古里', id: 'sanlitun', note: 'Midweek is the time to go — weekend afternoons after 15:00 are a wall of people.' },
     { icon: '🛒', text: 'Supermarket run', id: 'supermarket', note: '盒马 Hema for the spectacle, 物美/永辉 for the cheap snacks worth taking home. Sort Alipay before you go.' },
     { icon: '🍜', text: '方砖厂69号炸酱面 (王府井食品商场店) · old-Beijing zhajiangmian · lunch 13:30', id: 'fangzhuanchang', note: 'Lunch 13:30. MICHELIN Bib Gourmand old-Beijing fried-sauce noodles (炸酱面) — plus braised tripe (焖肚) & shredded roast duck. 3F, Beijing Food Mall, 186 Wangfujing St, Dongcheng. It\'s a market — meet out front.' },
-    { icon: '🍲', text: '新京熙·北京涮肉 (三里屯耀莱店) · 景泰蓝铜锅涮肉 · dinner 18:00', id: 'xinjingxi', note: "Dinner 18:00 (Emma's pick). Upscale old-Beijing copper-pot lamb in cloisonné pots — #1 on Dianping's Sanlitun/Gongti hotpot list, 口味4.8/环境4.8, 12,900+ reviews, ~¥230pp. Yaolai Center Bldg C, 幸福二村二巷, Chaoyang (by Workers' Stadium / 工体) — ~15 min taxi from the Grand Hyatt. 包间 + baby chairs." },
+    { icon: '🍲', text: '新京熹·北京涮肉 (三里屯耀莱店) · 景泰蓝铜锅涮肉 · dinner 18:00', id: 'xinjingxi', note: "Dinner 18:00 (Emma's pick). Upscale old-Beijing copper-pot lamb in cloisonné pots — #1 on Dianping's Sanlitun/Gongti hotpot list, 口味4.8/环境4.8, 12,900+ reviews, ~¥230pp. Yaolai Center Bldg C, 幸福二村二巷, Chaoyang (by Workers' Stadium / 工体) — ~15 min taxi from the Grand Hyatt. 包间 + baby chairs." },
   ],
   '2026-10-14': [
     { icon: '🛬', text: "CA184 · HND → PEK · 08:30–11:20 (Hisa's family)", id: 'flight-ca184', note: 'Mario & Sonia. Beijing CAPITAL (PEK), not Daxing — meet at the Grand Hyatt, not an airport.' },
